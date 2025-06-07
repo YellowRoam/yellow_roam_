@@ -1,0 +1,1 @@
+// Placeholder content for booking_link_builder.py
