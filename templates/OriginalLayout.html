@@ -7,7 +7,30 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
 </head>
 
-<body>
+<!-- 📲 Download App Button -->
+<button id="installBtn" style="margin-top: 2rem; display: none;">
+  📥 Download YellowRoam App
+</button>
+
+<script>
+  let deferredPrompt;
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    document.getElementById('installBtn').style.display = 'inline-block';
+  });
+
+  document.getElementById('installBtn').addEventListener('click', async () => {
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      const result = await deferredPrompt.userChoice;
+      console.log('User choice:', result.outcome);
+      deferredPrompt = null;
+    }
+  });
+</script>
+body>
   <div class="centered">
     <img id="logo" src="{{ url_for('static', filename='images/yellowroam_logo.png') }}" alt="YellowRoam Logo">
     <h2>Explore Yellowstone the Smart Way</h2>
