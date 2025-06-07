@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>YellowRoam</title>
+    <meta charset="UTF-8">
+    <title>YellowRoam – Explore Smarter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #fefce8;
+            color: #1f2937;
+            padding: 2rem;
+            text-align: center;
+        }
+        header {
+            margin-bottom: 2rem;
+        }
+        .logo {
+            width: 120px;
+        }
+        .tagline {
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        .prompt-box {
+            margin-top: 2rem;
+        }
+        input[type="text"] {
+            padding: 0.5rem;
+            width: 60%;
+            max-width: 400px;
+            font-size: 1rem;
+        }
+        button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            background-color: #facc15;
+            border: none;
+            margin-left: 0.5rem;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-  <h1>YellowRoam is Live 🎉</h1>
-  <p>Welcome to the smart way to roam Yellowstone and beyond.</p>
+    <header>
+        <img src="/static/yellow_roam_logo.png" alt="YellowRoam Logo" class="logo">
+        <div class="tagline">Explore Yellowstone the Smart Way</div>
+    </header>
+
+    <section class="prompt-box">
+        <form action="/prompt" method="POST">
+            <input type="text" name="user_input" placeholder="Ask anything about your trip..." required />
+            <button type="submit">Ask</button>
+        </form>
+    </section>
+
+    <footer style="margin-top: 4rem;">
+        <small>Built with love in Montana · © YellowRoam 2025</small>
+    </footer>
 </body>
 </html>
