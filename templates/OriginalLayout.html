@@ -4,25 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>YellowRoam – Explore Smarter</title>
-
-  <!-- ✅ Correct link to your branding stylesheet -->
   <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
 </head>
 
 <body>
   <div class="centered">
-    <!-- ✅ Logo -->
     <img id="logo" src="{{ url_for('static', filename='images/yellowroam_logo.png') }}" alt="YellowRoam Logo">
-
-    <!-- ✅ Tagline -->
     <h2>Explore Yellowstone the Smart Way</h2>
 
-    <!-- ✅ Prompt Input and Ask Button -->
+    <!-- PROMPT BAR -->
     <input id="promptInput" type="text" placeholder="Ask me anything about Yellowstone...">
     <br>
     <button onclick="askYellowRoam()">Ask YellowRoam</button>
 
-    <!-- ✅ Language Selector -->
+    <!-- LANGUAGE SELECTOR -->
     <div style="margin-top: 30px;">
       <label for="language">🌐 Choose Language: </label>
       <select name="language" id="language">
@@ -33,11 +28,10 @@
       </select>
     </div>
 
-    <!-- ✅ AI Response Output -->
-    <div id="responseArea"></div>
+    <!-- RESPONSE OUTPUT -->
+    <div id="responseArea" style="margin-top: 20px;"></div>
   </div>
 
-  <!-- ✅ Script to handle the prompt interaction -->
   <script>
     async function askYellowRoam() {
       const input = document.getElementById("promptInput").value;
@@ -53,9 +47,7 @@
       try {
         const response = await fetch("/ask", {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ question: input })
         });
 
