@@ -1,0 +1,1 @@
+// Placeholder content for prompt_ui_sample.txt
