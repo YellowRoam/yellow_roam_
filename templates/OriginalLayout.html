@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>YellowRoam – Explore Smarter</title>
+
+  <!-- ✅ Correct link to your branding stylesheet -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
 </head>
 
-<body style="background-color: #fefce8; font-family: Arial, sans-serif; text-align: center; padding: 40px;">
+<body>
+  <div class="centered">
+    <!-- ✅ Logo -->
+    <img id="logo" src="{{ url_for('static', filename='images/yellowroam_logo.png') }}" alt="YellowRoam Logo">
 
-  <!-- Logo -->
-  <img src="{{ url_for('static', filename='images/yellowroam_logo.png') }}" 
-       alt="YellowRoam Logo" 
-       style="display: block; margin: 0 auto 20px; width: 200px;">
+    <!-- ✅ Tagline -->
+    <h2>Explore Yellowstone the Smart Way</h2>
 
-  <!-- Tagline -->
-  <h2>Explore The Yellowstone Ecosystem the Smart Way</h2>
+    <!-- ✅ Prompt Input and Ask Button -->
+    <input id="promptInput" type="text" placeholder="Ask me anything about Yellowstone...">
+    <br>
+    <button onclick="askYellowRoam()">Ask YellowRoam</button>
 
-  <!-- Prompt Bar and Ask Button -->
-  <div style="margin-top: 30px;">
-    <input id="promptInput" type="text" 
-           placeholder="Ask me anything about Yellowstone..." 
-           style="width: 60%; padding: 12px; font-size: 16px; border-radius: 8px; border: 1px solid #ccc;">
-    <br><br>
-    <button onclick="askYellowRoam()" 
-            style="padding: 10px 24px; font-size: 16px; background-color: #3c763d; color: white; border: none; border-radius: 8px; cursor: pointer;">
-      Ask YellowRoam
-    </button>
+    <!-- ✅ Language Selector -->
+    <div style="margin-top: 30px;">
+      <label for="language">🌐 Choose Language: </label>
+      <select name="language" id="language">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="hi">हिन्दी</option>
+        <option value="sv">Svenska</option>
+      </select>
+    </div>
+
+    <!-- ✅ AI Response Output -->
+    <div id="responseArea"></div>
   </div>
 
-  <!-- Language Selector -->
-  <div style="margin-top: 30px;">
-    <label for="language">🌐 Choose Language: </label>
-    <select name="language" id="language">
-      <option value="en">English</option>
-      <!-- Add more languages -->
-    </select>
-  </div>
-
-  <!-- Response Display -->
-  <div id="responseArea" style="margin-top: 30px; font-size: 18px; color: #333;"></div>
-
-  <!-- JavaScript for Prompt Interaction -->
+  <!-- ✅ Script to handle the prompt interaction -->
   <script>
     async function askYellowRoam() {
       const input = document.getElementById("promptInput").value;
@@ -69,6 +66,5 @@
       }
     }
   </script>
-
 </body>
 </html>
