@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YellowRoam – Explore Smarter</title>
+</head>
+
+<body style="background-color: #fefce8; font-family: Arial, sans-serif; text-align: center; padding: 40px;">
+
+  <!-- Logo -->
+  <img src="{{ url_for('static', filename='images/yellowroam_logo.png') }}" 
+       alt="YellowRoam Logo" 
+       style="display: block; margin: 0 auto 20px; width: 200px;">
+
+  <!-- Tagline -->
+  <h2>Explore Yellowstone the Smart Way</h2>
+
+  <!-- Prompt Bar and Ask Button -->
+  <div style="margin-top: 30px;">
+    <input id="promptInput" type="text" 
+           placeholder="Ask me anything about Yellowstone..." 
+           style="width: 60%; padding: 12px; font-size: 16px; border-radius: 8px; border: 1px solid #ccc;">
+    <br><br>
+    <button onclick="askYellowRoam()" 
+            style="padding: 10px 24px; font-size: 16px; background-color: #3c763d; color: white; border: none; border-radius: 8px; cursor: pointer;">
+      Ask YellowRoam
+    </button>
+  </div>
+
+  <!-- Language Selector -->
+  <div style="margin-top: 30px;">
+    <label for="language">🌐 Choose Language: </label>
+    <select name="language" id="language">
+      <option value="en">English</option>
+      <!-- Add more languages -->
+    </select>
+  </div>
+
+  <!-- Response Display -->
+  <div id="responseArea" style="margin-top: 30px; font-size: 18px; color: #333;"></div>
+
+  <!-- JavaScript for Prompt Interaction -->
+  <script>
+    async function askYellowRoam() {
+      const input = document.getElementById("promptInput").value;
+      const responseArea = document.getElementById("responseArea");
+
+      if (!input) {
+        responseArea.textContent = "Please enter a question.";
+        return;
+      }
+
+      responseArea.textContent = "Thinking...";
+
+      try {
+        const response = await fetch("/ask", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ question: input })
+        });
+
+        const data = await response.json();
+        responseArea.textContent = data.answer || "No response received.";
+      } catch (err) {
+        responseArea.textContent = "Something went wrong. Try again.";
+      }
+    }
+  </script>
+
+</body>
+</html>
