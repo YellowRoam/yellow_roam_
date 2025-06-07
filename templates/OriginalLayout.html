@@ -101,5 +101,42 @@
       }
     });
   </script>
+<!-- ✅ Install App Button -->
+<button id="installBtn" style="margin-top: 2rem; display: none;">
+  📥 Download YellowRoam App
+</button>
+
+<!-- ✅ JavaScript to listen for browser's PWA install event -->
+<script>
+  let deferredPrompt;
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    console.log("📦 Install prompt fired");
+    e.preventDefault();
+    deferredPrompt = e;
+    document.getElementById('installBtn').style.display = 'inline-block';
+  });
+
+  document.getElementById('installBtn').addEventListener('click', async () => {
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      const result = await deferredPrompt.userChoice;
+      console.log('User choice:', result.outcome);
+      deferredPrompt = null;
+    }
+  });
+</script>
+
+<!-- ✅ (Optional) Register service worker -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/static/service-worker.js')
+      .then(() => console.log("✅ Service Worker registered"))
+      .catch(err => console.error("❌ Service Worker registration failed:", err));
+  }
+</script>
+
 </body>
+</html>
+/body>
 </html>
