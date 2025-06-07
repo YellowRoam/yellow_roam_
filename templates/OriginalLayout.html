@@ -4,85 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>YellowRoam – Explore Smarter</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+
+  <!-- ✅ Link to PWA manifest -->
   <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+
+  <!-- ✅ Basic styling (optional if you’re using external CSS too) -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
 </head>
 
-<!-- 📲 Download App Button -->
-<button id="installBtn" style="margin-top: 2rem; display: none;">
-  📥 Download YellowRoam App
-</button>
-
-<script>
-  let deferredPrompt;
-  if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/static/service-worker.js');
-}
-  window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-    document.getElementById('installBtn').style.display = 'inline-block';
-  });
-
-  document.getElementById('installBtn').addEventListener('click', async () => {
-    if (deferredPrompt) {
-      deferredPrompt.prompt();
-      const result = await deferredPrompt.userChoice;
-      console.log('User choice:', result.outcome);
-      deferredPrompt = null;
-    }
-  });
-</script>
-body>
+<body>
   <div class="centered">
+    <!-- ✅ Logo -->
     <img id="logo" src="{{ url_for('static', filename='images/yellowroam_logo.png') }}" alt="YellowRoam Logo">
+
+    <!-- ✅ Tagline -->
     <h2>Explore Yellowstone the Smart Way</h2>
 
-    <!-- PROMPT BAR -->
+    <!-- ✅ Prompt Input -->
     <input id="promptInput" type="text" placeholder="Ask me anything about Yellowstone...">
     <br>
     <button onclick="askYellowRoam()">Ask YellowRoam</button>
 
-    <!-- LANGUAGE SELECTOR -->
-    <div style="margin-top: 30px;">
-      <label for="language">🌐 Choose Language: </label>
-      <select name="language" id="language">
-        <option value="en">English</option>
-        <option value="es">Español</option>
-        <option value="hi">हिन्दी</option>
-        <option value="sv">Svenska</option>
-      </select>
-    </div>
-
-    <!-- RESPONSE OUTPUT -->
-    <div id="responseArea" style="margin-top: 20px;"></div>
-  </div>
-
-  <script>
-    async function askYellowRoam() {
-      const input = document.getElementById("promptInput").value;
-      const responseArea = document.getElementById("responseArea");
-
-      if (!input) {
-        responseArea.textContent = "Please enter a question.";
-        return;
-      }
-
-      responseArea.textContent = "Thinking...";
-
-      try {
-        const response = await fetch("/ask", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ question: input })
-        });
-
-        const data = await response.json();
-        responseArea.textContent = data.answer || "No response received.";
-      } catch (err) {
-        responseArea.textContent = "Something went wrong. Try again.";
-      }
-    }
-  </script>
-</body>
-</html>
+    <!-- ✅
