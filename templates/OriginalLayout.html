@@ -8,7 +8,7 @@
   <!-- ✅ Link to PWA manifest -->
   <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
 
-  <!-- ✅ Basic styling (optional if you’re using external CSS too) -->
+  <!-- ✅ CSS -->
   <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
 </head>
 
@@ -25,7 +25,7 @@
     <br>
     <button onclick="askYellowRoam()">Ask YellowRoam</button>
 
-    <!-- ✅ Install App Button (initially hidden until browser triggers it) -->
+    <!-- ✅ Install App Button (initially hidden) -->
     <button id="installBtn" style="margin-top: 2rem; display: none;">
       📥 Download YellowRoam App
     </button>
@@ -87,6 +87,7 @@
     let deferredPrompt;
 
     window.addEventListener('beforeinstallprompt', (e) => {
+      console.log("📦 Install prompt fired");
       e.preventDefault();
       deferredPrompt = e;
       document.getElementById('installBtn').style.display = 'inline-block';
@@ -101,59 +102,5 @@
       }
     });
   </script>
-<!-- ✅ Install App Button -->
-<button id="installBtn" style="margin-top: 2rem; display: none;">
-  📥 Download YellowRoam App
-</button>
-
-<!-- ✅ JavaScript to listen for browser's PWA install event -->
-<script>
-  let deferredPrompt;
-
-  window.addEventListener('beforeinstallprompt', (e) => {
-    console.log("📦 Install prompt fired");
-    e.preventDefault();
-    deferredPrompt = e;
-    document.getElementById('installBtn').style.display = 'inline-block';
-  });
-<script>
-  let deferredPrompt;
-
-  window.addEventListener('beforeinstallprompt', (e) => {
-    console.log("📦 Install prompt fired");
-    e.preventDefault();
-    deferredPrompt = e;
-    document.getElementById('installBtn').style.display = 'inline-block';
-  });
-
-  document.getElementById('installBtn').addEventListener('click', async () => {
-    if (deferredPrompt) {
-      deferredPrompt.prompt();
-      const result = await deferredPrompt.userChoice;
-      console.log('User choice:', result.outcome);
-      deferredPrompt = null;
-    }
-  });
-</script>
-  document.getElementById('installBtn').addEventListener('click', async () => {
-    if (deferredPrompt) {
-      deferredPrompt.prompt();
-      const result = await deferredPrompt.userChoice;
-      console.log('User choice:', result.outcome);
-      deferredPrompt = null;
-    }
-  });
-
-
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-      .register('/static/service-worker.js')
-      .then(() => console.log("✅ Service Worker registered"))
-      .catch((err) => console.error("❌ SW registration failed:", err));
-  }
-</script>
-/body>
-</html>
-/body>
+</body>
 </html>
