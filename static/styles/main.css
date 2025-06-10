@@ -1,0 +1,62 @@
+/* main.css – YellowRoam branding and layout */
+
+body {
+  background-color: #fefae0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #1d1d1f;
+  padding: 40px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 10px;
+  color: #283618;
+  text-align: center;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto 10px;
+  width: 220px;
+}
+
+.centered {
+  text-align: center;
+}
+
+#promptInput {
+  width: 60%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 10px 24px;
+  font-size: 16px;
+  background-color: #606c38;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #283618;
+}
+
+select {
+  padding: 6px 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+#responseArea {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #333;
+}
