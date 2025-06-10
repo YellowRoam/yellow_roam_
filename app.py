@@ -3,6 +3,7 @@ import os
 from flask import Flask, render_template, request, redirect, url_for
 import stripe
 from dotenv import load_dotenv
+from flask_cors import CORS
 import logging
 
 # Load environment variables
@@ -13,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Flask app setup
 app = Flask(__name__, static_folder='static', template_folder='templates')
-
+CORS(app, origins=["https://yellowroam.github.io"])
 # Stripe keys (loaded securely)
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 YOUR_DOMAIN = os.getenv("YOUR_DOMAIN", "http://localhost:5000")
