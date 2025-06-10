@@ -1,6 +1,6 @@
 
 import os
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, jsonify
 import stripe
 from dotenv import load_dotenv
 from flask_cors import CORS
@@ -89,6 +89,4 @@ from flask import request, jsonify
 def chat():
     data = request.get_json()
     message = data.get("message")
-
-    # TEMP reply for now — confirm it's working
     return jsonify({"reply": f"You said: {message}"})
