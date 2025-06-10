@@ -83,3 +83,12 @@ def status():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
+from flask import request, jsonify
+
+@app.route("/api/chat", methods=["POST", "OPTIONS"])
+def chat():
+    data = request.get_json()
+    message = data.get("message")
+
+    # TEMP reply for now — confirm it's working
+    return jsonify({"reply": f"You said: {message}"})
