@@ -21,10 +21,7 @@ CORS(app, resources={
     r"/api/*": {
         "origins": ["https://yellowroam.github.io"],
         "methods": ["POST", "OPTIONS"],
-        "allow_headers": ["Content-Type"],
-        "supports_credentials": True
-    }
-})
+        "allow_headers": ["Content-Type", "Authorization", "Accept"]
     }
 })
 
@@ -83,6 +80,7 @@ def home():
 def chat():
     if request.method == "OPTIONS":
         return jsonify({"status": "ok"}), 200
+
     if not request.is_json:
         return jsonify({'error': 'Invalid JSON format'}), 400
 
@@ -131,7 +129,6 @@ def chat():
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
     data = request.json
-    print("REQUEST BODY:", data)
     email = data.get("email", "").strip()
 
     if not email:
