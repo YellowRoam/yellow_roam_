@@ -19,7 +19,7 @@ stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 app = Flask(__name__, static_folder="static", template_folder="templates")
 CORS(app, resources={r"/api/*": {"origins": [
     "https://yellowroam.github.io",
-    "https://yellowroam.github.io/yellowroam-chat-ui"
+    "https://yellowroam.github.io/yellowroam-chat-ui/chat.html"
 ]}})
 
 # === Logging Setup ===
@@ -75,7 +75,7 @@ def home():
 @app.route("/api/chat", methods=["POST", "OPTIONS"])
 def chat():
     if request.method == "OPTIONS":
-        return '', 204
+        return jsonify({"status": "ok"}), 200
 
     data = request.json
     user_input = data.get("message", "")
