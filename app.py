@@ -21,7 +21,10 @@ CORS(app, resources={
     r"/api/*": {
         "origins": ["https://yellowroam.github.io"],
         "methods": ["POST", "OPTIONS"],
-        "allow_headers": ["Content-Type", "Authorization", "Accept"]
+        "allow_headers": ["Content-Type"],
+        "supports_credentials": True
+    }
+})
     }
 })
 
