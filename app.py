@@ -78,10 +78,10 @@ def home():
 def chat():
     if request.method == "OPTIONS":
         return jsonify({"status": "ok"}), 200
-
-    if request.content_type != 'application/json':
-        return jsonify({'error': 'Content-Type must be application/json'}), 415
-
+    
+    if not request.is_json:
+        return jsonify({'error': 'Invalid JSON format'}), 400
+    
     data = request.get_json()
     user_input = data.get("message", "")
     location = data.get("location", "").strip() or "yellowstone"
