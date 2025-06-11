@@ -17,11 +17,7 @@ stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 
 # === Flask Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
-CORS(app, resources={r"/api/*": {"origins": [
-    "https://yellowroam.github.io",
-    "https://yellowroam.github.io/yellowroam-chat-ui/chat.html"
-]}})
-
+CORS(app, resources={r"/api/*": {"origins": ["https://yellowroam.github.io"]}})
 # === Logging Setup ===
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
