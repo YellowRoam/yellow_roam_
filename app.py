@@ -1,13 +1,14 @@
 import os
 import json
 import logging
-from flask import Flask, request, jsonify, render_template, redirect
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
 import openai
 import stripe
 import smtplib
 from email.mime.text import MIMEText
+from datetime import datetime
 
 # === Load Environment Variables ===
 load_dotenv()
@@ -21,10 +22,11 @@ CORS(app)
 # === Logging Setup ===
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
-# === Helper Functions ===
+# === Session Store for Free Tier ===
+session_store = {}
 
+# === Helper Functions ===
 def load_location_data(location):
-    """Loads data from a local JSON file based on location name."""
     filename = f"{location.lower().replace(' ', '_')}.json"
     path = os.path.join("yellowroam_data", filename)
     if not os.path.exists(path):
@@ -33,7 +35,6 @@ def load_location_data(location):
         return json.load(f)
 
 def build_context_from_data(data):
-    """Formats JSON data into readable context for OpenAI."""
     context = ""
     for section, items in data.items():
         context += f"\n\n{section.upper()}:\n"
@@ -43,14 +44,27 @@ def build_context_from_data(data):
             context += str(items)
     return context.strip()
 
-def create_openai_prompt(location, user_input):
-    """Builds a location-aware prompt using local JSON data and user input."""
+def create_openai_prompt(location, user_input, tier="free"):
     location_data = load_location_data(location)
-    context = build_context_from_data(location_data)
-    return f"You are YellowRoam, a friendly local travel assistant. Use the following data to help the user.\n\n{context}\n\nUser Question: {user_input}\n\nYour Answer:"
+    data = {}
+
+    if tier == "pro":
+        data = location_data
+    elif tier == "plus":
+        for key in ["hikes", "dining", "hot_springs", "local_tips"]:
+            if key in location_data:
+                data[key] = location_data[key]
+    elif tier == "basic":
+        for key in ["hikes", "dining"]:
+            if key in location_data:
+                data[key] = location_data[key]
+    else:
+        data["message"] = "You're using the free version of YellowRoam. Upgrade to unlock more local insights."
+
+    context = build_context_from_data(data)
+    return f"You are YellowRoam, a helpful local travel guide. Use the data below to assist the user.\n\n{context}\n\nUser Question: {user_input}\n\nYour Answer:"
 
 # === Routes ===
-
 @app.route("/")
 def home():
     return render_template("OriginalLayout.html")
@@ -60,12 +74,23 @@ def chat():
     data = request.json
     user_input = data.get("message", "")
     location = data.get("location", "").strip() or "yellowstone"
-    tier = data.get("tier", "free")  # Use tier to control answer depth later
+    tier = data.get("tier", "free")
+    user_id = request.remote_addr
 
-    logging.info(f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}")
+    logging.info(f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}, User: {user_id}")
+
+    if tier == "free":
+        user_session = session_store.get(user_id, {"count": 0})
+        if user_session["count"] >= 3:
+            return jsonify({
+                "reply": "You've reached the limit for free questions. Please upgrade to continue exploring Yellowstone!"
+            })
+        else:
+            user_session["count"] += 1
+            session_store[user_id] = user_session
 
     try:
-        prompt = create_openai_prompt(location, user_input)
+        prompt = create_openai_prompt(location, user_input, tier)
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[{"role": "user", "content": prompt}]
@@ -85,7 +110,6 @@ def subscribe():
 
     logging.info(f"RoamReach signup received: {email}")
 
-    # Send email notification to admin
     try:
         msg = MIMEText(f"New RoamReach signup: {email}")
         msg["Subject"] = "New RoamReach Email Signup"
