@@ -18,10 +18,13 @@ YOUR_DOMAIN = os.getenv("YOUR_DOMAIN", "http://localhost:5000")
 app = Flask(__name__, static_folder='static', template_folder='templates')
 CORS(app, origins=[
     "https://yellowroam.github.io",
-    "https://yellowroam.github.io/yellowroam-chat-ui"
+    "https://yellowroam.github.io/yellowroam-chat-ui",
 ])
 
-# Email signup storage
+# Logging
+logging.basicConfig(level=logging.INFO)
+
+# In-memory log
 email_log = []
 
 # Home route
@@ -29,50 +32,48 @@ email_log = []
 def home():
     return render_template("OriginalLayout.html")
 
-# Chat prompt route
+# Prompt route (OpenAI logic)
 @app.route("/api/chat", methods=["POST", "OPTIONS"])
 def chat():
     data = request.get_json()
     message = data.get("message")
+    logging.info(f"User message: {message}")
 
     if not message:
-        return jsonify({"reply": "Please enter a message."}), 400
+        return jsonify({"reply": "Please enter a valid question."}), 400
 
     try:
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": "You are a helpful Yellowstone travel assistant."},
+                {"role": "system", "content": "You are a friendly Yellowstone travel assistant."},
                 {"role": "user", "content": message}
             ]
         )
-
-        reply = response["choices"][0]["message"]["content"]
+        reply = response['choices'][0]['message']['content'].strip()
         return jsonify({"reply": reply})
-
     except Exception as e:
-        logging.error(f"OpenAI API error: {e}")
-        return jsonify({"reply": "There was an error generating a response."}), 500
+        logging.error(f"OpenAI error: {e}")
+        return jsonify({"reply": "Sorry, something went wrong with the assistant."}), 500
 
-# RoamReach email signup
+# Email signup route
 @app.route("/signup", methods=["POST"])
 def signup():
     email = request.form.get("email")
     if email:
         email_log.append(email)
-        logging.info(f"RoamReach signup received: {email}")
-        return "Thanks for signing up for RoamReach!"
+        logging.info(f"Signup received: {email}")
+        return "Thanks for signing up!"
     return "Please enter a valid email address.", 400
 
-# Subscription handling
+# Stripe plan selector
 @app.route("/subscribe/<plan>")
 def subscribe(plan):
     price_lookup = {
         "explorer": os.getenv("PRICE_EXPLORER"),
         "pioneer": os.getenv("PRICE_PIONEER"),
-        "trailblazer": os.getenv("PRICE_TRAILBLAZER")
+        "trailblazer": os.getenv("PRICE_TRAILBLAZER"),
     }
-
     price_id = price_lookup.get(plan.lower())
     if not price_id:
         return "Invalid plan selected.", 400
@@ -89,17 +90,11 @@ def subscribe(plan):
             cancel_url=YOUR_DOMAIN + "/?canceled=true"
         )
         return redirect(checkout_session.url, code=303)
-
     except Exception as e:
-        logging.error(f"Stripe checkout error: {e}")
+        logging.error(f"Stripe error: {e}")
         return "Error processing your subscription.", 500
 
 # Health check
 @app.route("/status")
 def status():
     return "YellowRoam backend is running!", 200
-
-# App entry point
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
