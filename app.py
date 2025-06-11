@@ -13,7 +13,10 @@ logging.basicConfig(level=logging.INFO)
 
 # Flask app setup
 app = Flask(__name__, static_folder='static', template_folder='templates')
-CORS(app, origins=["https://yellowroam.github.io"])
+CORS(app, origins=[
+    "https://yellowroam.github.io",
+    "https://yellowroam.github.io/yellowroam-chat-ui",
+])
 # Stripe keys (loaded securely)
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 YOUR_DOMAIN = os.getenv("YOUR_DOMAIN", "http://localhost:5000")
