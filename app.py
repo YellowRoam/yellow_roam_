@@ -1,9 +1,11 @@
 import os
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 import stripe
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
+openai.api_key = os.getenv("OPENAI_API_KEY")
 from flask_cors import CORS
 import logging
+import openai
 
 # Load environment variables
 load_dotenv()
