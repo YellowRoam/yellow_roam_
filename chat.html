@@ -37,14 +37,23 @@
       margin-top: 10px;
       display: none;
     }
+    #logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
   <div id="chatbox">
+    <!-- ✅ Logo -->
+    <img id="logo" src="https://raw.githubusercontent.com/YellowRoam/yellow_roam_/main/static/yellow_roam_logo.png" alt="YellowRoam Logo" />
+
     <h2>Hi, I'm Yellow Roam. Ask me anything about your trip to the Yellowstone area.</h2>
     <div id="messages"></div>
+
+    <label for="input" style="display:none;">Your question</label>
     <input type="text" id="input" placeholder="Ask your question..." />
-    <button id="send">Send</button>
+    <button id="send">Ask YellowRoam</button>
     <div id="status" class="locked">You’ve reached the limit for free questions. Upgrade to keep chatting.</div>
   </div>
 
@@ -63,7 +72,7 @@
       }
 
       const userText = input.value.trim();
-      if (!userText) return;
+      if (!userText || userText.length < 2) return;
 
       messages.innerHTML += `<div><strong>You:</strong> ${userText}</div>`;
       input.value = "";
@@ -81,7 +90,13 @@
           })
         });
 
-        const data = await response.json();
+        let data;
+        try {
+          data = await response.json();
+        } catch (e) {
+          messages.innerHTML += `<div style="color: red;"><strong>Error:</strong> Invalid server response.</div>`;
+          return;
+        }
 
         if (data.reply) {
           messages.innerHTML += `<div><strong>YellowRoam:</strong> ${data.reply}</div>`;
@@ -102,9 +117,13 @@
         input.disabled = true;
         document.getElementById("send").disabled = true;
       }
+
+      messages.scrollTop = messages.scrollHeight;
     }
 
     document.getElementById("send").addEventListener("click", sendMessage);
   </script>
 </body>
 </html>
+
+      
