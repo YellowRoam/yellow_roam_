@@ -128,6 +128,7 @@ def chat():
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
     data = request.json
+    print("REQUEST BODY:", data)
     email = data.get("email", "").strip()
 
     if not email:
