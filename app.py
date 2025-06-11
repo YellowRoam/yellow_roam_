@@ -80,7 +80,6 @@ def home():
 def chat():
     if request.method == "OPTIONS":
         return jsonify({"status": "ok"}), 200
-
     if not request.is_json:
         return jsonify({'error': 'Invalid JSON format'}), 400
 
