@@ -44,3 +44,4 @@ Thumbs.db
 # Ignore ZIPs and uploads
 *.zip
 uploads/
+.env
