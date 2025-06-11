@@ -87,6 +87,8 @@ def chat():
     location = data.get("location", "").strip() or "yellowstone"
     tier = data.get("tier", "free")
     user_id = request.headers.get('X-Forwarded-For', request.remote_addr)
+if user_id and ',' in user_id:
+    user_id = user_id.split(',')[0].strip()
 
     logging.info(f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}, User: {user_id}")
 
