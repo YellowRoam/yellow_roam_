@@ -21,15 +21,17 @@ CORS(app, resources={
     r"/api/*": {
         "origins": ["https://yellowroam.github.io"],
         "methods": ["POST", "OPTIONS"],
-       "allow_headers": ["Content-Type", "Authorization", "Accept"]
+        "allow_headers": ["Content-Type", "Authorization", "Accept"]
     }
 })
+
 # === Logging Setup ===
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
 # === Session Store for Free Tier ===
 session_store = {}
 # NOTE: session_store resets on restart – use Redis or DB for production
+
 # === Helper Functions ===
 def load_location_data(location):
     filename = f"{location.lower().replace(' ', '_')}.json"
@@ -67,7 +69,7 @@ def create_openai_prompt(location, user_input, tier="free"):
         data["message"] = "You're using the free version of YellowRoam. Upgrade to unlock more local insights."
 
     context = build_context_from_data(data)
-    return f"You are YellowRoam, a helpful local travel guide. Use the data below to assist the user.\n\n{context}\n\nUser Question: {user_input}\n\nYour Answer:"
+    return f"Use the data below to assist the user.\n\n{context}\n\nUser Question: {user_input}\n\nYour Answer:"
 
 # === Routes ===
 @app.route("/")
@@ -78,19 +80,20 @@ def home():
 def chat():
     if request.method == "OPTIONS":
         return jsonify({"status": "ok"}), 200
-    
+
     if not request.is_json:
         return jsonify({'error': 'Invalid JSON format'}), 400
-    
+
     data = request.get_json()
     user_input = data.get("message", "")
     location = data.get("location", "").strip() or "yellowstone"
     tier = data.get("tier", "free")
+    language = data.get("language", "en")
     user_id = request.headers.get('X-Forwarded-For', request.remote_addr)
-if user_id and ',' in user_id:
-    user_id = user_id.split(',')[0].strip()
+    if user_id and ',' in user_id:
+        user_id = user_id.split(',')[0].strip()
 
-    logging.info(f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}, User: {user_id}")
+    logging.info(f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}, Language: {language}, User: {user_id}")
 
     if tier == "free":
         user_session = session_store.get(user_id, {"count": 0})
@@ -109,14 +112,20 @@ if user_id and ',' in user_id:
         if tier in ["plus", "pro"]:
             model = "gpt-4"
 
+        messages = [
+            {"role": "system", "content": f"You are YellowRoam, a helpful local travel guide. Respond in {language}."},
+            {"role": "user", "content": prompt}
+        ]
+
         response = openai.ChatCompletion.create(
             model=model,
-            messages=[{"role": "user", "content": prompt}]
+            messages=messages
         )
         return jsonify({"reply": response.choices[0].message["content"].strip()})
     except Exception as e:
         logging.error(f"OpenAI error: {str(e)}")
         return jsonify({"error": str(e)}), 500
+
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
     data = request.json
