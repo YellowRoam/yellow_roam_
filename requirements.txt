@@ -1,6 +1,5 @@
-Flask==2.3.2
-gunicorn==21.2.0
-python-dotenv==1.0.1
-stripe==8.6.0
+Flask==2.3.3
 flask-cors==4.0.0
-openai==1.3.7
+openai==1.14.3
+stripe==8.7.0
+python-dotenv==1.0.1
