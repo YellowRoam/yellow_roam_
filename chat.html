@@ -108,41 +108,23 @@
       messages.innerHTML += `<div><strong>You:</strong> ${userText}</div>`;
       input.value = "";
 
-      try {
-        const response = await fetch("https://yellow-roam-1wry.onrender.com/api/chat", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({
-            message: userText,
-            location: "yellowstone",
-            tier: "free",
-            language: selectedLang          
-          })
-        });
+try {
+  const response = await fetch("https://yellow-roam-1wry.onrender.com/api/chat", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ message: userText, location: "yellowstone", tier: "free", language })
+  });
 
-        let data;
-        try {
-          data = await response.json();
-        } catch (e) {
-          messages.innerHTML += `<div style="color: red;"><strong>Error:</strong> Invalid server response.</div>`;
-          return;
-        }
+  if (!response.ok) {
+    throw new Error("Response status " + response.status);
+  }
 
-        if (data.reply) {
-          messages.innerHTML += `<div><strong>YellowRoam:</strong> ${data.reply}</div>`;
-        } else if (data.error) {
-          messages.innerHTML += `<div style="color: red;"><strong>Error:</strong> ${data.error}</div>`;
-        } else {
-          messages.innerHTML += `<div style="color: red;"><strong>Error:</strong> Unexpected server response.</div>`;
-        }
-
-      } catch (err) {
-        messages.innerHTML += `<div style="color: red;"><strong>Error:</strong> Failed to connect.</div>`;
-        console.error("Chat error:", err);
-      }
-
+  const data = await response.json();
+  // handle response...
+} catch (err) {
+  messages.innerHTML += `<div style="color:red;"><strong>Error:</strong> ${err.message}</div>`;
+  console.error("Chat error:", err);
+}
       messageCount++;
       if (messageCount >= MAX_MESSAGES) {
         status.style.display = "block";
