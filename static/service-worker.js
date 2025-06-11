@@ -1,10 +1,10 @@
 const CACHE_NAME = "yellowroam-cache-v1";
 const urlsToCache = [
-  "/",
+  "/",  // Fallback root
   "/static/styles/main.css",
-  "/static/images/yellowroam_logo.png",
   "/static/manifest.json",
-  // Add more files as needed
+  "https://raw.githubusercontent.com/YellowRoam/yellow_roam_/main/static/yellow_roam_logo.png",
+  // You can add your offline.html here later if needed
 ];
 
 // Install Service Worker & Precache Assets
@@ -13,7 +13,9 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       console.log("📦 Caching app shell...");
-      return cache.addAll(urlsToCache);
+      return cache.addAll(urlsToCache).catch((err) => {
+        console.error("❌ Cache addAll failed:", err);
+      });
     })
   );
 });
@@ -42,7 +44,9 @@ self.addEventListener("fetch", (event) => {
       if (cachedResponse) {
         return cachedResponse;
       }
-      return fetch(event.request);
+      return fetch(event.request).catch((err) => {
+        console.error("🚫 Fetch failed:", err);
+      });
     })
   );
 });
