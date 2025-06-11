@@ -21,7 +21,7 @@ CORS(app, resources={
     r"/api/*": {
         "origins": ["https://yellowroam.github.io"],
         "methods": ["POST", "OPTIONS"],
-        "allow_headers": ["Content-Type"]
+       "allow_headers": ["Content-Type", "Authorization", "Accept"]
     }
 })
 # === Logging Setup ===
@@ -29,7 +29,7 @@ logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asc
 
 # === Session Store for Free Tier ===
 session_store = {}
-
+# NOTE: session_store resets on restart – use Redis or DB for production
 # === Helper Functions ===
 def load_location_data(location):
     filename = f"{location.lower().replace(' ', '_')}.json"
@@ -76,14 +76,14 @@ def home():
 
 @app.route("/api/chat", methods=["POST", "OPTIONS"])
 def chat():
-    if request.method == "OPTIONS":
-        return jsonify({"status": "ok"}), 200
+    if request.content_type != 'application/json':
+    return jsonify({'error': 'Content-Type must be application/json'}), 415
 
-    data = request.json
+data = request.get_json()
     user_input = data.get("message", "")
     location = data.get("location", "").strip() or "yellowstone"
     tier = data.get("tier", "free")
-    user_id = request.remote_addr
+    user_id = request.headers.get('X-Forwarded-For', request.remote_addr)
 
     logging.info(f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}, User: {user_id}")
 
@@ -126,8 +126,8 @@ def subscribe():
     try:
         msg = MIMEText(f"New RoamReach signup: {email}")
         msg["Subject"] = "New RoamReach Email Signup"
-        msg["From"] = email
-        msg["To"] = "heyday6159@gmail.com"
+        msg["From"] = os.getenv("SMTP_USER")
+        msg["Reply-To"] = email
 
         with smtplib.SMTP("smtp.gmail.com", 587) as server:
             server.starttls()
