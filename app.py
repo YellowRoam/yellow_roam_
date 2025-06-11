@@ -1,100 +1,121 @@
 import os
-import openai
-from flask import Flask, render_template, request, redirect, url_for, jsonify
-import stripe
-from dotenv import load_dotenv
-from flask_cors import CORS
+import json
 import logging
+from flask import Flask, request, jsonify, render_template, redirect
+from flask_cors import CORS
+from dotenv import load_dotenv
+import openai
+import stripe
+import smtplib
+from email.mime.text import MIMEText
 
-# Load environment variables
+# === Load Environment Variables ===
 load_dotenv()
-
-# API keys
 openai.api_key = os.getenv("OPENAI_API_KEY")
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
-YOUR_DOMAIN = os.getenv("YOUR_DOMAIN", "http://localhost:5000")
 
-# Flask app setup
-app = Flask(__name__, static_folder='static', template_folder='templates')
-CORS(app, origins=[
-    "https://yellowroam.github.io",
-    "https://yellowroam.github.io/yellowroam-chat-ui",
-])
+# === Flask Setup ===
+app = Flask(__name__, static_folder="static", template_folder="templates")
+CORS(app)
 
-# Logging
-logging.basicConfig(level=logging.INFO)
+# === Logging Setup ===
+logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
-# In-memory log
-email_log = []
+# === Helper Functions ===
 
-# Home route
+def load_location_data(location):
+    """Loads data from a local JSON file based on location name."""
+    filename = f"{location.lower().replace(' ', '_')}.json"
+    path = os.path.join("yellowroam_data", filename)
+    if not os.path.exists(path):
+        return {}
+    with open(path, "r") as f:
+        return json.load(f)
+
+def build_context_from_data(data):
+    """Formats JSON data into readable context for OpenAI."""
+    context = ""
+    for section, items in data.items():
+        context += f"\n\n{section.upper()}:\n"
+        if isinstance(items, list):
+            context += "\n".join(f"- {item}" for item in items)
+        else:
+            context += str(items)
+    return context.strip()
+
+def create_openai_prompt(location, user_input):
+    """Builds a location-aware prompt using local JSON data and user input."""
+    location_data = load_location_data(location)
+    context = build_context_from_data(location_data)
+    return f"You are YellowRoam, a friendly local travel assistant. Use the following data to help the user.\n\n{context}\n\nUser Question: {user_input}\n\nYour Answer:"
+
+# === Routes ===
+
 @app.route("/")
 def home():
     return render_template("OriginalLayout.html")
 
-# Prompt route (OpenAI logic)
-@app.route("/api/chat", methods=["POST", "OPTIONS"])
+@app.route("/api/chat", methods=["POST"])
 def chat():
-    data = request.get_json()
-    message = data.get("message")
-    logging.info(f"User message: {message}")
+    data = request.json
+    user_input = data.get("message", "")
+    location = data.get("location", "").strip() or "yellowstone"
+    tier = data.get("tier", "free")  # Use tier to control answer depth later
 
-    if not message:
-        return jsonify({"reply": "Please enter a valid question."}), 400
+    logging.info(f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}")
 
     try:
+        prompt = create_openai_prompt(location, user_input)
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": "You are a friendly Yellowstone travel assistant."},
-                {"role": "user", "content": message}
-            ]
+            messages=[{"role": "user", "content": prompt}]
         )
-        reply = response['choices'][0]['message']['content'].strip()
-        return jsonify({"reply": reply})
+        return jsonify({"reply": response.choices[0].message["content"].strip()})
     except Exception as e:
-        logging.error(f"OpenAI error: {e}")
-        return jsonify({"reply": "Sorry, something went wrong with the assistant."}), 500
+        logging.error(f"OpenAI error: {str(e)}")
+        return jsonify({"error": str(e)}), 500
 
-# Email signup route
-@app.route("/signup", methods=["POST"])
-def signup():
-    email = request.form.get("email")
-    if email:
-        email_log.append(email)
-        logging.info(f"Signup received: {email}")
-        return "Thanks for signing up!"
-    return "Please enter a valid email address.", 400
+@app.route("/api/subscribe", methods=["POST"])
+def subscribe():
+    data = request.json
+    email = data.get("email", "").strip()
 
-# Stripe plan selector
-@app.route("/subscribe/<plan>")
-def subscribe(plan):
-    price_lookup = {
-        "explorer": os.getenv("PRICE_EXPLORER"),
-        "pioneer": os.getenv("PRICE_PIONEER"),
-        "trailblazer": os.getenv("PRICE_TRAILBLAZER"),
-    }
-    price_id = price_lookup.get(plan.lower())
-    if not price_id:
-        return "Invalid plan selected.", 400
+    if not email:
+        return jsonify({"error": "Email is required"}), 400
 
+    logging.info(f"RoamReach signup received: {email}")
+
+    # Send email notification to admin
     try:
-        checkout_session = stripe.checkout.Session.create(
-            payment_method_types=["card"],
-            line_items=[{
-                "price": price_id,
-                "quantity": 1
-            }],
-            mode="subscription" if plan != "trailblazer" else "payment",
-            success_url=YOUR_DOMAIN + "/?success=true",
-            cancel_url=YOUR_DOMAIN + "/?canceled=true"
-        )
-        return redirect(checkout_session.url, code=303)
-    except Exception as e:
-        logging.error(f"Stripe error: {e}")
-        return "Error processing your subscription.", 500
+        msg = MIMEText(f"New RoamReach signup: {email}")
+        msg["Subject"] = "New RoamReach Email Signup"
+        msg["From"] = email
+        msg["To"] = "heyday6159@gmail.com"
 
-# Health check
-@app.route("/status")
-def status():
-    return "YellowRoam backend is running!", 200
+        with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.starttls()
+            server.login(os.getenv("SMTP_USER"), os.getenv("SMTP_PASS"))
+            server.send_message(msg)
+        return jsonify({"success": True})
+    except Exception as e:
+        logging.error(f"Email send failed: {str(e)}")
+        return jsonify({"error": "Failed to send email"}), 500
+
+@app.route("/api/checkout/<plan_id>", methods=["POST"])
+def create_checkout_session(plan_id):
+    try:
+        session = stripe.checkout.Session.create(
+            payment_method_types=['card'],
+            line_items=[{
+                'price': plan_id,
+                'quantity': 1,
+            }],
+            mode='subscription',
+            success_url=os.getenv("SUCCESS_URL"),
+            cancel_url=os.getenv("CANCEL_URL"),
+        )
+        logging.info(f"Stripe session created for plan: {plan_id}")
+        return jsonify({'checkout_url': session.url})
+    except Exception as e:
+        logging.error(f"Stripe error: {str(e)}")
+        return jsonify({"error": str(e)}), 500
