@@ -97,16 +97,22 @@ def chat():
     message = data.get("message")
 
     if not message:
-        return jsonify({"reply": "Please enter a message."})
+        return jsonify({"reply": "Please enter a message."}), 400
 
-    # 🔥 OpenAI call
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": "You are a helpful Yellowstone travel assistant."},
-            {"role": "user", "content": message}
-        ]
-    )
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a helpful Yellowstone travel assistant."},
+                {"role": "user", "content": message}
+            ]
+        )
 
-    reply = response["choices"][0]["message"]["content"]
-    return jsonify({"reply": reply})
+        reply = response["choices"][0]["message"]["content"]
+        return jsonify({"reply": reply})
+
+    except Exception as e:
+        logging.error(f"OpenAI API error: {e}")
+        return jsonify({"reply": "There was an error generating a response."}), 500
+
+   
