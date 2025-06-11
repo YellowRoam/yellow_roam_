@@ -123,6 +123,27 @@
 
     document.getElementById("send").addEventListener("click", sendMessage);
   </script>
+  <script src="/static/js/language_module.js"></script>
+  
+  populateLanguageSelector();
+
+  async function sendMessage() {
+    const language = getSelectedLanguage();
+    // ... existing logic ...
+    const response = await fetch("https://yellow-roam-1wry.onrender.com/api/chat", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        message: userText,
+        location: "yellowstone",
+        tier: "free",
+        language: language  // <-- this line sends the selected language
+      })
+    });
+  }
+</script>
 </body>
 </html>
 
