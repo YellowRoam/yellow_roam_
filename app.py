@@ -91,8 +91,14 @@ def chat():
 
     try:
         prompt = create_openai_prompt(location, user_input, tier)
+
+        # Choose model based on tier
+        model = "gpt-3.5-turbo"
+        if tier in ["plus", "pro"]:
+            model = "gpt-4"
+
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model=model,
             messages=[{"role": "user", "content": prompt}]
         )
         return jsonify({"reply": response.choices[0].message["content"].strip()})
