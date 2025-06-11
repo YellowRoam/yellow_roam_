@@ -76,10 +76,13 @@ def home():
 
 @app.route("/api/chat", methods=["POST", "OPTIONS"])
 def chat():
-    if request.content_type != 'application/json':
-    return jsonify({'error': 'Content-Type must be application/json'}), 415
+    if request.method == "OPTIONS":
+        return jsonify({"status": "ok"}), 200
 
-data = request.get_json()
+    if request.content_type != 'application/json':
+        return jsonify({'error': 'Content-Type must be application/json'}), 415
+
+    data = request.get_json()
     user_input = data.get("message", "")
     location = data.get("location", "").strip() or "yellowstone"
     tier = data.get("tier", "free")
@@ -112,7 +115,6 @@ data = request.get_json()
     except Exception as e:
         logging.error(f"OpenAI error: {str(e)}")
         return jsonify({"error": str(e)}), 500
-
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
     data = request.json
