@@ -17,7 +17,10 @@ stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 
 # === Flask Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
-CORS(app)
+CORS(app, resources={r"/api/*": {"origins": [
+    "https://yellowroam.github.io",
+    "https://yellowroam.github.io/yellowroam-chat-ui"
+]}})
 
 # === Logging Setup ===
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
@@ -69,8 +72,11 @@ def create_openai_prompt(location, user_input, tier="free"):
 def home():
     return render_template("OriginalLayout.html")
 
-@app.route("/api/chat", methods=["POST"])
+@app.route("/api/chat", methods=["POST", "OPTIONS"])
 def chat():
+    if request.method == "OPTIONS":
+        return '', 204
+
     data = request.json
     user_input = data.get("message", "")
     location = data.get("location", "").strip() or "yellowstone"
@@ -92,7 +98,6 @@ def chat():
     try:
         prompt = create_openai_prompt(location, user_input, tier)
 
-        # Choose model based on tier
         model = "gpt-3.5-turbo"
         if tier in ["plus", "pro"]:
             model = "gpt-4"
