@@ -2,7 +2,7 @@ import os
 import json
 import logging
 from flask import Flask, request, jsonify, render_template
-from flask_cors import CORS
+from cors_config import configure_cors
 from dotenv import load_dotenv
 import openai
 import stripe
@@ -19,7 +19,7 @@ stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 from flask_cors import CORS  
 
 app = Flask(__name__, static_folder="static", template_folder="templates")
-
+configure_cors(app)
 
 CORS(app, resources={r"/api/*": {"origins": "https://yellowroam.github.io"}}, supports_credentials=True)
 
