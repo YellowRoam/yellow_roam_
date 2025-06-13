@@ -4,8 +4,8 @@ const urlsToCache = [
   "/static/styles/main.css",
   "/static/manifest.json",
   "https://raw.githubusercontent.com/YellowRoam/yellow_roam_/main/static/yellow_roam_logo.png",
-  // You can add your offline.html here later if needed
-];
+
+const OFFLINE_URL = '/offline.html';
 
 // Install Service Worker & Precache Assets
 self.addEventListener("install", (event) => {
