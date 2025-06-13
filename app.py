@@ -17,7 +17,11 @@ stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 
 # === Flask Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
-CORS(app, resources={r"/api/*": {"origins": "https://yellowroam.github.io"}}, supports_credentials=True)
+from flask_cors import CORS
+
+app = Flask(__name__, ...)
+CORS(app)  
+CORS(app, resources={r"/api/*": {"origins": "https://yellowroam.github.io"}})
 
 # === Logging Setup ===
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
@@ -70,11 +74,14 @@ def create_openai_prompt(location, user_input, tier="free"):
 def home():
     return render_template("OriginalLayout.html")
 
-@app.route("/api/chat", methods=["POST", "OPTIONS"])
+@app.route("/api/chat", methods=["POST", "OPTIONS"], strict_slashes=False)
 def chat():
     if request.method == "OPTIONS":
-        return jsonify({"status": "ok"}), 200
-
+        response = jsonify({"status": "ok"})
+        response.headers.add("Access-Control-Allow-Origin", "https://yellowroam.github.io")
+        response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
+        response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
+        return response, 200
     if not request.is_json:
         return jsonify({'error': 'Invalid JSON format'}), 400
 
