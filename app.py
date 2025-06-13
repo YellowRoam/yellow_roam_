@@ -25,7 +25,7 @@ CORS(app, resources={r"/api/*": {"origins": "https://yellowroam.github.io"}}, su
 
 # === Logging Setup ===
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
-
+logging.info(f"Request JSON: {data}")
 # === Session Store for Free Tier ===
 session_store = {}
 # NOTE: session_store resets on restart – use Redis or DB for production
