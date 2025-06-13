@@ -16,12 +16,12 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 
 # === Flask Setup ===
-app = Flask(__name__, static_folder="static", template_folder="templates")
-from flask_cors import CORS
+from flask_cors import CORS  
 
-app = Flask(__name__, ...)
-CORS(app)  
-CORS(app, resources={r"/api/*": {"origins": "https://yellowroam.github.io"}})
+app = Flask(__name__, static_folder="static", template_folder="templates")
+
+
+CORS(app, resources={r"/api/*": {"origins": "https://yellowroam.github.io"}}, supports_credentials=True)
 
 # === Logging Setup ===
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
