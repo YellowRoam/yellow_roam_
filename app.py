@@ -71,30 +71,10 @@ def home():
 
 @app.route("/api/chat", methods=["POST", "OPTIONS"], strict_slashes=False)
 def chat():
-    if request.method == "OPTIONS":
-        response = jsonify({"status": "ok"})
-        response.headers.add("Access-Control-Allow-Origin", "https://yellowroam.github.io")
-        response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
-        response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
-        return response, 200
-
-    if not request.is_json:
-        return jsonify({'error': 'Invalid JSON format'}), 400
-
-    data = request.get_json()
-    user_input = data.get("message", "")
-    location = data.get("location", "").strip() or "yellowstone"
-    tier = data.get("tier", "free")
-    language = data.get("language", "en")
-    user_id = request.headers.get('X-Forwarded-For', request.remote_addr)
-    if user_id and ',' in user_id:
-        user_id = user_id.split(',')[0].strip()
-
-    logging.info(f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}, Language: {language}, User: {user_id}")
-
+    # ... code above ...
+    logging.info(f"...")
     try:
         prompt = create_openai_prompt(location, user_input, tier)
-
         model = "gpt-3.5-turbo"
         if tier in ["plus", "pro"]:
             model = "gpt-4"
@@ -109,11 +89,9 @@ def chat():
             messages=messages
         )
         return jsonify({"reply": response.choices[0].message["content"].strip()})
-    try:
-
-except Exception as e:
-    logging.exception("OpenAI error")
-    return jsonify({"error": str(e)}), 500
+    except Exception as e:
+        logging.exception("OpenAI error")
+        return jsonify({"error": str(e)}), 500
 
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
