@@ -103,6 +103,10 @@
 
       try {
       const response = await fetch("https://yellow-roam-1wry.onrender.com/api/chat", {
+      } catch (err) {
+      console.error("🛑 Network Fetch Error:", err);
+      responseArea.textContent = "The server failed to respond. Please try again.";        
+        
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
