@@ -109,7 +109,9 @@ def chat():
             messages=messages
         )
         return jsonify({"reply": response.choices[0].message["content"].strip()})
-    except Exception as e:
+    try:
+
+except Exception as e:
     logging.exception("OpenAI error")
     return jsonify({"error": str(e)}), 500
 
