@@ -110,8 +110,8 @@ def chat():
         )
         return jsonify({"reply": response.choices[0].message["content"].strip()})
     except Exception as e:
-        logging.error(f"OpenAI error: {str(e)}")
-        return jsonify({"error": str(e)}), 500
+    logging.exception("OpenAI error")
+    return jsonify({"error": str(e)}), 500
 
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
