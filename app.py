@@ -74,6 +74,10 @@ def create_openai_prompt(location, user_input, tier="free"):
 def home():
     return render_template("OriginalLayout.html")
 
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
 @app.route("/api/chat", methods=["POST", "OPTIONS"], strict_slashes=False)
 def chat():
     if request.method == "OPTIONS":
@@ -82,50 +86,38 @@ def chat():
         response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
         response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
         return response, 200
+
+    # --- Actual POST request below ---
+
     if not request.is_json:
         return jsonify({'error': 'Invalid JSON format'}), 400
 
-    data = request.get_json()
-    user_input = data.get("message", "")
-    location = data.get("location", "").strip() or "yellowstone"
-    tier = data.get("tier", "free")
-    language = data.get("language", "en")
-    user_id = request.headers.get('X-Forwarded-For', request.remote_addr)
-    if user_id and ',' in user_id:
-        user_id = user_id.split(',')[0].strip()
-
-    logging.info(f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}, Language: {language}, User: {user_id}")
-
-    if tier == "free":
-        user_session = session_store.get(user_id, {"count": 0})
-        if user_session["count"] >= 3:
-            return jsonify({
-                "reply": "You've reached the limit for free questions. Please upgrade to continue exploring Yellowstone!"
-            })
-        else:
-            user_session["count"] += 1
-            session_store[user_id] = user_session
-
     try:
-        prompt = create_openai_prompt(location, user_input, tier)
+        data = request.get_json()
+        prompt = data.get('prompt', '').strip()
+        language = data.get('language', 'en')
 
-        model = "gpt-3.5-turbo"
-        if tier in ["plus", "pro"]:
-            model = "gpt-4"
+        if not prompt:
+            return jsonify({'error': 'Prompt is required.'}), 400
 
-        messages = [
-            {"role": "system", "content": f"You are YellowRoam, a helpful local travel guide. Respond in {language}."},
-            {"role": "user", "content": prompt}
-        ]
+        # Example: replace this with your AI or business logic
+        answer = f"Received: {prompt} (language: {language})"
 
-        response = openai.ChatCompletion.create(
-            model=model,
-            messages=messages
-        )
-        return jsonify({"reply": response.choices[0].message["content"].strip()})
+        # --- Add CORS header for response ---
+        response = jsonify({'answer': answer})
+        response.headers.add("Access-Control-Allow-Origin", "https://yellowroam.github.io")
+        return response, 200
+
     except Exception as e:
-        logging.error(f"OpenAI error: {str(e)}")
-        return jsonify({"error": str(e)}), 500
+        # Print to server logs for debugging!
+        print("Error in /api/chat:", e)
+        response = jsonify({'error': str(e)})
+        response.headers.add("Access-Control-Allow-Origin", "https://yellowroam.github.io")
+        return response, 500
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
 
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
