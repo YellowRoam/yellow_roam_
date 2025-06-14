@@ -22,9 +22,8 @@ configure_cors(app)
 # === Logging Setup ===
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
-# === Session Store for Free Tier ===
+# === Session Store (No Limitations Now) ===
 session_store = {}
-# NOTE: session_store resets on restart – use Redis or DB for production
 
 # === Helper Functions ===
 def load_location_data(location):
@@ -92,16 +91,6 @@ def chat():
         user_id = user_id.split(',')[0].strip()
 
     logging.info(f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}, Language: {language}, User: {user_id}")
-
-    if tier == "free":
-        user_session = session_store.get(user_id, {"count": 0})
-        if user_session["count"] >= 3:
-            return jsonify({
-                "reply": "You've reached the limit for free questions. Please upgrade to continue exploring Yellowstone!"
-            })
-        else:
-            user_session["count"] += 1
-            session_store[user_id] = user_session
 
     try:
         prompt = create_openai_prompt(location, user_input, tier)
