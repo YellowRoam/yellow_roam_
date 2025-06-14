@@ -50,6 +50,14 @@
       font-size: 1rem;
       background: #fffbe9;
     }
+    #responseArea {
+      color: #d1112b;
+      font-size: 1rem;
+      margin-bottom: 6px;
+      min-height: 1.2em;
+      text-align: center;
+      height: 1.2em;
+    }
     button {
       background: #f8d600;
       color: #3a3a26;
@@ -157,6 +165,7 @@
 
     <!-- Prompt Input -->
     <input id="promptInput" type="text" placeholder="Ask me anything about Yellowstone...">
+    <div id="responseArea"></div>
     <button onclick="askYellowRoam()">Ask YellowRoam</button>
 
     <!-- Pricing Tiers Section -->
@@ -183,22 +192,34 @@
     <button id="installBtn" style="display:none;">Install YellowRoam App</button>
   </div>
 
-  <!-- JS Example: Hook up prompt (customize for Flask/API as needed) -->
   <script>
-    const promptInput = document.getElementById('promptInput');
-const responseArea = document.getElementById('responseArea'); // add this to your HTML if you want
+    // Accessibility: allow enter key to trigger askYellowRoam
+    document.getElementById('promptInput').addEventListener('keyup', function(event) {
+      if (event.key === 'Enter') askYellowRoam();
+    });
 
-function askYellowRoam() {
-  const input = promptInput.value;
-  if (!input.trim()) {
-    responseArea.textContent = "Please enter a question.";
-    return;
-  }
-  // Continue with backend call...
-}
-     
+    function askYellowRoam() {
+      const promptInput = document.getElementById('promptInput');
+      const responseArea = document.getElementById('responseArea');
+      const lang = document.getElementById('langSelect').value;
+      const input = promptInput.value;
+
+      // Reset any previous message
+      responseArea.textContent = "";
+
+      if (!input.trim()) {
+        responseArea.textContent = "Please enter a question.";
+        return;
+      }
+
+      // Example: backend call placeholder
+      // fetch('/ask', { ... })
+
+      // For now, just show this alert:
       alert('Prompt submitted:\n' + input + '\nLanguage: ' + lang + '\n\n(Replace this alert with your backend integration.)');
     }
   </script>
 </body>
 </html>
+      
+  
