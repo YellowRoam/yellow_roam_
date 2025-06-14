@@ -185,24 +185,18 @@
 
   <!-- JS Example: Hook up prompt (customize for Flask/API as needed) -->
   <script>
-    function askYellowRoam() {
-      const input = document.getElementById('promptInput').value;
-      const lang = document.getElementById('langSelect').value;
-      if (!input.trim()) {
-        alert('Please enter a question.');
-        return;
-      }
-      // Replace the alert with your backend integration:
-      // fetch('/ask', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ prompt: input, language: lang })
-      // })
-      // .then(response => response.json())
-      // .then(data => {
-      //   // Display answer (customize as needed)
-      //   alert(data.answer);
-      // });
+    const promptInput = document.getElementById('promptInput');
+const responseArea = document.getElementById('responseArea'); // add this to your HTML if you want
+
+function askYellowRoam() {
+  const input = promptInput.value;
+  if (!input.trim()) {
+    responseArea.textContent = "Please enter a question.";
+    return;
+  }
+  // Continue with backend call...
+}
+     
       alert('Prompt submitted:\n' + input + '\nLanguage: ' + lang + '\n\n(Replace this alert with your backend integration.)');
     }
   </script>
