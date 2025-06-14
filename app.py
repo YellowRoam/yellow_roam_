@@ -2,13 +2,13 @@ import os
 import json
 import logging
 from flask import Flask, request, jsonify, render_template
-from cors_config import configure_cors
 from dotenv import load_dotenv
 import openai
 import stripe
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
+from cors_config import configure_cors
 
 # === Load Environment Variables ===
 load_dotenv()
@@ -16,16 +16,12 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 
 # === Flask Setup ===
-from flask_cors import CORS  
-
 app = Flask(__name__, static_folder="static", template_folder="templates")
 configure_cors(app)
 
-CORS(app, resources={r"/api/*": {"origins": "https://yellowroam.github.io"}}, supports_credentials=True)
-
 # === Logging Setup ===
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
-logging.info(f"Request JSON: {data}")
+
 # === Session Store for Free Tier ===
 session_store = {}
 # NOTE: session_store resets on restart – use Redis or DB for production
@@ -82,6 +78,7 @@ def chat():
         response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
         response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
         return response, 200
+
     if not request.is_json:
         return jsonify({'error': 'Invalid JSON format'}), 400
 
