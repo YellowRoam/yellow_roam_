@@ -110,6 +110,8 @@
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
+      mode: "cors",
+      credentials: "omit"        
       message: input,
       location: "yellowstone",
       tier: "free",
