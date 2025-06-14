@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yellowroam-api
+    name: yellowroam
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
@@ -8,16 +8,4 @@ services:
     region: oregon
     autoDeploy: true
 
-    envVars:
-      - key: OPENAI_API_KEY
-        sync: false
-      - key: STRIPE_SECRET_KEY
-        sync: false
-      - key: SMTP_USER
-        sync: false
-      - key: SMTP_PASS
-        sync: false
-      - key: SUCCESS_URL
-        sync: false
-      - key: CANCEL_URL
-        sync: false
+  
