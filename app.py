@@ -74,45 +74,32 @@ def create_openai_prompt(location, user_input, tier="free"):
 def home():
     return render_template("OriginalLayout.html")
 
-from flask import Flask, request, jsonify
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-@app.route("/api/chat", methods=["POST", "OPTIONS"], strict_slashes=False)
+@app.route("/api/chat", methods=["POST", "OPTIONS"])
 def chat():
+    # Handle CORS preflight
     if request.method == "OPTIONS":
         response = jsonify({"status": "ok"})
-        response.headers.add("Access-Control-Allow-Origin", "https://yellowroam.github.io")
+        response.headers.add("Access-Control-Allow-Origin", "*")
         response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
         response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
         return response, 200
 
-    # --- Actual POST request below ---
-
-    if not request.is_json:
-        return jsonify({'error': 'Invalid JSON format'}), 400
-
     try:
         data = request.get_json()
-        prompt = data.get('prompt', '').strip()
+        prompt = data.get('prompt', '')
         language = data.get('language', 'en')
 
-        if not prompt:
-            return jsonify({'error': 'Prompt is required.'}), 400
-
-        # Example: replace this with your AI or business logic
-        answer = f"Received: {prompt} (language: {language})"
-
-        # --- Add CORS header for response ---
-        response = jsonify({'answer': answer})
-        response.headers.add("Access-Control-Allow-Origin", "https://yellowroam.github.io")
+        response = jsonify({"answer": f"Echo: {prompt} (lang: {language})"})
+        response.headers.add("Access-Control-Allow-Origin", "*")
         return response, 200
-
     except Exception as e:
-        # Print to server logs for debugging!
         print("Error in /api/chat:", e)
         response = jsonify({'error': str(e)})
-        response.headers.add("Access-Control-Allow-Origin", "https://yellowroam.github.io")
+        response.headers.add("Access-Control-Allow-Origin", "*")
         return response, 500
 
 if __name__ == '__main__':
