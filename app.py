@@ -4,7 +4,6 @@ import logging
 from flask import Flask, request, jsonify, render_template
 from dotenv import load_dotenv
 from openai import OpenAI
-client = OpenAI()
 import stripe
 import smtplib
 from email.mime.text import MIMEText
@@ -13,7 +12,7 @@ from cors_config import configure_cors
 
 # === Load Environment Variables ===
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 
 # === Flask Setup ===
@@ -109,9 +108,9 @@ def chat():
             {"role": "user", "content": prompt}
         ]
 
-            response = client.chat.completions.create(...
-            model=model,
-            messages=messages
+            response = openai.ChatCompletion.create(
+                model=model,
+                messages=messages
         )
 
         return jsonify({"reply": response.choices[0].message["content"].strip()})
