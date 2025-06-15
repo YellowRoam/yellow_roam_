@@ -69,8 +69,6 @@ def create_openai_prompt(location, user_input, tier="free"):
 def home():
     return render_template("OriginalLayout.html")
 
-
-
 @app.route("/api/chat", methods=["POST", "OPTIONS"])
 def chat():
     try:
@@ -121,7 +119,6 @@ def chat():
         print(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
              
-
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
     data = request.json
