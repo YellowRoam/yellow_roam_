@@ -69,7 +69,7 @@ def create_openai_prompt(location, user_input, tier="free"):
 def home():
     return render_template("OriginalLayout.html")
 
-@app.route("/api/chat", methods=["POST", "OPTIONS"], strict_slashes=False)
+@app.route("/api/chat", methods=["POST"])
 def chat():
     if request.method == "OPTIONS":
         response = jsonify({"status": "ok"})
@@ -138,6 +138,7 @@ def subscribe():
             server.login(os.getenv("SMTP_USER"), os.getenv("SMTP_PASS"))
             server.send_message(msg)
         return jsonify({"success": True})
+    
     except Exception as e:
         import traceback
         print("=== API /chat ERROR ===")
