@@ -112,7 +112,6 @@ def chat():
             model=model,
             messages=messages
         )
-
         reply_text = response.choices[0].message.content.strip()
         return jsonify({"reply": reply_text})
 
