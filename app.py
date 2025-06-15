@@ -71,7 +71,8 @@ def home():
 
 @app.route("/api/chat", methods=["POST"])
 def chat():
-    if request.method == "OPTIONS":
+    try: 
+   if request.method == "OPTIONS":
         response = jsonify({"status": "ok"})
         response.headers.add("Access-Control-Allow-Origin", "https://yellowroam.github.io")
         response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
@@ -83,6 +84,7 @@ def chat():
 
     data = request.get_json()
     user_input = data.get("message", "")
+    prompt = data.get("prompt")
     location = data.get("location", "").strip() or "yellowstone"
     tier = data.get("tier", "free")
     language = data.get("language", "en")
@@ -112,9 +114,11 @@ def chat():
         )
 
         return jsonify({"reply": response.choices[0].message["content"].strip()})
-
-    except Exception as e:
+   except Exception as e:
         logging.exception("OpenAI error")
+                import traceback
+        print("======= CHAT ERROR =======")
+        print(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
 
 @app.route("/api/subscribe", methods=["POST"])
