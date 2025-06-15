@@ -22,7 +22,7 @@ configure_cors(app)
 # === Logging Setup ===
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
-# === Session Store (No Limitations Now) ===
+# === Session Store ===
 session_store = {}
 
 # === Helper Functions ===
@@ -69,34 +69,33 @@ def create_openai_prompt(location, user_input, tier="free"):
 def home():
     return render_template("OriginalLayout.html")
 
-@app.route("/api/chat", methods=["POST"])
+@app.route("/api/chat", methods=["POST", "OPTIONS"])
 def chat():
-    try: 
-   if request.method == "OPTIONS":
-        response = jsonify({"status": "ok"})
-        response.headers.add("Access-Control-Allow-Origin", "https://yellowroam.github.io")
-        response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
-        response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
-        return response, 200
-
-    if not request.is_json:
-        return jsonify({'error': 'Invalid JSON format'}), 400
-
-    data = request.get_json()
-    user_input = data.get("message", "")
-    prompt = data.get("prompt")
-    location = data.get("location", "").strip() or "yellowstone"
-    tier = data.get("tier", "free")
-    language = data.get("language", "en")
-    user_id = request.headers.get('X-Forwarded-For', request.remote_addr)
-    if user_id and ',' in user_id:
-        user_id = user_id.split(',')[0].strip()
-
-    logging.info(
-        f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}, Language: {language}, User: {user_id}"
-    )
-
     try:
+        if request.method == "OPTIONS":
+            response = jsonify({"status": "ok"})
+            response.headers.add("Access-Control-Allow-Origin", "https://yellowroam.github.io")
+            response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
+            response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
+            return response, 200
+
+        if not request.is_json:
+            return jsonify({'error': 'Invalid JSON format'}), 400
+
+        data = request.get_json()
+        user_input = data.get("message", "")
+        prompt = data.get("prompt")
+        location = data.get("location", "").strip() or "yellowstone"
+        tier = data.get("tier", "free")
+        language = data.get("language", "en")
+        user_id = request.headers.get('X-Forwarded-For', request.remote_addr)
+        if user_id and ',' in user_id:
+            user_id = user_id.split(',')[0].strip()
+
+        logging.info(
+            f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}, Language: {language}, User: {user_id}"
+        )
+
         prompt = create_openai_prompt(location, user_input, tier)
 
         model = "gpt-3.5-turbo"
@@ -114,9 +113,10 @@ def chat():
         )
 
         return jsonify({"reply": response.choices[0].message["content"].strip()})
-   except Exception as e:
+
+    except Exception as e:
         logging.exception("OpenAI error")
-                import traceback
+        import traceback
         print("======= CHAT ERROR =======")
         print(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
@@ -142,10 +142,10 @@ def subscribe():
             server.login(os.getenv("SMTP_USER"), os.getenv("SMTP_PASS"))
             server.send_message(msg)
         return jsonify({"success": True})
-    
+
     except Exception as e:
         import traceback
-        print("=== API /chat ERROR ===")
+        print("=== API /subscribe ERROR ===")
         print(traceback.format_exc())
         return jsonify({'error': str(e)}), 500
 
@@ -167,3 +167,7 @@ def create_checkout_session(plan_id):
     except Exception as e:
         logging.error(f"Stripe error: {str(e)}")
         return jsonify({"error": str(e)}), 500
+
+        
+       
+   
