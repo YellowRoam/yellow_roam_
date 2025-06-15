@@ -12,6 +12,7 @@ from cors_config import configure_cors
 
 # === Load Environment Variables ===
 load_dotenv()
+
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 
