@@ -68,6 +68,7 @@ def create_openai_prompt(location, user_input, tier="free"):
 @app.route("/")
 def home():
     return render_template("OriginalLayout.html")
+
 @app.route("/api/chat", methods=["POST", "OPTIONS"], strict_slashes=False)
 def chat():
     if request.method == "OPTIONS":
@@ -138,8 +139,10 @@ def subscribe():
             server.send_message(msg)
         return jsonify({"success": True})
     except Exception as e:
-        logging.error(f"Email send failed: {str(e)}")
-        return jsonify({"error": "Failed to send email"}), 500
+        import traceback
+        print("=== API /chat ERROR ===")
+        print(traceback.format_exc())
+        return jsonify({'error': str(e)}), 500
 
 @app.route("/api/checkout/<plan_id>", methods=["POST"])
 def create_checkout_session(plan_id):
