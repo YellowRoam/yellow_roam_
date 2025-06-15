@@ -69,6 +69,8 @@ def create_openai_prompt(location, user_input, tier="free"):
 def home():
     return render_template("OriginalLayout.html")
 
+
+
 @app.route("/api/chat", methods=["POST", "OPTIONS"])
 def chat():
     try:
@@ -84,8 +86,6 @@ def chat():
 
         data = request.get_json()
         user_input = data.get("message", "")
-        prompt = data.get("prompt")
-        reply_text = response.choices[0].message.content.strip()
         location = data.get("location", "").strip() or "yellowstone"
         tier = data.get("tier", "free")
         language = data.get("language", "en")
@@ -108,19 +108,20 @@ def chat():
             {"role": "user", "content": prompt}
         ]
 
-            response = openai.ChatCompletion.create(
-                model=model,
-                messages=messages
+        response = client.chat.completions.create(
+            model=model,
+            messages=messages
         )
 
-        return jsonify({"reply": response.choices[0].message["content"].strip()})
+        reply_text = response.choices[0].message.content.strip()
+        return jsonify({"reply": reply_text})
 
     except Exception as e:
-        logging.exception("OpenAI error")
         import traceback
         print("======= CHAT ERROR =======")
         print(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
+             
 
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
