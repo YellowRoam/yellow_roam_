@@ -3,7 +3,8 @@ import json
 import logging
 from flask import Flask, request, jsonify, render_template
 from dotenv import load_dotenv
-import openai
+from openai import OpenAI
+client = OpenAI()
 import stripe
 import smtplib
 from email.mime.text import MIMEText
@@ -85,6 +86,7 @@ def chat():
         data = request.get_json()
         user_input = data.get("message", "")
         prompt = data.get("prompt")
+        reply_text = response.choices[0].message.content.strip()
         location = data.get("location", "").strip() or "yellowstone"
         tier = data.get("tier", "free")
         language = data.get("language", "en")
@@ -107,7 +109,7 @@ def chat():
             {"role": "user", "content": prompt}
         ]
 
-        response = openai.ChatCompletion.create(
+            response = client.chat.completions.create(...
             model=model,
             messages=messages
         )
