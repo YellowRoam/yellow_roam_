@@ -70,6 +70,15 @@ def create_openai_prompt(location, user_input, tier="free"):
 def home():
     return render_template("OriginalLayout.html")
 
+@app.route("/api/logic/<module_name>")
+def get_logic_module(module_name):
+    try:
+        with open(f"./logic/{module_name}.json") as f:
+            data = json.load(f)
+        return jsonify(data)
+    except FileNotFoundError:
+        return jsonify({"error": "Module not found"}), 404
+
 @app.route("/api/chat", methods=["POST", "OPTIONS"])
 def chat():
     try:
