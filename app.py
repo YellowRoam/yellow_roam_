@@ -5,7 +5,7 @@ import traceback
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
-from openai import OpenAI
+import openai
 import stripe
 import smtplib
 from email.mime.text import MIMEText
@@ -17,7 +17,7 @@ os.environ.pop("https_proxy", None)
 
 # === Load environment variables ===
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
 EMAIL_FROM = os.getenv("EMAIL_FROM")
 EMAIL_TO = os.getenv("EMAIL_TO")
@@ -58,13 +58,13 @@ def chat():
 
         logging.info(f"🟡 Received prompt: {prompt}")
 
-        response = client.chat.completions.create(
-            model="gpt-4",
-            messages=[
-                {"role": "system", "content": "You are a helpful Yellowstone travel assistant."},
-                {"role": "user", "content": prompt}
-            ]
-        )
+        response = openai.ChatCompletion.create(
+    model="gpt-4",
+    messages=[
+        {"role": "system", "content": "You are a helpful Yellowstone travel assistant."},
+        {"role": "user", "content": prompt}
+    ]
+)
 
         answer = response.choices[0].message.content
         logging.info(f"🟢 Assistant reply: {answer}")
