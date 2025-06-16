@@ -27,7 +27,7 @@ SMTP_USERNAME = os.getenv("SMTP_USERNAME")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 
 # === Initialize OpenAI + Stripe clients ===
-client = OpenAI(api_key=OPENAI_API_KEY)
+openai.api_key = os.getenv("OPENAI_API_KEY")
 stripe.api_key = STRIPE_SECRET_KEY
 
 # === Flask setup ===
@@ -58,18 +58,20 @@ def chat():
 
         logging.info(f"🟡 Received prompt: {prompt}")
 
+        # === Use OpenAI v0.28.1 syntax ===
         response = openai.ChatCompletion.create(
-    model="gpt-4",
-    messages=[
-        {"role": "system", "content": "You are a helpful Yellowstone travel assistant."},
-        {"role": "user", "content": prompt}
-    ]
-)
+            model="gpt-4",
+            messages=[
+                {"role": "system", "content": "You are a helpful Yellowstone travel assistant."},
+                {"role": "user", "content": prompt}
+            ]
+        )
 
-        answer = response.choices[0].message.content
-        logging.info(f"🟢 Assistant reply: {answer}")
+        # ✅ Here’s where the line goes:
+        reply = response.choices[0].message["content"]
 
-        return jsonify({"response": answer})
+        logging.info(f"🟢 Assistant reply: {reply}")
+        return jsonify({"response": reply})
 
     except Exception as e:
         logging.error("🔴 Exception in /api/chat")
