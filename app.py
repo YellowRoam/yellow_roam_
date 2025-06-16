@@ -85,7 +85,6 @@ def get_region_logic(region):
         return jsonify(data)
     return jsonify({"error": "Region not found"}), 404
 
-  import traceback
 
 @app.route("/api/chat", methods=["POST"])
 def chat():
@@ -98,7 +97,6 @@ def chat():
         print("✅ Final OpenAI Key in use:", os.getenv("OPENAI_API_KEY"))
 
         openai.api_key = os.getenv("OPENAI_API_KEY")
-
         print("⏳ Sending request to OpenAI")
 
         response = openai.ChatCompletion.create(
@@ -107,7 +105,6 @@ def chat():
             max_tokens=100
         )
 
-        print("✅ OpenAI response received")
         reply = response['choices'][0]['message']['content']
         print("🟢 AI response:", reply)
 
@@ -116,11 +113,13 @@ def chat():
     except Exception as e:
         print("🔴 EXCEPTION TRIGGERED IN /api/chat")
         print(f"🔴 Error message: {str(e)}")
-        traceback.print_exc()  # 🔥 This must print the stack trace
+        traceback.print_exc()
         return jsonify({
             "error": "Something went wrong",
             "details": str(e)
         }), 500
+
+
 
        
 @app.route("/api/subscribe", methods=["POST"])
@@ -169,3 +168,5 @@ def create_checkout_session(plan_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
