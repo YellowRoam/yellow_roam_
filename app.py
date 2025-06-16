@@ -1,3 +1,4 @@
+import traceback
 import os
 import json
 import logging
@@ -6,7 +7,6 @@ from cors_config import configure_cors
 from dotenv import load_dotenv
 import openai
 import stripe
-import traceback
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
