@@ -6,6 +6,7 @@ from cors_config import configure_cors
 from dotenv import load_dotenv
 import openai
 import stripe
+import traceback
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
@@ -80,6 +81,8 @@ def get_region_logic(region):
         return jsonify(data)
     return jsonify({"error": "Region not found"}), 404
 
+import traceback
+
 @app.route("/api/chat", methods=["POST"])
 def chat():
     try:
@@ -89,7 +92,7 @@ def chat():
 
         print("🟡 Received message:", input_text, "| Location:", location)
 
-        # Replace with your actual OpenAI call
+        # === Your OpenAI API Call ===
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[{"role": "user", "content": input_text}],
@@ -102,12 +105,10 @@ def chat():
         return jsonify({"response": reply})
 
     except Exception as e:
-        # Print the full stack trace to the logs
-        import traceback
+        print("🔴 Error in /api/chat:")
         traceback.print_exc()
         return jsonify({"error": "Something went wrong", "details": str(e)}), 500
         
-
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
     data = request.json
