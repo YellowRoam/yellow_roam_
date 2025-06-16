@@ -85,8 +85,6 @@ def get_region_logic(region):
         return jsonify(data)
     return jsonify({"error": "Region not found"}), 404
 
-from openai import OpenAI
-
 @app.route("/api/chat", methods=["POST"])
 def chat():
     try:
@@ -95,16 +93,10 @@ def chat():
         location = data.get("location", "unknown")
 
         print("🟡 Received message:", input_text, "| Location:", location)
-        
-        from openai import OpenAI
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-        # ✅ Create new-style OpenAI client
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
         print("⏳ Sending request to OpenAI")
 
-        # ✅ Use the new SDK's `.chat.completions.create()`
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
@@ -119,7 +111,6 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         return jsonify({"response": reply})
 
     except Exception as e:
-        import traceback
         print("🔴 EXCEPTION TRIGGERED IN /api/chat")
         print(f"🔴 Error message: {str(e)}")
         traceback.print_exc()
@@ -127,8 +118,6 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
             "error": "Something went wrong",
             "details": str(e)
         }), 500
-           
-
 
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
@@ -175,6 +164,5 @@ def create_checkout_session(plan_id):
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(host="0.0.0.0", port=port, debug=True)
