@@ -59,7 +59,7 @@ def chat():
         
         if not prompt:
             return jsonify({"error": "Prompt is required."}), 400
-from logic.chat_logic import process_prompt
+     
         logging.info(f"🟡 Received prompt: {prompt}")
 
         # === Use OpenAI v0.28.1 syntax ===
