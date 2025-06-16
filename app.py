@@ -70,8 +70,11 @@ def create_openai_prompt(location, user_input, tier="free"):
 def home():
     return render_template("OriginalLayout.html")
 
-@app.route("/api/logic/<module_name>")
-def get_logic_module(module_name):
+@app.route("/api/logic/modules")
+def list_logic_module(module_name):
+    files = os.listdir("./logic")
+    return jsonify([f.replace(".json", "") for f in files if f.endswith(".json")])    
+    
     try:
         with open(f"./logic/{module_name}.json") as f:
             data = json.load(f)
