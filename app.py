@@ -87,8 +87,6 @@ def get_region_logic(region):
 
 from openai import OpenAI
 
-from openai import OpenAI
-
 @app.route("/api/chat", methods=["POST"])
 def chat():
     try:
@@ -97,7 +95,10 @@ def chat():
         location = data.get("location", "unknown")
 
         print("🟡 Received message:", input_text, "| Location:", location)
+        
+        from openai import OpenAI
 
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         # ✅ Create new-style OpenAI client
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
