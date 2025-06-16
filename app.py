@@ -17,6 +17,10 @@ load_dotenv()
 print("✅ Environment loaded")
 print("✅ OPENAI Key:", os.getenv("OPENAI_API_KEY"))
 print("✅ STRIPE Key:", os.getenv("STRIPE_SECRET_KEY"))
+
+openai.api_key = os.getenv("OPENAI_API_KEY") 
+
+
 # === Flask App Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
 configure_cors(app)
