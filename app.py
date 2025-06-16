@@ -5,8 +5,7 @@ import traceback
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
-from openai import OpenAI  # ✅ New SDK import
-from openai._httpx_client import SyncHttpxClientWrapper
+from openai import OpenAI  # ✅ Correct import for v1.3.9
 import stripe
 import smtplib
 from email.mime.text import MIMEText
@@ -24,15 +23,14 @@ SMTP_USERNAME = os.getenv("SMTP_USERNAME")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 
 # === Initialize clients ===
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+client = OpenAI(api_key=OPENAI_API_KEY)
 stripe.api_key = STRIPE_SECRET_KEY
 
-# === Initialize Flask app ===
+# === Flask app setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
 CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
 
-# === Logging Setup ===
+# === Logging setup ===
 logging.basicConfig(filename="yellowroam.log", level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
 
 # === Routes ===
@@ -50,9 +48,8 @@ def chat():
         if not user_prompt:
             return jsonify({"error": "Prompt is required."}), 400
 
-        logging.info(f"🟡 Received prompt: {user_prompt}")
+        logging.info(f"🟡 Prompt received: {user_prompt}")
 
-        # Call OpenAI API (v1.3.9)
         response = client.chat.completions.create(
             model="gpt-4",
             messages=[
@@ -62,12 +59,11 @@ def chat():
         )
 
         reply = response.choices[0].message.content
-        logging.info(f"🟢 Assistant response: {reply}")
-
+        logging.info(f"🟢 Response sent: {reply}")
         return jsonify({"response": reply})
 
     except Exception as e:
-        logging.error("🔴 EXCEPTION TRIGGERED IN /api/chat")
+        logging.error("🔴 Error in /api/chat")
         logging.error(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
 
@@ -80,7 +76,6 @@ def subscribe():
         if not email:
             return jsonify({"error": "Email is required."}), 400
 
-        # Send email notification
         msg = MIMEText(f"New RoamReach signup: {email}")
         msg["Subject"] = "New RoamReach Subscriber"
         msg["From"] = EMAIL_FROM
@@ -93,7 +88,7 @@ def subscribe():
         return jsonify({"success": True})
 
     except Exception as e:
-        logging.error("🔴 EXCEPTION TRIGGERED IN /api/subscribe")
+        logging.error("🔴 Error in /api/subscribe")
         logging.error(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
 
@@ -116,10 +111,10 @@ def create_checkout_session():
         return jsonify({"url": session.url})
 
     except Exception as e:
-        logging.error("🔴 EXCEPTION TRIGGERED IN /api/create-checkout-session")
+        logging.error("🔴 Error in /api/create-checkout-session")
         logging.error(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
 
-# === Run the app (for local testing only; Gunicorn is used in production) ===
+# === Local testing only ===
 if __name__ == "__main__":
     app.run(debug=True)
