@@ -5,7 +5,7 @@ import logging
 from flask import Flask, request, jsonify, render_template
 from cors_config import configure_cors
 from dotenv import load_dotenv
-import openai
+from openai import OpenAI
 import stripe
 import smtplib
 from email.mime.text import MIMEText
