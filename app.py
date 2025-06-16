@@ -11,6 +11,9 @@ import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
 
+# ✅ Custom logic import
+from logic.chat_logic import process_prompt
+
 # === Block proxy env vars that break OpenAI SDK ===
 os.environ.pop("http_proxy", None)
 os.environ.pop("https_proxy", None)
@@ -52,10 +55,11 @@ def chat():
     try:
         data = request.json
         prompt = data.get("prompt", "").strip()
-
+        processed_prompt = process_prompt(prompt)
+        
         if not prompt:
             return jsonify({"error": "Prompt is required."}), 400
-
+from logic.chat_logic import process_prompt
         logging.info(f"🟡 Received prompt: {prompt}")
 
         # === Use OpenAI v0.28.1 syntax ===
