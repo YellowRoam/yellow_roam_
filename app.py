@@ -85,6 +85,9 @@ def get_region_logic(region):
         return jsonify(data)
     return jsonify({"error": "Region not found"}), 404
 
+from openai import OpenAI
+
+from openai import OpenAI
 
 @app.route("/api/chat", methods=["POST"])
 def chat():
@@ -94,25 +97,28 @@ def chat():
         location = data.get("location", "unknown")
 
         print("🟡 Received message:", input_text, "| Location:", location)
-        print("✅ Final OpenAI Key in use:", os.getenv("OPENAI_API_KEY"))
 
-        openai.api_key = os.getenv("OPENAI_API_KEY")
+        # ✅ Create new-style OpenAI client
+        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
         print("⏳ Sending request to OpenAI")
 
-        client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))        
-        
+        # ✅ Use the new SDK's `.chat.completions.create()`
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
-            messages=[{"role": "user", "content": input_text}],
+            messages=[
+                {"role": "user", "content": input_text}
+            ],
             max_tokens=100
         )
 
-        reply = response['choices'][0]['message']['content']
+        reply = response.choices[0].message.content
         print("🟢 AI response:", reply)
 
         return jsonify({"response": reply})
 
     except Exception as e:
+        import traceback
         print("🔴 EXCEPTION TRIGGERED IN /api/chat")
         print(f"🔴 Error message: {str(e)}")
         traceback.print_exc()
@@ -120,10 +126,9 @@ def chat():
             "error": "Something went wrong",
             "details": str(e)
         }), 500
+           
 
 
-
-       
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
     data = request.json
