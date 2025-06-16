@@ -85,8 +85,6 @@ def get_region_logic(region):
         return jsonify(data)
     return jsonify({"error": "Region not found"}), 404
 
-import traceback
-
 @app.route("/api/chat", methods=["POST"])
 def chat():
     try:
@@ -118,6 +116,7 @@ def chat():
             "error": "Internal Server Error",
             "details": str(e)
         }), 500
+       
         
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
