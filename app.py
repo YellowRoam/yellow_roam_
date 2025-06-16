@@ -80,45 +80,33 @@ def get_region_logic(region):
         return jsonify(data)
     return jsonify({"error": "Region not found"}), 404
 
-@app.route("/api/chat", methods=["POST", "OPTIONS"])
+@app.route("/api/chat", methods=["POST"])
 def chat():
-    if request.method == "OPTIONS":
-        response = jsonify({"status": "ok"})
-        response.headers.add("Access-Control-Allow-Origin", "*")
-        response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
-        response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
-        return response, 200
-
     try:
         data = request.get_json()
-        prompt = data.get('prompt', '')
-        logic_data = data.get('logic', {})
+        input_text = data.get("message", "")
+        location = data.get("location", "unknown")
 
-        system_prompt = f"""
-        You are YellowRoam, a travel planning expert for the Yellowstone region. Answer user questions with accurate, personalized travel logic.
+        print("🟡 Received message:", input_text, "| Location:", location)
 
-        Include this context:
-        {json.dumps(logic_data, indent=2)}
-        """
-
-        ai_response = openai.ChatCompletion.create(
-            model="gpt-4",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.7
+        # Replace with your actual OpenAI call
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": input_text}],
+            max_tokens=100
         )
 
-        response_text = ai_response['choices'][0]['message']['content']
-        response = jsonify({"response": response_text})
-        response.headers.add("Access-Control-Allow-Origin", "*")
-        return response, 200
+        reply = response['choices'][0]['message']['content']
+        print("🟢 AI response:", reply)
+
+        return jsonify({"response": reply})
+
     except Exception as e:
-        logging.error(f"Chat error: {str(e)}")
-        response = jsonify({'error': str(e)})
-        response.headers.add("Access-Control-Allow-Origin", "*")
-        return response, 500
+        # Print the full stack trace to the logs
+        import traceback
+        traceback.print_exc()
+        return jsonify({"error": "Something went wrong", "details": str(e)}), 500
+        
 
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
