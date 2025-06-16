@@ -2,28 +2,29 @@ import os
 import json
 import logging
 from flask import Flask, request, jsonify, render_template
+from cors_config import configure_cors
 from dotenv import load_dotenv
-from openai import OpenAI
+import openai
 import stripe
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
-from cors_config import configure_cors
+from flask_cors import CORS
 
 # === Load Environment Variables ===
 load_dotenv()
-
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+openai.api_key = os.getenv("OPENAI_API_KEY")
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 
-# === Flask Setup ===
+# === Flask App Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
 configure_cors(app)
+CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
 
 # === Logging Setup ===
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
-# === Session Store ===
+# === Session Store for Free Tier (temporary storage, resets on restart) ===
 session_store = {}
 
 # === Helper Functions ===
@@ -70,68 +71,55 @@ def create_openai_prompt(location, user_input, tier="free"):
 def home():
     return render_template("OriginalLayout.html")
 
-@app.route("/api/logic/modules")
-def list_logic_module(module_name):
-    files = os.listdir("./logic")
-    return jsonify([f.replace(".json", "") for f in files if f.endswith(".json")])    
-    
-    try:
-        with open(f"./logic/{module_name}.json") as f:
+@app.route("/api/logic/<region>", methods=["GET"])
+def get_region_logic(region):
+    logic_path = f"./logic/{region}_logic.json"
+    if os.path.exists(logic_path):
+        with open(logic_path, "r") as f:
             data = json.load(f)
         return jsonify(data)
-    except FileNotFoundError:
-        return jsonify({"error": "Module not found"}), 404
+    return jsonify({"error": "Region not found"}), 404
 
 @app.route("/api/chat", methods=["POST", "OPTIONS"])
 def chat():
+    if request.method == "OPTIONS":
+        response = jsonify({"status": "ok"})
+        response.headers.add("Access-Control-Allow-Origin", "*")
+        response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
+        response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
+        return response, 200
+
     try:
-        if request.method == "OPTIONS":
-            response = jsonify({"status": "ok"})
-            response.headers.add("Access-Control-Allow-Origin", "https://yellowroam.github.io")
-            response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
-            response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
-            return response, 200
-
-        if not request.is_json:
-            return jsonify({'error': 'Invalid JSON format'}), 400
-
         data = request.get_json()
-        user_input = data.get("message", "")
-        location = data.get("location", "").strip() or "yellowstone"
-        tier = data.get("tier", "free")
-        language = data.get("language", "en")
-        user_id = request.headers.get('X-Forwarded-For', request.remote_addr)
-        if user_id and ',' in user_id:
-            user_id = user_id.split(',')[0].strip()
+        prompt = data.get('prompt', '')
+        logic_data = data.get('logic', {})
 
-        logging.info(
-            f"Chat request - Location: {location}, Tier: {tier}, Message: {user_input}, Language: {language}, User: {user_id}"
+        system_prompt = f"""
+        You are YellowRoam, a travel planning expert for the Yellowstone region. Answer user questions with accurate, personalized travel logic.
+
+        Include this context:
+        {json.dumps(logic_data, indent=2)}
+        """
+
+        ai_response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.7
         )
 
-        prompt = create_openai_prompt(location, user_input, tier)
-
-        model = "gpt-3.5-turbo"
-        if tier in ["plus", "pro"]:
-            model = "gpt-4"
-
-        messages = [
-            {"role": "system", "content": f"You are YellowRoam, a helpful local travel guide. Respond in {language}."},
-            {"role": "user", "content": prompt}
-        ]
-
-        response = client.chat.completions.create(
-            model=model,
-            messages=messages
-        )
-        reply_text = response.choices[0].message.content.strip()
-        return jsonify({"reply": reply_text})
-
+        response_text = ai_response['choices'][0]['message']['content']
+        response = jsonify({"response": response_text})
+        response.headers.add("Access-Control-Allow-Origin", "*")
+        return response, 200
     except Exception as e:
-        import traceback
-        print("======= CHAT ERROR =======")
-        print(traceback.format_exc())
-        return jsonify({"error": str(e)}), 500
-             
+        logging.error(f"Chat error: {str(e)}")
+        response = jsonify({'error': str(e)})
+        response.headers.add("Access-Control-Allow-Origin", "*")
+        return response, 500
+
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
     data = request.json
@@ -153,12 +141,9 @@ def subscribe():
             server.login(os.getenv("SMTP_USER"), os.getenv("SMTP_PASS"))
             server.send_message(msg)
         return jsonify({"success": True})
-
     except Exception as e:
-        import traceback
-        print("=== API /subscribe ERROR ===")
-        print(traceback.format_exc())
-        return jsonify({'error': str(e)}), 500
+        logging.error(f"Email send failed: {str(e)}")
+        return jsonify({"error": "Failed to send email"}), 500
 
 @app.route("/api/checkout/<plan_id>", methods=["POST"])
 def create_checkout_session(plan_id):
@@ -179,6 +164,5 @@ def create_checkout_session(plan_id):
         logging.error(f"Stripe error: {str(e)}")
         return jsonify({"error": str(e)}), 500
 
-        
-       
-   
+if __name__ == '__main__':
+    app.run(debug=True)
