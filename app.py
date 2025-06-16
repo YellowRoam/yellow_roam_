@@ -85,6 +85,8 @@ def get_region_logic(region):
         return jsonify(data)
     return jsonify({"error": "Region not found"}), 404
 
+  import traceback
+
 @app.route("/api/chat", methods=["POST"])
 def chat():
     try:
@@ -93,9 +95,11 @@ def chat():
         location = data.get("location", "unknown")
 
         print("🟡 Received message:", input_text, "| Location:", location)
-        print("⏳ Sending request to OpenAI")
+        print("✅ Final OpenAI Key in use:", os.getenv("OPENAI_API_KEY"))
 
         openai.api_key = os.getenv("OPENAI_API_KEY")
+
+        print("⏳ Sending request to OpenAI")
 
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
@@ -103,21 +107,22 @@ def chat():
             max_tokens=100
         )
 
+        print("✅ OpenAI response received")
         reply = response['choices'][0]['message']['content']
         print("🟢 AI response:", reply)
 
         return jsonify({"response": reply})
 
     except Exception as e:
-        import traceback
-        print("🔴 Error in /api/chat:")
-        traceback.print_exc()  # ← THIS LINE SHOWS THE FULL ERROR
+        print("🔴 EXCEPTION TRIGGERED IN /api/chat")
+        print(f"🔴 Error message: {str(e)}")
+        traceback.print_exc()  # 🔥 This must print the stack trace
         return jsonify({
-            "error": "Internal Server Error",
+            "error": "Something went wrong",
             "details": str(e)
         }), 500
+
        
-        
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
     data = request.json
