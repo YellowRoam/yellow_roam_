@@ -5,11 +5,15 @@ import traceback
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
-from openai import OpenAI  # ✅ Correct import for v1.3.9
+from openai import OpenAI
 import stripe
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
+
+# === Block proxy env vars that break OpenAI SDK ===
+os.environ.pop("http_proxy", None)
+os.environ.pop("https_proxy", None)
 
 # === Load environment variables ===
 load_dotenv()
@@ -22,16 +26,20 @@ SMTP_PORT = os.getenv("SMTP_PORT")
 SMTP_USERNAME = os.getenv("SMTP_USERNAME")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 
-# === Initialize clients ===
+# === Initialize OpenAI + Stripe clients ===
 client = OpenAI(api_key=OPENAI_API_KEY)
 stripe.api_key = STRIPE_SECRET_KEY
 
-# === Flask app setup ===
+# === Flask setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
 CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
 
 # === Logging setup ===
-logging.basicConfig(filename="yellowroam.log", level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
+logging.basicConfig(
+    filename="yellowroam.log",
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s: %(message)s"
+)
 
 # === Routes ===
 
@@ -43,27 +51,28 @@ def index():
 def chat():
     try:
         data = request.json
-        user_prompt = data.get("prompt", "").strip()
+        prompt = data.get("prompt", "").strip()
 
-        if not user_prompt:
+        if not prompt:
             return jsonify({"error": "Prompt is required."}), 400
 
-        logging.info(f"🟡 Prompt received: {user_prompt}")
+        logging.info(f"🟡 Received prompt: {prompt}")
 
         response = client.chat.completions.create(
             model="gpt-4",
             messages=[
                 {"role": "system", "content": "You are a helpful Yellowstone travel assistant."},
-                {"role": "user", "content": user_prompt}
+                {"role": "user", "content": prompt}
             ]
         )
 
-        reply = response.choices[0].message.content
-        logging.info(f"🟢 Response sent: {reply}")
-        return jsonify({"response": reply})
+        answer = response.choices[0].message.content
+        logging.info(f"🟢 Assistant reply: {answer}")
+
+        return jsonify({"response": answer})
 
     except Exception as e:
-        logging.error("🔴 Error in /api/chat")
+        logging.error("🔴 Exception in /api/chat")
         logging.error(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
 
@@ -88,7 +97,7 @@ def subscribe():
         return jsonify({"success": True})
 
     except Exception as e:
-        logging.error("🔴 Error in /api/subscribe")
+        logging.error("🔴 Exception in /api/subscribe")
         logging.error(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
 
@@ -111,10 +120,13 @@ def create_checkout_session():
         return jsonify({"url": session.url})
 
     except Exception as e:
-        logging.error("🔴 Error in /api/create-checkout-session")
+        logging.error("🔴 Exception in /api/create-checkout-session")
         logging.error(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
 
-# === Local testing only ===
+# === Local server runner ===
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+        
