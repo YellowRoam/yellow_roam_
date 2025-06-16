@@ -95,8 +95,10 @@ def chat():
         location = data.get("location", "unknown")
 
         print("🟡 Received message:", input_text, "| Location:", location)
+        print("⏳ Sending request to OpenAI")
 
-        # === Your OpenAI API Call ===
+        openai.api_key = os.getenv("OPENAI_API_KEY")
+
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[{"role": "user", "content": input_text}],
@@ -109,9 +111,13 @@ def chat():
         return jsonify({"response": reply})
 
     except Exception as e:
+        import traceback
         print("🔴 Error in /api/chat:")
-        traceback.print_exc()
-        return jsonify({"error": "Something went wrong", "details": str(e)}), 500
+        traceback.print_exc()  # ← THIS LINE SHOWS THE FULL ERROR
+        return jsonify({
+            "error": "Internal Server Error",
+            "details": str(e)
+        }), 500
         
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
