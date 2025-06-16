@@ -6,6 +6,7 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
 from openai import OpenAI  # ✅ New SDK import
+from openai._httpx_client import SyncHttpxClientWrapper
 import stripe
 import smtplib
 from email.mime.text import MIMEText
@@ -23,7 +24,11 @@ SMTP_USERNAME = os.getenv("SMTP_USERNAME")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 
 # === Initialize clients ===
-client = OpenAI(api_key=OPENAI_API_KEY)
+client = OpenAI(
+    api_key=OPENAI_API_KEY,
+    http_client=SyncHttpxClientWrapper()
+)
+
 stripe.api_key = STRIPE_SECRET_KEY
 
 # === Initialize Flask app ===
