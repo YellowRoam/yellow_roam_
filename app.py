@@ -13,9 +13,9 @@ from flask_cors import CORS
 
 # === Load Environment Variables ===
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
-
+print("✅ Environment loaded")
+print("✅ OPENAI Key:", os.getenv("OPENAI_API_KEY"))
+print("✅ STRIPE Key:", os.getenv("STRIPE_SECRET_KEY"))
 # === Flask App Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
 configure_cors(app)
