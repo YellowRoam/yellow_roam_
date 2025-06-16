@@ -24,10 +24,7 @@ SMTP_USERNAME = os.getenv("SMTP_USERNAME")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 
 # === Initialize clients ===
-client = OpenAI(
-    api_key=OPENAI_API_KEY,
-    http_client=SyncHttpxClientWrapper()
-)
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 stripe.api_key = STRIPE_SECRET_KEY
 
