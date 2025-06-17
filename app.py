@@ -165,10 +165,3 @@ def send_email():
 if __name__ == "__main__":
     app.run(debug=True)
 """
-
-# Save the cleaned version
-file_path = "/mnt/data/app_cleaned.py"
-with open(file_path, "w") as f:
-    f.write(cleaned_app_py)
-
-file_path
