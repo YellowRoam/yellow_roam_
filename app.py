@@ -1,5 +1,3 @@
-# Clean and corrected version of the provided app.py structure
-cleaned_app_py = """
 import os
 import json
 import logging
