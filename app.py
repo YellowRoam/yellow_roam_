@@ -2,118 +2,116 @@ import os
 import json
 import logging
 import traceback
+import smtplib
+import requests
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
+from email.mime.text import MIMEText
 import openai
 import stripe
-import smtplib
-from email.mime.text import MIMEText
-from datetime import datetime
 
-# ✅ Import your custom logic function
-from logic.chat_logic import process_prompt
-
-# === Load environment variables ===
+# === Load Environment Variables ===
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
 
-EMAIL_FROM = os.getenv("EMAIL_FROM")
-EMAIL_TO = os.getenv("EMAIL_TO")
-SMTP_SERVER = os.getenv("SMTP_SERVER")
-SMTP_PORT = os.getenv("SMTP_PORT")
-SMTP_USERNAME = os.getenv("SMTP_USERNAME")
-SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
+print("✅ Environment loaded")
+print("✅ OPENAI Key:", os.getenv("OPENAI_API_KEY"))
+print("✅ STRIPE Key:", os.getenv("STRIPE_SECRET_KEY"))
 
 # === Flask Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
 CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
 
 # === Logging Setup ===
-logging.basicConfig(filename="yellowroam.log", level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
+logging.basicConfig(filename='yellowroam.log', level=logging.INFO,
+                    format='%(asctime)s %(levelname)s %(message)s')
 
-# === Routes ===
-
+# === Health Check Route ===
 @app.route("/")
-def index():
-    print("✅ Flask app reached /")
-    return render_template("index.html")
+def home():
+    return "YellowRoam API is up and running."
 
+# === Core Chat Route Using Logic Files ===
 @app.route("/api/chat", methods=["POST"])
 def chat():
-    data = request.get_json()
-    prompt = data.get("prompt", "").strip().lower()
-    language = data.get("language", "en")
-    tier = data.get("tier", "free")
-
-    if not prompt:
-        return jsonify({"error": "Prompt is required"}), 400
-
-    # Example: Load your logic from a JSON file
     try:
-        with open(f"logic/{language}_logic.json") as f:
-            logic_data = json.load(f)
-    except FileNotFoundError:
-        return jsonify({"error": "Language logic not found"}), 404
+        data = request.get_json()
+        prompt = data.get("prompt", "").strip().lower()
+        language = data.get("language", "en").strip().lower()
+        tier = data.get("tier", "free").strip().lower()
 
-    # Simple example: match exact question to response
-    response = logic_data.get(prompt)
-    if response:
-        return jsonify({"response": response})
-    else:
-        return jsonify({"response": "Sorry, I don't have an answer for that yet."})
+        if not prompt:
+            return jsonify({"error": "Prompt is required"}), 400
 
-@app.route("/api/subscribe", methods=["POST"])
-def subscribe():
-    try:
-        data = request.json
-        email = data.get("email", "").strip()
+        # === Load logic file
+        logic_path = os.path.join("logic", f"{language}_logic.json")
+        if not os.path.isfile(logic_path):
+            return jsonify({"error": f"No logic found for language: {language}"}), 404
 
-        if not email:
-            return jsonify({"error": "Email is required."}), 400
+        with open(logic_path, "r", encoding="utf-8") as f:
+            logic = json.load(f)
 
-        msg = MIMEText(f"New RoamReach signup: {email}")
-        msg["Subject"] = "New RoamReach Subscriber"
-        msg["From"] = EMAIL_FROM
-        msg["To"] = EMAIL_TO
+        # === Try exact match
+        response = logic.get(prompt)
 
-        with smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT) as server:
-            server.login(SMTP_USERNAME, SMTP_PASSWORD)
-            server.send_message(msg)
-
-        return jsonify({"success": True})
+        if response:
+            return jsonify({"response": response})
+        else:
+            return jsonify({"response": "🤔 I don’t have an answer for that yet. Try asking something else!"})
 
     except Exception as e:
-        logging.error("🔴 Subscription error")
-        logging.error(traceback.format_exc())
-        return jsonify({"error": str(e)}), 500
+        logging.error(f"Error in /api/chat: {traceback.format_exc()}")
+        return jsonify({"error": f"Internal server error: {str(e)}"}), 500
 
+# === Stripe Webhook Handler ===
+@app.route("/api/stripe/webhook", methods=["POST"])
+def stripe_webhook():
+    payload = request.data
+    sig_header = request.headers.get('Stripe-Signature')
+    endpoint_secret = os.getenv("STRIPE_WEBHOOK_SECRET")
 
-@app.route("/api/create-checkout-session", methods=["POST"])
-def create_checkout_session():
     try:
-        data = request.json
-        price_id = data.get("priceId")
+        event = stripe.Webhook.construct_event(payload, sig_header, endpoint_secret)
+        logging.info(f"✅ Stripe Event: {event['type']}")
 
-        if not price_id:
-            return jsonify({"error": "Missing price ID"}), 400
+        # Handle successful payment event
+        if event['type'] == 'checkout.session.completed':
+            session = event['data']['object']
+            logging.info(f"💰 Payment received for session {session.get('id')}")
 
-        session = stripe.checkout.Session.create(
-            success_url="https://yellowroam.com/success",
-            cancel_url="https://yellowroam.com/cancel",
-            mode="subscription",
-            line_items=[{"price": price_id, "quantity": 1}],
-        )
-
-        return jsonify({"url": session.url})
+        return '', 200
 
     except Exception as e:
-        logging.error("🔴 Stripe checkout error")
-        logging.error(traceback.format_exc())
+        logging.error(f"Stripe webhook error: {traceback.format_exc()}")
+        return jsonify({"error": str(e)}), 400
+
+# === Email Sending Route ===
+@app.route("/api/send-email", methods=["POST"])
+def send_email():
+    try:
+        data = request.get_json()
+        subject = data.get("subject", "YellowRoam")
+        message = data.get("message", "")
+        recipient = data.get("to", os.getenv("ADMIN_EMAIL"))
+
+        email = MIMEText(message)
+        email["Subject"] = subject
+        email["From"] = os.getenv("EMAIL_FROM")
+        email["To"] = recipient
+
+        with smtplib.SMTP(os.getenv("SMTP_SERVER"), 587) as smtp:
+            smtp.starttls()
+            smtp.login(os.getenv("SMTP_USER"), os.getenv("SMTP_PASS"))
+            smtp.send_message(email)
+
+        return jsonify({"status": "sent"})
+
+    except Exception as e:
+        logging.error(f"Error sending email: {traceback.format_exc()}")
         return jsonify({"error": str(e)}), 500
 
-
-# === Local development runner ===
+# === Run for Local Dev Only ===
 if __name__ == "__main__":
     app.run(debug=True)
