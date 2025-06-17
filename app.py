@@ -42,8 +42,8 @@ for lang_code in ["en", "es", "fr", "hi"]:
 # Area-specific logic
 area_logic = {
     "big_sky": load_json_file("big_sky.logic.json"),
-    "bozeman": load_json_file("bozeman.logiclogic.json"),
-    "cody_cook_city": load_json_file("cody_cooke_city.logic.json"),
+    "bozeman": load_json_file("bozeman.logicl.json"),
+    "cody_cook_city": load_json_file("cody_cook_city.logic.json"),
     "ennis_virginia_city": load_json_file("ennis_virginia_city.logic.json"),
     "grand_teton": load_json_file("grand_teton.logic.json"),
     "jackson_driggs": load_json_file("jackson_driggs.logic.json"),
@@ -52,7 +52,6 @@ area_logic = {
     "ski": load_json_file("ski_logic.logic.json")
 }
 
-def handle_prompt(user_input, lang="en", area=None):
     # Normalize input
     clean_input = user_input.strip().lower()
 
@@ -97,19 +96,24 @@ def home():
     return "YellowRoam API is up and running."
 
 # === Core Chat Route Using Logic Files ===
+
 @app.route("/api/chat", methods=["POST"])
 def chat():
-    data = request.get_json()
-    user_input = data.get("message", "")
-    lang = data.get("lang", "en")
-    area = data.get("area")  # Optional
+    try:
+        data = request.get_json()
+        user_input = data.get("message", "")
+        lang = data.get("lang", "en")
+        area = data.get("area")  # Optional
 
-    reply = handle_prompt(user_input, lang=lang, area=area)
-    return jsonify({"response": reply})
-      
-  if not prompt:
+        if not user_input:
             return jsonify({"error": "Prompt is required"}), 400
 
+        reply = handle_prompt(user_input, lang=lang, area=area)
+        return jsonify({"response": reply})
+
+    except Exception as e:
+        logging.error(f"Error in /api/chat: {traceback.format_exc()}")
+        return jsonify({"error": f"Internal server error: {str(e)}"}), 500
         # === Load logic file
         logic_path = os.path.join("logic", f"{language}_logic.json")
         if not os.path.isfile(logic_path):
