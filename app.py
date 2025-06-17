@@ -20,17 +20,6 @@ print("✅ Environment loaded")
 print("✅ OPENAI Key:", os.getenv("OPENAI_API_KEY"))
 print("✅ STRIPE Key:", os.getenv("STRIPE_SECRET_KEY"))
 
-# === Flask Setup ===
-app = Flask(__name__, static_folder="static", template_folder="templates")
-CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
-
-# === Logging Setup ===
-logging.basicConfig(filename='yellowroam.log', level=logging.INFO,
-                    format='%(asctime)s %(levelname)s %(message)s')
-
-import os
-import json
-
 # === Load All Logic Files ===
 logic_folder = "logic"  # Update if needed
 
@@ -63,6 +52,44 @@ area_logic = {
     "ski": load_json_file("ski_logic.logic.json")
 }
 
+def handle_prompt(user_input, lang="en", area=None):
+    # Normalize input
+    clean_input = user_input.strip().lower()
+
+    # === Step 1: Try to match intent patterns ===
+    for intent in intent_logic:
+        for pattern in intent["patterns"]:
+            if pattern.lower() == clean_input:
+                return intent["languages"].get(lang) or intent["languages"].get("en")
+
+    # === Step 2: Try language-specific Q&A ===
+    lang_logic = language_logics.get(lang)
+    if lang_logic:
+        exact_match = lang_logic.get(user_input)
+        if exact_match:
+            return exact_match
+
+    # === Step 3: Try area-specific logic if provided ===
+    if area:
+        area_file = area_logic.get(area)
+        if area_file:
+            area_match = area_file.get(user_input)
+            if area_match:
+                return area_match
+
+    # === Step 4: Fallback ===
+    fallback_list = fallback_logic["fallback_responses"].get(lang) or fallback_logic["fallback_responses"]["en"]
+    return fallback_list[0]  # You can later randomize for variety
+
+def handle_prompt(user_input, lang="en", area=None):
+
+# === Flask Setup ===
+app = Flask(__name__, static_folder="static", template_folder="templates")
+CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
+
+# === Logging Setup ===
+logging.basicConfig(filename='yellowroam.log', level=logging.INFO,
+                    format='%(asctime)s %(levelname)s %(message)s')
 
 # === Health Check Route ===
 @app.route("/")
@@ -72,13 +99,15 @@ def home():
 # === Core Chat Route Using Logic Files ===
 @app.route("/api/chat", methods=["POST"])
 def chat():
-    try:
-        data = request.get_json()
-        prompt = data.get("prompt", "").strip().lower()
-        language = data.get("language", "en").strip().lower()
-        tier = data.get("tier", "free").strip().lower()
+    data = request.get_json()
+    user_input = data.get("message", "")
+    lang = data.get("lang", "en")
+    area = data.get("area")  # Optional
 
-        if not prompt:
+    reply = handle_prompt(user_input, lang=lang, area=area)
+    return jsonify({"response": reply})
+      
+  if not prompt:
             return jsonify({"error": "Prompt is required"}), 400
 
         # === Load logic file
