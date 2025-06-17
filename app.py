@@ -55,32 +55,23 @@ def chat():
     try:
         data = request.json
         prompt = data.get("prompt", "").strip()
-        
-        processed_prompt = process_prompt(prompt)
-        
-        if not prompt:
-            return jsonify({"error": "Prompt is required."}), 400
-     
-        logging.info(f"🟡 Received prompt: {prompt}")
 
-        # === Use OpenAI v0.28.1 syntax ===
+        processed_prompt = process_prompt(prompt)
+
         response = openai.ChatCompletion.create(
             model="gpt-4",
             messages=[
                 {"role": "system", "content": "You are a helpful Yellowstone travel assistant."},
-                {"role": "user", "content": prompt}
+                {"role": "user", "content": processed_prompt}
             ]
         )
 
-        # ✅ Here’s where the line goes:
         reply = response.choices[0].message["content"]
-        return jsonify({"response": reply})        
-
-logging.info(f"🟢 Assistant reply: {reply}")
-        
+        logging.info(f"🟢 Assistant reply: {reply}")
+        return jsonify({"response": reply})
 
     except Exception as e:
-        logging.error("🔴 Exception in /api/chat")
+        logging.error("❌ Chat error")
         logging.error(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
 
