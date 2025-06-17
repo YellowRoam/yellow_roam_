@@ -55,7 +55,10 @@ def chat():
     try:
         data = request.json
         prompt = data.get("prompt", "").strip()
-
+        
+        if not prompt:
+            return jsonify({"error": "Prompt is required"}), 400        
+        
         processed_prompt = process_prompt(prompt)
 
         response = openai.ChatCompletion.create(
@@ -68,6 +71,7 @@ def chat():
 
         reply = response.choices[0].message["content"]
         logging.info(f"🟢 Assistant reply: {reply}")
+        
         return jsonify({"response": reply})
 
     except Exception as e:
