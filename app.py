@@ -40,40 +40,29 @@ def index():
     print("✅ Flask app reached /")
     return render_template("index.html")
 
-
 @app.route("/api/chat", methods=["POST"])
 def chat():
+    data = request.get_json()
+    prompt = data.get("prompt", "").strip().lower()
+    language = data.get("language", "en")
+    tier = data.get("tier", "free")
+
+    if not prompt:
+        return jsonify({"error": "Prompt is required"}), 400
+
+    # Example: Load your logic from a JSON file
     try:
-        data = request.json
-        prompt = data.get("prompt", "").strip()
-        tier = data.get("tier", "free")  # Defaults to 'free' if not passed
+        with open(f"logic/{language}_logic.json") as f:
+            logic_data = json.load(f)
+    except FileNotFoundError:
+        return jsonify({"error": "Language logic not found"}), 404
 
-        if not prompt:
-            return jsonify({"error": "Prompt is required."}), 400
-
-        logging.info(f"🟡 Incoming prompt: {prompt} | Tier: {tier}")
-
-        # ✅ Custom logic processing
-        processed_prompt = process_prompt(prompt, tier)
-
-        response = openai.ChatCompletion.create(
-            model="gpt-4",
-            messages=[
-                {"role": "system", "content": "You are a helpful Yellowstone travel assistant."},
-                {"role": "user", "content": processed_prompt}
-            ]
-        )
-
-        reply = response.choices[0].message["content"]
-        logging.info(f"🟢 Assistant reply: {reply}")
-
-        return jsonify({"response": reply})
-
-    except Exception as e:
-        logging.error("🔴 Chat route error")
-        logging.error(traceback.format_exc())
-        return jsonify({"error": str(e)}), 500
-
+    # Simple example: match exact question to response
+    response = logic_data.get(prompt)
+    if response:
+        return jsonify({"response": response})
+    else:
+        return jsonify({"response": "Sorry, I don't have an answer for that yet."})
 
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
