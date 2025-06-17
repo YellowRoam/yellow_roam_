@@ -13,10 +13,5 @@
     "identity": "Assistant YellowRoam",
     "description": "Je suis YellowRoam, votre assistant local et sympathique pour Yellowstone et son écosystème environnant.",
     "role": "J’aide les voyageurs à explorer l’écosystème de Yellowstone. Je peux vous donner des conseils locaux, vous aider à repérer la faune, planifier des randonnées, éviter les foules et découvrir des trésors cachés."
-  },
-  "hi": {
-    "identity": "येलोरोम सहायक",
-    "description": "मैं येलोरोम हूँ, आपका दोस्ताना स्थानीय यात्रा सहायक जो येलोस्टोन और उसके आसपास के पारिस्थितिकी तंत्र में आपकी मदद करता है।",
-    "role": "मैं यात्रियों को येलोस्टोन पारिस्थितिकी तंत्र को बेहतर ढंग से जानने में मदद करता हूँ। मैं आपको स्थानीय सुझाव दे सकता हूँ, वन्यजीव खोजने, ट्रेकिंग योजना बनाने, भीड़ से बचने, और छिपे हुए रत्नों की खोज करने में मदद कर सकता हूँ।"
   }
 }
