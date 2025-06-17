@@ -11,17 +11,14 @@ import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
 
-# ✅ Custom logic import
+# ✅ Import your custom logic function
 from logic.chat_logic import process_prompt
-
-# === Block proxy env vars that break OpenAI SDK ===
-os.environ.pop("http_proxy", None)
-os.environ.pop("https_proxy", None)
 
 # === Load environment variables ===
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
-STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
+stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
+
 EMAIL_FROM = os.getenv("EMAIL_FROM")
 EMAIL_TO = os.getenv("EMAIL_TO")
 SMTP_SERVER = os.getenv("SMTP_SERVER")
@@ -29,37 +26,35 @@ SMTP_PORT = os.getenv("SMTP_PORT")
 SMTP_USERNAME = os.getenv("SMTP_USERNAME")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 
-# === Initialize OpenAI + Stripe clients ===
-openai.api_key = os.getenv("OPENAI_API_KEY")
-stripe.api_key = STRIPE_SECRET_KEY
-
-# === Flask setup ===
+# === Flask Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
 CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
 
-# === Logging setup ===
-logging.basicConfig(
-    filename="yellowroam.log",
-    level=logging.INFO,
-    format="%(asctime)s %(levelname)s: %(message)s"
-)
+# === Logging Setup ===
+logging.basicConfig(filename="yellowroam.log", level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
 
 # === Routes ===
 
 @app.route("/")
 def index():
+    print("✅ Flask app reached /")
     return render_template("index.html")
+
 
 @app.route("/api/chat", methods=["POST"])
 def chat():
     try:
         data = request.json
         prompt = data.get("prompt", "").strip()
-        
+        tier = data.get("tier", "free")  # Defaults to 'free' if not passed
+
         if not prompt:
-            return jsonify({"error": "Prompt is required"}), 400        
-        
-        processed_prompt = process_prompt(prompt)
+            return jsonify({"error": "Prompt is required."}), 400
+
+        logging.info(f"🟡 Incoming prompt: {prompt} | Tier: {tier}")
+
+        # ✅ Custom logic processing
+        processed_prompt = process_prompt(prompt, tier)
 
         response = openai.ChatCompletion.create(
             model="gpt-4",
@@ -71,13 +66,14 @@ def chat():
 
         reply = response.choices[0].message["content"]
         logging.info(f"🟢 Assistant reply: {reply}")
-        
+
         return jsonify({"response": reply})
 
     except Exception as e:
-        logging.error("❌ Chat error")
+        logging.error("🔴 Chat route error")
         logging.error(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
+
 
 @app.route("/api/subscribe", methods=["POST"])
 def subscribe():
@@ -100,9 +96,10 @@ def subscribe():
         return jsonify({"success": True})
 
     except Exception as e:
-        logging.error("🔴 Exception in /api/subscribe")
+        logging.error("🔴 Subscription error")
         logging.error(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
+
 
 @app.route("/api/create-checkout-session", methods=["POST"])
 def create_checkout_session():
@@ -123,13 +120,11 @@ def create_checkout_session():
         return jsonify({"url": session.url})
 
     except Exception as e:
-        logging.error("🔴 Exception in /api/create-checkout-session")
+        logging.error("🔴 Stripe checkout error")
         logging.error(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
 
-# === Local server runner ===
+
+# === Local development runner ===
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-        
