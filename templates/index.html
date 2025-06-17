@@ -192,11 +192,30 @@
         return; 
       }
 
-      // Example: backend call placeholder
-      // fetch('/ask', { ... })
+fetch("/api/chat", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify({
+    prompt: prompt,
+    tier: "free",  // You can make this dynamic later
+    language: language
+  })
+})
 
-      // For now, just show this alert:
-      alert('Prompt submitted:\n' + input + '\nLanguage: ' + lang + '\n\n(Replace this alert with your backend integration.)');
+.then(response => response.json())
+.then(data => {
+  if (data.response) {
+    alert("✅ Assistant says: " + data.response);
+  } else if (data.error) {
+    alert("❌ Error: " + data.error);
+  }
+})
+.catch(err => {
+  alert("❌ Request failed: " + err);
+});
+      
     }
   </script>
 </body>
