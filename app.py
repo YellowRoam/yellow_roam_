@@ -1,3 +1,5 @@
+# Clean and corrected version of the provided app.py structure
+cleaned_app_py = """
 import os
 import json
 import logging
@@ -21,7 +23,7 @@ print("✅ OPENAI Key:", os.getenv("OPENAI_API_KEY"))
 print("✅ STRIPE Key:", os.getenv("STRIPE_SECRET_KEY"))
 
 # === Load All Logic Files ===
-logic_folder = "logic"  # Update if needed
+logic_folder = "logic"
 
 def load_json_file(filename):
     path = os.path.join(logic_folder, filename)
@@ -42,7 +44,7 @@ for lang_code in ["en", "es", "fr", "hi"]:
 # Area-specific logic
 area_logic = {
     "big_sky": load_json_file("big_sky.logic.json"),
-    "bozeman": load_json_file("bozeman.logicl.json"),
+    "bozeman": load_json_file("bozeman.logic.json"),
     "cody_cook_city": load_json_file("cody_cook_city.logic.json"),
     "ennis_virginia_city": load_json_file("ennis_virginia_city.logic.json"),
     "grand_teton": load_json_file("grand_teton.logic.json"),
@@ -52,23 +54,24 @@ area_logic = {
     "ski": load_json_file("ski_logic.logic.json")
 }
 
-    # Normalize input
+# === Prompt Handling Logic ===
+def handle_prompt(user_input, lang="en", area=None):
     clean_input = user_input.strip().lower()
 
-    # === Step 1: Try to match intent patterns ===
+    # Intent logic
     for intent in intent_logic:
         for pattern in intent["patterns"]:
             if pattern.lower() == clean_input:
                 return intent["languages"].get(lang) or intent["languages"].get("en")
 
-    # === Step 2: Try language-specific Q&A ===
+    # Language-specific logic
     lang_logic = language_logics.get(lang)
     if lang_logic:
         exact_match = lang_logic.get(user_input)
         if exact_match:
             return exact_match
 
-    # === Step 3: Try area-specific logic if provided ===
+    # Area-specific logic
     if area:
         area_file = area_logic.get(area)
         if area_file:
@@ -76,11 +79,9 @@ area_logic = {
             if area_match:
                 return area_match
 
-    # === Step 4: Fallback ===
+    # Fallback logic
     fallback_list = fallback_logic["fallback_responses"].get(lang) or fallback_logic["fallback_responses"]["en"]
-    return fallback_list[0]  # You can later randomize for variety
-
-def handle_prompt(user_input, lang="en", area=None):
+    return fallback_list[0]
 
 # === Flask Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
@@ -96,39 +97,19 @@ def home():
     return "YellowRoam API is up and running."
 
 # === Core Chat Route Using Logic Files ===
-
 @app.route("/api/chat", methods=["POST"])
 def chat():
     try:
         data = request.get_json()
         user_input = data.get("message", "")
         lang = data.get("lang", "en")
-        area = data.get("area")  # Optional
+        area = data.get("area", None)
 
         if not user_input:
             return jsonify({"error": "Prompt is required"}), 400
 
         reply = handle_prompt(user_input, lang=lang, area=area)
         return jsonify({"response": reply})
-
-    except Exception as e:
-        logging.error(f"Error in /api/chat: {traceback.format_exc()}")
-        return jsonify({"error": f"Internal server error: {str(e)}"}), 500
-        # === Load logic file
-        logic_path = os.path.join("logic", f"{language}_logic.json")
-        if not os.path.isfile(logic_path):
-            return jsonify({"error": f"No logic found for language: {language}"}), 404
-
-        with open(logic_path, "r", encoding="utf-8") as f:
-            logic = json.load(f)
-
-        # === Try exact match
-        response = logic.get(prompt)
-
-        if response:
-            return jsonify({"response": response})
-        else:
-            return jsonify({"response": "🤔 I don’t have an answer for that yet. Try asking something else!"})
 
     except Exception as e:
         logging.error(f"Error in /api/chat: {traceback.format_exc()}")
@@ -145,7 +126,6 @@ def stripe_webhook():
         event = stripe.Webhook.construct_event(payload, sig_header, endpoint_secret)
         logging.info(f"✅ Stripe Event: {event['type']}")
 
-        # Handle successful payment event
         if event['type'] == 'checkout.session.completed':
             session = event['data']['object']
             logging.info(f"💰 Payment received for session {session.get('id')}")
@@ -184,3 +164,11 @@ def send_email():
 # === Run for Local Dev Only ===
 if __name__ == "__main__":
     app.run(debug=True)
+"""
+
+# Save the cleaned version
+file_path = "/mnt/data/app_cleaned.py"
+with open(file_path, "w") as f:
+    f.write(cleaned_app_py)
+
+file_path
