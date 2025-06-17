@@ -173,52 +173,35 @@
   </div>
 
   <script>
-    // Accessibility: allow enter key to trigger askYellowRoam
-    document.getElementById('promptInput').addEventListener('keyup', function(event) {
-      if (event.key === 'Enter') askYellowRoam();
-    });
+function askYellowRoam() {
+  const prompt = document.getElementById("promptInput").value;
+  const language = document.getElementById("languageSelect").value;
 
-    function askYellowRoam() {
-      const promptInput = document.getElementById('promptInput');
-      const responseArea = document.getElementById('responseArea');
-      const lang = document.getElementById('langSelect').value;
-      const input = promptInput.value;
-
-      // Reset any previous message
-      responseArea.textContent = "";
-
-      if (!input.trim()) {
-        responseArea.textContent = "Please enter a question.";
-        return; 
-      }
-
-fetch("/api/chat", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json"
-  },
-  body: JSON.stringify({
-    prompt: prompt,
-    tier: "free",  // You can make this dynamic later
-    language: language
+  fetch("/api/chat", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      prompt: prompt,
+      tier: "free", // or dynamically set this
+      language: language
+    })
   })
-})
-
-.then(response => response.json())
-.then(data => {
-  if (data.response) {
-    alert("✅ Assistant says: " + data.response);
-  } else if (data.error) {
-    alert("❌ Error: " + data.error);
-  }
-})
-.catch(err => {
-  alert("❌ Request failed: " + err);
-});
-      
+  .then(response => response.json())
+  .then(data => {
+    if (data.response) {
+      alert("✅ YellowRoam says:\n" + data.response);
+    } else if (data.error) {
+      alert("❌ Error:\n" + data.error);
     }
-  </script>
-</body>
+  })
+  .catch(error => {
+    alert("❌ Request failed:\n" + error);
+  });
+}
+</script>
+ </body>
 </html>
       
   
