@@ -28,6 +28,42 @@ CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
 logging.basicConfig(filename='yellowroam.log', level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s')
 
+import os
+import json
+
+# === Load All Logic Files ===
+logic_folder = "logic"  # Update if needed
+
+def load_json_file(filename):
+    path = os.path.join(logic_folder, filename)
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+# Core logic
+intent_logic = load_json_file("intent.logic.json")
+fallback_logic = load_json_file("fallback.logic.json")
+system_prompt = load_json_file("system_prompt_multilingual.json")
+
+# Language logic
+language_logics = {}
+for lang_code in ["en", "es", "fr", "hi"]:
+    filename = f"{lang_code}.logic.json"
+    language_logics[lang_code] = load_json_file(filename)
+
+# Area-specific logic
+area_logic = {
+    "big_sky": load_json_file("big_sky.logic.json"),
+    "bozeman": load_json_file("bozeman.logiclogic.json"),
+    "cody_cook_city": load_json_file("cody_cooke_city.logic.json"),
+    "ennis_virginia_city": load_json_file("ennis_virginia_city.logic.json"),
+    "grand_teton": load_json_file("grand_teton.logic.json"),
+    "jackson_driggs": load_json_file("jackson_driggs.logic.json"),
+    "livingston_gardiner": load_json_file("livingston_gardiner.logic.json"),
+    "red_lodge_beartooth": load_json_file("red_lodge_beartooth.logic.json"),
+    "ski": load_json_file("ski_logic.logic.json")
+}
+
+
 # === Health Check Route ===
 @app.route("/")
 def home():
