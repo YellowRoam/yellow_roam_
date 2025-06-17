@@ -55,6 +55,7 @@ def chat():
     try:
         data = request.json
         prompt = data.get("prompt", "").strip()
+        
         processed_prompt = process_prompt(prompt)
         
         if not prompt:
@@ -73,9 +74,10 @@ def chat():
 
         # ✅ Here’s where the line goes:
         reply = response.choices[0].message["content"]
+        return jsonify({"response": reply})        
 
-        logging.info(f"🟢 Assistant reply: {reply}")
-        return jsonify({"response": reply})
+logging.info(f"🟢 Assistant reply: {reply}")
+        
 
     except Exception as e:
         logging.error("🔴 Exception in /api/chat")
