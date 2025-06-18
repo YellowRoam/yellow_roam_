@@ -82,64 +82,64 @@
     <button onclick="askYellowRoam()">Ask YellowRoam</button>
   </div>
 
-  <script>
-    function askYellowRoam() {
-      const promptInput = document.getElementById("promptInput");
-      const languageSelect = document.getElementById("languageSelect");
-      const askButton = document.querySelector("button[onclick='askYellowRoam()']");
+<script>
+  function askYellowRoam() {
+    const promptInput = document.getElementById("promptInput");
+    const languageSelect = document.getElementById("languageSelect");
+    const askButton = document.querySelector("button[onclick='askYellowRoam()']");
 
-      if (!promptInput || !languageSelect || !askButton) {
-        console.error("Missing prompt input, language selector, or button.");
-        alert("❌ Missing prompt input or language selector.");
-        return;
-      }
-
-      const prompt = promptInput.value.trim();
-      const language = languageSelect.value;
-
-      if (!prompt) {
-        alert("Please enter a question before submitting.");
-        return;
-      }
-
-      askButton.disabled = true;
-      askButton.textContent = "Loading...";
-
-      fetch("/api/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-  message: prompt,
-  lang: language
-})
-      })
-      .then(response => response.json())
-      .then(data => {
-        if (data.response) {
-          alert("✅ YellowRoam says:\n" + data.response);
-        } else if (data.error) {
-          alert("❌ Error:\n" + data.error);
-        }
-      })
-      .catch(error => {
-        alert("❌ Request failed:\n" + error);
-      })
-      .finally(() => {
-        askButton.disabled = false;
-        askButton.textContent = "Ask YellowRoam";
-      });
+    if (!promptInput || !languageSelect || !askButton) {
+      console.error("Missing prompt input, language selector, or button.");
+      alert("❌ Missing prompt input or language selector.");
+      return;
     }
 
-    window.addEventListener('DOMContentLoaded', () => {
-      const languageSelect = document.getElementById('languageSelect');
-      const browserLang = navigator.language.slice(0, 2);
-      const match = Array.from(languageSelect.options).find(
-        option => option.value === browserLang
-      );
-      if (match) match.selected = true;
+    const prompt = promptInput.value.trim();
+    const language = languageSelect.value;
+
+    if (!prompt) {
+      alert("Please enter a question before submitting.");
+      return;
+    }
+
+    askButton.disabled = true;
+    askButton.textContent = "Loading...";
+
+    fetch("/api/chat", {  // Use full URL here if frontend is deployed separately
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        message: prompt,
+        lang: language
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.response) {
+        alert("✅ YellowRoam says:\n" + data.response);
+      } else if (data.error) {
+        alert("❌ Error:\n" + data.error);
+      }
+    })
+    .catch(error => {
+      alert("❌ Request failed:\n" + error);
+    })
+    .finally(() => {
+      askButton.disabled = false;
+      askButton.textContent = "Ask YellowRoam";
     });
-  </script>
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const languageSelect = document.getElementById('languageSelect');
+    const browserLang = navigator.language.slice(0, 2);
+    const match = Array.from(languageSelect.options).find(
+      option => option.value === browserLang
+    );
+    if (match) match.selected = true;
+  }):
+</script>
 </body>
 </html>
