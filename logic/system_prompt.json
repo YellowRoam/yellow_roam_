@@ -130,10 +130,3 @@
             ]
         }
     }
-}
-
-file_path = "/mnt/data/system_prompt_multilingual.json"
-with open(file_path, "w", encoding="utf-8") as f:
-    json.dump(system_prompt, f, ensure_ascii=False, indent=2)
-
-file_path
