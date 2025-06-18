@@ -1,0 +1,479 @@
+[
+  {
+    "intent": "wildlife_viewing",
+    "patterns": [
+      "Where can I see wildlife?",
+      "Best place to see animals?",
+      "Where are the wolves?",
+      "Where can I find bison?",
+      "Are there bears in Yellowstone?"
+    ],
+    "languages": {
+      "en": "Try Lamar Valley or Hayden Valley early in the morning.",
+      "es": "Prueba el Valle de Lamar o el Valle de Hayden temprano en la mañana.",
+      "fr": "Essayez la vallée de Lamar ou la vallée de Hayden tôt le matin.",
+      "hi": "लामार वैली या हेडन वैली सुबह जल्दी जाएँ। वहाँ वन्यजीव देखने की अच्छी संभावना होती है।"
+    }
+  },
+  {
+    "intent": "geyser_info",
+    "patterns": [
+      "What is Old Faithful?",
+      "When does Old Faithful erupt?",
+      "Where can I see geysers?",
+      "Are there other geysers besides Old Faithful?"
+    ],
+    "languages": {
+      "en": "Old Faithful erupts every 90 minutes. Check Norris and Lower Geyser Basin for more.",
+      "es": "Old Faithful entra en erupción cada 90 minutos. También visita Norris y Lower Geyser Basin.",
+      "fr": "Old Faithful entre en éruption toutes les 90 minutes. Visitez aussi Norris et Lower Geyser Basin.",
+      "hi": "ओल्ड फेथफुल हर 90 मिनट में फूटता है। नॉरिस और लोअर गीज़र बेसिन भी देखें।"
+    }
+  },
+  {
+    "intent": "hiking",
+    "patterns": [
+      "Where can I hike?",
+      "Best hikes in Yellowstone?",
+      "Family-friendly trails?",
+      "Moderate hiking trails?",
+      "Strenuous hikes?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "entrance_fees",
+    "patterns": [
+      "How much is Yellowstone entry?",
+      "What does it cost to enter?",
+      "Park fee?",
+      "Entrance cost for car?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "weather_conditions",
+    "patterns": [
+      "What is the weather like today?",
+      "Is it snowing in Yellowstone?",
+      "Will it rain?",
+      "Current temperature?",
+      "Do I need a jacket?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "park_hours",
+    "patterns": [
+      "What time does the park open?",
+      "Is Yellowstone open year-round?",
+      "Closing time?",
+      "Seasonal hours?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "lodging",
+    "patterns": [
+      "Where can I stay?",
+      "Best hotels in the park?",
+      "Do I need a reservation?",
+      "Cabins near Old Faithful?",
+      "Places to sleep in Yellowstone?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "camping",
+    "patterns": [
+      "Can I camp in the park?",
+      "Best campgrounds?",
+      "Where to camp in Yellowstone?",
+      "Is backcountry camping allowed?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "wildfire_info",
+    "patterns": [
+      "Are there wildfires right now?",
+      "Fire danger level?",
+      "Any closures due to fire?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "hot_springs",
+    "patterns": [
+      "Can I swim in hot springs?",
+      "Where are the hot springs?",
+      "Safe places to soak?",
+      "Boiling River open?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "fishing",
+    "patterns": [
+      "Can I fish in Yellowstone?",
+      "Where to fish?",
+      "Do I need a license?",
+      "Fishing regulations?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "pet_rules",
+    "patterns": [
+      "Are pets allowed?",
+      "Can I bring my dog?",
+      "Pet rules?",
+      "Are dogs allowed on trails?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "boating",
+    "patterns": [
+      "Can I boat in Yellowstone?",
+      "Where to kayak?",
+      "Canoe rentals?",
+      "Boating regulations?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "backcountry_permits",
+    "patterns": [
+      "Do I need a permit?",
+      "Backcountry rules?",
+      "Overnight hiking permits?",
+      "Camping permissions?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "ranger_programs",
+    "patterns": [
+      "What are ranger programs?",
+      "Any guided hikes?",
+      "Ranger talks?",
+      "Free tours?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "food_options",
+    "patterns": [
+      "Are there restaurants?",
+      "Where to eat in Yellowstone?",
+      "Any food nearby?",
+      "Lunch options in the park?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "safety_info",
+    "patterns": [
+      "Is Yellowstone safe?",
+      "Any safety tips?",
+      "Bear safety?",
+      "Is it safe for kids?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "scenic_drives",
+    "patterns": [
+      "Best scenic drives?",
+      "Can I drive through Yellowstone?",
+      "Driving routes?",
+      "Loop road info?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "kids_activities",
+    "patterns": [
+      "Is Yellowstone good for kids?",
+      "Kid-friendly activities?",
+      "Junior Ranger program?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "photo_spots",
+    "patterns": [
+      "Where are the best photo spots?",
+      "Best places for pictures?",
+      "Sunset views?",
+      "Photograph wildlife?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "gps_signal",
+    "patterns": [
+      "Is GPS reliable?",
+      "Can I use Google Maps?",
+      "Offline maps?",
+      "Will my phone work?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "cell_signal",
+    "patterns": [
+      "Is there cell service?",
+      "Mobile coverage?",
+      "Signal in Yellowstone?",
+      "Can I call or text?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "transportation",
+    "patterns": [
+      "How do I get around?",
+      "Public transport?",
+      "Is there a shuttle?",
+      "Do I need a car?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "guided_tours",
+    "patterns": [
+      "Are there guided tours?",
+      "Tour options?",
+      "Best tour companies?",
+      "Can I book a guide?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "historic_sites",
+    "patterns": [
+      "Any historic places?",
+      "Old buildings?",
+      "Historic landmarks?",
+      "What’s the history?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "geology",
+    "patterns": [
+      "What is the Yellowstone caldera?",
+      "Why are there geysers?",
+      "Geological features?",
+      "Is Yellowstone a volcano?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "astronomy",
+    "patterns": [
+      "Can I stargaze?",
+      "Best place to see stars?",
+      "Night sky in Yellowstone?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "swimming",
+    "patterns": [
+      "Can I swim in Yellowstone?",
+      "Swimming spots?",
+      "Where to cool off?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "park_rules",
+    "patterns": [
+      "What are the park rules?",
+      "Can I fly a drone?",
+      "What is prohibited?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "biking",
+    "patterns": [
+      "Can I bike here?",
+      "Best bike routes?",
+      "Where to rent a bike?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "entry_requirements",
+    "patterns": [
+      "Do I need a reservation?",
+      "ID required?",
+      "Park pass rules?",
+      "Do I need to book?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  },
+  {
+    "intent": "accessibility",
+    "patterns": [
+      "Is Yellowstone wheelchair accessible?",
+      "Accessible trails?",
+      "Help for disabled visitors?"
+    ],
+    "languages": {
+      "en": "Visit the official NPS site or ask a ranger for help.",
+      "es": "Visita el sitio web del NPS o pregunta a un guardabosques.",
+      "fr": "Consultez le site du NPS ou demandez à un garde forestier.",
+      "hi": "अधिक जानकारी के लिए NPS वेबसाइट देखें या किसी रेंजर से पूछें।"
+    }
+  }
+]
