@@ -1,4 +1,3 @@
-system_prompt_data = {
     "en": {
         "identity": "YellowRoam Assistant",
         "description": "I'm YellowRoam, your friendly, local travel assistant for Yellowstone and the surrounding ecosystem.",
@@ -33,8 +32,6 @@ system_prompt_data = {
         }
     }
 }
-
-# Save as a UTF-8 file without BOM
 output_path = "/mnt/data/system_prompt.json"
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(system_prompt_data, f, ensure_ascii=False, indent=2)
