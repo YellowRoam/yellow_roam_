@@ -31,7 +31,6 @@ def load_json_file(filename):
 # Core logic
 intent_logic = load_json_file("intent.logic.json")
 fallback_logic = load_json_file("fallback.logic.json")
-system_prompt = load_json_file("system_prompt_multilingual.json")
 
 # Language logic
 language_logics = {}
