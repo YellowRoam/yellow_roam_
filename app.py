@@ -23,8 +23,10 @@ print("✅ STRIPE Key:", os.getenv("STRIPE_SECRET_KEY"))
 # === Load All Logic Files ===
 logic_folder = "logic"
 
-def load_json_file(filename):
-    path = os.path.join(logic_folder, filename)
+def load_json_file(path):
+    if not os.path.exists(path):
+        print(f"⚠️ Skipping missing file: {path}")
+        return {}
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
