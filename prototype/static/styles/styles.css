@@ -1,0 +1,12 @@
+/* styles.css */
+
+input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+select {
+  background-color: #fff;
+  color: #444;
+}
+
+label {
