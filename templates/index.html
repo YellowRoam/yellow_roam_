@@ -111,10 +111,9 @@
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          prompt: prompt,
-          language: language,
-          tier: "free"
-        })
+  message: prompt,
+  lang: language
+})
       })
       .then(response => response.json())
       .then(data => {
