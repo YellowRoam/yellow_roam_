@@ -1,52 +1,1504 @@
 {
-  "fallback_responses": {
-    "en": [
-      "I'm not sure I understand — could you try rephrasing that?",
-      "Oops! I didn’t quite catch that. Try asking me in a different way.",
-      "I can help with hikes, wildlife, safety tips, and more — want to ask about one of those?",
-      "Hmm... that doesn’t ring a bell. Maybe try something like: 'Where can I see bison?'",
-      "Looks like I need a little more info. Ask me about hiking, lodging, or park hours!",
-      "That input seems off — maybe a typo? Try again and I’ll do my best.",
-      "Still learning that one! Try asking in a way you might ask a local.",
-      "I can help with directions, animals, or geysers — try a topic like that.",
-      "If you're speaking another language, I may only support English, Spanish, French, or Hindi right now.",
-      "Let’s simplify it: try a short question like 'Best hike near Old Faithful?'"
-    ],
-    "es": [
-      "No estoy seguro de entender — ¿puedes reformular tu pregunta?",
-      "¡Ups! No entendí bien eso. Intenta preguntarme de otra manera.",
-      "Puedo ayudarte con caminatas, fauna, consejos de seguridad y más — ¿quieres preguntar sobre alguno de esos temas?",
-      "Mmm... eso no me suena. Prueba con algo como: '¿Dónde puedo ver bisontes?'",
-      "Parece que necesito un poco más de información. ¡Pregúntame sobre senderismo, alojamiento o horarios!",
-      "Eso parece tener un error. Intenta escribirlo de nuevo.",
-      "Todavía estoy aprendiendo eso. Intenta preguntar como si hablaras con un guía local.",
-      "Puedo ayudarte con direcciones, animales o géiseres — prueba con uno de esos temas.",
-      "Si estás usando otro idioma, por ahora solo entiendo inglés, español, francés o hindi.",
-      "Simplifiquemos: intenta una pregunta corta como '¿Mejor caminata cerca de Old Faithful?'"
-    ],
-    "fr": [
-      "Je ne suis pas sûr de comprendre — pouvez-vous reformuler ?",
-      "Oups ! Je n’ai pas bien saisi. Essayez de poser la question autrement.",
-      "Je peux vous aider pour les randonnées, la faune, les conseils de sécurité et plus encore — voulez-vous parler d’un de ces sujets ?",
-      "Hmm... cela ne me dit rien. Essayez quelque chose comme : 'Où puis-je voir des bisons ?'",
-      "J’aurais besoin de plus d’informations. Demandez-moi par exemple les horaires ou les meilleurs sentiers.",
-      "Il semble y avoir une faute de frappe. Essayez à nouveau.",
-      "Je suis encore en train d’apprendre cela. Essayez une question comme si vous parliez à un habitant.",
-      "Je peux aider avec les directions, les animaux ou les geysers — essayez l’un de ces sujets.",
-      "Si vous utilisez une autre langue, je ne comprends pour l’instant que l’anglais, l’espagnol, le français et l’hindi.",
-      "Essayons plus simple : posez une question courte comme 'Randonnée facile près de Old Faithful ?'"
-    ],
-    "hi": [
-      "माफ़ कीजिए, मैं पूरी तरह नहीं समझ पाया — क्या आप दोबारा पूछ सकते हैं?",
-      "उफ़! लगता है मैं समझ नहीं पाया। कृपया सवाल को थोड़ा और स्पष्ट करें।",
-      "मैं आपकी मदद कर सकता हूँ वाइल्डलाइफ़, हाइकिंग, सुरक्षा सलाह और बहुत कुछ में — क्या आप इनमें से कुछ पूछना चाहेंगे?",
-      "हम्म... वो मुझे समझ में नहीं आया। कुछ ऐसा पूछें: 'मैं बाइसन कहाँ देख सकता हूँ?'",
-      "थोड़ी और जानकारी की ज़रूरत है। ट्रेकिंग, लॉजिंग या पार्क के समय के बारे में पूछें!",
-      "शायद उसमें टाइपो है। कृपया फिर से कोशिश करें।",
-      "मैं अभी वो सीख रहा हूँ! कोई स्थानीय व्यक्ति जैसे पूछे वैसे पूछें।",
-      "मैं दिशा, जानवरों या गीज़र के बारे में मदद कर सकता हूँ — उन्हीं में से कुछ पूछें।",
-      "यदि आप कोई और भाषा बोल रहे हैं, तो अभी मैं केवल अंग्रेज़ी, स्पेनिश, फ्रेंच और हिंदी समझता हूँ।",
-      "आसान रखें: छोटा सवाल पूछें जैसे 'Old Faithful के पास सबसे अच्छी हाइक कौन सी है?'"
-    ]
-  }
+  "fallbacks": [
+    {
+      "id": "fallback_1",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_2",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_3",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_4",
+      "category": "misheard_question",
+      "response": "Not quite sure what you\u2019re after\u2014could you try again with a few more words?"
+    },
+    {
+      "id": "fallback_5",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_6",
+      "category": "booking_issue",
+      "response": "Booking links might be down\u2014want me to try again or show other options?"
+    },
+    {
+      "id": "fallback_7",
+      "category": "language_barrier",
+      "response": "I\u2019m not quite following\u2014do you want to switch languages or simplify?"
+    },
+    {
+      "id": "fallback_8",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_9",
+      "category": "unsupported_request",
+      "response": "I\u2019m not sure I can do that yet, but I\u2019m learning fast!"
+    },
+    {
+      "id": "fallback_10",
+      "category": "language_barrier",
+      "response": "I\u2019m not quite following\u2014do you want to switch languages or simplify?"
+    },
+    {
+      "id": "fallback_11",
+      "category": "unsupported_request",
+      "response": "I\u2019m not sure I can do that yet, but I\u2019m learning fast!"
+    },
+    {
+      "id": "fallback_12",
+      "category": "language_barrier",
+      "response": "I\u2019m not quite following\u2014do you want to switch languages or simplify?"
+    },
+    {
+      "id": "fallback_13",
+      "category": "weather_unclear",
+      "response": "I couldn\u2019t get the weather for that spot\u2014should we check another area?"
+    },
+    {
+      "id": "fallback_14",
+      "category": "closed_location",
+      "response": "Looks like that place might be closed right now\u2014want nearby alternatives?"
+    },
+    {
+      "id": "fallback_15",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_16",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_17",
+      "category": "location_not_found",
+      "response": "That destination isn\u2019t showing up\u2014can you describe where it is?"
+    },
+    {
+      "id": "fallback_18",
+      "category": "weather_unclear",
+      "response": "That forecast didn\u2019t load. Want me to try again or switch towns?"
+    },
+    {
+      "id": "fallback_19",
+      "category": "weather_unclear",
+      "response": "Weather data is spotty at the moment. Want a quick forecast instead?"
+    },
+    {
+      "id": "fallback_20",
+      "category": "misheard_question",
+      "response": "Not quite sure what you\u2019re after\u2014could you try again with a few more words?"
+    },
+    {
+      "id": "fallback_21",
+      "category": "general_confusion",
+      "response": "Hmm, I\u2019m a bit lost. Can you clarify what you're asking?"
+    },
+    {
+      "id": "fallback_22",
+      "category": "closed_location",
+      "response": "Looks like that place might be closed right now\u2014want nearby alternatives?"
+    },
+    {
+      "id": "fallback_23",
+      "category": "general_confusion",
+      "response": "I didn't catch that\u2014could you ask it a different way?"
+    },
+    {
+      "id": "fallback_24",
+      "category": "unsupported_request",
+      "response": "I don\u2019t support that feature yet, but here\u2019s what I *can* help with..."
+    },
+    {
+      "id": "fallback_25",
+      "category": "general_confusion",
+      "response": "I'm not sure I understood that. Could you rephrase your travel question?"
+    },
+    {
+      "id": "fallback_26",
+      "category": "closed_location",
+      "response": "That\u2019s probably seasonal or temporarily closed. Want to look elsewhere?"
+    },
+    {
+      "id": "fallback_27",
+      "category": "language_barrier",
+      "response": "I think I lost something in translation. Want to try again in simpler words?"
+    },
+    {
+      "id": "fallback_28",
+      "category": "weather_unclear",
+      "response": "That forecast didn\u2019t load. Want me to try again or switch towns?"
+    },
+    {
+      "id": "fallback_29",
+      "category": "location_not_found",
+      "response": "Hmm, I don\u2019t see that location in my maps. Want to try a nearby town?"
+    },
+    {
+      "id": "fallback_30",
+      "category": "general_confusion",
+      "response": "I'm not sure I understood that. Could you rephrase your travel question?"
+    },
+    {
+      "id": "fallback_31",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_32",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_33",
+      "category": "weather_unclear",
+      "response": "I couldn\u2019t get the weather for that spot\u2014should we check another area?"
+    },
+    {
+      "id": "fallback_34",
+      "category": "weather_unclear",
+      "response": "I couldn\u2019t get the weather for that spot\u2014should we check another area?"
+    },
+    {
+      "id": "fallback_35",
+      "category": "general_confusion",
+      "response": "I'm not sure I understood that. Could you rephrase your travel question?"
+    },
+    {
+      "id": "fallback_36",
+      "category": "general_confusion",
+      "response": "Hmm, I\u2019m a bit lost. Can you clarify what you're asking?"
+    },
+    {
+      "id": "fallback_37",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_38",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_39",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_40",
+      "category": "general_confusion",
+      "response": "Hmm, I\u2019m a bit lost. Can you clarify what you're asking?"
+    },
+    {
+      "id": "fallback_41",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_42",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_43",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_44",
+      "category": "unsupported_request",
+      "response": "I don\u2019t support that feature yet, but here\u2019s what I *can* help with..."
+    },
+    {
+      "id": "fallback_45",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_46",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_47",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_48",
+      "category": "closed_location",
+      "response": "That\u2019s probably seasonal or temporarily closed. Want to look elsewhere?"
+    },
+    {
+      "id": "fallback_49",
+      "category": "language_barrier",
+      "response": "I think I lost something in translation. Want to try again in simpler words?"
+    },
+    {
+      "id": "fallback_50",
+      "category": "language_barrier",
+      "response": "I\u2019m not quite following\u2014do you want to switch languages or simplify?"
+    },
+    {
+      "id": "fallback_51",
+      "category": "misheard_question",
+      "response": "Not quite sure what you\u2019re after\u2014could you try again with a few more words?"
+    },
+    {
+      "id": "fallback_52",
+      "category": "general_confusion",
+      "response": "I didn't catch that\u2014could you ask it a different way?"
+    },
+    {
+      "id": "fallback_53",
+      "category": "location_not_found",
+      "response": "Hmm, I don\u2019t see that location in my maps. Want to try a nearby town?"
+    },
+    {
+      "id": "fallback_54",
+      "category": "closed_location",
+      "response": "That\u2019s probably seasonal or temporarily closed. Want to look elsewhere?"
+    },
+    {
+      "id": "fallback_55",
+      "category": "location_not_found",
+      "response": "That destination isn\u2019t showing up\u2014can you describe where it is?"
+    },
+    {
+      "id": "fallback_56",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_57",
+      "category": "language_barrier",
+      "response": "I think I lost something in translation. Want to try again in simpler words?"
+    },
+    {
+      "id": "fallback_58",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_59",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_60",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_61",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_62",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_63",
+      "category": "unsupported_request",
+      "response": "That\u2019s not something I can handle right now\u2014maybe try a different way?"
+    },
+    {
+      "id": "fallback_64",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_65",
+      "category": "general_confusion",
+      "response": "Hmm, I\u2019m a bit lost. Can you clarify what you're asking?"
+    },
+    {
+      "id": "fallback_66",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_67",
+      "category": "unsupported_request",
+      "response": "I\u2019m not sure I can do that yet, but I\u2019m learning fast!"
+    },
+    {
+      "id": "fallback_68",
+      "category": "weather_unclear",
+      "response": "Weather data is spotty at the moment. Want a quick forecast instead?"
+    },
+    {
+      "id": "fallback_69",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_70",
+      "category": "closed_location",
+      "response": "That\u2019s probably seasonal or temporarily closed. Want to look elsewhere?"
+    },
+    {
+      "id": "fallback_71",
+      "category": "general_confusion",
+      "response": "I didn't catch that\u2014could you ask it a different way?"
+    },
+    {
+      "id": "fallback_72",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_73",
+      "category": "location_not_found",
+      "response": "Hmm, I don\u2019t see that location in my maps. Want to try a nearby town?"
+    },
+    {
+      "id": "fallback_74",
+      "category": "general_confusion",
+      "response": "I didn't catch that\u2014could you ask it a different way?"
+    },
+    {
+      "id": "fallback_75",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_76",
+      "category": "weather_unclear",
+      "response": "I couldn\u2019t get the weather for that spot\u2014should we check another area?"
+    },
+    {
+      "id": "fallback_77",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_78",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_79",
+      "category": "activity_unknown",
+      "response": "That\u2019s not on my radar. How about I suggest some popular options?"
+    },
+    {
+      "id": "fallback_80",
+      "category": "general_confusion",
+      "response": "Hmm, I\u2019m a bit lost. Can you clarify what you're asking?"
+    },
+    {
+      "id": "fallback_81",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_82",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_83",
+      "category": "closed_location",
+      "response": "That\u2019s probably seasonal or temporarily closed. Want to look elsewhere?"
+    },
+    {
+      "id": "fallback_84",
+      "category": "general_confusion",
+      "response": "I'm not sure I understood that. Could you rephrase your travel question?"
+    },
+    {
+      "id": "fallback_85",
+      "category": "activity_unknown",
+      "response": "That activity doesn\u2019t ring a bell. Want to try something else to do nearby?"
+    },
+    {
+      "id": "fallback_86",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_87",
+      "category": "activity_unknown",
+      "response": "That activity doesn\u2019t ring a bell. Want to try something else to do nearby?"
+    },
+    {
+      "id": "fallback_88",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_89",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_90",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_91",
+      "category": "activity_unknown",
+      "response": "That\u2019s not on my radar. How about I suggest some popular options?"
+    },
+    {
+      "id": "fallback_92",
+      "category": "weather_unclear",
+      "response": "Weather data is spotty at the moment. Want a quick forecast instead?"
+    },
+    {
+      "id": "fallback_93",
+      "category": "location_not_found",
+      "response": "I couldn't find that place. Can you check the spelling or give me more details?"
+    },
+    {
+      "id": "fallback_94",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_95",
+      "category": "misheard_question",
+      "response": "Not quite sure what you\u2019re after\u2014could you try again with a few more words?"
+    },
+    {
+      "id": "fallback_96",
+      "category": "booking_issue",
+      "response": "Booking links might be down\u2014want me to try again or show other options?"
+    },
+    {
+      "id": "fallback_97",
+      "category": "unsupported_request",
+      "response": "I don\u2019t support that feature yet, but here\u2019s what I *can* help with..."
+    },
+    {
+      "id": "fallback_98",
+      "category": "location_not_found",
+      "response": "That destination isn\u2019t showing up\u2014can you describe where it is?"
+    },
+    {
+      "id": "fallback_99",
+      "category": "language_barrier",
+      "response": "I think I lost something in translation. Want to try again in simpler words?"
+    },
+    {
+      "id": "fallback_100",
+      "category": "activity_unknown",
+      "response": "That\u2019s not on my radar. How about I suggest some popular options?"
+    },
+    {
+      "id": "fallback_101",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_102",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_103",
+      "category": "weather_unclear",
+      "response": "I couldn\u2019t get the weather for that spot\u2014should we check another area?"
+    },
+    {
+      "id": "fallback_104",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_105",
+      "category": "booking_issue",
+      "response": "That didn\u2019t go through. Want to see similar places instead?"
+    },
+    {
+      "id": "fallback_106",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_107",
+      "category": "unsupported_request",
+      "response": "I don\u2019t support that feature yet, but here\u2019s what I *can* help with..."
+    },
+    {
+      "id": "fallback_108",
+      "category": "booking_issue",
+      "response": "That didn\u2019t go through. Want to see similar places instead?"
+    },
+    {
+      "id": "fallback_109",
+      "category": "closed_location",
+      "response": "That\u2019s probably seasonal or temporarily closed. Want to look elsewhere?"
+    },
+    {
+      "id": "fallback_110",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_111",
+      "category": "closed_location",
+      "response": "Looks like that place might be closed right now\u2014want nearby alternatives?"
+    },
+    {
+      "id": "fallback_112",
+      "category": "general_confusion",
+      "response": "I'm not sure I understood that. Could you rephrase your travel question?"
+    },
+    {
+      "id": "fallback_113",
+      "category": "misheard_question",
+      "response": "Not quite sure what you\u2019re after\u2014could you try again with a few more words?"
+    },
+    {
+      "id": "fallback_114",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_115",
+      "category": "location_not_found",
+      "response": "I couldn't find that place. Can you check the spelling or give me more details?"
+    },
+    {
+      "id": "fallback_116",
+      "category": "activity_unknown",
+      "response": "That activity doesn\u2019t ring a bell. Want to try something else to do nearby?"
+    },
+    {
+      "id": "fallback_117",
+      "category": "location_not_found",
+      "response": "Hmm, I don\u2019t see that location in my maps. Want to try a nearby town?"
+    },
+    {
+      "id": "fallback_118",
+      "category": "closed_location",
+      "response": "That\u2019s probably seasonal or temporarily closed. Want to look elsewhere?"
+    },
+    {
+      "id": "fallback_119",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_120",
+      "category": "booking_issue",
+      "response": "Hmm, I hit a snag booking that. Want to try another lodging option?"
+    },
+    {
+      "id": "fallback_121",
+      "category": "booking_issue",
+      "response": "That didn\u2019t go through. Want to see similar places instead?"
+    },
+    {
+      "id": "fallback_122",
+      "category": "closed_location",
+      "response": "That\u2019s probably seasonal or temporarily closed. Want to look elsewhere?"
+    },
+    {
+      "id": "fallback_123",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_124",
+      "category": "weather_unclear",
+      "response": "I couldn\u2019t get the weather for that spot\u2014should we check another area?"
+    },
+    {
+      "id": "fallback_125",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_126",
+      "category": "unsupported_request",
+      "response": "I don\u2019t support that feature yet, but here\u2019s what I *can* help with..."
+    },
+    {
+      "id": "fallback_127",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_128",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_129",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_130",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_131",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_132",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_133",
+      "category": "general_confusion",
+      "response": "Hmm, I\u2019m a bit lost. Can you clarify what you're asking?"
+    },
+    {
+      "id": "fallback_134",
+      "category": "activity_unknown",
+      "response": "That\u2019s not on my radar. How about I suggest some popular options?"
+    },
+    {
+      "id": "fallback_135",
+      "category": "booking_issue",
+      "response": "Booking links might be down\u2014want me to try again or show other options?"
+    },
+    {
+      "id": "fallback_136",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_137",
+      "category": "activity_unknown",
+      "response": "That activity doesn\u2019t ring a bell. Want to try something else to do nearby?"
+    },
+    {
+      "id": "fallback_138",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_139",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_140",
+      "category": "booking_issue",
+      "response": "Hmm, I hit a snag booking that. Want to try another lodging option?"
+    },
+    {
+      "id": "fallback_141",
+      "category": "weather_unclear",
+      "response": "Weather data is spotty at the moment. Want a quick forecast instead?"
+    },
+    {
+      "id": "fallback_142",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_143",
+      "category": "misheard_question",
+      "response": "Not quite sure what you\u2019re after\u2014could you try again with a few more words?"
+    },
+    {
+      "id": "fallback_144",
+      "category": "location_not_found",
+      "response": "I couldn't find that place. Can you check the spelling or give me more details?"
+    },
+    {
+      "id": "fallback_145",
+      "category": "weather_unclear",
+      "response": "That forecast didn\u2019t load. Want me to try again or switch towns?"
+    },
+    {
+      "id": "fallback_146",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_147",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_148",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_149",
+      "category": "unsupported_request",
+      "response": "I don\u2019t support that feature yet, but here\u2019s what I *can* help with..."
+    },
+    {
+      "id": "fallback_150",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_151",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_152",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_153",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_154",
+      "category": "misheard_question",
+      "response": "Not quite sure what you\u2019re after\u2014could you try again with a few more words?"
+    },
+    {
+      "id": "fallback_155",
+      "category": "language_barrier",
+      "response": "I think I lost something in translation. Want to try again in simpler words?"
+    },
+    {
+      "id": "fallback_156",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_157",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_158",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_159",
+      "category": "location_not_found",
+      "response": "Hmm, I don\u2019t see that location in my maps. Want to try a nearby town?"
+    },
+    {
+      "id": "fallback_160",
+      "category": "misheard_question",
+      "response": "Not quite sure what you\u2019re after\u2014could you try again with a few more words?"
+    },
+    {
+      "id": "fallback_161",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_162",
+      "category": "booking_issue",
+      "response": "Hmm, I hit a snag booking that. Want to try another lodging option?"
+    },
+    {
+      "id": "fallback_163",
+      "category": "activity_unknown",
+      "response": "That activity doesn\u2019t ring a bell. Want to try something else to do nearby?"
+    },
+    {
+      "id": "fallback_164",
+      "category": "activity_unknown",
+      "response": "That\u2019s not on my radar. How about I suggest some popular options?"
+    },
+    {
+      "id": "fallback_165",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_166",
+      "category": "weather_unclear",
+      "response": "That forecast didn\u2019t load. Want me to try again or switch towns?"
+    },
+    {
+      "id": "fallback_167",
+      "category": "unsupported_request",
+      "response": "That\u2019s not something I can handle right now\u2014maybe try a different way?"
+    },
+    {
+      "id": "fallback_168",
+      "category": "general_confusion",
+      "response": "I'm not sure I understood that. Could you rephrase your travel question?"
+    },
+    {
+      "id": "fallback_169",
+      "category": "activity_unknown",
+      "response": "That\u2019s not on my radar. How about I suggest some popular options?"
+    },
+    {
+      "id": "fallback_170",
+      "category": "booking_issue",
+      "response": "Hmm, I hit a snag booking that. Want to try another lodging option?"
+    },
+    {
+      "id": "fallback_171",
+      "category": "language_barrier",
+      "response": "I\u2019m not quite following\u2014do you want to switch languages or simplify?"
+    },
+    {
+      "id": "fallback_172",
+      "category": "location_not_found",
+      "response": "That destination isn\u2019t showing up\u2014can you describe where it is?"
+    },
+    {
+      "id": "fallback_173",
+      "category": "unsupported_request",
+      "response": "I\u2019m not sure I can do that yet, but I\u2019m learning fast!"
+    },
+    {
+      "id": "fallback_174",
+      "category": "booking_issue",
+      "response": "Hmm, I hit a snag booking that. Want to try another lodging option?"
+    },
+    {
+      "id": "fallback_175",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_176",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_177",
+      "category": "unsupported_request",
+      "response": "I\u2019m not sure I can do that yet, but I\u2019m learning fast!"
+    },
+    {
+      "id": "fallback_178",
+      "category": "general_confusion",
+      "response": "I didn't catch that\u2014could you ask it a different way?"
+    },
+    {
+      "id": "fallback_179",
+      "category": "booking_issue",
+      "response": "That didn\u2019t go through. Want to see similar places instead?"
+    },
+    {
+      "id": "fallback_180",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_181",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_182",
+      "category": "activity_unknown",
+      "response": "That\u2019s not on my radar. How about I suggest some popular options?"
+    },
+    {
+      "id": "fallback_183",
+      "category": "location_not_found",
+      "response": "That destination isn\u2019t showing up\u2014can you describe where it is?"
+    },
+    {
+      "id": "fallback_184",
+      "category": "booking_issue",
+      "response": "Hmm, I hit a snag booking that. Want to try another lodging option?"
+    },
+    {
+      "id": "fallback_185",
+      "category": "booking_issue",
+      "response": "Hmm, I hit a snag booking that. Want to try another lodging option?"
+    },
+    {
+      "id": "fallback_186",
+      "category": "weather_unclear",
+      "response": "That forecast didn\u2019t load. Want me to try again or switch towns?"
+    },
+    {
+      "id": "fallback_187",
+      "category": "booking_issue",
+      "response": "Booking links might be down\u2014want me to try again or show other options?"
+    },
+    {
+      "id": "fallback_188",
+      "category": "general_confusion",
+      "response": "I didn't catch that\u2014could you ask it a different way?"
+    },
+    {
+      "id": "fallback_189",
+      "category": "weather_unclear",
+      "response": "I couldn\u2019t get the weather for that spot\u2014should we check another area?"
+    },
+    {
+      "id": "fallback_190",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_191",
+      "category": "booking_issue",
+      "response": "That didn\u2019t go through. Want to see similar places instead?"
+    },
+    {
+      "id": "fallback_192",
+      "category": "unsupported_request",
+      "response": "That\u2019s not something I can handle right now\u2014maybe try a different way?"
+    },
+    {
+      "id": "fallback_193",
+      "category": "misheard_question",
+      "response": "Not quite sure what you\u2019re after\u2014could you try again with a few more words?"
+    },
+    {
+      "id": "fallback_194",
+      "category": "general_confusion",
+      "response": "I didn't catch that\u2014could you ask it a different way?"
+    },
+    {
+      "id": "fallback_195",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_196",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_197",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_198",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_199",
+      "category": "language_barrier",
+      "response": "I think I lost something in translation. Want to try again in simpler words?"
+    },
+    {
+      "id": "fallback_200",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_201",
+      "category": "activity_unknown",
+      "response": "That\u2019s not on my radar. How about I suggest some popular options?"
+    },
+    {
+      "id": "fallback_202",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_203",
+      "category": "language_barrier",
+      "response": "I\u2019m not quite following\u2014do you want to switch languages or simplify?"
+    },
+    {
+      "id": "fallback_204",
+      "category": "activity_unknown",
+      "response": "That\u2019s not on my radar. How about I suggest some popular options?"
+    },
+    {
+      "id": "fallback_205",
+      "category": "unsupported_request",
+      "response": "That\u2019s not something I can handle right now\u2014maybe try a different way?"
+    },
+    {
+      "id": "fallback_206",
+      "category": "location_not_found",
+      "response": "I couldn't find that place. Can you check the spelling or give me more details?"
+    },
+    {
+      "id": "fallback_207",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_208",
+      "category": "closed_location",
+      "response": "That\u2019s probably seasonal or temporarily closed. Want to look elsewhere?"
+    },
+    {
+      "id": "fallback_209",
+      "category": "booking_issue",
+      "response": "Hmm, I hit a snag booking that. Want to try another lodging option?"
+    },
+    {
+      "id": "fallback_210",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_211",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_212",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_213",
+      "category": "weather_unclear",
+      "response": "Weather data is spotty at the moment. Want a quick forecast instead?"
+    },
+    {
+      "id": "fallback_214",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_215",
+      "category": "location_not_found",
+      "response": "That destination isn\u2019t showing up\u2014can you describe where it is?"
+    },
+    {
+      "id": "fallback_216",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_217",
+      "category": "booking_issue",
+      "response": "Booking links might be down\u2014want me to try again or show other options?"
+    },
+    {
+      "id": "fallback_218",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_219",
+      "category": "weather_unclear",
+      "response": "Weather data is spotty at the moment. Want a quick forecast instead?"
+    },
+    {
+      "id": "fallback_220",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_221",
+      "category": "location_not_found",
+      "response": "I couldn't find that place. Can you check the spelling or give me more details?"
+    },
+    {
+      "id": "fallback_222",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_223",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_224",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_225",
+      "category": "language_barrier",
+      "response": "I\u2019m not quite following\u2014do you want to switch languages or simplify?"
+    },
+    {
+      "id": "fallback_226",
+      "category": "booking_issue",
+      "response": "Hmm, I hit a snag booking that. Want to try another lodging option?"
+    },
+    {
+      "id": "fallback_227",
+      "category": "language_barrier",
+      "response": "I think I lost something in translation. Want to try again in simpler words?"
+    },
+    {
+      "id": "fallback_228",
+      "category": "weather_unclear",
+      "response": "That forecast didn\u2019t load. Want me to try again or switch towns?"
+    },
+    {
+      "id": "fallback_229",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_230",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_231",
+      "category": "weather_unclear",
+      "response": "Weather data is spotty at the moment. Want a quick forecast instead?"
+    },
+    {
+      "id": "fallback_232",
+      "category": "activity_unknown",
+      "response": "That activity doesn\u2019t ring a bell. Want to try something else to do nearby?"
+    },
+    {
+      "id": "fallback_233",
+      "category": "weather_unclear",
+      "response": "I couldn\u2019t get the weather for that spot\u2014should we check another area?"
+    },
+    {
+      "id": "fallback_234",
+      "category": "weather_unclear",
+      "response": "That forecast didn\u2019t load. Want me to try again or switch towns?"
+    },
+    {
+      "id": "fallback_235",
+      "category": "general_confusion",
+      "response": "I didn't catch that\u2014could you ask it a different way?"
+    },
+    {
+      "id": "fallback_236",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_237",
+      "category": "language_barrier",
+      "response": "I think I lost something in translation. Want to try again in simpler words?"
+    },
+    {
+      "id": "fallback_238",
+      "category": "closed_location",
+      "response": "Looks like that place might be closed right now\u2014want nearby alternatives?"
+    },
+    {
+      "id": "fallback_239",
+      "category": "language_barrier",
+      "response": "I\u2019m not quite following\u2014do you want to switch languages or simplify?"
+    },
+    {
+      "id": "fallback_240",
+      "category": "unsupported_request",
+      "response": "That\u2019s not something I can handle right now\u2014maybe try a different way?"
+    },
+    {
+      "id": "fallback_241",
+      "category": "general_confusion",
+      "response": "I didn't catch that\u2014could you ask it a different way?"
+    },
+    {
+      "id": "fallback_242",
+      "category": "general_confusion",
+      "response": "I didn't catch that\u2014could you ask it a different way?"
+    },
+    {
+      "id": "fallback_243",
+      "category": "booking_issue",
+      "response": "Booking links might be down\u2014want me to try again or show other options?"
+    },
+    {
+      "id": "fallback_244",
+      "category": "language_barrier",
+      "response": "I\u2019m not quite following\u2014do you want to switch languages or simplify?"
+    },
+    {
+      "id": "fallback_245",
+      "category": "language_barrier",
+      "response": "I\u2019m not quite following\u2014do you want to switch languages or simplify?"
+    },
+    {
+      "id": "fallback_246",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_247",
+      "category": "location_not_found",
+      "response": "Hmm, I don\u2019t see that location in my maps. Want to try a nearby town?"
+    },
+    {
+      "id": "fallback_248",
+      "category": "general_confusion",
+      "response": "I'm not sure I understood that. Could you rephrase your travel question?"
+    },
+    {
+      "id": "fallback_249",
+      "category": "weather_unclear",
+      "response": "I couldn\u2019t get the weather for that spot\u2014should we check another area?"
+    },
+    {
+      "id": "fallback_250",
+      "category": "activity_unknown",
+      "response": "That activity doesn\u2019t ring a bell. Want to try something else to do nearby?"
+    },
+    {
+      "id": "fallback_251",
+      "category": "language_barrier",
+      "response": "I\u2019m not quite following\u2014do you want to switch languages or simplify?"
+    },
+    {
+      "id": "fallback_252",
+      "category": "booking_issue",
+      "response": "Hmm, I hit a snag booking that. Want to try another lodging option?"
+    },
+    {
+      "id": "fallback_253",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_254",
+      "category": "general_confusion",
+      "response": "I didn't catch that\u2014could you ask it a different way?"
+    },
+    {
+      "id": "fallback_255",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_256",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_257",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_258",
+      "category": "weather_unclear",
+      "response": "That forecast didn\u2019t load. Want me to try again or switch towns?"
+    },
+    {
+      "id": "fallback_259",
+      "category": "weather_unclear",
+      "response": "That forecast didn\u2019t load. Want me to try again or switch towns?"
+    },
+    {
+      "id": "fallback_260",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_261",
+      "category": "weather_unclear",
+      "response": "I couldn\u2019t get the weather for that spot\u2014should we check another area?"
+    },
+    {
+      "id": "fallback_262",
+      "category": "language_barrier",
+      "response": "Let\u2019s try that again\u2014feel free to rephrase it."
+    },
+    {
+      "id": "fallback_263",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_264",
+      "category": "general_confusion",
+      "response": "Hmm, I\u2019m a bit lost. Can you clarify what you're asking?"
+    },
+    {
+      "id": "fallback_265",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_266",
+      "category": "language_barrier",
+      "response": "I think I lost something in translation. Want to try again in simpler words?"
+    },
+    {
+      "id": "fallback_267",
+      "category": "unsupported_request",
+      "response": "I\u2019m not sure I can do that yet, but I\u2019m learning fast!"
+    },
+    {
+      "id": "fallback_268",
+      "category": "booking_issue",
+      "response": "Booking links might be down\u2014want me to try again or show other options?"
+    },
+    {
+      "id": "fallback_269",
+      "category": "activity_unknown",
+      "response": "That\u2019s not on my radar. How about I suggest some popular options?"
+    },
+    {
+      "id": "fallback_270",
+      "category": "closed_location",
+      "response": "Looks like that place might be closed right now\u2014want nearby alternatives?"
+    },
+    {
+      "id": "fallback_271",
+      "category": "misheard_question",
+      "response": "Not quite sure what you\u2019re after\u2014could you try again with a few more words?"
+    },
+    {
+      "id": "fallback_272",
+      "category": "unsupported_request",
+      "response": "I\u2019m not sure I can do that yet, but I\u2019m learning fast!"
+    },
+    {
+      "id": "fallback_273",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_274",
+      "category": "weather_unclear",
+      "response": "I couldn\u2019t get the weather for that spot\u2014should we check another area?"
+    },
+    {
+      "id": "fallback_275",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_276",
+      "category": "weather_unclear",
+      "response": "Weather data is spotty at the moment. Want a quick forecast instead?"
+    },
+    {
+      "id": "fallback_277",
+      "category": "misheard_question",
+      "response": "Did you mean a hike, a restaurant, or something else?"
+    },
+    {
+      "id": "fallback_278",
+      "category": "missing_dates",
+      "response": "Let\u2019s get your dates down first\u2014then I can show you what\u2019s available."
+    },
+    {
+      "id": "fallback_279",
+      "category": "activity_unknown",
+      "response": "That\u2019s not on my radar. How about I suggest some popular options?"
+    },
+    {
+      "id": "fallback_280",
+      "category": "misheard_question",
+      "response": "Not quite sure what you\u2019re after\u2014could you try again with a few more words?"
+    },
+    {
+      "id": "fallback_281",
+      "category": "location_not_found",
+      "response": "That destination isn\u2019t showing up\u2014can you describe where it is?"
+    },
+    {
+      "id": "fallback_282",
+      "category": "unsupported_request",
+      "response": "I\u2019m not sure I can do that yet, but I\u2019m learning fast!"
+    },
+    {
+      "id": "fallback_283",
+      "category": "unsupported_request",
+      "response": "I don\u2019t support that feature yet, but here\u2019s what I *can* help with..."
+    },
+    {
+      "id": "fallback_284",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_285",
+      "category": "misheard_question",
+      "response": "I\u2019m not sure if you meant food, lodging, or fun\u2014can you clarify?"
+    },
+    {
+      "id": "fallback_286",
+      "category": "weather_unclear",
+      "response": "That forecast didn\u2019t load. Want me to try again or switch towns?"
+    },
+    {
+      "id": "fallback_287",
+      "category": "weather_unclear",
+      "response": "That forecast didn\u2019t load. Want me to try again or switch towns?"
+    },
+    {
+      "id": "fallback_288",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_289",
+      "category": "booking_issue",
+      "response": "Hmm, I hit a snag booking that. Want to try another lodging option?"
+    },
+    {
+      "id": "fallback_290",
+      "category": "location_not_found",
+      "response": "Hmm, I don\u2019t see that location in my maps. Want to try a nearby town?"
+    },
+    {
+      "id": "fallback_291",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_292",
+      "category": "activity_unknown",
+      "response": "I don\u2019t know that one\u2014could you give me a few more details?"
+    },
+    {
+      "id": "fallback_293",
+      "category": "closed_location",
+      "response": "Let me check\u2014sometimes those spots shut down mid-week or off-season."
+    },
+    {
+      "id": "fallback_294",
+      "category": "general_confusion",
+      "response": "I'm not sure I understood that. Could you rephrase your travel question?"
+    },
+    {
+      "id": "fallback_295",
+      "category": "missing_dates",
+      "response": "I need a date to get you the best options. What\u2019s your travel window?"
+    },
+    {
+      "id": "fallback_296",
+      "category": "closed_location",
+      "response": "That\u2019s probably seasonal or temporarily closed. Want to look elsewhere?"
+    },
+    {
+      "id": "fallback_297",
+      "category": "general_confusion",
+      "response": "I'm not sure I understood that. Could you rephrase your travel question?"
+    },
+    {
+      "id": "fallback_298",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    },
+    {
+      "id": "fallback_299",
+      "category": "unsupported_request",
+      "response": "That\u2019s not something I can handle right now\u2014maybe try a different way?"
+    },
+    {
+      "id": "fallback_300",
+      "category": "missing_dates",
+      "response": "Could you tell me when you're traveling? That\u2019ll help me help you."
+    }
+  ]
 }
