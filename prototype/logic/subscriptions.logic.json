@@ -1,0 +1,209 @@
+{
+  "intent": "subscriptions",
+  "qa": [
+    {
+      "question": "How much does YellowRoam cost?",
+      "answer": "YellowRoam has four tiers: Free, Explorer ($2.99/mo or $29/yr), Pathfinder ($7.99/mo or $69/yr), and Trailblazer Lifetime ($169 once)."
+    },
+    {
+      "question": "What are the subscription options?",
+      "answer": "Yes! The Free plan includes basic trip tools. Explorer adds multilingual filters. Pathfinder includes campground and RV tools. Trailblazer gives lifetime access plus concierge add-on eligibility."
+    },
+    {
+      "question": "Tell me about the Free plan",
+      "answer": "The Free plan includes planning, 5 saved trips, and travel alerts. Great for day-trippers."
+    },
+    {
+      "question": "What's included in Explorer?",
+      "answer": "Explorer adds 30 saved trips, multilingual support, and filters for pet- and kid-friendliness."
+    },
+    {
+      "question": "What's the difference between Explorer and Pathfinder?",
+      "answer": "Pathfinder builds on Explorer with campground booking, RV route planning, trail ratings, and gear checklists."
+    },
+    {
+      "question": "Do you offer a lifetime plan?",
+      "answer": "Yes\u2014Trailblazer is a one-time $169 fee for lifetime access. No subscriptions ever."
+    },
+    {
+      "question": "How does the concierge service work?",
+      "answer": "Our Concierge Add-On (only for Pathfinder and Trailblazer users) helps with booking hotels, RV spots, and more\u2014for a small support fee."
+    },
+    {
+      "question": "Is the app really free?",
+      "answer": "Yes\u2014there\u2019s always a Free plan with helpful features. No credit card needed."
+    },
+    {
+      "question": "What do I get if I upgrade?",
+      "answer": "Upgrading gives you access to more saved trips, filters, planning tools, and booking help."
+    },
+    {
+      "question": "How do I cancel my subscription?",
+      "answer": "Cancel anytime through your account settings. We\u2019ll remind you before renewal."
+    },
+    {
+      "question": "Can I switch plans?",
+      "answer": "You can upgrade or downgrade plans at any time. Your changes take effect on the next billing cycle."
+    },
+    {
+      "question": "Is the concierge service worth it?",
+      "answer": "Yes, especially if you want a human to help with complex bookings or route planning."
+    },
+    {
+      "question": "Do you offer refunds?",
+      "answer": "Refunds are available within the first 7 days of paid plans. Contact support for help."
+    },
+    {
+      "question": "What happens if I lose signal in the park?",
+      "answer": "Offline mode is in development. For now, you can pre-load your itinerary to use with low signal."
+    },
+    {
+      "question": "How many trips can I save?",
+      "answer": "Free = 5 trips, Explorer = 30, Pathfinder/Trailblazer = Unlimited."
+    },
+    {
+      "question": "Can I use the app offline?",
+      "answer": "Offline support is being added soon. Trip data will still show if preloaded."
+    },
+    {
+      "question": "Is this just for Yellowstone?",
+      "answer": "YellowRoam covers the entire Yellowstone loop, Grand Teton, and surrounding towns like Bozeman and Cody."
+    },
+    {
+      "question": "What makes YellowRoam different?",
+      "answer": "It\u2019s built *just* for Yellowstone travelers, with filters and features generic apps miss."
+    },
+    {
+      "question": "What is included in Trailblazer?",
+      "answer": "Trailblazer includes all features, future updates, and access to concierge booking support."
+    },
+    {
+      "question": "Can I book campgrounds with YellowRoam?",
+      "answer": "Yes, Pathfinder and Trailblazer users can access booking help for popular campgrounds."
+    },
+    {
+      "question": "What if I need help booking a hotel?",
+      "answer": "Absolutely\u2014our concierge team can help book hotels, glamping spots, or remote stays."
+    },
+    {
+      "question": "Can I upgrade at any time?",
+      "answer": "Yep! You can upgrade at any time and keep your saved trips."
+    },
+    {
+      "question": "Are there discounts for families?",
+      "answer": "Not yet, but we\u2019re working on family pricing bundles soon."
+    },
+    {
+      "question": "Do I get early access with any plan?",
+      "answer": "Trailblazer users get first access to new features, beta tools, and upgrades."
+    },
+    {
+      "question": "What happens when the Founding rates end?",
+      "answer": "Founding rates are temporary. Lock in your price now before public launch pricing begins."
+    },
+    {
+      "question": "What if I travel with pets?",
+      "answer": "Yes! Our filters show dog-friendly hikes, stays, and dining options."
+    },
+    {
+      "question": "Can kids use this?",
+      "answer": "Kid-friendly trails, food, and maps are built into Explorer and above."
+    },
+    {
+      "question": "Is this app for RV travelers?",
+      "answer": "Pathfinder and Trailblazer are great for RVs\u2014includes route planning and dump stations."
+    },
+    {
+      "question": "What if I need gluten-free options?",
+      "answer": "Yes\u2014our filters include gluten-free, vegan, and allergy-friendly food recs."
+    },
+    {
+      "question": "Can I use this in Grand Teton too?",
+      "answer": "Yes! Grand Teton is fully included with hikes, wildlife tips, and lodging."
+    },
+    {
+      "question": "How does billing work?",
+      "answer": "Billing is monthly or yearly depending on your plan. No hidden fees."
+    },
+    {
+      "question": "Will my data be saved?",
+      "answer": "All saved trips and preferences stay synced to your account."
+    },
+    {
+      "question": "Do you send email reminders?",
+      "answer": "Yes, we\u2019ll send reminders before renewals and special alerts during your trip."
+    },
+    {
+      "question": "Does the app support different languages?",
+      "answer": "Explorer and above offer full multilingual support\u2014including Hindi and Swedish."
+    },
+    {
+      "question": "How do I contact support?",
+      "answer": "Use the RoamReach form to get help, or upgrade for concierge support."
+    },
+    {
+      "question": "Can I gift a subscription?",
+      "answer": "Gifting will be available soon. Stay tuned for a Trailblazer gift pass."
+    },
+    {
+      "question": "What's the best plan for a 10-day trip?",
+      "answer": "Explorer is great for shorter trips, Pathfinder or Trailblazer for full park loops."
+    },
+    {
+      "question": "What are local tips?",
+      "answer": "Local tips are included for each destination\u2014hidden hikes, scenic stops, and insider recs."
+    },
+    {
+      "question": "Do you help with hiking plans?",
+      "answer": "Yes! We help plan hikes by difficulty and interest. Great for families and adventurers."
+    },
+    {
+      "question": "Can I use YellowRoam for group travel?",
+      "answer": "Group travel tools are in development, but you can share itineraries easily now."
+    },
+    {
+      "question": "Does the Free plan expire?",
+      "answer": "Nope\u2014Free plan stays free as long as you want it."
+    },
+    {
+      "question": "Is there a yearly version of Explorer?",
+      "answer": "Yes, Explorer is available for $2.99/month or $29/year\u2014you pick."
+    },
+    {
+      "question": "Do you charge sales tax?",
+      "answer": "We only charge tax where legally required. Most states don't apply sales tax to apps."
+    },
+    {
+      "question": "Is the lifetime plan really one-time?",
+      "answer": "Yes, Trailblazer is a true one-time fee. You pay once\u2014never again."
+    },
+    {
+      "question": "What if I want to downgrade?",
+      "answer": "Downgrading is easy and takes effect after your billing cycle ends."
+    },
+    {
+      "question": "How often do features get updated?",
+      "answer": "We release new features and updates every 2\u20134 weeks, based on user feedback."
+    },
+    {
+      "question": "Will I lose data if I cancel?",
+      "answer": "Your data stays safe\u2014even if you cancel, your trips are stored in case you come back."
+    },
+    {
+      "question": "What does unlimited trips mean?",
+      "answer": "Unlimited trips means you can save as many full itineraries as you want\u2014no limits."
+    },
+    {
+      "question": "Does concierge include phone support?",
+      "answer": "Concierge is mostly chat- and email-based now, with phone support in development."
+    },
+    {
+      "question": "Can I use this while driving?",
+      "answer": "Yes! Use the app in your vehicle with pre-loaded maps and safe driving mode."
+    },
+    {
+      "question": "Do I have to log in every time?",
+      "answer": "Nope\u2014once you\u2019re logged in, you\u2019ll stay logged in unless you clear your browser or app settings."
+    }
+  ]
+}
