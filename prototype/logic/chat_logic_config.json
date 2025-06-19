@@ -1,0 +1,273 @@
+{
+  "intents": {
+    "weather": [
+      "what\u2019s the weather",
+      "weather forecast",
+      "temperature in",
+      "climate like",
+      "snowfall prediction"
+    ],
+    "lodging": [
+      "where to stay",
+      "find a hotel",
+      "budget motel",
+      "best airbnb"
+    ],
+    "food": [
+      "where to eat",
+      "best restaurants",
+      "gluten-free options",
+      "local cuisine"
+    ],
+    "wildlife": [
+      "see bears",
+      "find wolves",
+      "spot bison",
+      "animal watching"
+    ],
+    "gear": [
+      "what should I pack",
+      "hiking checklist",
+      "gear for Yellowstone"
+    ],
+    "emergency": [
+      "injured",
+      "lost",
+      "911",
+      "attacked",
+      "bitten"
+    ],
+    "routes": [
+      "driving loop",
+      "best road",
+      "scenic route",
+      "route planner"
+    ],
+    "kid_friendly": [
+      "activities for kids",
+      "kid friendly hike",
+      "traveling with children"
+    ],
+    "photo": [
+      "best photo spots",
+      "sunset",
+      "scenic view",
+      "Instagram-worthy"
+    ],
+    "events": [
+      "farmer's market",
+      "music festival",
+      "4th of July",
+      "holiday event"
+    ]
+  },
+  "keywords": {
+    "wildlife": [
+      "bear",
+      "bison",
+      "elk",
+      "wolf",
+      "moose",
+      "coyote",
+      "eagle"
+    ],
+    "food": [
+      "steak",
+      "breakfast",
+      "brewery",
+      "coffee",
+      "ice cream",
+      "barbecue"
+    ],
+    "lodging": [
+      "hotel",
+      "motel",
+      "airbnb",
+      "cabin",
+      "glamping",
+      "campground"
+    ],
+    "seasons": [
+      "summer",
+      "winter",
+      "spring",
+      "fall"
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "skiing",
+      "swimming",
+      "kayaking",
+      "horseback"
+    ],
+    "transport": [
+      "shuttle",
+      "car rental",
+      "bike",
+      "bus",
+      "RV"
+    ]
+  },
+  "tier_features": {
+    "free": [
+      "basic chat",
+      "local tips",
+      "weather updates"
+    ],
+    "explorer": [
+      "saved trips",
+      "language support",
+      "family filters",
+      "food/lodging recs"
+    ],
+    "pathfinder": [
+      "campground booking",
+      "gear checklist",
+      "RV route planner",
+      "trail difficulty"
+    ],
+    "trailblazer": [
+      "lifetime access",
+      "offline mode",
+      "priority updates",
+      "concierge access"
+    ]
+  },
+  "regional_context": {
+    "bozeman": {
+      "tags": [
+        "hiking",
+        "coffee",
+        "brewery",
+        "skiing",
+        "remote work"
+      ],
+      "elevation_ft": 4820
+    },
+    "jackson": {
+      "tags": [
+        "wildlife",
+        "luxury",
+        "rafting",
+        "Grand Teton access"
+      ],
+      "elevation_ft": 6237
+    },
+    "cody": {
+      "tags": [
+        "rodeo",
+        "museums",
+        "Old West",
+        "Yellowstone gateway"
+      ],
+      "elevation_ft": 5016
+    },
+    "west_yellowstone": {
+      "tags": [
+        "tourist hub",
+        "souvenir shops",
+        "snowmobile"
+      ],
+      "elevation_ft": 6664
+    },
+    "gardiner": {
+      "tags": [
+        "north entrance",
+        "Mammoth access",
+        "budget lodging"
+      ],
+      "elevation_ft": 5275
+    }
+  },
+  "seasonal_logic": {
+    "june": {
+      "open_trails": [
+        "Lava Creek",
+        "Mystic Falls",
+        "Uncle Tom's"
+      ],
+      "warnings": [
+        "muddy paths",
+        "high runoff"
+      ]
+    },
+    "december": {
+      "closures": [
+        "Dunraven Pass",
+        "Beartooth Hwy"
+      ],
+      "activities": [
+        "cross-country ski",
+        "wildlife photography"
+      ]
+    },
+    "september": {
+      "highlights": [
+        "elk rut",
+        "cool mornings"
+      ],
+      "recommended": [
+        "Tower Fall hike",
+        "Hayden Valley",
+        "Scenic drives"
+      ]
+    }
+  },
+  "languages": [
+    "en",
+    "es",
+    "fr",
+    "hi",
+    "sv"
+  ],
+  "engagement_levels": {
+    "low": 0.1,
+    "medium": 0.5,
+    "high": 0.9
+  },
+  "emergency_terms": [
+    "injured",
+    "attacked",
+    "lost",
+    "911",
+    "hospital",
+    "ranger"
+  ],
+  "travel_styles": {
+    "rustic": [
+      "tent camping",
+      "forest cabins",
+      "hike-in sites"
+    ],
+    "adventurous": [
+      "backpacking",
+      "whitewater",
+      "off-grid"
+    ],
+    "family": [
+      "kid zones",
+      "short hikes",
+      "easy access"
+    ],
+    "luxury": [
+      "spa",
+      "lodge",
+      "resort",
+      "fine dining"
+    ],
+    "romantic": [
+      "sunset points",
+      "picnic spots",
+      "private hot springs"
+    ]
+  },
+  "subscriptions": {
+    "FAQ": [
+      "Is there a free version?",
+      "What do I get with Trailblazer?",
+      "Can I cancel anytime?",
+      "Do you offer family sharing?"
+    ]
+  }
+}
