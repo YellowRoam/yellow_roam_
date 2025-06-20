@@ -1,0 +1,394 @@
+{
+  "trails": [
+    {
+      "name": "Hyalite Creek Trail",
+      "location": "Hyalite Canyon Rd, Bozeman, MT",
+      "apple_maps_link": "https://maps.apple.com/?q=Hyalite+Creek+Trail+Bozeman",
+      "difficulty": "moderate",
+      "length_miles": 11.0,
+      "top_10_reasons_to_love": [
+        "Multiple waterfalls along the route",
+        "Follows a scenic creek through dense forest",
+        "Popular with both locals and visitors",
+        "Wildflowers in summer months",
+        "Cool and shaded trail for hot days",
+        "Moderate elevation gain, good workout",
+        "Dog-friendly with water access",
+        "Accessible from Bozeman in under 30 minutes",
+        "Well-marked and maintained trail",
+        "Perfect for photography and nature lovers"
+      ],
+      "tags": [
+        "waterfalls",
+        "dog_friendly",
+        "scenic",
+        "moderate",
+        "family_friendly"
+      ]
+    },
+    {
+      "name": "Sypes Canyon Trail",
+      "location": "Sypes Canyon Rd, Bozeman, MT",
+      "apple_maps_link": "https://maps.apple.com/?q=Sypes+Canyon+Trail+Bozeman",
+      "difficulty": "moderate",
+      "length_miles": 6.2,
+      "top_10_reasons_to_love": [
+        "Incredible views of the Gallatin Valley",
+        "Quiet and less crowded than other trails",
+        "Steady incline, great for fitness",
+        "Shaded switchbacks through pine forest",
+        "Frequent deer and bird sightings",
+        "Good early morning or sunset hike",
+        "Wildflowers and wild raspberries in season",
+        "Close to Bozeman but feels remote",
+        "Dog-friendly and well-maintained",
+        "Trail intersects with Bridger Foothills for extended hikes"
+      ],
+      "tags": [
+        "views",
+        "sunset",
+        "wildlife",
+        "dog_friendly",
+        "fitness"
+      ]
+    },
+    {
+      "name": "Drinking Horse Mountain Trail",
+      "location": "Bridger Canyon Dr, Bozeman, MT",
+      "apple_maps_link": "https://maps.apple.com/?q=Drinking+Horse+Mountain+Trail+Bozeman",
+      "difficulty": "moderate",
+      "length_miles": 2.4,
+      "top_10_reasons_to_love": [
+        "Quick but rewarding views of the valley",
+        "Good beginner hike with loop option",
+        "Picnic tables and interpretive signs near trailhead",
+        "Kid-friendly and dog-friendly",
+        "Popular for sunrise hikes",
+        "Close to town with easy parking",
+        "Wildflowers in spring and early summer",
+        "Optional steep vs gradual ascent loop options",
+        "Crosses a scenic creek at the start",
+        "Easy to fit into a busy schedule"
+      ],
+      "tags": [
+        "loop",
+        "sunrise",
+        "beginner_friendly",
+        "family_friendly",
+        "dog_friendly"
+      ]
+    },
+    {
+      "name": "Triple Tree Trail",
+      "location": "Sourdough Rd, Bozeman, MT",
+      "apple_maps_link": "https://maps.apple.com/?q=Triple+Tree+Trail+Bozeman",
+      "difficulty": "moderate",
+      "length_miles": 5.3,
+      "top_10_reasons_to_love": [
+        "Sweeping views of the Gallatin Valley",
+        "Popular sunset spot with open vistas",
+        "Switchbacks through forest and meadow",
+        "Good trail for trail running",
+        "Well-marked and easy to follow",
+        "Great for active dogs",
+        "One of the most photographed trails near Bozeman",
+        "Close to town but feels remote",
+        "Short enough for a post-work hike",
+        "Clear sightlines make it feel safe and social"
+      ],
+      "tags": [
+        "sunset",
+        "scenic",
+        "dog_friendly",
+        "moderate",
+        "photogenic"
+      ]
+    },
+    {
+      "name": "Sacagawea Peak Trail",
+      "location": "Fairy Lake Rd, Bridger Range",
+      "apple_maps_link": "https://maps.apple.com/?q=Sacagawea+Peak+Trail+Montana",
+      "difficulty": "strenuous",
+      "length_miles": 4.5,
+      "top_10_reasons_to_love": [
+        "Highest point in the Bridgers at 9,665 feet",
+        "Summit views are incredible in all directions",
+        "Chance to see mountain goats",
+        "Short but steep workout",
+        "Snowfield crossings in early summer",
+        "Iconic alpine Montana experience",
+        "Cooler temps at elevation in summer",
+        "Good for sunrise or early morning hikes",
+        "Clear skies give views to Yellowstone on a good day",
+        "Wild and dramatic terrain near the top"
+      ],
+      "tags": [
+        "summit",
+        "alpine",
+        "wildlife",
+        "strenuous",
+        "short_but_steep"
+      ]
+    },
+    {
+      "name": "College M Trail",
+      "location": "Trailhead off Bridger Canyon Rd, Bozeman, MT",
+      "apple_maps_link": "https://maps.apple.com/?q=College+M+Trail+Bozeman",
+      "difficulty": "moderate",
+      "length_miles": 2.0,
+      "top_10_reasons_to_love": [
+        "Quick access hike close to town",
+        "Iconic 'M' overlooking Bozeman",
+        "Two route options: steep or gradual",
+        "Great spot for sunrise hikes",
+        "Perfect for quick cardio or dog walk",
+        "Views of town and valley",
+        "Maintained by MSU students and volunteers",
+        "Short enough to fit into busy schedules",
+        "Open year-round with microspikes in winter",
+        "Photogenic from the top with great perspective"
+      ],
+      "tags": [
+        "iconic",
+        "quick",
+        "sunrise",
+        "dog_friendly",
+        "student_favorite"
+      ]
+    },
+    {
+      "name": "South Cottonwood Creek Trail",
+      "location": "South Cottonwood Rd, Bozeman, MT",
+      "apple_maps_link": "https://maps.apple.com/?q=South+Cottonwood+Trail+Bozeman",
+      "difficulty": "easy",
+      "length_miles": 4.2,
+      "top_10_reasons_to_love": [
+        "Family- and dog-friendly terrain",
+        "Follows beautiful creek through forest",
+        "Lots of shade on hot days",
+        "Popular for snowshoeing in winter",
+        "Easy trailhead parking and access",
+        "Peaceful and quiet, good for mental reset",
+        "Great for trail running and biking",
+        "Low elevation gain makes it accessible",
+        "Perfect for picnics along the water",
+        "Often low-traffic even on weekends"
+      ],
+      "tags": [
+        "creekside",
+        "easy",
+        "dog_friendly",
+        "family_friendly",
+        "shaded"
+      ]
+    },
+    {
+      "name": "North Cottonwood Trail",
+      "location": "North Cottonwood Rd, Bozeman, MT",
+      "apple_maps_link": "https://maps.apple.com/?q=North+Cottonwood+Trail+Bozeman",
+      "difficulty": "moderate",
+      "length_miles": 8.0,
+      "top_10_reasons_to_love": [
+        "Secluded, lesser-known trail",
+        "Access to Bridger foothills",
+        "Rich with pine and aspen groves",
+        "Feels like wilderness without long drive",
+        "Cool even in summer",
+        "Mountain biking option nearby",
+        "Birdsong and wildlife viewing",
+        "Multiple small creek crossings",
+        "Great leaf color in fall",
+        "Peaceful out-and-back hike"
+      ],
+      "tags": [
+        "secluded",
+        "moderate",
+        "wildlife",
+        "cool",
+        "fall_foliage"
+      ]
+    },
+    {
+      "name": "Pine Creek Lake Trail",
+      "location": "Pine Creek Campground, Paradise Valley",
+      "apple_maps_link": "https://maps.apple.com/?q=Pine+Creek+Lake+Trail+Montana",
+      "difficulty": "strenuous",
+      "length_miles": 10.0,
+      "top_10_reasons_to_love": [
+        "Stunning alpine lake destination",
+        "Epic climb with 3,000 feet elevation gain",
+        "Pine Creek Falls en route",
+        "Backpacking and day hike options",
+        "Wildflowers and waterfalls in early summer",
+        "Mountain goats often seen near the top",
+        "Cold plunge opportunity in lake",
+        "Challenging but rewarding hike",
+        "Top photo spot for mountain scenery",
+        "Part of the Absaroka-Beartooth Wilderness"
+      ],
+      "tags": [
+        "lake",
+        "strenuous",
+        "waterfalls",
+        "wildlife",
+        "backpacking"
+      ]
+    },
+    {
+      "name": "Triple Tree Trail",
+      "location": "Sourdough Rd, Bozeman, MT",
+      "apple_maps_link": "https://maps.apple.com/?q=Triple+Tree+Trail+Bozeman",
+      "difficulty": "moderate",
+      "length_miles": 5.3,
+      "top_10_reasons_to_love": [
+        "Sweeping views of the Gallatin Valley",
+        "Popular sunset spot with open vistas",
+        "Switchbacks through forest and meadow",
+        "Good trail for trail running",
+        "Well-marked and easy to follow",
+        "Great for active dogs",
+        "One of the most photographed trails near Bozeman",
+        "Close to town but feels remote",
+        "Short enough for a post-work hike",
+        "Clear sightlines make it feel safe and social"
+      ],
+      "tags": [
+        "sunset",
+        "scenic",
+        "dog_friendly",
+        "moderate",
+        "photogenic"
+      ]
+    },
+    {
+      "name": "Sacagawea Peak Trail",
+      "location": "Fairy Lake Rd, Bridger Range",
+      "apple_maps_link": "https://maps.apple.com/?q=Sacagawea+Peak+Trail+Montana",
+      "difficulty": "strenuous",
+      "length_miles": 4.5,
+      "top_10_reasons_to_love": [
+        "Highest point in the Bridgers at 9,665 feet",
+        "Summit views are incredible in all directions",
+        "Chance to see mountain goats",
+        "Short but steep workout",
+        "Snowfield crossings in early summer",
+        "Iconic alpine Montana experience",
+        "Cooler temps at elevation in summer",
+        "Good for sunrise or early morning hikes",
+        "Clear skies give views to Yellowstone on a good day",
+        "Wild and dramatic terrain near the top"
+      ],
+      "tags": [
+        "summit",
+        "alpine",
+        "wildlife",
+        "strenuous",
+        "short_but_steep"
+      ]
+    },
+    {
+      "name": "College M Trail",
+      "location": "Trailhead off Bridger Canyon Rd, Bozeman, MT",
+      "apple_maps_link": "https://maps.apple.com/?q=College+M+Trail+Bozeman",
+      "difficulty": "moderate",
+      "length_miles": 2.0,
+      "top_10_reasons_to_love": [
+        "Quick access hike close to town",
+        "Iconic 'M' overlooking Bozeman",
+        "Two route options: steep or gradual",
+        "Great spot for sunrise hikes",
+        "Perfect for quick cardio or dog walk",
+        "Views of town and valley",
+        "Maintained by MSU students and volunteers",
+        "Short enough to fit into busy schedules",
+        "Open year-round with microspikes in winter",
+        "Photogenic from the top with great perspective"
+      ],
+      "tags": [
+        "iconic",
+        "quick",
+        "sunrise",
+        "dog_friendly",
+        "student_favorite"
+      ]
+    },
+    {
+      "name": "South Cottonwood Creek Trail",
+      "location": "South Cottonwood Rd, Bozeman, MT",
+      "apple_maps_link": "https://maps.apple.com/?q=South+Cottonwood+Trail+Bozeman",
+      "difficulty": "easy",
+      "length_miles": 4.2,
+      "top_10_reasons_to_love": [
+        "Family- and dog-friendly terrain",
+        "Follows beautiful creek through forest",
+        "Lots of shade on hot days",
+        "Popular for snowshoeing in winter",
+        "Easy trailhead parking and access",
+        "Peaceful and quiet, good for mental reset",
+        "Great for trail running and biking",
+        "Low elevation gain makes it accessible",
+        "Perfect for picnics along the water",
+        "Often low-traffic even on weekends"
+      ],
+      "tags": [
+        "creekside",
+        "easy",
+        "dog_friendly",
+        "family_friendly",
+        "shaded"
+      ]
+    },
+    {
+      "name": "North Cottonwood Trail",
+      "location": "North Cottonwood Rd, Bozeman, MT",
+      "apple_maps_link": "https://maps.apple.com/?q=North+Cottonwood+Trail+Bozeman",
+      "difficulty": "moderate",
+      "length_miles": 8.0,
+      "top_10_reasons_to_love": [
+        "Secluded, lesser-known trail",
+        "Access to Bridger foothills",
+        "Rich with pine and aspen groves",
+        "Feels like wilderness without long drive",
+        "Cool even in summer",
+        "Mountain biking option nearby",
+        "Birdsong and wildlife viewing",
+        "Multiple small creek crossings",
+        "Great leaf color in fall",
+        "Peaceful out-and-back hike"
+      ],
+      "tags": [
+        "secluded",
+        "moderate",
+        "wildlife",
+        "cool",
+        "fall_foliage"
+      ]
+    },
+    {
+      "name": "Pine Creek Lake Trail",
+      "location": "Pine Creek Campground, Paradise Valley",
+      "apple_maps_link": "https://maps.apple.com/?q=Pine+Creek+Lake+Trail+Montana",
+      "difficulty": "strenuous",
+      "length_miles": 10.0,
+      "top_10_reasons_to_love": [
+        "Stunning alpine lake destination",
+        "Epic climb with 3,000 feet elevation gain",
+        "Pine Creek Falls en route",
+        "Backpacking and day hike options",
+        "Wildflowers and waterfalls in early summer",
+        "Mountain goats often seen near the top",
+        "Cold plunge opportunity in lake",
+        "Challenging but rewarding hike",
+        "Top photo spot for mountain scenery",
+        "Part of the Absaroka-Beartooth Wilderness"
+      ],
+      "tags": [
+        "lake",
+        "strenuous",
+        "waterfalls",
+        "wildlife",
+        "backpacking"
+      ]
+    }
+  ]
+}
