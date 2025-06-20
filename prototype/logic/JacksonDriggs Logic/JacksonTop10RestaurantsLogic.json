@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Glorietta Trattoria",
+    "reasons": [
+      "Wood-fired Italian fare with rustic charm",
+      "Cozy indoor ambiance with warm lighting",
+      "Great pasta and house-made sausage",
+      "Perfect for date nights or adult gatherings",
+      "Creative cocktail menu and great wine list",
+      "Locals love the outdoor summer patio",
+      "High-quality seasonal ingredients",
+      "Upscale but still welcoming",
+      "Friendly staff and knowledgeable servers",
+      "Open year-round, popular with foodies"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=242%20Glenwood%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/glorietta-jackson",
+    "tags": [
+      "romantic",
+      "adult-focused",
+      "seasonal",
+      "local favorite"
+    ],
+    "price_tier": "$$$"
+  },
+  {
+    "name": "Snake River Grill",
+    "reasons": [
+      "One of Jackson\u2019s finest fine-dining experiences",
+      "Famous for their signature onion rings",
+      "Inventive American cuisine with local ingredients",
+      "Beautiful rustic-modern interior design",
+      "Extensive wine selection and upscale cocktails",
+      "Impeccable service",
+      "Seasonal game meats like elk and bison",
+      "Romantic and special occasion friendly",
+      "Warm ambiance with fireplace",
+      "Highly rated by both locals and visitors"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=84%20E%20Broadway%20Ave,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/snake-river-grill-jackson",
+    "tags": [
+      "fine dining",
+      "romantic",
+      "local favorite",
+      "special occasions"
+    ],
+    "price_tier": "$$$$"
+  },
+  {
+    "name": "Bin22",
+    "reasons": [
+      "Spanish-inspired small plates & wine bar",
+      "Shared table concept = community vibe",
+      "Great spot for casual upscale dining",
+      "Attached wine shop lets you pick your bottle",
+      "Outdoor seating during warm months",
+      "Excellent charcuterie and tapas selection",
+      "Knowledgeable staff with good pairing suggestions",
+      "Popular with both locals and tourists",
+      "Bustling but cozy atmosphere",
+      "Reasonable prices for the quality"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=200%20W%20Broadway%20Ave,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/bin22-jackson",
+    "tags": [
+      "wine bar",
+      "shared plates",
+      "local favorite",
+      "casual upscale"
+    ],
+    "price_tier": "$$"
+  },
+  {
+    "name": "King Sushi",
+    "reasons": [
+      "Surprisingly fresh and high-quality sushi",
+      "Cozy little cabin with limited seating",
+      "Locals rave about the sashimi and rolls",
+      "Unique twists on classic Japanese dishes",
+      "Often named one of the best small restaurants in town",
+      "Reservations highly recommended",
+      "Great for a quiet night out",
+      "Friendly, knowledgeable sushi chefs",
+      "Fast takeout option available",
+      "Excellent sake selection"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=75%20S%%20King%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/king-sushi-jackson",
+    "tags": [
+      "sushi",
+      "hidden gem",
+      "romantic",
+      "takeout available"
+    ],
+    "price_tier": "$$$"
+  },
+  {
+    "name": "Trio: An American Bistro",
+    "reasons": [
+      "Inventive, modern American cuisine",
+      "Local chefs and staff who care about quality",
+      "Known for their blue cheese fries",
+      "Popular with Jackson locals",
+      "Good for both dinner dates and group meals",
+      "Nice balance of casual and classy",
+      "Rotating seasonal menu",
+      "Great cocktails and wine list",
+      "Vegetarian-friendly options available",
+      "Great location near Town Square"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=45%20S%20Glenwood%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/trio-an-american-bistro-jackson",
+    "tags": [
+      "local favorite",
+      "modern",
+      "date-night",
+      "seasonal menu"
+    ],
+    "price_tier": "$$$"
+  },
+  {
+    "name": "Cafe Genevieve",
+    "reasons": [
+      "Historic cabin with Southern comfort food",
+      "Famous for Pig Candy (candied bacon)",
+      "Great brunch and dinner menu",
+      "Casual but charming atmosphere",
+      "Nice outdoor seating area in summer",
+      "Friendly service and good drink list",
+      "Good kid-friendly menu options",
+      "Locally sourced ingredients",
+      "Close to downtown attractions",
+      "Open year-round"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=135%20E%20Broadway%20Ave,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/cafe-genevieve-jackson",
+    "tags": [
+      "kid-friendly",
+      "historic",
+      "casual",
+      "southern"
+    ],
+    "price_tier": "$$"
+  },
+  {
+    "name": "The Kitchen",
+    "reasons": [
+      "Upscale, contemporary American dining",
+      "Beautiful modern interior and outdoor space",
+      "Innovative seafood and meat dishes",
+      "Focus on sustainable ingredients",
+      "Good date-night or group dinner option",
+      "Creative plating and menu design",
+      "Gluten-free and vegan options available",
+      "Cocktails are top-notch",
+      "Popular with the food scene crowd",
+      "Reservations recommended"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=155%20N%20Glenwood%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/the-kitchen-jackson",
+    "tags": [
+      "modern",
+      "romantic",
+      "gluten-free",
+      "sustainable"
+    ],
+    "price_tier": "$$$"
+  },
+  {
+    "name": "Local Restaurant & Bar",
+    "reasons": [
+      "Steakhouse with a modern twist",
+      "Great for game meats like bison and elk",
+      "Perfect for special occasions or celebrations",
+      "Excellent bar with solid whiskey list",
+      "Spacious dining room and outdoor tables",
+      "Friendly for groups and families",
+      "Popular happy hour",
+      "Good kid options despite the upscale feel",
+      "Right on the Town Square",
+      "Locally owned and operated"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=55%20N%20Cache%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/local-restaurant-and-bar-jackson",
+    "tags": [
+      "steakhouse",
+      "kid-friendly",
+      "local favorite",
+      "happy hour"
+    ],
+    "price_tier": "$$$"
+  },
+  {
+    "name": "Persephone Bakery (Downtown)",
+    "reasons": [
+      "Beloved bakery & caf\u00e9 in a log cabin",
+      "Incredible pastries and baked goods",
+      "Locals love the avocado toast and tartines",
+      "Excellent espresso and lattes",
+      "Charming garden seating area",
+      "Great for breakfast or light lunch",
+      "Pet-friendly patio",
+      "Seasonal menu with quality ingredients",
+      "Can be busy, but worth the wait",
+      "Walkable from the center of town"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=145%20E%20Broadway%20Ave,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/persephone-bakery-jackson",
+    "tags": [
+      "pet-friendly",
+      "local favorite",
+      "bakery",
+      "casual"
+    ],
+    "price_tier": "$$"
+  },
+  {
+    "name": "Roadhouse Pub & Eatery",
+    "reasons": [
+      "Brewpub with great food and beer",
+      "Laid-back, friendly atmosphere",
+      "Excellent burgers, wings, and comfort food",
+      "Rotating house-brewed beers",
+      "Good stop after outdoor activities",
+      "Spacious seating and casual vibes",
+      "Family-friendly environment",
+      "Pet-friendly outdoor space",
+      "Plenty of parking",
+      "Happy hour specials"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=945%20W%20Broadway,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/roadhouse-pub-and-eatery-jackson",
+    "tags": [
+      "kid-friendly",
+      "brewpub",
+      "pet-friendly",
+      "casual",
+      "budget-friendly"
+    ],
+    "price_tier": "$$"
+  }
+]
