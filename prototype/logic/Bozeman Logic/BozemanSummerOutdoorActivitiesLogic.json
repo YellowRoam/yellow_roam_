@@ -1,0 +1,50 @@
+{
+  "intents": [
+    {
+      "intent": "bozeman_summer_outdoor_activities",
+      "patterns": [
+        "What are the best outdoor activities in Bozeman for summer?",
+        "Top summer things to do outdoors in Bozeman?",
+        "Where can I go hiking in Bozeman?",
+        "What are fun outdoor adventures near Bozeman?",
+        "Best summer experiences in Bozeman?",
+        "What\u2019s good to do in Bozeman during the summer?",
+        "Top outdoor attractions in Bozeman?",
+        "What are some family-friendly summer activities in Bozeman?",
+        "Things to do outside around Bozeman in warm weather?",
+        "Best Bozeman nature spots for summer?"
+      ],
+      "response": "\n\u2600\ufe0f **Top 20 Summer Outdoor Activities in the Bozeman Area**\n\nEach activity includes 10 reasons why locals and visitors love it:\n\n---\n\n### 1. **Hike the \u201cM\u201d Trail**\n- Iconic Bozeman hike\n- Short and steep or longer switchback route\n- Incredible valley views\n- Family-friendly\n- Great for sunrise or sunset\n- Close to town\n- Easy access\n- Good workout\n- Dog-friendly\n- Well-marked trail\n\n---\n\n### 2. **Palisade Falls (Hyalite Canyon)**\n- Stunning waterfall\n- Short, paved trail\n- Great for families\n- Easy walk for all ages\n- Scenic drive to get there\n- Picnic areas nearby\n- Wildflowers in summer\n- Cool mist at base\n- Can bike part of the road\n- Great photos\n\n---\n\n### 3. **Hike to Lava Lake**\n- Gorgeous alpine lake\n- ~6-mile round trip\n- Follows a mountain creek\n- Forested trail\n- Cool and shady\n- Dog-friendly\n- Rewarding destination\n- Popular local favorite\n- Trailhead near Big Sky turnoff\n- Great swim on hot days\n\n---\n\n### 4. **Fishing the Gallatin River**\n- Blue-ribbon trout stream\n- Great for fly fishing\n- Scenic mountain backdrop\n- Accessible pullouts along Hwy 191\n- Guided trips available\n- Easy half-day activity\n- Peaceful and quiet\n- Family-friendly options\n- Wildlife viewing\n- Perfect for all skill levels\n\n---\n\n### 5. **Floating the Madison River**\n- Classic Bozeman summer tradition\n- Relaxing 2\u20133 hour float\n- Cooler tubes & rentals available\n- Shuttles from town\n- Great group activity\n- Refreshing on hot days\n- Start near Warm Springs\n- Ends near Black's Ford\n- Beer-friendly (but clean up!)\n- Social and scenic\n\n---\n\n### 6. **Mountain Biking Leverich Canyon**\n- One of Bozeman\u2019s top bike trails\n- Fun singletrack loop\n- Shaded canyon riding\n- Climbs and fast descents\n- Good for intermediate riders\n- Easily accessible\n- Cool in the mornings\n- Maintained by local bike groups\n- Great way to escape the heat\n- Beautiful scenery\n\n---\n\n### 7. **Explore Hyalite Reservoir**\n- Paddleboarding & kayaking\n- Picnic areas and fishing\n- Family favorite\n- Surrounded by mountains\n- Great for sunrise paddles\n- Camping nearby\n- Trails in all directions\n- Frequent moose sightings\n- No motorized boat wake\n- Perfect weekend escape\n\n---\n\n### 8. **Climb in Gallatin Canyon**\n- World-class climbing routes\n- Classic trad climbs and sport options\n- Accessible right off highway\n- Great scenery\n- Popular with MSU climbers\n- Shady spots in summer\n- Routes for all levels\n- Close to Big Sky\n- Instruction available\n- Watch eagles overhead\n\n---\n\n### 9. **Soak at Bozeman Hot Springs**\n- Family-friendly soaking\n- Indoor & outdoor pools\n- Live music in summer\n- Clean and well-kept\n- Great after a hike\n- Natural mineral water\n- Sauna and steam room\n- Kid-friendly atmosphere\n- Locals and visitors mix\n- Open late\n\n---\n\n### 10. **Picnic & Fish at Glen Lake Rotary Park**\n- Close to downtown\n- Large grassy area\n- Pond for fishing & floating\n- Dog-friendly\n- Covered shelters\n- Easy bike ride from Main Street\n- Family meet-up spot\n- Volleyball courts\n- Often quiet on weekdays\n- Sunset spot\n\n---\n\n### 11. **Hike Drinking Horse Mountain**\n- Right across from the \u201cM\u201d Trail\n- Mellow, scenic loop\n- Forested shade\n- Interpretive signs\n- Wildlife sightings\n- Good trail for dogs\n- Views of Bridgers and Gallatin Valley\n- Less busy than the \u201cM\u201d\n- Kid-friendly route\n- 1.8 miles total\n\n---\n\n### 12. **Attend the Sweet Pea Festival**\n- Held every August\n- Outdoor art and music festival\n- Locals\u2019 favorite tradition\n- Food trucks and beer garden\n- Family-friendly activities\n- 5K run and parade\n- Music in Lindley Park\n- Crafts and vendors\n- Dog parade!\n- Great community feel\n\n---\n\n### 13. **Canoe the Jefferson River**\n- Peaceful float alternative\n- Wildlife-rich environment\n- Less crowded than the Madison\n- Great birdwatching\n- Gentle current\n- Great for couples\n- Put in near Three Forks\n- Camp along the river\n- Golden hours are magical\n- Outfitters available\n\n---\n\n### 14. **Explore Bear Trap Canyon**\n- Rugged and wild\n- Deep canyon hiking\n- Access to the lower Madison River\n- Great fly fishing\n- Rock formations and cliffs\n- Remote, uncrowded\n- Full-day adventure\n- Near Norris Hot Springs\n- Wildflowers and raptors\n- Ideal for solitude\n\n---\n\n### 15. **Horseback Riding near Gallatin Gateway**\n- Cowboy experience\n- Local outfitters like Jake\u2019s Horses\n- Scenic trails through aspens\n- Good for beginners\n- Family-friendly options\n- Sunset rides available\n- Half-day or full-day\n- Perfect Montana photo op\n- Well-trained horses\n- Memorable experience\n\n---\n\n### 16. **Sunset at Peets Hill**\n- Easy hill walk from downtown\n- Perfect sunset views\n- Dog- and people-watching\n- Overlooks all of Bozeman\n- Local running path\n- Picnic or wine spot\n- Short loop trail\n- Connects to Burke Park\n- Wildflowers in June\n- Quiet and peaceful\n\n---\n\n### 17. **Rock Hounding near the Bridgers**\n- Hunt for agates and fossils\n- Local rock shops give tips\n- Family-friendly geology lesson\n- Popular near Livingston and Bridger\n- Use local maps and GPS\n- Great for collectors\n- Free public access lands\n- Good exercise and fun\n- Bring sunscreen!\n- Unique souvenir experience\n\n---\n\n### 18. **Birdwatching at Story Mill Park**\n- Large restored wetlands\n- Interpretive signs & viewing decks\n- Just northeast of downtown\n- Boardwalks and trails\n- Great for early morning walks\n- Wheelchair accessible\n- Educational kiosks\n- Binoculars recommended\n- Year-round birding\n- Beautiful native plant zones\n\n---\n\n### 19. **Trail Run Sypes Canyon**\n- Shaded forest trail\n- Great uphill workout\n- Scenic overlook\n- 4 miles round trip\n- Close to town\n- Dog-friendly\n- Connects to Bridger trail system\n- Popular with runners\n- Cooler in the morning\n- Not overly crowded\n\n---\n\n### 20. **Backpack the Spanish Peaks (via South Cottonwood)**\n- Multi-day adventure\n- Remote alpine terrain\n- Wildflowers galore\n- Mountain lakes\n- Optional summits\n- Very few crowds\n- Good trail signage\n- Wildlife sightings\n- Epic Montana scenery\n- Great for experienced hikers\n\n",
+      "metadata": {
+        "category": "outdoor_activities",
+        "season": "summer",
+        "location": "Bozeman",
+        "includes": [
+          "hiking",
+          "biking",
+          "fishing",
+          "floating",
+          "horseback_riding",
+          "hot_springs",
+          "festivals",
+          "rock_hounding"
+        ],
+        "tags": [
+          "family_friendly",
+          "local_favorite",
+          "adventure",
+          "budget",
+          "accessible"
+        ],
+        "audience": [
+          "families",
+          "adventurers",
+          "solo travelers",
+          "nature lovers",
+          "local explorers"
+        ],
+        "language": "en"
+      }
+    }
+  ]
+}
