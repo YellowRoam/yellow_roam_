@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Mangy Moose Saloon",
+    "reasons": [
+      "Legendary apr\u00e8s spot at the base of the tram",
+      "Live music and rustic Western vibes",
+      "Great drink specials and fun crowd",
+      "Affordable bar menu and fast service",
+      "Huge venue good for groups",
+      "Open late with entertainment on weekends",
+      "Bison burgers and nachos hit the spot",
+      "Perfect after a big powder day",
+      "Frequented by locals and ski instructors",
+      "Great energy without pretension"
+    ],
+    "best_cocktail": "Spicy Jalape\u00f1o Margarita",
+    "price_tier": "$$"
+  },
+  {
+    "name": "The Handle Bar (Four Seasons)",
+    "reasons": [
+      "Upscale apr\u00e8s with slope views",
+      "Outdoor fire pits and blankets",
+      "Extensive whiskey and beer selection",
+      "Upscale bar bites and snacks",
+      "Perfect for sipping after skiing Corbet\u2019s",
+      "Good mix of luxury travelers and locals",
+      "Fast service even when busy",
+      "Great whiskey flights available",
+      "Ideal for cocktail lovers and foodies",
+      "Pet-friendly patio"
+    ],
+    "best_cocktail": "Barrel-Aged Old Fashioned",
+    "price_tier": "$$$"
+  },
+  {
+    "name": "Spur Restaurant & Bar",
+    "reasons": [
+      "Casual yet elevated apr\u00e8s experience",
+      "Popular happy hour with drink and food deals",
+      "Fireplace lounge and modern alpine decor",
+      "Truffle fries are a must",
+      "Full bar and crafted seasonal drinks",
+      "Good for groups or romantic unwind",
+      "Friendly and attentive bartenders",
+      "Well-loved by returning guests",
+      "Kid-friendly dining area nearby",
+      "Short walk from all hotels"
+    ],
+    "best_cocktail": "Huckleberry Lemondrop",
+    "price_tier": "$$\u2013$$$"
+  },
+  {
+    "name": "Continuum Bar",
+    "reasons": [
+      "Trendy and modern apr\u00e8s scene",
+      "Fireplace seating and loft lounge",
+      "Live DJ some evenings",
+      "Well-crafted cocktails with a twist",
+      "Best for younger ski crowd",
+      "Late-night vibes unlike anywhere else",
+      "Cool lighting and energetic staff",
+      "Right near the lifts",
+      "Ski boot-friendly party vibe",
+      "Great nachos and sliders"
+    ],
+    "best_cocktail": "Spicy Ranch Water",
+    "price_tier": "$$"
+  },
+  {
+    "name": "RPK3",
+    "reasons": [
+      "Great beer lineup and hearty apr\u00e8s snacks",
+      "Casual order-at-counter style",
+      "Outdoor patio with fire pits",
+      "Known for loaded fries and ski-day bowls",
+      "Quick turnaround between laps",
+      "Good seating both inside and out",
+      "Excellent for families as well",
+      "Quick-service cocktails and hot drinks",
+      "Affordable prices in the village",
+      "Popular with lift ops and instructors"
+    ],
+    "best_cocktail": "Spiked Cider",
+    "price_tier": "$"
+  },
+  {
+    "name": "Tin Can Cantina (seasonal)",
+    "reasons": [
+      "Outdoor apr\u00e8s taco truck",
+      "Quick margaritas and beer on the go",
+      "Steps from the tram exit",
+      "Best street food vibe in the resort",
+      "Picnic table seating = low-key and fun",
+      "Affordable and fast apr\u00e8s",
+      "Great for ski boots and helmets",
+      "Staff is quick and chill",
+      "Usually has hot chocolate for kids too",
+      "Open during peak ski season"
+    ],
+    "best_cocktail": "Classic Lime Margarita",
+    "price_tier": "$"
+  },
+  {
+    "name": "Il Villaggio Osteria Bar",
+    "reasons": [
+      "Italian-inspired cocktails and small bites",
+      "Sophisticated yet lively vibe",
+      "Great for wine and charcuterie",
+      "Cozy interior with warm lighting",
+      "Excellent martinis and aperitivos",
+      "Fine-tuned cocktail list",
+      "Quiet alternative to louder bars",
+      "Solid for date nights and groups",
+      "Connected to a full Italian restaurant",
+      "Impressive service at the bar"
+    ],
+    "best_cocktail": "Negroni Classico",
+    "price_tier": "$$$"
+  },
+  {
+    "name": "Westbank Grill Bar (Four Seasons)",
+    "reasons": [
+      "Elegant bar inside the Four Seasons",
+      "Ideal for a relaxing nightcap",
+      "Extensive wine and scotch menu",
+      "Intimate setting and warm ambiance",
+      "Perfect for post-dinner drinks",
+      "Consistent service and classy vibe",
+      "Great bar snacks available",
+      "Snowy window views add to the mood",
+      "Welcoming to non-hotel guests",
+      "Seasonal cocktails crafted to perfection"
+    ],
+    "best_cocktail": "Mountain Manhattan",
+    "price_tier": "$$$$"
+  },
+  {
+    "name": "Bar at Caldera House (OYG Lounge)",
+    "reasons": [
+      "Chic luxury lounge inside Caldera House",
+      "Craft cocktails and high-end ambiance",
+      "Perfect apr\u00e8s-ski with less crowd",
+      "Fireplaces and mountain views",
+      "Gorgeous space with curated drinks",
+      "Small bites from OYG kitchen",
+      "Friendly yet upscale service",
+      "Ideal for dates or small group meetups",
+      "Premium spirits and infused cocktails",
+      "Quiet, private vibe"
+    ],
+    "best_cocktail": "Sage-Infused Gin & Tonic",
+    "price_tier": "$$$$"
+  },
+  {
+    "name": "Bodega Apr\u00e8s Patio",
+    "reasons": [
+      "Low-key apr\u00e8s with killer fried chicken",
+      "Small heated patio with beer taps",
+      "Slopeside location with quick bites",
+      "Great for those skipping the bar crowd",
+      "Craft beer, cider, and canned cocktails",
+      "Staff are locals and super friendly",
+      "Easy to swing by on way to parking",
+      "Popular for early-evening snack + sip",
+      "Best food-to-speed ratio",
+      "Also a great bottle shop"
+    ],
+    "best_cocktail": "House-Spiked Sloshie",
+    "price_tier": "$$"
+  }
+]
