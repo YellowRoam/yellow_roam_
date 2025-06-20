@@ -1,0 +1,85 @@
+{
+  "guides": [],
+  "shops": [],
+  "river_access": [
+    {
+      "river": "Snake River",
+      "access_points": [
+        "South Park Bridge",
+        "Wilson Bridge",
+        "Astoria",
+        "Elbow",
+        "Pritchard Boat Ramp"
+      ],
+      "notes": "Best for float trips. Cutthroat-rich waters with scenic Grand Teton views."
+    },
+    {
+      "river": "Green River",
+      "access_points": [
+        "Daniel Junction",
+        "Warren Bridge",
+        "Seedskadee Wildlife Refuge"
+      ],
+      "notes": "Great for clear water sight fishing and brown trout."
+    },
+    {
+      "river": "Salt River",
+      "access_points": [
+        "Freedom, WY",
+        "Soda Springs Access",
+        "Smoot Canyon Launch"
+      ],
+      "notes": "Winding and intimate river. Good for walk-wade or small boat."
+    },
+    {
+      "river": "Flat Creek",
+      "access_points": [
+        "National Elk Refuge Entrance",
+        "Town Access Bridge",
+        "Flat Creek Public Stretch"
+      ],
+      "notes": "Challenging spring creek. Strong for dry flies and technical fishing."
+    }
+  ],
+  "fly_hatches_calendar": {
+    "spring": [
+      "Blue Winged Olive",
+      "Midge",
+      "Skwala"
+    ],
+    "early_summer": [
+      "Salmonfly",
+      "Golden Stone",
+      "Caddis",
+      "Green Drake"
+    ],
+    "late_summer": [
+      "PMD",
+      "Terrestrials",
+      "Tricos",
+      "Hoppers"
+    ],
+    "fall": [
+      "Blue Winged Olive",
+      "Mahogany Dun",
+      "Streamer Action"
+    ],
+    "winter": [
+      "Midge",
+      "Small BWOs",
+      "Nymphing patterns"
+    ]
+  },
+  "gear_checklist": [
+    "5-6 wt fly rod and reel with floating line",
+    "Tippet (4x\u20136x), leaders (9ft)",
+    "Assorted dry flies, nymphs, streamers",
+    "Waders and boots with felt or rubber soles",
+    "Polarized sunglasses and hat",
+    "Rain jacket and layered clothing",
+    "Forceps, nippers, fly floatant",
+    "Net and small waterproof pack",
+    "Valid Wyoming or Idaho fishing license",
+    "Sunscreen and water bottle"
+  ]
+}
