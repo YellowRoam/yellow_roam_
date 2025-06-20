@@ -1,0 +1,142 @@
+[
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "What kind of terrain does Big Sky offer?"
+    ],
+    "response": "Big Sky offers over 5,800 acres of terrain, including groomers, bowls, and chutes across four mountains."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "How much are lift tickets at Big Sky?"
+    ],
+    "response": "Lift tickets range from $175 to $240 depending on the day and season. Book online early for best pricing."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "Is the Lone Peak Tram included with my pass?"
+    ],
+    "response": "The Lone Peak Tram is not included in standard lift tickets or Ikon Pass access; it must be purchased separately by the ride."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "Does Big Sky accept the Ikon Pass?"
+    ],
+    "response": "Big Sky is part of the Ikon Pass network, but access is limited to 5\u20137 days with blackout dates depending on your pass level."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "Can beginners ski at Big Sky?"
+    ],
+    "response": "Yes, Big Sky has beginner terrain around the Explorer and South Face lifts. Private and group lessons are also available."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "Where do intermediate skiers go at Big Sky?"
+    ],
+    "response": "Intermediate skiers enjoy Andesite Mountain for blue groomers and less intimidating tree runs."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "Is Big Sky good for families with kids?"
+    ],
+    "response": "Families love the variety of terrain and the childcare options available at the resort base. Explorer lift is ideal for kids."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "What\u2019s the best time of year to ski Big Sky?"
+    ],
+    "response": "Late January to early March typically offers the best snow conditions and fewer crowds than holidays or spring break."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "What\u2019s the snow like at Big Sky?"
+    ],
+    "response": "Big Sky has reliable cold snow, with dry powder early season and deep coverage through March thanks to elevation and aspect."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "Where can I rent ski gear at Big Sky?"
+    ],
+    "response": "Rent gear at Big Sky Sports, Grizzly Outfitters, or get delivery from Black Tie Ski Rentals."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "What ski lessons are available for adults?"
+    ],
+    "response": "Adult ski lessons are available as half-day or full-day programs, including private instruction and group sessions."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "Do they offer ski school for kids?"
+    ],
+    "response": "Big Sky\u2019s ski school for kids includes ages 3+, with programs for every skill level and daycare available for toddlers."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "Where are the best views while skiing?"
+    ],
+    "response": "For sweeping views, ride the tram to Lone Peak and ski Liberty Bowl \u2014 stunning scenery over the entire Gallatin Range."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "When are the crowds the worst?"
+    ],
+    "response": "Avoid Christmas through New Year\u2019s and Presidents' Day weekend for the lightest lift lines."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "What trails are less crowded?"
+    ],
+    "response": "Try the Southern Comfort or Lewis and Clark lifts \u2014 often quieter than the Ramcharger zone on busy days."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "What are the expert areas of Big Sky?"
+    ],
+    "response": "Experts head to the Headwaters or A-Z Chutes off Lone Peak for challenging terrain and hike-to lines."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "Is there night skiing at Big Sky?"
+    ],
+    "response": "No, Big Sky does not offer night skiing. Lifts typically operate from 9:00 AM to 4:00 PM daily."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "How long does the ski season last?"
+    ],
+    "response": "The ski season usually runs from late November to mid-April, weather permitting."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "What\u2019s the elevation at the top?"
+    ],
+    "response": "The top elevation at Big Sky is 11,166 feet at Lone Peak \u2014 one of the highest in Montana."
+  },
+  {
+    "intent": "skiing_big_sky",
+    "patterns": [
+      "What\u2019s the vibe like on the mountain?"
+    ],
+    "response": "Big Sky blends a luxury resort experience with a powder-day local vibe \u2014 you\u2019ll find both ski valets and hardcore locals."
+  }
+]
