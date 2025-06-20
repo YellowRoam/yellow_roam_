@@ -1,0 +1,46 @@
+{
+  "intents": [
+    {
+      "intent": "bozeman_scenic_drives",
+      "patterns": [
+        "What are the best scenic drives near Bozeman?",
+        "Are there any short scenic drives from Bozeman?",
+        "What are some 20-minute scenic drives from Bozeman?",
+        "Where can I go for a beautiful drive near Bozeman?",
+        "What are some nature drives close to Bozeman?",
+        "Best places to drive to in the Gallatin Valley?",
+        "Can you recommend easy scenic routes from Bozeman?",
+        "What short drives have great views in Bozeman?",
+        "Drives near Bozeman to see mountains?",
+        "Any quiet drives into nature from Bozeman?"
+      ],
+      "response": "\n\ud83d\ude97 **Top 10 Scenic Drives Within 20 Minutes of Bozeman**\n\nThese routes are close, beautiful, and perfect for a quick escape:\n\n---\n\n### 1. **Hyalite Canyon Road to Hyalite Reservoir**\n- South of town via S 19th Ave\n- Stunning mountain views\n- Ends at alpine lake\n- Trailheads and waterfalls\n- Wildlife often spotted\n- No cell service = peaceful\n- Great picnic spots\n- Popular for photography\n- Accessible year-round (snowy in winter)\n- Day trip worthy in summer/fall\n\n---\n\n### 2. **Bridger Canyon Drive (MT 86)**\n- East of town toward Bridger Bowl\n- Rolling hills and ranch land\n- Bridger Range to your right\n- Wildflowers in spring\n- Golden light at sunset\n- Pull-offs for photos\n- Connects to Wilsall for longer trip\n- Great views of valley farms\n- Nice cycling route\n- Often quiet traffic\n\n---\n\n### 3. **Sourdough Road**\n- Heads southeast from Bozeman\n- Passes creeks and old barns\n- Access to Sourdough Trail\n- Rural, peaceful scenery\n- Aspen groves and fields\n- Ends at forest access\n- Good for fall colors\n- Fewer tourists\n- Great local shortcut\n- Birdwatcher favorite\n\n---\n\n### 4. **Bear Canyon Road**\n- Just east off I-90\n- Winding climb into Gallatin National Forest\n- Starts at Bear Canyon exit\n- Hidden gem access to trailheads\n- Great for snowshoeing or summer walks\n- Beautiful valley views looking back at Bozeman\n- Quiet and local-feeling\n- Moose and deer frequent the area\n- Ends at National Forest gate\n- Short but sweet\n\n---\n\n### 5. **Gallatin Canyon North (start of Hwy 191)**\n- Drive south on 191 from Four Corners\n- Cliffs and river on both sides\n- Gallatin River views\n- Rafts and anglers visible in summer\n- Stop at Axtell Bridge or Storm Castle pullouts\n- High wildlife density\n- Frequent eagle sightings\n- Connects to Yellowstone\n- Shady and cool in summer\n- Access to campgrounds\n\n---\n\n### 6. **Springhill Road**\n- Heads north out of Bozeman\n- Past open farms and hay fields\n- Bridger Mountains frame the drive\n- Peaceful sunset views\n- Great bike ride too\n- Minimal traffic\n- Vintage barns and old fences\n- Feels very \u201cMontana\u201d\n- No services, bring snacks\n- Ends near Dry Creek and Church Hill Road\n\n---\n\n### 7. **Kelly Canyon Road**\n- West of Bridger Canyon\n- Forested winding road\n- Great for spotting elk\n- Shortcut to Trail Creek\n- Nice in summer and fall\n- Connects to Bridger Bowl Road\n- Beautiful canopy drive\n- Cool escape on hot days\n- Watch for deer at dusk\n- Dirt road after snow\n\n---\n\n### 8. **Cottonwood Road (South Cottonwood to Spanish Peaks Access)**\n- Heads south from S 19th Ave\n- Rolling hills, tall trees\n- View of Spanish Peaks in distance\n- Starts paved, turns gravel\n- Access to South Cottonwood trail\n- Wildflowers in summer\n- Quiet and underrated\n- No signage\u2014GPS recommended\n- Locals love it\n- Great stargazing after dark\n\n---\n\n### 9. **Trail Creek Road (East toward Livingston)**\n- Just east of Bozeman Pass\n- Curvy mountain road\n- Great fall colors\n- Creekside scenery\n- Takes you toward Paradise Valley\n- Wildlife corridor\n- Less traffic than Hwy 89\n- Road narrows near summit\n- Connects to Brackett Creek Road\n- Fun loop if heading east\n\n---\n\n### 10. **Johnson Road to Gooch Hill**\n- South Bozeman farm drive\n- Pastures and open views\n- Great at sunrise\n- Connects to multiple loops\n- Not much traffic\n- Local shortcut to Gallatin Gateway\n- Horses, cows, hawks\n- Big sky views\n- Combine with Cottonwood for loop\n- Ends near Huffine\n\n",
+      "metadata": {
+        "category": "scenic_drives",
+        "location": "Bozeman",
+        "range": "within_20_minutes",
+        "includes": [
+          "Hyalite Reservoir",
+          "Gallatin National Forest",
+          "Bridger Canyon",
+          "Gallatin Canyon"
+        ],
+        "tags": [
+          "scenic",
+          "local",
+          "quiet",
+          "photo_op",
+          "nature_lovers"
+        ],
+        "audience": [
+          "families",
+          "road trippers",
+          "photographers",
+          "nature lovers",
+          "day-trippers"
+        ],
+        "language": "en"
+      }
+    }
+  ]
+}
