@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Pinky G's Pizzeria",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Pinky+G's+Pizzeria+Jackson",
+    "yelp": "https://www.yelp.com/biz/pinky-gs-pizzeria-jackson",
+    "tags": [
+      "family-friendly",
+      "beer",
+      "casual",
+      "late-night",
+      "local-favorite"
+    ],
+    "why_locals_love_it": "Famous from Diners, Drive-ins & Dives. Great New York-style pizza and solid beer selection."
+  },
+  {
+    "name": "Hand Fire Pizza",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Hand+Fire+Pizza+Jackson",
+    "yelp": "https://www.yelp.com/biz/hand-fire-pizza-jackson",
+    "tags": [
+      "family-friendly",
+      "craft-cocktails",
+      "historic-theater",
+      "vegan-options",
+      "modern"
+    ],
+    "why_locals_love_it": "Housed in a historic theater, it\u2019s a hip spot with locally sourced ingredients and fun cocktails."
+  },
+  {
+    "name": "Caldera Pizza",
+    "location": "Driggs, ID",
+    "apple_maps": "https://maps.apple.com/?q=Caldera+Pizza+Driggs",
+    "yelp": "https://www.yelp.com/biz/caldera-pizza-driggs",
+    "tags": [
+      "beer",
+      "local",
+      "family-friendly",
+      "outdoor-seating",
+      "chill"
+    ],
+    "why_locals_love_it": "Casual hangout with hearty pizza, a good beer tap list, and relaxed outdoor seating."
+  },
+  {
+    "name": "Pizzeria Alpino",
+    "location": "Driggs, ID",
+    "apple_maps": "https://maps.apple.com/?q=Pizzeria+Alpino+Driggs",
+    "yelp": "https://www.yelp.com/biz/pizzeria-alpino-driggs",
+    "tags": [
+      "wine",
+      "romantic",
+      "artisanal",
+      "elevated",
+      "locally-sourced"
+    ],
+    "why_locals_love_it": "Upscale vibe with wood-fired pizza, a curated wine list, and gourmet ingredients."
+  },
+  {
+    "name": "Cutty's Bar and Grill",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Cutty's+Bar+and+Grill+Jackson",
+    "yelp": "https://www.yelp.com/biz/cuttys-bar-and-grill-jackson",
+    "tags": [
+      "beer",
+      "sports-bar",
+      "family-friendly",
+      "patio",
+      "bar-food"
+    ],
+    "why_locals_love_it": "Good pizza with a fun sports bar atmosphere and a big beer menu."
+  },
+  {
+    "name": "Mountain High Pizza Pie",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Mountain+High+Pizza+Pie+Jackson",
+    "yelp": "https://www.yelp.com/biz/mountain-high-pizza-pie-jackson",
+    "tags": [
+      "family-friendly",
+      "budget",
+      "indoor-outdoor",
+      "beer",
+      "live-music"
+    ],
+    "why_locals_love_it": "Colorful, funky, and popular with both locals and tourists. Good for kids and casual vibes."
+  },
+  {
+    "name": "Gastro Pizza Co.",
+    "location": "Driggs, ID",
+    "apple_maps": "https://maps.apple.com/?q=Gastro+Pizza+Co+Driggs",
+    "yelp": "https://www.yelp.com/biz/gastro-pizza-co-driggs",
+    "tags": [
+      "craft-beer",
+      "chef-driven",
+      "solo",
+      "casual",
+      "unique-toppings"
+    ],
+    "why_locals_love_it": "Creative pizzas, rotating beer taps, and a chef-driven feel in a small town."
+  },
+  {
+    "name": "Domino's Pizza",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Domino's+Pizza+Jackson",
+    "yelp": "https://www.yelp.com/biz/dominos-pizza-jackson",
+    "tags": [
+      "budget",
+      "fast",
+      "delivery",
+      "kid-friendly"
+    ],
+    "why_locals_love_it": "It\u2019s convenient, quick, and reliable\u2014great for a family night in after a long day."
+  },
+  {
+    "name": "Alpine Pizza",
+    "location": "Alpine, WY (near Jackson)",
+    "apple_maps": "https://maps.apple.com/?q=Alpine+Pizza+WY",
+    "yelp": "https://www.yelp.com/biz/alpine-pizza-alpine",
+    "tags": [
+      "local-favorite",
+      "cozy",
+      "beer",
+      "dine-in",
+      "small-town"
+    ],
+    "why_locals_love_it": "Locals from Jackson make the drive for this charming pizza joint tucked in Alpine."
+  },
+  {
+    "name": "Village Osteria (Pizza option)",
+    "location": "Teton Village, WY",
+    "apple_maps": "https://maps.apple.com/?q=Village+Osteria+Teton+Village",
+    "yelp": "https://www.yelp.com/biz/village-osteria-teton-village",
+    "tags": [
+      "wine",
+      "Italian",
+      "romantic",
+      "resort-vibes",
+      "fine-dining"
+    ],
+    "why_locals_love_it": "A refined spot for pizza and Italian dishes near Jackson Hole Resort\u2014great for date night."
+  }
+]
