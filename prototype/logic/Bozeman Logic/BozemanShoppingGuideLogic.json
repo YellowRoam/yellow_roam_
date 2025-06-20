@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "intent": "bozeman_shopping_guide",
+      "patterns": [
+        "Where should I go shopping in Bozeman?",
+        "What are the top stores in Bozeman?",
+        "Any good thrift shops in Bozeman?",
+        "What are the best places to shop in Bozeman?",
+        "Best grocery stores for travelers in Bozeman?",
+        "Is there a mall in Bozeman?",
+        "Are there local boutiques in Bozeman?",
+        "Where do locals shop in Bozeman?",
+        "Best places to grab supplies in Bozeman?",
+        "What are the best thrift stores in town?"
+      ],
+      "response": "\n\ud83d\udecd\ufe0f **Bozeman Shopping Guide: Top Places to Shop, Thrift, and Stock Up**\n\n---\n\n### \ud83e\udde5 Top 5 Thrift & Secondhand Stores in Bozeman\n\n1. **Sacks Thrift Store (Bozeman)**\n   - Location: 138 W Mendenhall St\n   - Proceeds benefit the Help Center\n   - Affordable clothing, housewares\n   - Clean and well-organized\n   - Great for vintage hunting\n\n2. **Sack\u2019s of Belgrade**\n   - Location: 9 E Main St, Belgrade\n   - Sister store to Bozeman Sacks\n   - Small-town charm, great deals\n   - Good book and clothing section\n   - Friendly staff\n\n3. **Twice Treasured Thrift Store**\n   - Location: 120 N 7th Ave\n   - Supports local medical care\n   - Clean, boutique-like layout\n   - Great for housewares and clothes\n   - Helpful volunteers\n\n4. **Goodwill Bozeman**\n   - Location: 2130 Simmental Way\n   - Large selection of clothing & media\n   - Close to Costco\n   - Reliable for quick finds\n   - Budget-friendly\n\n5. **Nu2U Thrift**\n   - Location: 2320 W Main St\n   - Curated selection\n   - Good furniture & unique home goods\n   - Local vibe\n   - Good parking access\n\n---\n\n### \ud83d\uded2 Top 20 Retail Stores & Boutiques\n\n1. **The Montana Scene**\n   - Downtown Bozeman \u2013 Local clothing & gifts\n\n2. **Revolvr Menswear**\n   - Stylish local men\u2019s store \u2013 W Main St\n\n3. **Heyday**\n   - Boutique gifts & home goods \u2013 E Main St\n\n4. **Root**\n   - Sustainable, modern women\u2019s fashion \u2013 downtown\n\n5. **The Boot Barn**\n   - Western boots and gear \u2013 N 19th Ave\n\n6. **Schnee\u2019s**\n   - Premium outdoor gear & hunting boots \u2013 downtown\n\n7. **Round House Ski & Sports**\n   - Ski, snowboard & bike gear \u2013 W Main St\n\n8. **Owenhouse Ace Hardware**\n   - Two locations (Main St & Huffine) \u2013 old-school Montana staple\n\n9. **Bob Ward\u2019s Sports & Outdoors**\n   - Major sporting goods store \u2013 N 19th\n\n10. **Meridian Boutique**\n   - Upscale women\u2019s fashion \u2013 downtown\n\n11. **Gallatin Alpine Sports**\n   - Outdoor gear with local staff \u2013 S 7th Ave\n\n12. **Bangtail Bikes**\n   - Longtime local bike shop \u2013 Main St\n\n13. **World Market**\n   - Home decor and global goods \u2013 near Target\n\n14. **Target**\n   - Quick stop for travel essentials \u2013 N 19th\n\n15. **Barnes & Noble**\n   - Books, coffee, and calm \u2013 near the mall\n\n16. **Costco**\n   - Exit 305 \u2013 easy in/out for big shopping runs\n\n17. **Gallatin Valley Mall (Now: Gallatin Valley Mall District)**\n   - Recently revitalized \u2013 major stores include REI, Athleta, Barnes & Noble, and new food spots\n   - Family-friendly indoor shopping option\n\n18. **Country Bookshelf**\n   - Bozeman\u2019s indie bookstore since 1957 \u2013 downtown\n\n19. **The Farmer\u2019s Daughters**\n   - Local artisan and western-style boutique \u2013 W Main\n\n20. **The Toggery**\n   - Outdoor and casual lifestyle wear \u2013 downtown\n\n---\n\n### \ud83e\uddc3 Top 10 Grocery Stores for Travelers (No Walmart)\n\n1. **Costco (Bozeman)**\n   - Easy off I-90 (Exit 305)\n   - Great for group travel and camping supplies\n   - Gas station on-site\n\n2. **Town & Country Foods (Main Street Exit)**\n   - Best quick access when heading toward Livingston or Yellowstone\n   - Locally owned\n\n3. **Town & Country Foods (West Main)**\n   - Excellent selection, big produce section\n   - Local feel, fair prices\n\n4. **Rosauers**\n   - Large natural/organic section\n   - Great deli and soup bar\n   - Located on Huffine Lane\n\n5. **Community Food Co-op (Main & West Main)**\n   - Two locations\n   - Fresh local produce, amazing bakery, soups, and sandwiches\n   - Ideal for road snacks and lunches\n\n6. **Albertsons (19th Ave)**\n   - Central location\n   - Mainstream groceries + deli\n\n7. **Natural Grocers**\n   - Excellent supplements and organic snacks\n   - Good for dietary restrictions\n\n8. **Safeway (Bozeman)**\n   - Reliable, well-stocked\n   - Centrally located on Main\n\n9. **Joe\u2019s Parkway Market**\n   - Small specialty shop\n   - High-quality wines, cheeses, meats\n\n10. **WinCo Foods**\n   - Huge bulk section\n   - Lowest prices on many staples\n   - Just across from the mall\n\n",
+      "metadata": {
+        "category": "shopping",
+        "location": "Bozeman",
+        "includes": [
+          "thrift",
+          "boutiques",
+          "mall",
+          "grocery"
+        ],
+        "tags": [
+          "budget",
+          "family_friendly",
+          "travel_supplies",
+          "local_gems"
+        ],
+        "audience": [
+          "travelers",
+          "locals",
+          "budget shoppers",
+          "families"
+        ],
+        "language": "en"
+      }
+    }
+  ]
+}
