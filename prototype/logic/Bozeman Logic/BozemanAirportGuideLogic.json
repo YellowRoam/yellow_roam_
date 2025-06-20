@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "intent": "bozeman_airport_guide",
+      "patterns": [
+        "What should I know about flying into Bozeman Airport?",
+        "Which airlines fly into BZN?",
+        "Where can I fly to from Bozeman?",
+        "What are the seasonal flight options at Bozeman Airport?",
+        "What is the cheapest time of year to fly into Bozeman?",
+        "Are there nonstop flights to Bozeman?",
+        "When is the best time to book a flight to Bozeman?",
+        "Which cities have direct flights to BZN?",
+        "Can I fly to Bozeman in the winter?",
+        "Is Bozeman Airport good for Yellowstone travelers?",
+        "What\u2019s the full Bozeman Airport travel guide?",
+        "Does Bozeman have shuttle services from the airport?",
+        "How do I get from Bozeman Airport to Big Sky?",
+        "Can I get to downtown Bozeman from the airport?",
+        "Are there taxis at Bozeman Airport?",
+        "Does Bozeman Airport have Uber and Lyft?",
+        "What\u2019s the best way to get to Big Sky from BZN?",
+        "Is there public transportation at Bozeman Airport?",
+        "Are there any flight deals into Bozeman?",
+        "What is Yellowstone Jet Center?",
+        "How can I contact airlines that fly into Bozeman?",
+        "Who do I call if my flight to Bozeman is delayed?",
+        "What is the average flight price to Bozeman in summer?",
+        "Is Bozeman Airport open year-round?",
+        "Can I fly to Bozeman on Southwest?",
+        "Are there direct flights from California to Bozeman?",
+        "What is Yellowstone Jet Center used for?",
+        "Are private jets allowed at Bozeman Airport?",
+        "What time should I arrive for my flight at BZN?",
+        "Does Bozeman Airport have lounges or restaurants?"
+      ],
+      "response": "\n\ud83d\udeec **Bozeman Yellowstone International Airport (BZN)** is the busiest airport in Montana and the main hub for accessing Yellowstone, Big Sky, and southwest Montana.\n\n---\n\n### \u2708\ufe0f Airlines Serving BZN & Contact Info\n| Airline | Phone | Website |\n|--------|-------|---------|\n| Delta | 800-221-1212 | [delta.com](https://www.delta.com) |\n| United | 800-864-8331 | [united.com](https://www.united.com) |\n| American | 800-433-7300 | [aa.com](https://www.aa.com) |\n| Alaska | 800-252-7522 | [alaskaair.com](https://www.alaskaair.com) |\n| Allegiant | 702-505-8888 | [allegiantair.com](https://www.allegiantair.com) |\n| Southwest | 800-435-9792 | [southwest.com](https://www.southwest.com) |\n| Avelo | 346-616-9500 | [aveloair.com](https://www.aveloair.com) |\n\n---\n\n### \ud83d\udccd Airport Info\n- **Code**: BZN\n- **Location**: Belgrade, MT (~10 miles from Bozeman)\n- **Runways**: 2 (commercial + private)\n- **Elevation**: 4,473 ft\n- **Wi-Fi**: Free throughout terminal\n- **Dining**: Copper Horse Restaurant & Bar, shops, grab-n-go\n- **Parking**: Short & long term available, overflow lot in peak seasons\n- **Website**: [bozemanairport.com](https://www.bozemanairport.com)\n\n---\n\n### \ud83d\udcc5 Flight Pricing By Season (Round-Trip Averages)\n- **Spring (Apr\u2013May)**: $180\u2013$350\n- **Summer (Jun\u2013Aug)**: $420\u2013$650 (high season)\n- **Fall (Sep\u2013Nov)**: $250\u2013$400\n- **Winter (Dec\u2013Mar)**: $350\u2013$550 (ski season)\n\n\u2705 Tip: Book 4\u20136 weeks in advance for best rates. Tuesday and Wednesday flights are usually cheapest.\n\n---\n\n### \ud83d\ude90 Ground Transportation from BZN\n\n#### \ud83d\ude8d **To Big Sky**:\n- Karst Stage, Peak Shuttle, Bozeman 365, Big Sky Shuttle Inc.\n- **Shared**: $85\u2013$165 / **Private**: $200\u2013$350+\n- Book early in ski season & summer\n\n#### \ud83d\ude96 **To Bozeman**:\n- Uber/Lyft (widely available)\n- Greater Valley Taxi: (406) 388-9999\n- Spartan Taxi: (406) 624-8438\n- MyBZN Black Car: [mybzn.com](https://www.mybzn.com)\n\n#### \ud83d\ude8c **Public Transit**:\n- **Streamline Bus** (HRDC): Free local bus (no direct airport pickup)\n  - Info: [streamlinebus.com](https://www.streamlinebus.com)\n- **Skyline Bus**: $5 Bozeman\u2013Big Sky connector; free in-town\n  - Info: [skylinebus.com](https://www.skylinebus.com)\n\n---\n\n### \ud83d\udee9\ufe0f Yellowstone Jet Center\n- For private flights, charters, Yellowstone Club arrivals\n- Offers hangars, crew services, lounge\n- Info: [yellowstonejetcenter.com](https://www.yellowstonejetcenter.com)\n\n---\n\n### \u23f1\ufe0f Timing Tips\n- Arrive **2 hours early** for domestic flights\n- Plan ahead for snow delays (Nov\u2013April)\n- Most flights depart between 5:00 AM and 10:00 PM\n\n",
+      "metadata": {
+        "category": "airport",
+        "location": "Bozeman",
+        "seasonal": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "includes": [
+          "flights",
+          "airlines",
+          "shuttles",
+          "taxi",
+          "rideshare",
+          "public_transit",
+          "private_aviation",
+          "pricing",
+          "contact_info"
+        ],
+        "tags": [
+          "airport",
+          "transportation",
+          "flight_prices",
+          "budget",
+          "VIP",
+          "Yellowstone",
+          "Big Sky"
+        ],
+        "audience": [
+          "airport_arrivals",
+          "Yellowstone visitors",
+          "skiers",
+          "budget travelers",
+          "luxury travelers",
+          "families"
+        ],
+        "language": "en"
+      }
+    }
+  ]
+}
