@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Barker-Ewing Whitewater",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Barker+Ewing+Whitewater+Jackson+WY",
+    "best_at": "Family-friendly whitewater trips on the Snake River",
+    "reasons": [
+      "50+ years of experience on the Snake River",
+      "Top-notch safety training and CPR-certified guides",
+      "Specializes in scenic and splashy Class II-III family trips",
+      "Modern equipment and comfortable shuttle system",
+      "Outstanding reputation for balancing fun and safety"
+    ]
+  },
+  {
+    "name": "Mad River Boat Trips",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Mad+River+Boat+Trips+Jackson+WY",
+    "best_at": "Versatile trips for thrill seekers and families",
+    "reasons": [
+      "Offers both scenic floats and whitewater adventures",
+      "Highly praised for guide energy and fun atmosphere",
+      "Great for large groups and custom bookings",
+      "Sustainable practices with Leave No Trace ethics",
+      "Easy online booking and check-in process"
+    ]
+  },
+  {
+    "name": "Dave Hansen Whitewater",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Dave+Hansen+Whitewater+Jackson+WY",
+    "best_at": "Best all-around whitewater experience",
+    "reasons": [
+      "Voted #1 raft company in Jackson Hole multiple years",
+      "Energetic guides who mix fun and professionalism",
+      "Stylish rafting photos included in packages",
+      "Runs both 8-man and 14-man rafts",
+      "Perfect for first-timers or seasoned paddlers"
+    ]
+  },
+  {
+    "name": "Teton Whitewater",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Teton+Whitewater+Jackson+WY",
+    "best_at": "Budget-friendly whitewater rafting",
+    "reasons": [
+      "Competitive pricing for guided Snake River trips",
+      "Knowledgeable and friendly guides",
+      "Simple check-in and launch point",
+      "Comfortable for first-timers",
+      "Excellent choice for short-notice trips"
+    ]
+  },
+  {
+    "name": "Jackson Hole Whitewater",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Jackson+Hole+Whitewater+Jackson+WY",
+    "best_at": "Family rafting and scenic float combo trips",
+    "reasons": [
+      "Combo scenic and splash trips available",
+      "Professional, approachable guides",
+      "Great reviews for organization and pacing",
+      "Excellent family-focused packages",
+      "Longstanding local company with great safety record"
+    ]
+  },
+  {
+    "name": "Lewis & Clark River Expeditions",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Lewis+and+Clark+River+Expeditions+Jackson+WY",
+    "best_at": "Relaxed scenic Snake River floats",
+    "reasons": [
+      "Slow-paced scenic floats with wildlife viewing",
+      "Ideal for seniors, young kids, and photographers",
+      "Naturalist guides with deep knowledge of ecosystem",
+      "Convenient departure points",
+      "Quiet, intimate group sizes"
+    ]
+  },
+  {
+    "name": "Teton Expeditions River Trips",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Teton+Expeditions+Jackson+WY",
+    "best_at": "Custom trips and private boat charters",
+    "reasons": [
+      "Private trips available for small groups",
+      "Sunrise and sunset scenic float options",
+      "Custom add-ons like riverside meals",
+      "Stellar guest service reviews",
+      "Well-maintained gear and boats"
+    ]
+  },
+  {
+    "name": "Rendezvous River Sports",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Rendezvous+River+Sports+Jackson+WY",
+    "best_at": "Whitewater kayaking and rafting instruction",
+    "reasons": [
+      "Top pick for multi-day river skill courses",
+      "River SUP and kayak rentals available",
+      "Excellent for paddlers wanting more freedom",
+      "Friendly, hands-on instruction",
+      "Conveniently located downtown"
+    ]
+  },
+  {
+    "name": "Alpine Canyon River Trips",
+    "location": "Alpine, WY",
+    "apple_maps": "https://maps.apple.com/?q=Alpine+Canyon+River+Trips+Alpine+WY",
+    "best_at": "Launching directly from Alpine into Snake River whitewater",
+    "reasons": [
+      "Closest outfitter to the Class III Alpine Canyon section",
+      "No long shuttle \u2014 put in near town",
+      "Great early season water levels",
+      "Team of fun, motivated guides",
+      "Perfect for road-trippers heading south"
+    ]
+  },
+  {
+    "name": "Hughes River Expeditions",
+    "location": "Driggs, ID",
+    "apple_maps": "https://maps.apple.com/?q=Hughes+River+Expeditions+Driggs+ID",
+    "best_at": "Multi-day float trips in Idaho and Jackson region",
+    "reasons": [
+      "Runs Salmon, Middle Fork, and Snake Rivers",
+      "Luxury-class expedition services",
+      "Full-service multi-day gear setup",
+      "Deep local and regional knowledge",
+      "Highly personalized service for families or groups"
+    ]
+  }
+]

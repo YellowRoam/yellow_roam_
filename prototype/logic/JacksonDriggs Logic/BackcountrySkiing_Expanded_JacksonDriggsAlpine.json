@@ -1,0 +1,342 @@
+{
+  "backcountry_skiing_areas": [
+    {
+      "name": "Teton Pass",
+      "location": "Between Wilson, WY and Victor, ID",
+      "apple_maps": "https://maps.apple.com/?q=Teton+Pass+WY",
+      "difficulty": "Advanced",
+      "gear_needed": [
+        "Avalanche transceiver (required)",
+        "Probe",
+        "Shovel",
+        "Backcountry skis/splitboard",
+        "Climbing skins",
+        "Helmet",
+        "Beacon-compatible backpack"
+      ],
+      "safety_notes": [
+        "Always carry a transceiver, probe, and shovel",
+        "Teton Pass has known avalanche chutes\u2014check the Bridger-Teton avalanche forecast",
+        "Park responsibly and avoid blocking plows or snow removal",
+        "Know before you go: enroll in an AIARE avalanche course",
+        "Watch for other users: snowshoers, snowmobilers, and splitboarders"
+      ],
+      "reasons": [
+        "Easy access right from the highway",
+        "World-renowned glade and chute skiing",
+        "Huge variety of terrain and lines",
+        "Popular among locals and pro skiers",
+        "Frequent avalanche control makes awareness essential"
+      ]
+    },
+    {
+      "name": "Mt. Taylor",
+      "location": "Teton Canyon, Driggs, ID",
+      "apple_maps": "https://maps.apple.com/?q=Mount+Taylor+Teton+Canyon+ID",
+      "difficulty": "Advanced/Expert",
+      "gear_needed": [
+        "Full avy gear (beacon, probe, shovel)",
+        "Skis with skins or splitboard",
+        "GPS or detailed map",
+        "Helmet and snow safety tools"
+      ],
+      "safety_notes": [
+        "Steep couloirs and cliffs\u2014expert terrain only",
+        "Avalanche risk can be extreme post-storm",
+        "Snowmobiles not allowed\u2014quiet terrain, human-powered only",
+        "No rescue coverage\u2014ski with a partner"
+      ],
+      "reasons": [
+        "Legendary steeps and iconic summit",
+        "Incredible powder in the upper bowls",
+        "Remote feel, yet trailhead is accessible",
+        "Massive vertical potential (over 3,000 ft)",
+        "Among the top lines in the Tetons"
+      ]
+    },
+    {
+      "name": "25 Short",
+      "location": "Grand Teton National Park (Inner Park Loop)",
+      "apple_maps": "https://maps.apple.com/?q=25+Short+Trailhead+GTNP",
+      "difficulty": "Intermediate\u2013Advanced",
+      "gear_needed": [
+        "Avy beacon, probe, shovel",
+        "Skis or splitboard with skins",
+        "Helmet, GPS or Gaia app",
+        "Warm layers and water"
+      ],
+      "safety_notes": [
+        "Popular but still avalanche-prone",
+        "Accessed from Death Canyon trailhead area",
+        "Check for cornices and wind-loaded slopes",
+        "Be cautious of fast changes in weather"
+      ],
+      "reasons": [
+        "Perfect intro to big terrain near GTNP",
+        "Sunny southern aspects soften snow",
+        "Gentler terrain compared to Glory",
+        "Amazing views of Jackson Valley",
+        "Often skied in laps"
+      ]
+    },
+    {
+      "name": "Albright Peak",
+      "location": "Grand Teton National Park (near Taggart Trailhead)",
+      "apple_maps": "https://maps.apple.com/?q=Albright+Peak+GTNP",
+      "difficulty": "Advanced",
+      "gear_needed": [
+        "Avy gear mandatory",
+        "Touring skis/splitboard",
+        "Crampons or ski crampons in spring",
+        "Proper touring boots"
+      ],
+      "safety_notes": [
+        "Long day\u2014start early",
+        "Avalanche exposure on NE aspects",
+        "No cell service in most areas",
+        "Leave a route plan with someone"
+      ],
+      "reasons": [
+        "One of the most scenic summits you can ski",
+        "Consistent pitch for over 2,000 ft",
+        "Great views of the Cathedral Group",
+        "Rarely crowded even on weekends",
+        "Incredible spring skiing line"
+      ]
+    },
+    {
+      "name": "Mt. Glory",
+      "location": "Teton Pass summit",
+      "apple_maps": "https://maps.apple.com/?q=Mt+Glory+WY",
+      "difficulty": "Advanced/Expert",
+      "gear_needed": [
+        "Avy beacon, shovel, probe",
+        "Helmet, skins, alpine touring gear",
+        "Ice axe in spring or firm conditions"
+      ],
+      "safety_notes": [
+        "Steep bootpack\u20141,500 ft gain right from car",
+        "Frequent avalanches; multiple fatalities historically",
+        "Do not ski without proper training",
+        "Watch downhill traffic below your line"
+      ],
+      "reasons": [
+        "Fast access to high-quality descents",
+        "Huge number of line choices",
+        "Classic Jackson-style terrain",
+        "Short but steep summit climb",
+        "Locals\u2019 training ground"
+      ]
+    },
+    {
+      "name": "Oliver Canyon",
+      "location": "Alpine, WY",
+      "apple_maps": "https://maps.apple.com/?q=Oliver+Canyon+Alpine+WY",
+      "difficulty": "Intermediate\u2013Advanced",
+      "gear_needed": [
+        "Avy gear",
+        "Skis or board with skins",
+        "Navigation device",
+        "Warm layers for shaded canyon"
+      ],
+      "safety_notes": [
+        "Canyon terrain funnels slides\u2014use caution",
+        "Remote location\u2014carry inReach or sat beacon",
+        "Great stability on cold, clear days",
+        "Good spot for early season"
+      ],
+      "reasons": [
+        "Tight chutes and great snow preservation",
+        "Easier access compared to higher peaks",
+        "Nice place to escape crowds",
+        "Less technical than central Tetons",
+        "Multiple line options from ridge"
+      ]
+    },
+    {
+      "name": "Mail Cabin Creek",
+      "location": "Teton Pass west side",
+      "apple_maps": "https://maps.apple.com/?q=Mail+Cabin+Teton+Pass+WY",
+      "difficulty": "Intermediate\u2013Advanced",
+      "gear_needed": [
+        "Avy gear",
+        "Backcountry skis/splitboard",
+        "Climbing skins, helmet",
+        "Mapping app or paper map"
+      ],
+      "safety_notes": [
+        "Tree skiing with multiple terrain traps",
+        "Watch for recent snowfall layers",
+        "Popular but still dangerous",
+        "Snowmobiles also use this area"
+      ],
+      "reasons": [
+        "Lower angle terrain for safer powder turns",
+        "Good choice during moderate avy conditions",
+        "Well-known among guides",
+        "Possible to lap from bottom",
+        "Scenic western slope forests"
+      ]
+    },
+    {
+      "name": "Taylor Mountain",
+      "location": "West side of Teton Pass",
+      "apple_maps": "https://maps.apple.com/?q=Taylor+Mountain+WY",
+      "difficulty": "Expert",
+      "gear_needed": [
+        "Full avy kit",
+        "Splitboard/skis + skins",
+        "Helmet, probe, shovel",
+        "Ice axe for spring ascents"
+      ],
+      "safety_notes": [
+        "Known for fatal avalanches\u2014advanced only",
+        "Long tour\u2014expect 4\u20136 hours RT",
+        "Exposure near summit",
+        "Check with Bridger-Teton avalanche center"
+      ],
+      "reasons": [
+        "One of the biggest lines off Teton Pass",
+        "Huge descents and sustained pitches",
+        "Snow quality can be superb",
+        "Quiet compared to Glory",
+        "Big rewards for strong skiers"
+      ]
+    },
+    {
+      "name": "South Leigh Canyon",
+      "location": "Driggs, ID",
+      "apple_maps": "https://maps.apple.com/?q=South+Leigh+Canyon+Driggs+ID",
+      "difficulty": "Advanced",
+      "gear_needed": [
+        "Avy gear",
+        "Navigation tools",
+        "Ski crampons in spring",
+        "Proper layering & nutrition"
+      ],
+      "safety_notes": [
+        "Remote area with limited tracks",
+        "Consider multi-day overnight camping",
+        "Must be confident in route finding",
+        "Deep snowpacks can obscure hazards"
+      ],
+      "reasons": [
+        "Rarely tracked terrain with deep snow",
+        "Alpine feel with less exposure",
+        "Multiple faces and cirques",
+        "Strong snow retention from storms",
+        "Great basecamp adventure zone"
+      ]
+    },
+    {
+      "name": "Stateline Canyon",
+      "location": "Near Teton Pass / WY\u2013ID border",
+      "apple_maps": "https://maps.apple.com/?q=Stateline+Canyon+Teton+Pass+WY",
+      "difficulty": "Advanced",
+      "gear_needed": [
+        "Avalanche transceiver (required)",
+        "Probe and shovel",
+        "Touring setup",
+        "Helmet and snow safety gear"
+      ],
+      "safety_notes": [
+        "Tight terrain\u2014limited maneuver room",
+        "Low visibility during storms",
+        "Watch for tree wells and rollover features",
+        "Ride with experienced partner"
+      ],
+      "reasons": [
+        "Excellent powder retention",
+        "Close to Teton Pass lots",
+        "Perfect for storm days",
+        "Moderate slope angles with trees",
+        "Popular with advanced locals"
+      ]
+    }
+  ],
+  "avalanche_and_safety": {
+    "avalanche_forecast_links": {
+      "Bridger-Teton Avalanche Center": "https://www.jhavalanche.org/",
+      "Sawtooth Avalanche Center (Driggs access routes)": "https://www.sawtoothavalanche.com/"
+    },
+    "emergency_contacts": {
+      "Teton County Search & Rescue": {
+        "phone": "911 (dispatch) or (307) 733-2331",
+        "note": "Always call 911 in an emergency. Inform them you are in the backcountry."
+      },
+      "Teton County Sheriff (non-emergency)": {
+        "phone": "(307) 733-4052"
+      },
+      "Lincoln County Sheriff \u2013 Alpine region": {
+        "phone": "(307) 885-5231"
+      }
+    },
+    "daily_reports_sources": {
+      "Bridger-Teton Avalanche Center Daily Bulletin": "https://www.jhavalanche.org/viewTeton",
+      "NOAA Jackson WY Zone Forecast": "https://forecast.weather.gov/MapClick.php?textField1=43.4791&textField2=-110.7624"
+    }
+  },
+  "gear_rental_locator": [
+    {
+      "name": "Teton Mountaineering",
+      "location": "Jackson, WY",
+      "apple_maps": "https://maps.apple.com/?q=Teton+Mountaineering+Jackson+WY",
+      "gear_available": [
+        "Avalanche transceivers",
+        "Probes",
+        "Shovels",
+        "Backcountry skis/splitboards",
+        "Climbing skins",
+        "Crampons and ice axes"
+      ],
+      "website": "https://www.tetonmtn.com/"
+    },
+    {
+      "name": "Skinny Skis",
+      "location": "Jackson, WY",
+      "apple_maps": "https://maps.apple.com/?q=Skinny+Skis+Jackson+WY",
+      "gear_available": [
+        "Avalanche gear (limited)",
+        "Nordic touring gear",
+        "Winter outerwear",
+        "Backcountry accessories"
+      ],
+      "website": "https://skinnyskis.com/"
+    },
+    {
+      "name": "Hoback Sports",
+      "location": "Jackson, WY",
+      "apple_maps": "https://maps.apple.com/?q=Hoback+Sports+Jackson+WY",
+      "gear_available": [
+        "Backcountry skis and boards",
+        "Transceivers, shovels, and probes",
+        "Boot fitting and custom liners",
+        "Helmets and poles"
+      ],
+      "website": "https://hobacksports.com/"
+    },
+    {
+      "name": "Peaked Sports",
+      "location": "Driggs, ID",
+      "apple_maps": "https://maps.apple.com/?q=Peaked+Sports+Driggs+ID",
+      "gear_available": [
+        "Skis and splitboards",
+        "Avalanche gear",
+        "Touring boots and skins",
+        "Winter clothing"
+      ],
+      "website": "https://www.peakedsports.com/"
+    },
+    {
+      "name": "Alpine Adventure Rentals",
+      "location": "Alpine, WY",
+      "apple_maps": "https://maps.apple.com/?q=Alpine+Adventure+Rentals+WY",
+      "gear_available": [
+        "Snowmobiles with avy gear",
+        "Splitboards (limited availability)",
+        "Helmets, packs, and outerwear"
+      ],
+      "website": "https://alpineadventurerentals.com/"
+    }
+  ]
+}
