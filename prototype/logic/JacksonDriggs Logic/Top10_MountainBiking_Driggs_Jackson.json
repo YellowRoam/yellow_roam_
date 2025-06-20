@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Phillips Ridge to Phillips Canyon via Sno\u2011tel",
+    "location": "Teton Pass, WY",
+    "apple_maps": "https://maps.apple.com/?q=Phillips+Ridge+Trail+Teton+Pass",
+    "popularity": "MTB Project Top\u2011Rated",
+    "reasons": [
+      "Scenic ridge-to-canyon descent with 15\u202fmi of flow and tech terrain",
+      "Epic views of Jackson Hole and Teton Range",
+      "Well\u2011known local favorite for intermediate to expert riders",
+      "Access via shuttle or bike up Old Pass Road",
+      "Ideal mix of climbing and fast downhill thrills"
+    ]
+  },
+  {
+    "name": "Fuzzy Bunny / Parallel Loop",
+    "location": "Teton Pass, WY",
+    "apple_maps": "https://maps.apple.com/?q=Fuzzy+Bunny+Trail+Teton+Pass",
+    "popularity": "Reddit rec\u2019d \u2018must\u2011do\u2019",
+    "reasons": [
+      "Iconic singletrack near Jackson",
+      "Good balance of uphill and descent",
+      "Lots of natural features: rocks, roots, rollers",
+      "Short approach, then ride any connected route",
+      "Highly praised by locals as \u2018awesome\u2019"
+    ]
+  },
+  {
+    "name": "Lucky Charm",
+    "location": "Jackson Hole Mountain Resort",
+    "apple_maps": "https://maps.apple.com/?q=Lucky+Charm+Trail+Jackson+WY",
+    "popularity": "Featured beginner trail in JHMR Bike Park",
+    "reasons": [
+      "Perfect for novices\u2014mellow jumps and berms",
+      "Great way to learn on lift\u2011served terrain",
+      "Family/young rider friendly",
+      "Longest wooden feature in the park",
+      "Built-in confidence booster for learning"
+    ]
+  },
+  {
+    "name": "Game Creek Loop",
+    "location": "Cache\u2011Game area, Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Game+Creek+Loop+Jackson+WY",
+    "popularity": "MTB Project: Intermediate/Difficult recommended route",
+    "reasons": [
+      "Big 18\u201319\u202fmi loop with ~2,400\u202fft climb/descent",
+      "Views across Cache Creek & Snow King",
+      "Variety of terrain: flow, climbs, scenic",
+      "Interactive and engaging singletrack",
+      "Great full\u2011day ride destination"
+    ]
+  },
+  {
+    "name": "Horseshoe Canyon Trails",
+    "location": "Driggs, ID",
+    "apple_maps": "https://maps.apple.com/?q=Horseshoe+Canyon+Driggs+ID",
+    "popularity": "Trailforks top trails (e.g., Bovine Bliss, Channel Lock)",
+    "reasons": [
+      "Open sage\u2011pine singletrack loops",
+      "Well\u2011maintained and flowy for all levels",
+      "Accessible from Driggs: short drives",
+      "Excellent spring and late-season riding",
+      "Local favorite for quick rides"
+    ]
+  },
+  {
+    "name": "Aspen Trail",
+    "location": "Driggs, ID",
+    "apple_maps": "https://maps.apple.com/?q=Aspen+Trail+Driggs+ID",
+    "popularity": "Trailforks top 8 Driggs trails",
+    "reasons": [
+      "Fun forest singletrack (~7\u202fmi)",
+      "Intermediate difficulty, steady climb/descent",
+      "Scenic creek crossings and aspens",
+      "Kid\u2011 and family\u2011friendly depending on skill",
+      "Highly rated by locals"
+    ]
+  },
+  {
+    "name": "Mill Creek / Colter\u2019s Escape",
+    "location": "Grand Targhee Bike Park, Alta, WY",
+    "apple_maps": "https://maps.apple.com/?q=Mill+Creek+Grand+Targhee+WY",
+    "popularity": "MTB Project intermediate",
+    "reasons": [
+      "Lift\u2011served with ~2,000\u202fft vertical",
+      "Intermediate cross\u2011country flow",
+      "Part of Targhee\u2019s 70\u202fmi bike park",
+      "Great summer alpine meadows",
+      "Well\u2011maintained trail network"
+    ]
+  },
+  {
+    "name": "Cache Creek Sidewalk & Putt\u2011Putt",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Cache+Creek+Sidewalk+Jackson+WY",
+    "popularity": "JacksonHoleWY.com beginner loop",
+    "reasons": [
+      "Accessible, easy singletrack near town",
+      "Putt\u2011Putt adds fun downhill features",
+      "Great for mixed\u2011ability groups",
+      "Fast warm\u2011up ride or family trip",
+      "Scenic Creekside route"
+    ]
+  },
+  {
+    "name": "Ferrins (Upper Cache\u2011Game)",
+    "location": "Snow King / Cache Game, Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Ferrins+Trail+Jackson+WY",
+    "popularity": "Local steep climb to summit",
+    "reasons": [
+      "Challenging 1,200\u202fft climb in 3.4\u202fmi",
+      "Groomed for cross\u2011country training",
+      "Epic descent options across multiple trails",
+      "Ideal summit-to-valley experience",
+      "Access to vast trail network back to town"
+    ]
+  },
+  {
+    "name": "Big Holes Trail System",
+    "location": "Wilson area, WY",
+    "apple_maps": "https://maps.apple.com/?q=Big+Holes+Trails+Wilson+WY",
+    "popularity": "VisitJacksonHole #4 trail",
+    "reasons": [
+      "80\u202fmi network with 3,000\u202fft vertical",
+      "Ridgetop loops with stunning views",
+      "Intermediate-to-advanced options",
+      "Well-loved by local MTB community",
+      "Peaceful and varied terrain"
+    ]
+  }
+]
