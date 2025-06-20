@@ -1,0 +1,479 @@
+{
+  "restaurants": [
+    {
+      "name": "Fresco Caf\u00e9",
+      "location": "317 E Mendenhall St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Fresco+Cafe+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/fresco-cafe-bozeman",
+      "top_10_reasons_to_visit": [
+        "Fresh Italian dishes in a cozy setting",
+        "Popular with locals for over a decade",
+        "Affordable lunch and dinner specials",
+        "Beautiful patio dining in warm months",
+        "Great for families and date nights",
+        "Locals love the chicken piccata and lasagna",
+        "Daily specials based on fresh ingredients",
+        "Friendly, attentive staff",
+        "Relaxed yet upscale ambiance",
+        "Walkable from downtown"
+      ],
+      "tags": [
+        "italian",
+        "family_friendly",
+        "patio",
+        "local_favorite",
+        "downtown"
+      ]
+    },
+    {
+      "name": "Whistlepig Korean",
+      "location": "25 N Willson Ave, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Whistlepig+Korean+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/whistlepig-korean-bozeman",
+      "top_10_reasons_to_visit": [
+        "Casual and creative Korean fare",
+        "Popular for the rice bowls and bibimbap",
+        "Excellent kimchi and fermented sauces",
+        "Vegetarian and gluten-free options",
+        "Hip, minimalist d\u00e9cor",
+        "Fast and friendly service",
+        "Great for takeout or quick dine-in",
+        "Open for lunch and dinner",
+        "Affordable and generous portions",
+        "Loved by students and locals alike"
+      ],
+      "tags": [
+        "korean",
+        "gluten_friendly",
+        "vegetarian",
+        "casual",
+        "quick_bite"
+      ]
+    },
+    {
+      "name": "Backcountry Burger Bar",
+      "location": "125 W Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Backcountry+Burger+Bar+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/backcountry-burger-bar-bozeman",
+      "top_10_reasons_to_visit": [
+        "Locally sourced beef and creative burger options",
+        "Craft beer selection with Montana brews",
+        "Casual and family-friendly atmosphere",
+        "Vegan and vegetarian burger options",
+        "Delicious hand-cut fries and garlic aioli",
+        "Fast service, great for lunch or dinner",
+        "Indoor and outdoor seating options",
+        "Friendly, laid-back staff",
+        "Downtown location near shops and bars",
+        "Sustainable sourcing and eco-conscious practices"
+      ],
+      "tags": [
+        "burgers",
+        "local_beef",
+        "family_friendly",
+        "downtown",
+        "craft_beer"
+      ]
+    },
+    {
+      "name": "Jam!",
+      "location": "25 W Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Jam+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/jam-bozeman",
+      "top_10_reasons_to_visit": [
+        "Popular brunch spot with inventive menu",
+        "Great gluten-free and vegetarian options",
+        "Lively vibe with open kitchen and large windows",
+        "House-made jams and local ingredients",
+        "Crowd favorites include avocado toast and pancakes",
+        "Coffee and cocktail options available",
+        "Downtown location with outdoor seating",
+        "Friendly staff and fast service",
+        "Good for groups or solo visits",
+        "Creative twists on traditional breakfast dishes"
+      ],
+      "tags": [
+        "brunch",
+        "vegetarian",
+        "gluten_friendly",
+        "downtown",
+        "creative_menu"
+      ]
+    },
+    {
+      "name": "The Western Caf\u00e9",
+      "location": "443 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Western+Cafe+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/western-cafe-bozeman",
+      "top_10_reasons_to_visit": [
+        "Bozeman\u2019s iconic cowboy diner",
+        "Hearty breakfasts with homemade biscuits",
+        "Friendly and fast old-school service",
+        "Vintage Western vibe with local memorabilia",
+        "Locals\u2019 favorite for generations",
+        "Affordable prices and large portions",
+        "Great coffee and home fries",
+        "Consistent, down-home flavors",
+        "Good for families and early risers",
+        "One of Bozeman\u2019s most beloved staples"
+      ],
+      "tags": [
+        "breakfast",
+        "classic_diner",
+        "local_favorite",
+        "affordable",
+        "western"
+      ]
+    },
+    {
+      "name": "Dave\u2019s Sushi \u2013 Off Main",
+      "location": "115 N Bozeman Ave, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Dave's+Sushi+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/daves-sushi-bozeman",
+      "top_10_reasons_to_visit": [
+        "Best-known sushi spot in Bozeman",
+        "Creative rolls with fresh ingredients",
+        "Outdoor patio in warm weather",
+        "Casual and funky d\u00e9cor",
+        "Good for dates or groups",
+        "Great sake selection",
+        "Vegan sushi roll options",
+        "Popular happy hour specials",
+        "Fast and reliable service",
+        "Consistently ranked as a local favorite"
+      ],
+      "tags": [
+        "sushi",
+        "patio",
+        "casual",
+        "happy_hour",
+        "vegan_options"
+      ]
+    },
+    {
+      "name": "Feast Raw Bar & Bistro",
+      "location": "270 W Kagy Blvd Ste C, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Feast+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/feast-raw-bar-and-bistro-bozeman",
+      "top_10_reasons_to_visit": [
+        "High-end seafood and raw bar experience",
+        "Great for special occasions and date nights",
+        "Extensive wine list and artisan cocktails",
+        "Oysters and lobster are standout dishes",
+        "Modern ambiance with open kitchen",
+        "Attentive and knowledgeable staff",
+        "Chef-driven seasonal menu",
+        "Great dessert options too",
+        "Reservations recommended",
+        "One of Bozeman\u2019s top fine-dining spots"
+      ],
+      "tags": [
+        "seafood",
+        "fine_dining",
+        "wine_list",
+        "date_spot",
+        "oysters"
+      ]
+    },
+    {
+      "name": "Montana Ale Works",
+      "location": "611 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Montana+Ale+Works+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/montana-ale-works-bozeman",
+      "top_10_reasons_to_visit": [
+        "Massive beer selection with Montana focus",
+        "Converted railroad warehouse with an industrial-chic feel",
+        "Great burgers, steaks, and salads",
+        "Perfect for large groups and gatherings",
+        "Lively atmosphere with bar and dining zones",
+        "Open kitchen lets you see the action",
+        "Friendly, fast service",
+        "Consistent quality and big portions",
+        "Popular with tourists and locals alike",
+        "Kid-friendly menu available"
+      ],
+      "tags": [
+        "american",
+        "beer_bar",
+        "burgers",
+        "industrial",
+        "group_friendly"
+      ]
+    },
+    {
+      "name": "Urban Kitchen",
+      "location": "5 W Mendenhall St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Urban+Kitchen+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/urban-kitchen-bozeman",
+      "top_10_reasons_to_visit": [
+        "Upscale yet approachable American cuisine",
+        "Popular for brunch, dinner, and cocktails",
+        "Sleek, modern decor with downtown views",
+        "Seasonal, locally sourced ingredients",
+        "Extensive wine and cocktail list",
+        "Known for truffle fries and seared salmon",
+        "Friendly and knowledgeable staff",
+        "Great for special occasions",
+        "Spacious dining area with large windows",
+        "Reservations recommended on weekends"
+      ],
+      "tags": [
+        "american",
+        "brunch",
+        "downtown",
+        "modern",
+        "date_spot"
+      ]
+    },
+    {
+      "name": "The Mint Cafe and Bar",
+      "location": "27 E Main St, Belgrade, MT 59714",
+      "apple_maps_link": "https://maps.apple.com/?q=The+Mint+Cafe+and+Bar+Belgrade",
+      "yelp_link": "https://www.yelp.com/biz/the-mint-cafe-and-bar-belgrade",
+      "top_10_reasons_to_visit": [
+        "Old-school Montana steakhouse vibes",
+        "Strong cocktails and cold beers",
+        "Top-tier ribeye and filet mignon",
+        "Belgrade staple for decades",
+        "Friendly small-town service",
+        "Great place to escape Bozeman crowds",
+        "Rustic interior with cowboy charm",
+        "Casual yet elevated menu",
+        "Easy parking in downtown Belgrade",
+        "Popular with ranchers and families alike"
+      ],
+      "tags": [
+        "steakhouse",
+        "belgrade",
+        "rustic",
+        "old_school",
+        "local_favorite"
+      ]
+    },
+    {
+      "name": "South 9th Bistro",
+      "location": "721 S 9th Ave, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=South+9th+Bistro+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/south-9th-bistro-bozeman",
+      "top_10_reasons_to_visit": [
+        "Hidden gem in a converted house",
+        "Creative, fine-dining style menu",
+        "Romantic, cozy atmosphere",
+        "Farm-to-table sourcing",
+        "Well-executed seafood and French-style dishes",
+        "Excellent wine pairings available",
+        "Personal and professional service",
+        "Patio dining in summer months",
+        "Reservations highly recommended",
+        "Quiet setting away from Main Street"
+      ],
+      "tags": [
+        "fine_dining",
+        "romantic",
+        "hidden_gem",
+        "french_influence",
+        "patio"
+      ]
+    },
+    {
+      "name": "The Nova Cafe",
+      "location": "312 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Nova+Cafe+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/the-nova-cafe-bozeman",
+      "top_10_reasons_to_visit": [
+        "Beloved breakfast and brunch caf\u00e9",
+        "Bright, colorful and artsy space",
+        "Locally roasted coffee and fresh juices",
+        "Diverse options including gluten-free, vegan, vegetarian",
+        "Creative egg dishes and hearty plates",
+        "Great for families, solo diners, or dates",
+        "Fast and friendly service",
+        "Popular with locals and students",
+        "Sustainably sourced ingredients",
+        "Great value for large portions"
+      ],
+      "tags": [
+        "breakfast",
+        "brunch",
+        "vegetarian_friendly",
+        "local_favorite",
+        "family_friendly"
+      ]
+    },
+    {
+      "name": "Heist",
+      "location": "321 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Heist+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/heist-bozeman",
+      "top_10_reasons_to_visit": [
+        "Upscale steakhouse in a stylish setting",
+        "Dry-aged steaks and exquisite sides",
+        "Elegant bar and cocktail menu",
+        "Downtown location in a historic building",
+        "Perfect for business dinners or celebrations",
+        "Excellent wine list",
+        "Attentive and high-end service",
+        "Refined ambiance and d\u00e9cor",
+        "Top-quality ingredients and prep",
+        "Expect to pay premium pricing for quality"
+      ],
+      "tags": [
+        "steakhouse",
+        "fine_dining",
+        "downtown",
+        "cocktails",
+        "date_spot"
+      ]
+    },
+    {
+      "name": "Treeline Coffee Roasters + Eatery",
+      "location": "624 N Wallace Ave, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Treeline+Coffee+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/treeline-coffee-roasters-bozeman",
+      "top_10_reasons_to_visit": [
+        "Gorgeous caf\u00e9 with food and coffee options",
+        "Top-tier espresso and pour-overs",
+        "Great place to work remotely or meet friends",
+        "Artisan breakfast sandwiches and grain bowls",
+        "Sustainable and direct-sourced beans",
+        "Minimalist, Scandinavian-style design",
+        "Free Wi-Fi and quiet corners",
+        "Friendly, knowledgeable baristas",
+        "Local baked goods available daily",
+        "Hidden patio out back"
+      ],
+      "tags": [
+        "coffee",
+        "remote_work",
+        "breakfast",
+        "light_lunch",
+        "scandinavian"
+      ]
+    },
+    {
+      "name": "Main Street Overeasy",
+      "location": "9 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Main+Street+Overeasy+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/main-street-overeasy-bozeman",
+      "top_10_reasons_to_visit": [
+        "Classic American breakfast all day",
+        "Great service and hometown feel",
+        "Fluffy pancakes and hash browns",
+        "Wall murals and local art",
+        "Efficient for early risers and families",
+        "Very reasonably priced",
+        "Longstanding Bozeman favorite",
+        "Kids' menu available",
+        "Friendly and casual vibes",
+        "Right on Main Street"
+      ],
+      "tags": [
+        "breakfast",
+        "local_favorite",
+        "affordable",
+        "family_friendly",
+        "main_street"
+      ]
+    },
+    {
+      "name": "Hooked Sushi",
+      "location": "119 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Hooked+Sushi+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/hooked-sushi-bozeman",
+      "top_10_reasons_to_visit": [
+        "Trendy sushi bar with inventive rolls",
+        "Fresh seafood and quick service",
+        "Stylish modern d\u00e9cor",
+        "Lively spot for dinner with friends",
+        "Great cocktails and sake options",
+        "Popular roll: The Wapiti",
+        "Happy hour deals available",
+        "Attentive staff and clean space",
+        "Good vegetarian roll options",
+        "Walkable downtown location"
+      ],
+      "tags": [
+        "sushi",
+        "cocktails",
+        "modern",
+        "happy_hour",
+        "trendy"
+      ]
+    },
+    {
+      "name": "Mountains Walking Brewery & Pub",
+      "location": "422 N Plum Ave, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Mountains+Walking+Brewery+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/mountains-walking-brewery-and-pub-bozeman",
+      "top_10_reasons_to_visit": [
+        "Great beer with experimental brews",
+        "Delicious wood-fired pizzas and small plates",
+        "Chill vibe with modern rustic d\u00e9cor",
+        "Popular for lunch and happy hour",
+        "Spacious and great for groups",
+        "Locally sourced food ingredients",
+        "Friendly and knowledgeable staff",
+        "Family-friendly setup",
+        "Good mix of locals and visitors",
+        "Plenty of indoor seating"
+      ],
+      "tags": [
+        "brewpub",
+        "pizza",
+        "beer",
+        "family_friendly",
+        "casual"
+      ]
+    },
+    {
+      "name": "Sweet Chili Asian Bistro",
+      "location": "101 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Sweet+Chili+Asian+Bistro+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/sweet-chili-asian-bistro-bozeman",
+      "top_10_reasons_to_visit": [
+        "Popular Thai and Vietnamese dishes",
+        "Beautiful interior with traditional d\u00e9cor",
+        "Consistent and flavorful cuisine",
+        "Friendly and efficient staff",
+        "Spicy curries and great pho",
+        "Lots of vegetarian and gluten-free options",
+        "Nice place for lunch or dinner",
+        "Good for groups and couples",
+        "Central location on Main",
+        "Nice wine list and Asian beers"
+      ],
+      "tags": [
+        "asian",
+        "thai",
+        "vietnamese",
+        "gluten_friendly",
+        "vegetarian"
+      ]
+    },
+    {
+      "name": "Blackbird Kitchen",
+      "location": "140 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Blackbird+Kitchen+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/blackbird-kitchen-bozeman",
+      "top_10_reasons_to_visit": [
+        "Modern Italian dishes with wood-fired pizzas",
+        "Excellent wine pairings",
+        "Sleek and intimate dining room",
+        "Popular for both locals and tourists",
+        "Romantic ambiance with candlelight",
+        "Attentive and professional servers",
+        "Daily specials and seasonal ingredients",
+        "Great pastas and salads too",
+        "Perfect for dinner dates",
+        "Reservations encouraged"
+      ],
+      "tags": [
+        "italian",
+        "romantic",
+        "wine_list",
+        "fine_dining",
+        "pizza"
+      ]
+    }
+  ]
+}
