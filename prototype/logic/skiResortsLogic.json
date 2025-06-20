@@ -1,0 +1,114 @@
+[
+  {
+    "intent": "ski_resort_info",
+    "patterns": [
+      "What\u2019s skiing like at Bridger Bowl?",
+      "Tell me about Bridger Bowl.",
+      "Where is Bridger Bowl located?",
+      "How much are lift tickets at Bridger Bowl?",
+      "Does Bridger Bowl take a season pass?",
+      "Is Bridger Bowl good for families?",
+      "What kind of terrain does Bridger Bowl have?",
+      "Is Bridger Bowl crowded?",
+      "Would beginners enjoy Bridger Bowl?",
+      "What\u2019s the vibe at Bridger Bowl?"
+    ],
+    "response": "Bridger Bowl is located in Bozeman, MT and offers Steep ridgelines, hike-to terrain, family areas. Day tickets cost around $70\u2013$85/day. The resort is known for its Local favorite, no-frills powder days. Pass access: None (independent). Additional notes: Advanced terrain requires avalanche gear Great for locals and strong intermediates"
+  },
+  {
+    "intent": "ski_resort_info",
+    "patterns": [
+      "What\u2019s skiing like at Big Sky Resort?",
+      "Tell me about Big Sky Resort.",
+      "Where is Big Sky Resort located?",
+      "How much are lift tickets at Big Sky Resort?",
+      "Does Big Sky Resort take a season pass?",
+      "Is Big Sky Resort good for families?",
+      "What kind of terrain does Big Sky Resort have?",
+      "Is Big Sky Resort crowded?",
+      "Would beginners enjoy Big Sky Resort?",
+      "What\u2019s the vibe at Big Sky Resort?"
+    ],
+    "response": "Big Sky Resort is located in Big Sky, MT and offers Massive terrain, expert bowls, groomers. Day tickets cost around $175\u2013$240/day. The resort is known for its Luxury resort, full amenities. Pass access: Ikon Pass. Additional notes: Biggest terrain in Montana Iconic Lone Peak Tram not included in base pass"
+  },
+  {
+    "intent": "ski_resort_info",
+    "patterns": [
+      "What\u2019s skiing like at Showdown Montana?",
+      "Tell me about Showdown Montana.",
+      "Where is Showdown Montana located?",
+      "How much are lift tickets at Showdown Montana?",
+      "Does Showdown Montana take a season pass?",
+      "Is Showdown Montana good for families?",
+      "What kind of terrain does Showdown Montana have?",
+      "Is Showdown Montana crowded?",
+      "Would beginners enjoy Showdown Montana?",
+      "What\u2019s the vibe at Showdown Montana?"
+    ],
+    "response": "Showdown Montana is located in Neihart, MT and offers Beginner to intermediate slopes. Day tickets cost around $50\u2013$65/day. The resort is known for its Retro local hill, family-friendly. Pass access: None. Additional notes: Affordable lift tickets Small but great on powder days"
+  },
+  {
+    "intent": "ski_resort_info",
+    "patterns": [
+      "What\u2019s skiing like at Discovery Ski Area?",
+      "Tell me about Discovery Ski Area.",
+      "Where is Discovery Ski Area located?",
+      "How much are lift tickets at Discovery Ski Area?",
+      "Does Discovery Ski Area take a season pass?",
+      "Is Discovery Ski Area good for families?",
+      "What kind of terrain does Discovery Ski Area have?",
+      "Is Discovery Ski Area crowded?",
+      "Would beginners enjoy Discovery Ski Area?",
+      "What\u2019s the vibe at Discovery Ski Area?"
+    ],
+    "response": "Discovery Ski Area is located in Philipsburg, MT and offers Steeps, tree skiing, beginner area. Day tickets cost around $55\u2013$75/day. The resort is known for its Underrated, no crowds. Pass access: None. Additional notes: Three separate mountain faces Locals' secret with great terrain variety"
+  },
+  {
+    "intent": "ski_resort_info",
+    "patterns": [
+      "What\u2019s skiing like at Jackson Hole Mountain Resort?",
+      "Tell me about Jackson Hole Mountain Resort.",
+      "Where is Jackson Hole Mountain Resort located?",
+      "How much are lift tickets at Jackson Hole Mountain Resort?",
+      "Does Jackson Hole Mountain Resort take a season pass?",
+      "Is Jackson Hole Mountain Resort good for families?",
+      "What kind of terrain does Jackson Hole Mountain Resort have?",
+      "Is Jackson Hole Mountain Resort crowded?",
+      "Would beginners enjoy Jackson Hole Mountain Resort?",
+      "What\u2019s the vibe at Jackson Hole Mountain Resort?"
+    ],
+    "response": "Jackson Hole Mountain Resort is located in Teton Village, WY and offers Extreme steeps, expert chutes, backcountry access. Day tickets cost around $165\u2013$210/day. The resort is known for its Elite, high-energy, big mountain. Pass access: Ikon Pass. Additional notes: Tram access is world-renowned Challenging for first-timers"
+  },
+  {
+    "intent": "ski_resort_info",
+    "patterns": [
+      "What\u2019s skiing like at Snow King Mountain?",
+      "Tell me about Snow King Mountain.",
+      "Where is Snow King Mountain located?",
+      "How much are lift tickets at Snow King Mountain?",
+      "Does Snow King Mountain take a season pass?",
+      "Is Snow King Mountain good for families?",
+      "What kind of terrain does Snow King Mountain have?",
+      "Is Snow King Mountain crowded?",
+      "Would beginners enjoy Snow King Mountain?",
+      "What\u2019s the vibe at Snow King Mountain?"
+    ],
+    "response": "Snow King Mountain is located in Jackson, WY and offers Steep frontside, night skiing. Day tickets cost around $50\u2013$75/day. The resort is known for its Town hill for quick laps. Pass access: None. Additional notes: Great night skiing option Close to lodging in Jackson"
+  },
+  {
+    "intent": "ski_resort_info",
+    "patterns": [
+      "What\u2019s skiing like at Grand Targhee Resort?",
+      "Tell me about Grand Targhee Resort.",
+      "Where is Grand Targhee Resort located?",
+      "How much are lift tickets at Grand Targhee Resort?",
+      "Does Grand Targhee Resort take a season pass?",
+      "Is Grand Targhee Resort good for families?",
+      "What kind of terrain does Grand Targhee Resort have?",
+      "Is Grand Targhee Resort crowded?",
+      "Would beginners enjoy Grand Targhee Resort?",
+      "What\u2019s the vibe at Grand Targhee Resort?"
+    ],
+    "response": "Grand Targhee Resort is located in Alta, WY and offers Deep snow, tree skiing, wide open bowls. Day tickets cost around $95\u2013$130/day. The resort is known for its Powder magnet, laid-back. Pass access: Mountain Collective, Indy Pass. Additional notes: High snowfall with relaxed vibe Great for families and powder lovers"
+  }
+]
