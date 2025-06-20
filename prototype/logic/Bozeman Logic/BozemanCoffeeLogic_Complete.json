@@ -1,0 +1,255 @@
+{
+  "coffee": [
+    {
+      "name": "Vienne French Bakery & Caf\u00e9",
+      "location": "101 S Wallace Ave, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Vienne+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/vienne-french-bakery-and-cafe-bozeman",
+      "top_10_reasons_to_visit": [
+        "Arguably the best cortado in Bozeman",
+        "Authentic French pastries and fresh-baked bread",
+        "Quiet, elegant space perfect for remote work",
+        "Great for small meetings or catching up with friends",
+        "Early morning hours make it ideal for a pre-work stop",
+        "Sidewalk seating for warm days",
+        "Lovely staff and consistent coffee quality",
+        "Less touristy than Main Street spots",
+        "French-style light breakfast and lunch options",
+        "Excellent espresso drinks across the board"
+      ],
+      "tags": [
+        "best_cortado",
+        "remote_work",
+        "pastries",
+        "quiet",
+        "elegant",
+        "french"
+      ]
+    },
+    {
+      "name": "Zocalo Coffee House",
+      "location": "117 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Zocalo+Coffee+House+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/zocalo-coffee-house-bozeman",
+      "top_10_reasons_to_visit": [
+        "Top-tier cappuccino\u2014local favorite",
+        "Art-filled, high-ceiling interior with skylight",
+        "Great hangout for students and creatives",
+        "Plenty of seating for casual meetings",
+        "Strong Wi-Fi for remote work",
+        "Community events and rotating art",
+        "Strong drip coffee and tea selection too",
+        "Right on Main Street for walkability",
+        "Mellow vibe even when busy",
+        "Staff known for being welcoming and upbeat"
+      ],
+      "tags": [
+        "best_cappuccino",
+        "artsy",
+        "remote_work",
+        "walkable",
+        "friendly"
+      ]
+    },
+    {
+      "name": "Treeline Coffee Roasters",
+      "location": "624 N Wallace Ave, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Treeline+Coffee+Roasters+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/treeline-coffee-roasters-bozeman",
+      "top_10_reasons_to_visit": [
+        "Fresh-roasted beans on-site",
+        "Clean, modern layout ideal for laptop work",
+        "Signature single-origin pour overs",
+        "Great for casual meetings",
+        "Local favorite among coffee aficionados",
+        "Baristas are coffee experts",
+        "Quiet side-street location",
+        "Sustainably sourced beans",
+        "Merch and bags of beans available",
+        "Consistently high Yelp reviews"
+      ],
+      "tags": [
+        "single_origin",
+        "sustainable",
+        "remote_work",
+        "meetings",
+        "barista_quality"
+      ]
+    },
+    {
+      "name": "Ghost Town Coffee Roasters",
+      "location": "104 Bridger Center Dr, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Ghost+Town+Coffee+Roasters+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/ghost-town-coffee-roasters-bozeman",
+      "top_10_reasons_to_visit": [
+        "Industrial-cool space with comfy booths",
+        "Strong espresso drinks",
+        "Great gluten-free baked goods",
+        "Plenty of outlets for work",
+        "Less busy than downtown",
+        "Small meeting space in back",
+        "Unique coffee flight option",
+        "Friendly staff who remember your order",
+        "Parking is easy and free",
+        "Rotating seasonal drinks"
+      ],
+      "tags": [
+        "gluten_friendly",
+        "parking",
+        "industrial_vibe",
+        "coffee_flights",
+        "wifi"
+      ]
+    },
+    {
+      "name": "Rockford Coffee",
+      "location": "316 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Rockford+Coffee+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/rockford-coffee-bozeman",
+      "top_10_reasons_to_visit": [
+        "Locally roasted beans with a smooth finish",
+        "Excellent Americanos and flat whites",
+        "Big windows and people-watching",
+        "Great seating for meetups",
+        "Locals love the rotating roasts",
+        "Friendly, professional baristas",
+        "Dog-friendly outdoor seating",
+        "Steps from other downtown shops",
+        "Minimalist, clean design",
+        "Solid pastry selection"
+      ],
+      "tags": [
+        "dog_friendly",
+        "downtown",
+        "smooth_roast",
+        "flat_white",
+        "minimalist"
+      ]
+    },
+    {
+      "name": "Wild Joe*s Coffee Spot",
+      "location": "18 W Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Wild+Joe%27s+Coffee+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/wild-joe-s-coffee-spot-bozeman",
+      "top_10_reasons_to_visit": [
+        "Lively music-focused cafe",
+        "Hosts open mic and small concerts",
+        "Great for student study sessions",
+        "Good chai and matcha options",
+        "LGBTQ+ friendly and inclusive",
+        "Art exhibits and a community board",
+        "Wide drink selection for non-coffee drinkers",
+        "Nice staff, welcoming atmosphere",
+        "Great local vibe",
+        "Kid-friendly options too"
+      ],
+      "tags": [
+        "inclusive",
+        "music_events",
+        "study_spot",
+        "community_board",
+        "kid_friendly"
+      ]
+    },
+    {
+      "name": "Cold Smoke Coffeehouse",
+      "location": "64 Willow Peak Dr, Bozeman, MT 59718",
+      "apple_maps_link": "https://maps.apple.com/?q=Cold+Smoke+Coffeehouse+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/cold-smoke-coffeehouse-bozeman-2",
+      "top_10_reasons_to_visit": [
+        "Large, comfy seating great for work",
+        "Good balance of quiet and buzz",
+        "Excellent signature drinks",
+        "Ample free parking",
+        "Popular with southside locals",
+        "Lots of power outlets",
+        "Drive-thru available",
+        "Spacious and well-lit",
+        "Good muffin and snack options",
+        "Faith-friendly environment"
+      ],
+      "tags": [
+        "drive_thru",
+        "remote_work",
+        "faith_friendly",
+        "parking",
+        "southside"
+      ]
+    },
+    {
+      "name": "Cafe M",
+      "location": "777 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Cafe+M+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/cafe-m-bozeman",
+      "top_10_reasons_to_visit": [
+        "Attached to the Element Hotel",
+        "Upscale cafe feel",
+        "Fantastic espresso drinks",
+        "Gluten-free options",
+        "Works well for business meetings",
+        "Good Wi-Fi and comfortable chairs",
+        "Nice breakfast menu",
+        "Clean and quiet",
+        "Popular with professionals",
+        "Walkable to Lindley Park"
+      ],
+      "tags": [
+        "business_friendly",
+        "hotel_attached",
+        "gluten_friendly",
+        "quiet",
+        "professional"
+      ]
+    },
+    {
+      "name": "Steep Mountain Tea House",
+      "location": "402 E Main St, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Steep+Mountain+Tea+House+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/steep-mountain-tea-house-bozeman",
+      "top_10_reasons_to_visit": [
+        "Not coffee\u2014but stellar tea-focused spot",
+        "Cozy vibe, good for quiet meetups",
+        "Unique herbal and chai options",
+        "Board games and bookshelves",
+        "Friendly and knowledgeable staff",
+        "Minimalist and elegant space",
+        "Popular with students and artists",
+        "Free Wi-Fi and outlets",
+        "Serves local treats",
+        "Cultural events and music nights"
+      ],
+      "tags": [
+        "tea_house",
+        "quiet",
+        "chai_specialty",
+        "cozy",
+        "events"
+      ]
+    },
+    {
+      "name": "Daily Coffee & Eatery",
+      "location": "1203 N Rouse Ave, Bozeman, MT 59715",
+      "apple_maps_link": "https://maps.apple.com/?q=Daily+Coffee+and+Eatery+Bozeman",
+      "yelp_link": "https://www.yelp.com/biz/daily-coffee-and-eatery-bozeman",
+      "top_10_reasons_to_visit": [
+        "Bright, cheerful corner location",
+        "Best scones and muffins in town",
+        "Great for remote work or quiet chats",
+        "Good espresso and drip options",
+        "Frequented by locals avoiding downtown",
+        "Relaxed, neighborhood feel",
+        "Outdoor seating available",
+        "Vegetarian-friendly food menu",
+        "Super clean and well-run",
+        "Easy to park nearby"
+      ],
+      "tags": [
+        "neighborhood_favorite",
+        "vegetarian_friendly",
+        "bright_space",
+        "outdoor_seating",
+        "relaxed"
+      ]
+    }
+  ]
+}
