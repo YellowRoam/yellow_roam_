@@ -1,0 +1,180 @@
+[
+  {
+    "activity": "Fly Fishing on the Madison River",
+    "five_reasons": [
+      "World-class trout waters",
+      "Scenic canyon and meandering meadow stretches",
+      "Accessible spots just minutes from town",
+      "Multiple fly shops and guided services available",
+      "Peak season aligns with beautiful weather"
+    ],
+    "local_tips": "Early morning and late evening are best for dry fly action. Stop at Big Sky Anglers for local hatch updates.",
+    "gear_needed": [
+      "Fly rod and reel",
+      "Waders",
+      "Flies and tippet",
+      "Fishing license",
+      "Sunglasses"
+    ]
+  },
+  {
+    "activity": "Hiking to Fairy Falls and Imperial Geyser",
+    "five_reasons": [
+      "Beautiful waterfall and backcountry geyser combo",
+      "Wildflowers in mid-summer",
+      "One of the less crowded thermal features",
+      "Family-friendly trail (moderate difficulty)",
+      "Great photo opportunities"
+    ],
+    "local_tips": "Start early to avoid crowds and bring bear spray. Parking can fill up fast near Midway Geyser Basin.",
+    "gear_needed": [
+      "Daypack",
+      "Water",
+      "Hiking shoes",
+      "Bear spray",
+      "Camera"
+    ]
+  },
+  {
+    "activity": "Biking the Riverside Trail",
+    "five_reasons": [
+      "Flat, scenic trail along the Madison River",
+      "Wildlife often spotted in early morning",
+      "Connects easily to town",
+      "Good for families and teens",
+      "Shady sections provide cool relief"
+    ],
+    "local_tips": "Check out Freeheel and Wheel for rentals and trail maps.",
+    "gear_needed": [
+      "Bike and helmet",
+      "Water",
+      "Bug spray",
+      "Binoculars",
+      "Bear spray"
+    ]
+  },
+  {
+    "activity": "Horseback Riding at Diamond P Ranch",
+    "five_reasons": [
+      "Experienced local guides",
+      "Mountain scenery on full display",
+      "Great for families and first-time riders",
+      "Well-cared-for horses",
+      "Three ride types based on comfort level"
+    ],
+    "local_tips": "Book early during peak summer. Long pants and boots recommended.",
+    "gear_needed": [
+      "Closed-toe shoes",
+      "Long pants",
+      "Water bottle",
+      "Camera"
+    ]
+  },
+  {
+    "activity": "Boating or Kayaking on Hebgen Lake",
+    "five_reasons": [
+      "Just 15 minutes from town",
+      "Cooler temperatures and water activities",
+      "Beautiful backdrop with the mountains",
+      "Good for paddleboarding and fishing",
+      "Multiple boat ramps and rental outlets"
+    ],
+    "local_tips": "Wind picks up in the afternoon, so start early. Kirkwood Marina has kayak rentals.",
+    "gear_needed": [
+      "Kayak or SUP",
+      "Life jacket",
+      "Dry bag",
+      "Snacks",
+      "Sun protection"
+    ]
+  },
+  {
+    "activity": "Scenic Drive into Yellowstone via Firehole Canyon Drive",
+    "five_reasons": [
+      "One-way scenic loop with waterfalls",
+      "Good for kids and elders",
+      "Short hikes and swimming options",
+      "Great for spotting wildlife",
+      "Cooler temps in the trees"
+    ],
+    "local_tips": "Drive early in the morning for best lighting and photo conditions.",
+    "gear_needed": [
+      "Binoculars",
+      "Camera",
+      "Water",
+      "Snacks",
+      "Park pass"
+    ]
+  },
+  {
+    "activity": "Wildlife Watching in Hayden Valley",
+    "five_reasons": [
+      "One of Yellowstone\u2019s best wildlife viewing areas",
+      "Great for bison, elk, and sometimes wolves",
+      "Morning and dusk are most active times",
+      "Sweeping vistas for photography",
+      "Multiple pullouts for safe viewing"
+    ],
+    "local_tips": "Bring spotting scopes or binoculars. Avoid mid-day crowds.",
+    "gear_needed": [
+      "Binoculars",
+      "Spotting scope",
+      "Camera",
+      "Snacks",
+      "Field guide"
+    ]
+  },
+  {
+    "activity": "Ziplining at Yellowstone Aerial Adventures",
+    "five_reasons": [
+      "Family-friendly adventure course",
+      "Great for teens and thrill seekers",
+      "Ropes courses included",
+      "Located right in West Yellowstone",
+      "Perfect half-day activity"
+    ],
+    "local_tips": "Waivers required. Arrive 15 minutes early to gear up.",
+    "gear_needed": [
+      "Closed-toe shoes",
+      "Waiver",
+      "Water bottle",
+      "Gloves (optional)"
+    ]
+  },
+  {
+    "activity": "Swimming at Firehole River Swim Area",
+    "five_reasons": [
+      "Unique hot-spring-fed river swim zone",
+      "Safe, calm current section open in summer",
+      "Popular with locals and travelers",
+      "Short walk from parking area",
+      "Fun break on a long day"
+    ],
+    "local_tips": "Bring water shoes for rocks and check if area is open (it closes during high flow).",
+    "gear_needed": [
+      "Swimsuit",
+      "Water shoes",
+      "Towel",
+      "Sunscreen",
+      "Dry bag"
+    ]
+  },
+  {
+    "activity": "Day Trip to Quake Lake Visitor Center",
+    "five_reasons": [
+      "Educational and scenic stop",
+      "Learn about the 1959 earthquake",
+      "Great views of the scarred landscape",
+      "Easy trails and picnic spots",
+      "Excellent for geology enthusiasts"
+    ],
+    "local_tips": "Combine with Hebgen Lake for a full day of water + history.",
+    "gear_needed": [
+      "Water",
+      "Sunscreen",
+      "Camera",
+      "Notebook",
+      "Map"
+    ]
+  }
+]
