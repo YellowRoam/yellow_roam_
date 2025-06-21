@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Explorer Cabins at Yellowstone",
+    "location": "201 Grizzly Ave, West Yellowstone, MT",
+    "reasons": [
+      "Private, cozy cabins with modern amenities",
+      "Perfect for families and small groups",
+      "Walking distance to park entrance",
+      "Outdoor fire pits for s\u2019mores",
+      "Pet-friendly with rustic charm"
+    ],
+    "tags": [
+      "Family-Friendly",
+      "Kid-Friendly",
+      "Pet-Friendly",
+      "Luxury",
+      "Cabin-Style"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Explorer+Cabins+at+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/explorer-cabins-at-yellowstone-west-yellowstone"
+  },
+  {
+    "name": "Kelly Inn West Yellowstone",
+    "location": "104 S Canyon St, West Yellowstone, MT",
+    "reasons": [
+      "Consistently high guest reviews",
+      "Indoor pool and sauna for families",
+      "Free breakfast and warm decor",
+      "Pet-friendly with no hassle",
+      "Close to restaurants and park gate"
+    ],
+    "tags": [
+      "Budget-Friendly",
+      "Family-Friendly",
+      "Kid-Friendly",
+      "Pet-Friendly",
+      "Teen-Friendly"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Kelly+Inn+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/kelly-inn-west-yellowstone"
+  },
+  {
+    "name": "The Hibernation Station",
+    "location": "212 Gray Wolf Ave, West Yellowstone, MT",
+    "reasons": [
+      "Rustic log cabin lodging",
+      "Horse-themed decor and cozy vibes",
+      "Great for adventurous families",
+      "Spacious cabins with whirlpool tubs",
+      "Close to horse riding trails"
+    ],
+    "tags": [
+      "Cabin-Style",
+      "Family-Friendly",
+      "Rustic",
+      "Romantic",
+      "Pet-Friendly"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Hibernation+Station+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/hibernation-station-west-yellowstone"
+  },
+  {
+    "name": "Best Western Desert Inn",
+    "location": "133 N Canyon St, West Yellowstone, MT",
+    "reasons": [
+      "Trusted brand with consistent quality",
+      "Free hot breakfast buffet",
+      "Pool and large family rooms",
+      "Walkable to town shops and attractions",
+      "Great value for families"
+    ],
+    "tags": [
+      "Family-Friendly",
+      "Budget-Friendly",
+      "Kid-Friendly",
+      "Teen-Friendly",
+      "Chain Hotel"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Best+Western+Desert+Inn+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/best-western-desert-inn-west-yellowstone"
+  },
+  {
+    "name": "The Historic Madison Hotel",
+    "location": "139 Yellowstone Ave, West Yellowstone, MT",
+    "reasons": [
+      "Charming 1912-era hotel with antiques",
+      "Old West theme and saloon-style lobby",
+      "Right next to local restaurants",
+      "Great for history buffs and couples",
+      "Clean, quiet, and unique experience"
+    ],
+    "tags": [
+      "Historic",
+      "Adult-Focused",
+      "Romantic",
+      "Walkable",
+      "Boutique"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Madison+Hotel+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/historic-madison-hotel-west-yellowstone"
+  },
+  {
+    "name": "Holiday Inn West Yellowstone",
+    "location": "315 Yellowstone Ave, West Yellowstone, MT",
+    "reasons": [
+      "Reliable brand with updated rooms",
+      "On-site restaurant and lounge",
+      "Game room and indoor pool",
+      "Spacious for larger families",
+      "Ample parking for RVs and trailers"
+    ],
+    "tags": [
+      "Family-Friendly",
+      "Kid-Friendly",
+      "Chain Hotel",
+      "Teen-Friendly",
+      "Pet-Friendly"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Holiday+Inn+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/holiday-inn-west-yellowstone"
+  },
+  {
+    "name": "1872 Inn",
+    "location": "555 Yellowstone Ave, West Yellowstone, MT",
+    "reasons": [
+      "Luxury boutique experience",
+      "Adults-only for quiet stays",
+      "Upscale rustic decor",
+      "Spa bathrooms and gourmet breakfast",
+      "Top-rated couples retreat"
+    ],
+    "tags": [
+      "Luxury",
+      "Romantic",
+      "Adults-Only",
+      "Spa",
+      "Boutique"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=1872+Inn+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/1872-inn-west-yellowstone"
+  },
+  {
+    "name": "Al's Westward Ho Motel",
+    "location": "16 Boundary St, West Yellowstone, MT",
+    "reasons": [
+      "Budget choice with park views",
+      "Directly across from park entrance",
+      "Clean and friendly service",
+      "Quiet and peaceful",
+      "Locally owned and operated"
+    ],
+    "tags": [
+      "Budget-Friendly",
+      "Walkable",
+      "Scenic",
+      "Independent",
+      "Simple"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Al's+Westward+Ho+Motel+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/als-westward-ho-motel-west-yellowstone"
+  },
+  {
+    "name": "Gray Wolf Inn & Suites",
+    "location": "250 S Canyon St, West Yellowstone, MT",
+    "reasons": [
+      "Indoor heated pool and hot tub",
+      "Suites with kitchens for families",
+      "Across from Grizzly & Wolf Center",
+      "Free underground parking",
+      "Pet-friendly with modern style"
+    ],
+    "tags": [
+      "Family-Friendly",
+      "Pet-Friendly",
+      "Kid-Friendly",
+      "Kitchen",
+      "Modern"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Gray+Wolf+Inn+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/gray-wolf-inn-and-suites-west-yellowstone"
+  },
+  {
+    "name": "Three Bear Lodge",
+    "location": "217 Yellowstone Ave, West Yellowstone, MT",
+    "reasons": [
+      "Rustic lodge with local charm",
+      "Eco-conscious and sustainable",
+      "Restaurant on site",
+      "Great for families and couples",
+      "Tour packages and wildlife tours offered"
+    ],
+    "tags": [
+      "Eco-Friendly",
+      "Family-Friendly",
+      "Rustic",
+      "Lodge",
+      "Walkable"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Three+Bear+Lodge+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/three-bear-lodge-west-yellowstone"
+  }
+]
