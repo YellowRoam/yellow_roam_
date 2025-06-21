@@ -1,0 +1,284 @@
+[
+  {
+    "patterns": [
+      "Where should I eat in Jackson?",
+      "Is Glorietta Trattoria a good place to eat in Jackson Hole?",
+      "Best restaurants in Jackson for romantic?",
+      "Any local favorites for dinner in Jackson?",
+      "Where do locals go for romantic in Jackson?"
+    ],
+    "response": "Try **Glorietta Trattoria** \u2013 Wood-fired Italian fare with rustic charm Price: $$$. [Apple Maps](https://maps.apple.com/?address=242%20Glenwood%20St,%20Jackson,%20WY%2083001) | [Yelp](https://www.yelp.com/biz/glorietta-jackson)",
+    "keywords": [
+      "jackson",
+      "restaurant",
+      "dining",
+      "glorietta trattoria",
+      "romantic",
+      "adult-focused",
+      "seasonal",
+      "local favorite"
+    ],
+    "tags": [
+      "romantic",
+      "adult-focused",
+      "seasonal",
+      "local favorite",
+      "jackson",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I eat in Jackson?",
+      "Is Snake River Grill a good place to eat in Jackson Hole?",
+      "Best restaurants in Jackson for fine dining?",
+      "Any local favorites for dinner in Jackson?",
+      "Where do locals go for fine dining in Jackson?"
+    ],
+    "response": "Try **Snake River Grill** \u2013 One of Jackson\u2019s finest fine-dining experiences Price: $$$$. [Apple Maps](https://maps.apple.com/?address=84%20E%20Broadway%20Ave,%20Jackson,%20WY%2083001) | [Yelp](https://www.yelp.com/biz/snake-river-grill-jackson)",
+    "keywords": [
+      "jackson",
+      "restaurant",
+      "dining",
+      "snake river grill",
+      "fine dining",
+      "romantic",
+      "local favorite",
+      "special occasions"
+    ],
+    "tags": [
+      "fine dining",
+      "romantic",
+      "local favorite",
+      "special occasions",
+      "jackson",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I eat in Jackson?",
+      "Is Bin22 a good place to eat in Jackson Hole?",
+      "Best restaurants in Jackson for wine bar?",
+      "Any local favorites for dinner in Jackson?",
+      "Where do locals go for wine bar in Jackson?"
+    ],
+    "response": "Try **Bin22** \u2013 Spanish-inspired small plates & wine bar Price: $$. [Apple Maps](https://maps.apple.com/?address=200%20W%20Broadway%20Ave,%20Jackson,%20WY%2083001) | [Yelp](https://www.yelp.com/biz/bin22-jackson)",
+    "keywords": [
+      "jackson",
+      "restaurant",
+      "dining",
+      "bin22",
+      "wine bar",
+      "shared plates",
+      "local favorite",
+      "casual upscale"
+    ],
+    "tags": [
+      "wine bar",
+      "shared plates",
+      "local favorite",
+      "casual upscale",
+      "jackson",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I eat in Jackson?",
+      "Is King Sushi a good place to eat in Jackson Hole?",
+      "Best restaurants in Jackson for sushi?",
+      "Any local favorites for dinner in Jackson?",
+      "Where do locals go for sushi in Jackson?"
+    ],
+    "response": "Try **King Sushi** \u2013 Surprisingly fresh and high-quality sushi Price: $$$. [Apple Maps](https://maps.apple.com/?address=75%20S%%20King%20St,%20Jackson,%20WY%2083001) | [Yelp](https://www.yelp.com/biz/king-sushi-jackson)",
+    "keywords": [
+      "jackson",
+      "restaurant",
+      "dining",
+      "king sushi",
+      "sushi",
+      "hidden gem",
+      "romantic",
+      "takeout available"
+    ],
+    "tags": [
+      "sushi",
+      "hidden gem",
+      "romantic",
+      "takeout available",
+      "jackson",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I eat in Jackson?",
+      "Is Trio: An American Bistro a good place to eat in Jackson Hole?",
+      "Best restaurants in Jackson for local favorite?",
+      "Any local favorites for dinner in Jackson?",
+      "Where do locals go for local favorite in Jackson?"
+    ],
+    "response": "Try **Trio: An American Bistro** \u2013 Inventive, modern American cuisine Price: $$$. [Apple Maps](https://maps.apple.com/?address=45%20S%20Glenwood%20St,%20Jackson,%20WY%2083001) | [Yelp](https://www.yelp.com/biz/trio-an-american-bistro-jackson)",
+    "keywords": [
+      "jackson",
+      "restaurant",
+      "dining",
+      "trio: an american bistro",
+      "local favorite",
+      "modern",
+      "date-night",
+      "seasonal menu"
+    ],
+    "tags": [
+      "local favorite",
+      "modern",
+      "date-night",
+      "seasonal menu",
+      "jackson",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I eat in Jackson?",
+      "Is Cafe Genevieve a good place to eat in Jackson Hole?",
+      "Best restaurants in Jackson for kid-friendly?",
+      "Any local favorites for dinner in Jackson?",
+      "Where do locals go for kid-friendly in Jackson?"
+    ],
+    "response": "Try **Cafe Genevieve** \u2013 Historic cabin with Southern comfort food Price: $$. [Apple Maps](https://maps.apple.com/?address=135%20E%20Broadway%20Ave,%20Jackson,%20WY%2083001) | [Yelp](https://www.yelp.com/biz/cafe-genevieve-jackson)",
+    "keywords": [
+      "jackson",
+      "restaurant",
+      "dining",
+      "cafe genevieve",
+      "kid-friendly",
+      "historic",
+      "casual",
+      "southern"
+    ],
+    "tags": [
+      "kid-friendly",
+      "historic",
+      "casual",
+      "southern",
+      "jackson",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I eat in Jackson?",
+      "Is The Kitchen a good place to eat in Jackson Hole?",
+      "Best restaurants in Jackson for modern?",
+      "Any local favorites for dinner in Jackson?",
+      "Where do locals go for modern in Jackson?"
+    ],
+    "response": "Try **The Kitchen** \u2013 Upscale, contemporary American dining Price: $$$. [Apple Maps](https://maps.apple.com/?address=155%20N%20Glenwood%20St,%20Jackson,%20WY%2083001) | [Yelp](https://www.yelp.com/biz/the-kitchen-jackson)",
+    "keywords": [
+      "jackson",
+      "restaurant",
+      "dining",
+      "the kitchen",
+      "modern",
+      "romantic",
+      "gluten-free",
+      "sustainable"
+    ],
+    "tags": [
+      "modern",
+      "romantic",
+      "gluten-free",
+      "sustainable",
+      "jackson",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I eat in Jackson?",
+      "Is Local Restaurant & Bar a good place to eat in Jackson Hole?",
+      "Best restaurants in Jackson for steakhouse?",
+      "Any local favorites for dinner in Jackson?",
+      "Where do locals go for steakhouse in Jackson?"
+    ],
+    "response": "Try **Local Restaurant & Bar** \u2013 Steakhouse with a modern twist Price: $$$. [Apple Maps](https://maps.apple.com/?address=55%20N%20Cache%20St,%20Jackson,%20WY%2083001) | [Yelp](https://www.yelp.com/biz/local-restaurant-and-bar-jackson)",
+    "keywords": [
+      "jackson",
+      "restaurant",
+      "dining",
+      "local restaurant & bar",
+      "steakhouse",
+      "kid-friendly",
+      "local favorite",
+      "happy hour"
+    ],
+    "tags": [
+      "steakhouse",
+      "kid-friendly",
+      "local favorite",
+      "happy hour",
+      "jackson",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I eat in Jackson?",
+      "Is Persephone Bakery (Downtown) a good place to eat in Jackson Hole?",
+      "Best restaurants in Jackson for pet-friendly?",
+      "Any local favorites for dinner in Jackson?",
+      "Where do locals go for pet-friendly in Jackson?"
+    ],
+    "response": "Try **Persephone Bakery (Downtown)** \u2013 Beloved bakery & caf\u00e9 in a log cabin Price: $$. [Apple Maps](https://maps.apple.com/?address=145%20E%20Broadway%20Ave,%20Jackson,%20WY%2083001) | [Yelp](https://www.yelp.com/biz/persephone-bakery-jackson)",
+    "keywords": [
+      "jackson",
+      "restaurant",
+      "dining",
+      "persephone bakery (downtown)",
+      "pet-friendly",
+      "local favorite",
+      "bakery",
+      "casual"
+    ],
+    "tags": [
+      "pet-friendly",
+      "local favorite",
+      "bakery",
+      "casual",
+      "jackson",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I eat in Jackson?",
+      "Is Roadhouse Pub & Eatery a good place to eat in Jackson Hole?",
+      "Best restaurants in Jackson for kid-friendly?",
+      "Any local favorites for dinner in Jackson?",
+      "Where do locals go for kid-friendly in Jackson?"
+    ],
+    "response": "Try **Roadhouse Pub & Eatery** \u2013 Brewpub with great food and beer Price: $$. [Apple Maps](https://maps.apple.com/?address=945%20W%20Broadway,%20Jackson,%20WY%2083001) | [Yelp](https://www.yelp.com/biz/roadhouse-pub-and-eatery-jackson)",
+    "keywords": [
+      "jackson",
+      "restaurant",
+      "dining",
+      "roadhouse pub & eatery",
+      "kid-friendly",
+      "brewpub",
+      "pet-friendly",
+      "casual",
+      "budget-friendly"
+    ],
+    "tags": [
+      "kid-friendly",
+      "brewpub",
+      "pet-friendly",
+      "casual",
+      "budget-friendly",
+      "jackson",
+      "food"
+    ]
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "patterns": [
+      "Where is the Jackson Hole Airport?",
+      "Is the airport in the park?",
+      "What should I expect at Jackson airport?"
+    ],
+    "response": "\ud83d\udeeb **Jackson Hole Airport (JAC)** is the only commercial airport located inside a U.S. National Park \u2014 Grand Teton. Expect beautiful views on landing and takeoff, but limited terminal space, minimal food options, and slower services. Arrive early and plan ahead.",
+    "tags": [
+      "jackson_hole",
+      "airport",
+      "grand_teton",
+      "logistics"
+    ],
+    "keywords": [
+      "jackson",
+      "jac",
+      "airport"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is airfare like to Jackson in winter?",
+      "How much are flights to JAC in winter?",
+      "winter airport travel tips Jackson"
+    ],
+    "response": "\ud83d\uddd3\ufe0f **Winter Travel to Jackson Hole Airport**\n\nHigh season for skiing; flights are more expensive (Dec\u2013Mar). Book early.\n- **Average Roundtrip:** $400\u2013$750 (domestic, depending on origin)\n- Holiday weeks (Christmas, Presidents Day) see surge pricing.\n- Snowstorms can cause delays\u2014try to arrive midday if possible.\n- Airport shuttles to Teton Village and Jackson hotels often require reservations.",
+    "tags": [
+      "airport",
+      "airfare",
+      "seasonal",
+      "jackson_hole"
+    ],
+    "keywords": [
+      "jac",
+      "jackson",
+      "airfare",
+      "winter"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is airfare like to Jackson in summer?",
+      "How much are flights to JAC in summer?",
+      "summer airport travel tips Jackson"
+    ],
+    "response": "\ud83d\uddd3\ufe0f **Summer Travel to Jackson Hole Airport**\n\nPeak season for Yellowstone/GTNP visitors (June\u2013Sept)\n- **Average Roundtrip:** $350\u2013$700\n- Flights into JAC often sell out, especially for mid-June to mid-August.\n- Arrive early in the day to avoid afternoon thunderstorms.\n- National Park traffic can delay airport transfers\u2014pad your timing.",
+    "tags": [
+      "airport",
+      "airfare",
+      "seasonal",
+      "jackson_hole"
+    ],
+    "keywords": [
+      "jac",
+      "jackson",
+      "airfare",
+      "summer"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is airfare like to Jackson in shoulder_seasons?",
+      "How much are flights to JAC in shoulder_seasons?",
+      "shoulder_seasons airport travel tips Jackson"
+    ],
+    "response": "\ud83d\uddd3\ufe0f **Shoulder_seasons Travel to Jackson Hole Airport**\n\nApril\u2013May and Oct\u2013early Nov offer cheaper flights\n- **Average Roundtrip:** $250\u2013$500\n- Some carriers reduce flights in off-seasons\u2014expect fewer direct routes.\n- Rental cars and lodging are easier to find and cheaper.\n- Great time for wildlife photographers and hikers without crowds.",
+    "tags": [
+      "airport",
+      "airfare",
+      "seasonal",
+      "jackson_hole"
+    ],
+    "keywords": [
+      "jac",
+      "jackson",
+      "airfare",
+      "shoulder_seasons"
+    ],
+    "seasonal_availability": "shoulder_seasons",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What cities fly direct to Jackson Hole?",
+      "Which airlines go to JAC?",
+      "Can I fly to Jackson from Seattle or Dallas?"
+    ],
+    "response": "\u2708\ufe0f **Jackson Hole Airport (JAC) Direct Flights**\n\n- **Direct Flights From:** Salt Lake City (SLC), Denver (DEN), Dallas/Fort Worth (DFW), Chicago O\u2019Hare (ORD), Los Angeles (LAX), San Francisco (SFO), Atlanta (ATL), Seattle (SEA), Minneapolis (MSP), Phoenix (PHX), Houston (IAH), Newark (EWR) \u2013 summer only, Boston (BOS) \u2013 summer only\n- **Airlines:** Delta, United, American Airlines, Alaska Airlines",
+    "tags": [
+      "airport",
+      "flights",
+      "jackson_hole",
+      "seasonal"
+    ],
+    "keywords": [
+      "airlines",
+      "flights",
+      "jac",
+      "destinations"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there public transit from Jackson Airport?",
+      "Can I take the START Bus from JAC?",
+      "How do I get into Jackson from the airport?"
+    ],
+    "response": "\ud83d\ude8c **START Bus** offers seasonal service from Jackson Hole Airport into town. START Bus offers limited seasonal service to/from the airport and into downtown Jackson.\n\n- [START Bus Schedule](https://www.startbus.com/)\n- Tip: Check ahead for current seasonal schedule\u2014may not run in off-season.",
+    "tags": [
+      "airport",
+      "bus",
+      "public_transport",
+      "jackson_hole"
+    ],
+    "keywords": [
+      "start",
+      "bus",
+      "public_transport",
+      "jac"
+    ],
+    "seasonal_availability": "seasonal",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I book Jackson Hole Shuttle from the airport?",
+      "Does Jackson Hole Shuttle go to Teton Village?",
+      "Is Jackson Hole Shuttle shared or private?"
+    ],
+    "response": "\ud83d\ude90 **Jackson Hole Shuttle** (Shared or Private)\n\n- Serves: Jackson hotels, Teton Village, Airbnbs\n- Reservation Required: Yes\n- [More Info](https://jacksonholeshuttle.com/)",
+    "tags": [
+      "shuttle",
+      "airport",
+      "jackson_hole",
+      "transport"
+    ],
+    "keywords": [
+      "jackson_hole_shuttle"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I book Mountain Resort Services from the airport?",
+      "Does Mountain Resort Services go to Teton Village?",
+      "Is Mountain Resort Services shared or private?"
+    ],
+    "response": "\ud83d\ude90 **Mountain Resort Services** (Private luxury SUV)\n\n- Serves: Jackson, Teton Village, private residences\n- Reservation Required: Yes\n- [More Info](https://www.mountain-resort.com/)",
+    "tags": [
+      "shuttle",
+      "airport",
+      "jackson_hole",
+      "transport"
+    ],
+    "keywords": [
+      "mountain_resort_services"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I take Uber from Jackson airport?",
+      "Is Lyft available at JAC?",
+      "Are rideshares reliable in Jackson?"
+    ],
+    "response": "\ud83d\ude96 **Uber & Lyft** operate at Jackson Hole Airport, but availability can be limited, especially early mornings and late evenings. Expect surge pricing during ski season and holiday periods.",
+    "tags": [
+      "rideshare",
+      "airport",
+      "jackson_hole"
+    ],
+    "keywords": [
+      "uber",
+      "lyft",
+      "rideshare"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I rent a car at Jackson airport?",
+      "Which rental companies are at JAC?",
+      "Should I book a rental car in advance?"
+    ],
+    "response": "\ud83d\ude97 **Car Rentals at Jackson Hole Airport**\n\n- Onsite: Hertz, Avis, Enterprise, Budget, Alamo, National\n- Tip: Book ahead in summer and ski season. Some inventory is limited at this small airport.",
+    "tags": [
+      "car_rental",
+      "airport",
+      "jackson_hole"
+    ],
+    "keywords": [
+      "car_rental",
+      "jackson",
+      "jac"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  }
+]

@@ -1,0 +1,1391 @@
+[
+  {
+    "patterns": [
+      "What is spring weather like in Jackson?",
+      "Describe Jackson's spring season",
+      "Does it snow in Jackson during spring?",
+      "What are common hazards in spring in Jackson?"
+    ],
+    "response": "\ud83c\udf24\ufe0f **Spring Weather in Jackson**\n\nSpring in Jackson is slow to arrive. Snow can last into May, especially in Grand Teton National Park and nearby mountain terrain.\n\n**Typical Conditions:**\n- Deep snowpack in the Tetons and Gros Ventre Range\n- Melting snow may cause soggy trails and muddy roads\n- Moose, elk, and bear movement increases in the valley\n\n**Typical Temperatures:**\n- March: High 30s\u201340s \u00b0F (0\u20138\u00b0C), Low 10s\u201320s \u00b0F (-12 to -5\u00b0C)\n- April: High 40s\u201350s \u00b0F (5\u201312\u00b0C), Low Near freezing\n- May: High 50s\u201360s \u00b0F (10\u201316\u00b0C), Low 30s\u201340s \u00b0F (0\u20137\u00b0C)\n\n**Watch for:**\n- Avalanche warnings\n- Trail flooding or closures\n- Wildlife on roads during dawn and dusk",
+    "tags": [
+      "jackson",
+      "weather",
+      "spring",
+      "climate"
+    ],
+    "keywords": [
+      "spring",
+      "jackson",
+      "weather"
+    ],
+    "seasonal_availability": "spring",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is summer weather like in Jackson?",
+      "Describe Jackson's summer season",
+      "Does it snow in Jackson during summer?",
+      "What are common hazards in summer in Jackson?"
+    ],
+    "response": "\ud83c\udf24\ufe0f **Summer Weather in Jackson**\n\nJackson summers are dry, warm, and stunningly beautiful. Early summer brings lingering snow to high elevation trails.\n\n**Typical Conditions:**\n- Snow on shaded or alpine trails through June\n- Afternoon thunderstorms and lightning risks\n- Smoke from wildfires (July/August)\n- Wildlife activity: bears, elk, bison near roads and trails\n\n**Typical Temperatures:**\n- June: 60s\u201370s \u00b0F (15\u201325\u00b0C), cool nights in 30s\u201340s \u00b0F\n- July\u2013August: Highs in 70s\u201380s \u00b0F (21\u201328\u00b0C), lows in 40s\u201350s \u00b0F\n\n**Watch for:**\n- Red Flag Warnings for fire danger\n- Air Quality Index for wildfire smoke\n- Lightning storm alerts, especially above treeline",
+    "tags": [
+      "jackson",
+      "weather",
+      "summer",
+      "climate"
+    ],
+    "keywords": [
+      "summer",
+      "jackson",
+      "weather"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is fall weather like in Jackson?",
+      "Describe Jackson's fall season",
+      "Does it snow in Jackson during fall?",
+      "What are common hazards in fall in Jackson?"
+    ],
+    "response": "\ud83c\udf24\ufe0f **Fall Weather in Jackson**\n\nJackson fall is crisp and brief, with golden aspens and early snow possible as soon as mid-October.\n\n**Typical Conditions:**\n- Stunning fall color (esp. Snake River Valley)\n- Wildlife migrations: elk, moose, and pronghorn\n- Snow and frost on trails, especially mornings\n\n**Typical Temperatures:**\n- September: High 60s \u00b0F, Low 30s \u00b0F\n- October: High 40s\u201350s \u00b0F, Low 20\u00b0F\n- November: High 30s\u201340s \u00b0F, Low \n\n**Watch for:**\n- First freeze and snow warnings\n- Elk rut activity near roads\n- Hunting season visibility alerts",
+    "tags": [
+      "jackson",
+      "weather",
+      "fall",
+      "climate"
+    ],
+    "keywords": [
+      "fall",
+      "jackson",
+      "weather"
+    ],
+    "seasonal_availability": "fall",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is winter weather like in Jackson?",
+      "Describe Jackson's winter season",
+      "Does it snow in Jackson during winter?",
+      "What are common hazards in winter in Jackson?"
+    ],
+    "response": "\ud83c\udf24\ufe0f **Winter Weather in Jackson**\n\nJackson winters are long, cold, and snowy \u2014 ideal for skiing but demanding for travelers.\n\n**Typical Conditions:**\n- Deep snowpack in mountains and parks\n- Wind chill advisories\n- Road closures (e.g., Teton Pass, Moose-Wilson Rd)\n\n**Typical Temperatures:**\n- high: 20s\u201330s \u00b0F (-6 to 0\u00b0C)\n- low: Frequently single digits or below 0 \u00b0F (-18\u00b0C or colder)\n\n**Watch for:**\n- Avalanche Warnings (Bridger-Teton Avalanche Center)\n- Winter Storm Warnings\n- Road closure alerts and plowing updates\n- Wildlife crossing roads during low visibility",
+    "tags": [
+      "jackson",
+      "weather",
+      "winter",
+      "climate"
+    ],
+    "keywords": [
+      "winter",
+      "jackson",
+      "weather"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is the weather like year-round in Jackson, Wyoming?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "How much snow does Jackson get each winter?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Jackson\u2019s weather unpredictable in spring?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What elevation is Jackson and how does that affect its weather?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Does Jackson have a dry or humid climate?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "When is the best time to visit Jackson for good weather?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What kind of clothes should I pack for Jackson in winter?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "How fast can weather change in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Jackson colder than nearby towns like Driggs or Alpine?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Does Jackson experience wind chills?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s spring weather like in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I hike in Grand Teton in May?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Does it snow in Jackson in April?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Are roads muddy in Jackson during spring?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Are the Tetons still snow-covered in May?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s summer weather like in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "How hot does it get in Jackson in July?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Jackson dry or stormy in summer?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Does wildfire smoke reach Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Is lightning a risk while hiking in the Tetons?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s fall weather like in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "When do the leaves change in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Does it snow in Jackson in September or October?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "When does hunting season begin and how does that affect hiking?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "When is the first hard frost in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s winter like in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "How much snow falls in town versus in the Tetons?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Are roads like Teton Pass safe in winter?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "When does Jackson Hole Mountain Resort open for skiing?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "How cold does it get in Jackson in January?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find avalanche forecasts for Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I know if there\u2019s a winter storm warning for Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is the Bridger-Teton Avalanche Center?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I check for Red Flag Warnings in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Where do I go to see current road conditions around Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Are Grand Teton roads closed in winter?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What roads usually close in Jackson due to snow?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Jackson\u2019s air quality impacted by wildfire smoke?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I visit Jackson in winter with an RV?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "When is the best month to visit Jackson with kids?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there weather hazards to watch for with young children in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Is it safe to camp in Jackson in early spring?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What kind of storms happen in summer in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Do I need bear spray during different seasons in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there mosquito problems in Jackson during summer?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the snowpack like in March in the Tetons?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I access Jenny Lake in spring?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Does Jackson experience ice storms?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "When do trails become accessible in Grand Teton?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "How long is ski season in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What month is best for scenic drives with clear weather in Jackson?"
+    ],
+    "response": "\u2601\ufe0f For this topic, please refer to seasonal weather data, current alerts, and park service recommendations at:\n\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org)\n- [National Weather Service \u2013 Riverton](https://www.weather.gov/riw/)\n- [WYDOT Road Conditions](https://www.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "weather",
+      "alert",
+      "seasonal"
+    ],
+    "keywords": [
+      "jackson",
+      "alerts",
+      "forecast"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there any Grand Teton park alerts right now?",
+      "Is the Moose entrance open?",
+      "What weather alerts affect Grand Teton?",
+      "Any trail closures in Grand Teton?"
+    ],
+    "response": "\ud83d\udea8 **Grand Teton Weather & Park Alerts**\n\n- [NPS Alerts Page](https://www.nps.gov/grte/planyourvisit/conditions.htm)\n- [Bridger-Teton Avalanche Center](https://www.jhavalanche.org/)\n- [WYDOT Road Conditions](https://map.wyoroad.info/)\n\nAlways check avalanche warnings, road closures, and bear activity alerts before heading out.",
+    "tags": [
+      "grand_teton",
+      "weather",
+      "alert",
+      "nps"
+    ],
+    "keywords": [
+      "alert",
+      "closures",
+      "weather",
+      "grand_teton"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I prepare for a trip to Jackson in winter?",
+      "What should I pack for Grand Teton?",
+      "Is it safe to drive to Jackson in snow?",
+      "What gear do I need for spring hiking in Jackson?"
+    ],
+    "response": "\ud83c\udf92 **Travel Prep Tips for Jackson & Grand Teton**\n\n- Pack layers and waterproof outerwear year-round.\n- Carry bear spray and know how to use it (required for all hikes).\n- In winter, rent AWD/4WD vehicles and check road conditions daily.\n- Always check avalanche forecasts before entering backcountry zones.\n\n- [Grand Teton Packing Guide](https://www.nps.gov/grte/planyourvisit/safety.htm)\n- [WYDOT Road Map](https://map.wyoroad.info/)",
+    "tags": [
+      "jackson",
+      "travel_prep",
+      "weather",
+      "safety"
+    ],
+    "keywords": [
+      "packing",
+      "gear",
+      "safety",
+      "driving",
+      "jackson"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  }
+]

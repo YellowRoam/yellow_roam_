@@ -1,0 +1,218 @@
+[
+  {
+    "patterns": [
+      "Tell me about Cache Creek Trail",
+      "Where is Cache Creek Trail trail?",
+      "How long is the Cache Creek Trail hike?",
+      "Is Cache Creek Trail dog-friendly?",
+      "What wildlife can I see on Cache Creek Trail?"
+    ],
+    "response": "\ud83e\udd7e **Cache Creek Trail**\n\n- **Distance:** 6.2 miles out-and-back\n- **Difficulty:** Easy to Moderate\n- **Wildlife:** moose, elk, foxes, bears\n\n**Apple Maps:** [View Trailhead](https://maps.apple.com/?q=Cache+Creek+Trailhead&ll=43.470997,-110.733125)",
+    "tags": [
+      "bike-friendly",
+      "driggs",
+      "wildlife_hotspot",
+      "national_forest",
+      "kid-friendly",
+      "in-town_access",
+      "dog-friendly",
+      "hiking",
+      "jackson"
+    ],
+    "keywords": [
+      "cache_creek_trail"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about Phillips Canyon Trail",
+      "Where is Phillips Canyon Trail trail?",
+      "How long is the Phillips Canyon Trail hike?",
+      "Is Phillips Canyon Trail dog-friendly?",
+      "What wildlife can I see on Phillips Canyon Trail?"
+    ],
+    "response": "\ud83e\udd7e **Phillips Canyon Trail**\n\n- **Distance:** 7 miles round trip\n- **Difficulty:** Moderate\n- **Wildlife:** bears, deer\n\n**Apple Maps:** [View Trailhead](https://maps.apple.com/?q=Phillips+Canyon+Trailhead&ll=43.466665,-110.895470)",
+    "tags": [
+      "wildlife",
+      "bike-friendly",
+      "driggs",
+      "national_forest",
+      "local_favorite",
+      "shaded",
+      "dog-friendly",
+      "hiking",
+      "jackson"
+    ],
+    "keywords": [
+      "phillips_canyon_trail"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about Teton Pass Ridge (Mt. Elly Trail)",
+      "Where is Teton Pass Ridge (Mt. Elly Trail) trail?",
+      "How long is the Teton Pass Ridge (Mt. Elly Trail) hike?",
+      "Is Teton Pass Ridge (Mt. Elly Trail) dog-friendly?",
+      "What wildlife can I see on Teton Pass Ridge (Mt. Elly Trail)?"
+    ],
+    "response": "\ud83e\udd7e **Teton Pass Ridge (Mt. Elly Trail)**\n\n- **Distance:** 4.5 miles out-and-back\n- **Difficulty:** Moderate\n- **Wildlife:** birds, moose\n\n**Apple Maps:** [View Trailhead](https://maps.apple.com/?q=Teton+Pass+Trailhead&ll=43.489187,-110.980123)",
+    "tags": [
+      "driggs",
+      "national_forest",
+      "moderate",
+      "bike-optional",
+      "view-heavy",
+      "dog-friendly",
+      "hiking",
+      "jackson"
+    ],
+    "keywords": [
+      "teton_pass_ridge_(mt._elly_trail)"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about Game Creek Trail",
+      "Where is Game Creek Trail trail?",
+      "How long is the Game Creek Trail hike?",
+      "Is Game Creek Trail dog-friendly?",
+      "What wildlife can I see on Game Creek Trail?"
+    ],
+    "response": "\ud83e\udd7e **Game Creek Trail**\n\n- **Distance:** Up to 10+ miles out-and-back\n- **Difficulty:** Easy to Moderate\n- **Wildlife:** elk, deer, moose\n\n**Apple Maps:** [View Trailhead](https://maps.apple.com/?q=Game+Creek+Trailhead&ll=43.405139,-110.741889)",
+    "tags": [
+      "wildlife",
+      "bike-friendly",
+      "driggs",
+      "national_forest",
+      "kid-friendly",
+      "fall_colors",
+      "dog-friendly",
+      "hiking",
+      "jackson"
+    ],
+    "keywords": [
+      "game_creek_trail"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about Mail Cabin Creek Trail",
+      "Where is Mail Cabin Creek Trail trail?",
+      "How long is the Mail Cabin Creek Trail hike?",
+      "Is Mail Cabin Creek Trail dog-friendly?",
+      "What wildlife can I see on Mail Cabin Creek Trail?"
+    ],
+    "response": "\ud83e\udd7e **Mail Cabin Creek Trail**\n\n- **Distance:** 6.5 miles round trip\n- **Difficulty:** Moderate to Strenuous\n- **Wildlife:** owls, deer\n\n**Apple Maps:** [View Trailhead](https://maps.apple.com/?q=Mail+Cabin+Creek+Trailhead&ll=43.489948,-111.002131)",
+    "tags": [
+      "strenuous",
+      "wildlife",
+      "quiet",
+      "winter-capable",
+      "driggs",
+      "national_forest",
+      "dog-friendly",
+      "hiking",
+      "jackson"
+    ],
+    "keywords": [
+      "mail_cabin_creek_trail"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about Munger Mountain Loop",
+      "Where is Munger Mountain Loop trail?",
+      "How long is the Munger Mountain Loop hike?",
+      "Is Munger Mountain Loop dog-friendly?",
+      "What wildlife can I see on Munger Mountain Loop?"
+    ],
+    "response": "\ud83e\udd7e **Munger Mountain Loop**\n\n- **Distance:** 8 miles loop\n- **Difficulty:** Moderate\n- **Wildlife:** elk, moose, mountain lions\n\n**Apple Maps:** [View Trailhead](https://maps.apple.com/?q=Munger+Mountain+Trailhead&ll=43.384519,-110.859406)",
+    "tags": [
+      "wildlife",
+      "bike-friendly",
+      "loop_trail",
+      "driggs",
+      "national_forest",
+      "moderate",
+      "dog-friendly",
+      "hiking",
+      "jackson"
+    ],
+    "keywords": [
+      "munger_mountain_loop"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about South Fork Horseshoe Creek",
+      "Where is South Fork Horseshoe Creek trail?",
+      "How long is the South Fork Horseshoe Creek hike?",
+      "Is South Fork Horseshoe Creek dog-friendly?",
+      "What wildlife can I see on South Fork Horseshoe Creek?"
+    ],
+    "response": "\ud83e\udd7e **South Fork Horseshoe Creek**\n\n- **Distance:** 4.5 miles out-and-back\n- **Difficulty:** Easy\n- **Wildlife:** moose, birds\n\n**Apple Maps:** [View Trailhead](https://maps.apple.com/?q=South+Fork+Horseshoe+Creek+Trailhead&ll=43.659489,-111.180555)",
+    "tags": [
+      "wildlife",
+      "driggs",
+      "national_forest",
+      "kid-friendly",
+      "creekside",
+      "forest_hike",
+      "dog-friendly",
+      "hiking",
+      "jackson"
+    ],
+    "keywords": [
+      "south_fork_horseshoe_creek"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  }
+]

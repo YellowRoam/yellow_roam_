@@ -1,0 +1,317 @@
+[
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Scenic Float Trip on the Snake River good in summer?",
+      "Where can I go for scenic float trip on the snake river in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for scenic float trip on the snake river?"
+    ],
+    "response": "Try **Scenic Float Trip on the Snake River** \u2013 Incredible views of the Tetons from the water",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "scenic float trip on the snake river"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Horseback Riding in Bridger-Teton National Forest good in summer?",
+      "Where can I go for horseback riding in bridger-teton national forest in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for horseback riding in bridger-teton national forest?"
+    ],
+    "response": "Try **Horseback Riding in Bridger-Teton National Forest** \u2013 Classic western experience near Jackson",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "horseback riding in bridger-teton national forest"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Mountain Biking at Snow King or Teton Pass good in summer?",
+      "Where can I go for mountain biking at snow king or teton pass in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for mountain biking at snow king or teton pass?"
+    ],
+    "response": "Try **Mountain Biking at Snow King or Teton Pass** \u2013 Trail options from beginner to advanced",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "mountain biking at snow king or teton pass"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Whitewater Rafting the Snake River Canyon good in summer?",
+      "Where can I go for whitewater rafting the snake river canyon in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for whitewater rafting the snake river canyon?"
+    ],
+    "response": "Try **Whitewater Rafting the Snake River Canyon** \u2013 Thrilling rapids rated class II\u2013III",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "whitewater rafting the snake river canyon"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Hiking Munger Mountain Trails good in summer?",
+      "Where can I go for hiking munger mountain trails in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for hiking munger mountain trails?"
+    ],
+    "response": "Try **Hiking Munger Mountain Trails** \u2013 Just outside of town but quiet and wild",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "hiking munger mountain trails"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Fly Fishing on the Snake or Gros Ventre Rivers good in summer?",
+      "Where can I go for fly fishing on the snake or gros ventre rivers in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for fly fishing on the snake or gros ventre rivers?"
+    ],
+    "response": "Try **Fly Fishing on the Snake or Gros Ventre Rivers** \u2013 World-class trout fishing waters",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "fly fishing on the snake or gros ventre rivers"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Riding the Jackson Hole Aerial Tram (Teton Village) good in summer?",
+      "Where can I go for riding the jackson hole aerial tram (teton village) in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for riding the jackson hole aerial tram (teton village)?"
+    ],
+    "response": "Try **Riding the Jackson Hole Aerial Tram (Teton Village)** \u2013 Fastest way to 10,450 feet elevation",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "riding the jackson hole aerial tram (teton village)"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Paragliding off Rendezvous Mountain good in summer?",
+      "Where can I go for paragliding off rendezvous mountain in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for paragliding off rendezvous mountain?"
+    ],
+    "response": "Try **Paragliding off Rendezvous Mountain** \u2013 Tandem flights with licensed pilots",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "paragliding off rendezvous mountain"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Wildlife Safari in National Forest good in summer?",
+      "Where can I go for wildlife safari in national forest in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for wildlife safari in national forest?"
+    ],
+    "response": "Try **Wildlife Safari in National Forest** \u2013 Avoids park crowds but sees great animals",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "wildlife safari in national forest"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Sunset at Snow King Mountain good in summer?",
+      "Where can I go for sunset at snow king mountain in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for sunset at snow king mountain?"
+    ],
+    "response": "Try **Sunset at Snow King Mountain** \u2013 Quick hike or ride to the top",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "sunset at snow king mountain"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Guided Rock Climbing at Snow King or Blacktail Butte good in summer?",
+      "Where can I go for guided rock climbing at snow king or blacktail butte in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for guided rock climbing at snow king or blacktail butte?"
+    ],
+    "response": "Try **Guided Rock Climbing at Snow King or Blacktail Butte** \u2013 Professional guides teach all levels",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "guided rock climbing at snow king or blacktail butte"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Horseback Dinner Ride good in summer?",
+      "Where can I go for horseback dinner ride in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for horseback dinner ride?"
+    ],
+    "response": "Try **Horseback Dinner Ride** \u2013 Ride through the forest to a campfire dinner",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "horseback dinner ride"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Mountain Biking on Cache Creek and Hagen Trails good in summer?",
+      "Where can I go for mountain biking on cache creek and hagen trails in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for mountain biking on cache creek and hagen trails?"
+    ],
+    "response": "Try **Mountain Biking on Cache Creek and Hagen Trails** \u2013 Right out of town\u2014no car needed",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "mountain biking on cache creek and hagen trails"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Alpine Slide at Snow King good in summer?",
+      "Where can I go for alpine slide at snow king in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for alpine slide at snow king?"
+    ],
+    "response": "Try **Alpine Slide at Snow King** \u2013 Fun gravity-powered thrill ride",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "alpine slide at snow king"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities in Jackson Hole?",
+      "Is Camping in Bridger-Teton National Forest good in summer?",
+      "Where can I go for camping in bridger-teton national forest in Jackson?",
+      "What should I do outside in Jackson in July?",
+      "Any summer tours for camping in bridger-teton national forest?"
+    ],
+    "response": "Try **Camping in Bridger-Teton National Forest** \u2013 No park pass required",
+    "keywords": [
+      "summer",
+      "outdoors",
+      "jackson",
+      "camping in bridger-teton national forest"
+    ],
+    "tags": [
+      "summer",
+      "outdoors",
+      "jackson"
+    ]
+  }
+]

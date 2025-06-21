@@ -1,0 +1,1802 @@
+[
+  {
+    "patterns": [
+      "Where can I find the best coffee in Jackson?",
+      "Any local tips for coffee around Jackson Hole?",
+      "Top places for coffee near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for coffee: start with locally trusted places and seasonal access. For example, coffee is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "coffee",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best breakfast in Jackson?",
+      "Any local tips for breakfast around Jackson Hole?",
+      "Top places for breakfast near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for breakfast: start with locally trusted places and seasonal access. For example, breakfast is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "breakfast",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best dinner in Jackson?",
+      "Any local tips for dinner around Jackson Hole?",
+      "Top places for dinner near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for dinner: start with locally trusted places and seasonal access. For example, dinner is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "dinner",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best pizza in Jackson?",
+      "Any local tips for pizza around Jackson Hole?",
+      "Top places for pizza near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for pizza: start with locally trusted places and seasonal access. For example, pizza is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "pizza",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best breweries in Jackson?",
+      "Any local tips for breweries around Jackson Hole?",
+      "Top places for breweries near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for breweries: start with locally trusted places and seasonal access. For example, breweries is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "breweries",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best easy hikes in Jackson?",
+      "Any local tips for easy hikes around Jackson Hole?",
+      "Top places for easy hikes near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for easy hikes: start with locally trusted places and seasonal access. For example, easy hikes is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "easy hikes",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best family hikes in Jackson?",
+      "Any local tips for family hikes around Jackson Hole?",
+      "Top places for family hikes near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for family hikes: start with locally trusted places and seasonal access. For example, family hikes is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "family hikes",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best wildflower trails in Jackson?",
+      "Any local tips for wildflower trails around Jackson Hole?",
+      "Top places for wildflower trails near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for wildflower trails: start with locally trusted places and seasonal access. For example, wildflower trails is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "wildflower trails",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best sunrise hikes in Jackson?",
+      "Any local tips for sunrise hikes around Jackson Hole?",
+      "Top places for sunrise hikes near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for sunrise hikes: start with locally trusted places and seasonal access. For example, sunrise hikes is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "sunrise hikes",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best secret trails in Jackson?",
+      "Any local tips for secret trails around Jackson Hole?",
+      "Top places for secret trails near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for secret trails: start with locally trusted places and seasonal access. For example, secret trails is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "secret trails",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best ski rentals in Jackson?",
+      "Any local tips for ski rentals around Jackson Hole?",
+      "Top places for ski rentals near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for ski rentals: start with locally trusted places and seasonal access. For example, ski rentals is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "ski rentals",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best climbing gear in Jackson?",
+      "Any local tips for climbing gear around Jackson Hole?",
+      "Top places for climbing gear near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for climbing gear: start with locally trusted places and seasonal access. For example, climbing gear is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "climbing gear",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best fishing shops in Jackson?",
+      "Any local tips for fishing shops around Jackson Hole?",
+      "Top places for fishing shops near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for fishing shops: start with locally trusted places and seasonal access. For example, fishing shops is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "fishing shops",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best bike rentals in Jackson?",
+      "Any local tips for bike rentals around Jackson Hole?",
+      "Top places for bike rentals near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for bike rentals: start with locally trusted places and seasonal access. For example, bike rentals is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "bike rentals",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best backpacking gear in Jackson?",
+      "Any local tips for backpacking gear around Jackson Hole?",
+      "Top places for backpacking gear near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for backpacking gear: start with locally trusted places and seasonal access. For example, backpacking gear is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "backpacking gear",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best road closures in Jackson?",
+      "Any local tips for road closures around Jackson Hole?",
+      "Top places for road closures near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for road closures: start with locally trusted places and seasonal access. For example, road closures is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "road closures",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best bear activity in Jackson?",
+      "Any local tips for bear activity around Jackson Hole?",
+      "Top places for bear activity near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for bear activity: start with locally trusted places and seasonal access. For example, bear activity is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "bear activity",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best fire danger in Jackson?",
+      "Any local tips for fire danger around Jackson Hole?",
+      "Top places for fire danger near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for fire danger: start with locally trusted places and seasonal access. For example, fire danger is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "fire danger",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best trail closures in Jackson?",
+      "Any local tips for trail closures around Jackson Hole?",
+      "Top places for trail closures near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for trail closures: start with locally trusted places and seasonal access. For example, trail closures is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "trail closures",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best avalanche risk in Jackson?",
+      "Any local tips for avalanche risk around Jackson Hole?",
+      "Top places for avalanche risk near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for avalanche risk: start with locally trusted places and seasonal access. For example, avalanche risk is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "avalanche risk",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best moose spotting in Jackson?",
+      "Any local tips for moose spotting around Jackson Hole?",
+      "Top places for moose spotting near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for moose spotting: start with locally trusted places and seasonal access. For example, moose spotting is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "moose spotting",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best elk migration in Jackson?",
+      "Any local tips for elk migration around Jackson Hole?",
+      "Top places for elk migration near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for elk migration: start with locally trusted places and seasonal access. For example, elk migration is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "elk migration",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best birdwatching in Jackson?",
+      "Any local tips for birdwatching around Jackson Hole?",
+      "Top places for birdwatching near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for birdwatching: start with locally trusted places and seasonal access. For example, birdwatching is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "birdwatching",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best bears in Jackson?",
+      "Any local tips for bears around Jackson Hole?",
+      "Top places for bears near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for bears: start with locally trusted places and seasonal access. For example, bears is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "bears",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best otters in Jackson?",
+      "Any local tips for otters around Jackson Hole?",
+      "Top places for otters near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for otters: start with locally trusted places and seasonal access. For example, otters is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "otters",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best sunset spots in Jackson?",
+      "Any local tips for sunset spots around Jackson Hole?",
+      "Top places for sunset spots near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for sunset spots: start with locally trusted places and seasonal access. For example, sunset spots is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "sunset spots",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best overlooks in Jackson?",
+      "Any local tips for overlooks around Jackson Hole?",
+      "Top places for overlooks near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for overlooks: start with locally trusted places and seasonal access. For example, overlooks is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "overlooks",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best panoramic hikes in Jackson?",
+      "Any local tips for panoramic hikes around Jackson Hole?",
+      "Top places for panoramic hikes near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for panoramic hikes: start with locally trusted places and seasonal access. For example, panoramic hikes is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "panoramic hikes",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best scenic drives in Jackson?",
+      "Any local tips for scenic drives around Jackson Hole?",
+      "Top places for scenic drives near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for scenic drives: start with locally trusted places and seasonal access. For example, scenic drives is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "scenic drives",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find the best stargazing in Jackson?",
+      "Any local tips for stargazing around Jackson Hole?",
+      "Top places for stargazing near Jackson, WY?"
+    ],
+    "response": "Jackson locals recommend top spots for stargazing: start with locally trusted places and seasonal access. For example, stargazing is best around areas like Snow King, Cache Creek, or Town Square depending on the time of year.",
+    "keywords": [
+      "stargazing",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for dinner in Jackson.",
+      "Jackson's best kept secrets for dinner?",
+      "Hidden gems for dinner near Jackson Hole?"
+    ],
+    "response": "Local insiders love dinner options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "dinner",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for bike rentals in Jackson.",
+      "Jackson's best kept secrets for bike rentals?",
+      "Hidden gems for bike rentals near Jackson Hole?"
+    ],
+    "response": "Local insiders love bike rentals options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "bike rentals",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for secret trails in Jackson.",
+      "Jackson's best kept secrets for secret trails?",
+      "Hidden gems for secret trails near Jackson Hole?"
+    ],
+    "response": "Local insiders love secret trails options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "secret trails",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for overlooks in Jackson.",
+      "Jackson's best kept secrets for overlooks?",
+      "Hidden gems for overlooks near Jackson Hole?"
+    ],
+    "response": "Local insiders love overlooks options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "overlooks",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for fire danger in Jackson.",
+      "Jackson's best kept secrets for fire danger?",
+      "Hidden gems for fire danger near Jackson Hole?"
+    ],
+    "response": "Local insiders love fire danger options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "fire danger",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for bear activity in Jackson.",
+      "Jackson's best kept secrets for bear activity?",
+      "Hidden gems for bear activity near Jackson Hole?"
+    ],
+    "response": "Local insiders love bear activity options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "bear activity",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for breakfast in Jackson.",
+      "Jackson's best kept secrets for breakfast?",
+      "Hidden gems for breakfast near Jackson Hole?"
+    ],
+    "response": "Local insiders love breakfast options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "breakfast",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for ski rentals in Jackson.",
+      "Jackson's best kept secrets for ski rentals?",
+      "Hidden gems for ski rentals near Jackson Hole?"
+    ],
+    "response": "Local insiders love ski rentals options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "ski rentals",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for overlooks in Jackson.",
+      "Jackson's best kept secrets for overlooks?",
+      "Hidden gems for overlooks near Jackson Hole?"
+    ],
+    "response": "Local insiders love overlooks options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "overlooks",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for stargazing in Jackson.",
+      "Jackson's best kept secrets for stargazing?",
+      "Hidden gems for stargazing near Jackson Hole?"
+    ],
+    "response": "Local insiders love stargazing options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "stargazing",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for avalanche risk in Jackson.",
+      "Jackson's best kept secrets for avalanche risk?",
+      "Hidden gems for avalanche risk near Jackson Hole?"
+    ],
+    "response": "Local insiders love avalanche risk options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "avalanche risk",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for moose spotting in Jackson.",
+      "Jackson's best kept secrets for moose spotting?",
+      "Hidden gems for moose spotting near Jackson Hole?"
+    ],
+    "response": "Local insiders love moose spotting options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "moose spotting",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for sunrise hikes in Jackson.",
+      "Jackson's best kept secrets for sunrise hikes?",
+      "Hidden gems for sunrise hikes near Jackson Hole?"
+    ],
+    "response": "Local insiders love sunrise hikes options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "sunrise hikes",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for bike rentals in Jackson.",
+      "Jackson's best kept secrets for bike rentals?",
+      "Hidden gems for bike rentals near Jackson Hole?"
+    ],
+    "response": "Local insiders love bike rentals options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "bike rentals",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for bears in Jackson.",
+      "Jackson's best kept secrets for bears?",
+      "Hidden gems for bears near Jackson Hole?"
+    ],
+    "response": "Local insiders love bears options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "bears",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for moose spotting in Jackson.",
+      "Jackson's best kept secrets for moose spotting?",
+      "Hidden gems for moose spotting near Jackson Hole?"
+    ],
+    "response": "Local insiders love moose spotting options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "moose spotting",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for birdwatching in Jackson.",
+      "Jackson's best kept secrets for birdwatching?",
+      "Hidden gems for birdwatching near Jackson Hole?"
+    ],
+    "response": "Local insiders love birdwatching options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "birdwatching",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for ski rentals in Jackson.",
+      "Jackson's best kept secrets for ski rentals?",
+      "Hidden gems for ski rentals near Jackson Hole?"
+    ],
+    "response": "Local insiders love ski rentals options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "ski rentals",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for overlooks in Jackson.",
+      "Jackson's best kept secrets for overlooks?",
+      "Hidden gems for overlooks near Jackson Hole?"
+    ],
+    "response": "Local insiders love overlooks options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "overlooks",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for climbing gear in Jackson.",
+      "Jackson's best kept secrets for climbing gear?",
+      "Hidden gems for climbing gear near Jackson Hole?"
+    ],
+    "response": "Local insiders love climbing gear options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "climbing gear",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for stargazing in Jackson.",
+      "Jackson's best kept secrets for stargazing?",
+      "Hidden gems for stargazing near Jackson Hole?"
+    ],
+    "response": "Local insiders love stargazing options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "stargazing",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for easy hikes in Jackson.",
+      "Jackson's best kept secrets for easy hikes?",
+      "Hidden gems for easy hikes near Jackson Hole?"
+    ],
+    "response": "Local insiders love easy hikes options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "easy hikes",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for dinner in Jackson.",
+      "Jackson's best kept secrets for dinner?",
+      "Hidden gems for dinner near Jackson Hole?"
+    ],
+    "response": "Local insiders love dinner options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "dinner",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for moose spotting in Jackson.",
+      "Jackson's best kept secrets for moose spotting?",
+      "Hidden gems for moose spotting near Jackson Hole?"
+    ],
+    "response": "Local insiders love moose spotting options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "moose spotting",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for bears in Jackson.",
+      "Jackson's best kept secrets for bears?",
+      "Hidden gems for bears near Jackson Hole?"
+    ],
+    "response": "Local insiders love bears options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "bears",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for bears in Jackson.",
+      "Jackson's best kept secrets for bears?",
+      "Hidden gems for bears near Jackson Hole?"
+    ],
+    "response": "Local insiders love bears options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "bears",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for breweries in Jackson.",
+      "Jackson's best kept secrets for breweries?",
+      "Hidden gems for breweries near Jackson Hole?"
+    ],
+    "response": "Local insiders love breweries options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "breweries",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for climbing gear in Jackson.",
+      "Jackson's best kept secrets for climbing gear?",
+      "Hidden gems for climbing gear near Jackson Hole?"
+    ],
+    "response": "Local insiders love climbing gear options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "climbing gear",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for climbing gear in Jackson.",
+      "Jackson's best kept secrets for climbing gear?",
+      "Hidden gems for climbing gear near Jackson Hole?"
+    ],
+    "response": "Local insiders love climbing gear options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "climbing gear",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for breakfast in Jackson.",
+      "Jackson's best kept secrets for breakfast?",
+      "Hidden gems for breakfast near Jackson Hole?"
+    ],
+    "response": "Local insiders love breakfast options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "breakfast",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for bears in Jackson.",
+      "Jackson's best kept secrets for bears?",
+      "Hidden gems for bears near Jackson Hole?"
+    ],
+    "response": "Local insiders love bears options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "bears",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for avalanche risk in Jackson.",
+      "Jackson's best kept secrets for avalanche risk?",
+      "Hidden gems for avalanche risk near Jackson Hole?"
+    ],
+    "response": "Local insiders love avalanche risk options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "avalanche risk",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for easy hikes in Jackson.",
+      "Jackson's best kept secrets for easy hikes?",
+      "Hidden gems for easy hikes near Jackson Hole?"
+    ],
+    "response": "Local insiders love easy hikes options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "easy hikes",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for wildflower trails in Jackson.",
+      "Jackson's best kept secrets for wildflower trails?",
+      "Hidden gems for wildflower trails near Jackson Hole?"
+    ],
+    "response": "Local insiders love wildflower trails options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "wildflower trails",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for road closures in Jackson.",
+      "Jackson's best kept secrets for road closures?",
+      "Hidden gems for road closures near Jackson Hole?"
+    ],
+    "response": "Local insiders love road closures options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "road closures",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for fire danger in Jackson.",
+      "Jackson's best kept secrets for fire danger?",
+      "Hidden gems for fire danger near Jackson Hole?"
+    ],
+    "response": "Local insiders love fire danger options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "fire danger",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for elk migration in Jackson.",
+      "Jackson's best kept secrets for elk migration?",
+      "Hidden gems for elk migration near Jackson Hole?"
+    ],
+    "response": "Local insiders love elk migration options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "elk migration",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for dinner in Jackson.",
+      "Jackson's best kept secrets for dinner?",
+      "Hidden gems for dinner near Jackson Hole?"
+    ],
+    "response": "Local insiders love dinner options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "dinner",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for ski rentals in Jackson.",
+      "Jackson's best kept secrets for ski rentals?",
+      "Hidden gems for ski rentals near Jackson Hole?"
+    ],
+    "response": "Local insiders love ski rentals options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "ski rentals",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for dinner in Jackson.",
+      "Jackson's best kept secrets for dinner?",
+      "Hidden gems for dinner near Jackson Hole?"
+    ],
+    "response": "Local insiders love dinner options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "dinner",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for dinner in Jackson.",
+      "Jackson's best kept secrets for dinner?",
+      "Hidden gems for dinner near Jackson Hole?"
+    ],
+    "response": "Local insiders love dinner options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "dinner",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for easy hikes in Jackson.",
+      "Jackson's best kept secrets for easy hikes?",
+      "Hidden gems for easy hikes near Jackson Hole?"
+    ],
+    "response": "Local insiders love easy hikes options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "easy hikes",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for easy hikes in Jackson.",
+      "Jackson's best kept secrets for easy hikes?",
+      "Hidden gems for easy hikes near Jackson Hole?"
+    ],
+    "response": "Local insiders love easy hikes options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "easy hikes",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for birdwatching in Jackson.",
+      "Jackson's best kept secrets for birdwatching?",
+      "Hidden gems for birdwatching near Jackson Hole?"
+    ],
+    "response": "Local insiders love birdwatching options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "birdwatching",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for scenic drives in Jackson.",
+      "Jackson's best kept secrets for scenic drives?",
+      "Hidden gems for scenic drives near Jackson Hole?"
+    ],
+    "response": "Local insiders love scenic drives options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "scenic drives",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for otters in Jackson.",
+      "Jackson's best kept secrets for otters?",
+      "Hidden gems for otters near Jackson Hole?"
+    ],
+    "response": "Local insiders love otters options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "otters",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for breakfast in Jackson.",
+      "Jackson's best kept secrets for breakfast?",
+      "Hidden gems for breakfast near Jackson Hole?"
+    ],
+    "response": "Local insiders love breakfast options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "breakfast",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for avalanche risk in Jackson.",
+      "Jackson's best kept secrets for avalanche risk?",
+      "Hidden gems for avalanche risk near Jackson Hole?"
+    ],
+    "response": "Local insiders love avalanche risk options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "avalanche risk",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for otters in Jackson.",
+      "Jackson's best kept secrets for otters?",
+      "Hidden gems for otters near Jackson Hole?"
+    ],
+    "response": "Local insiders love otters options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "otters",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for moose spotting in Jackson.",
+      "Jackson's best kept secrets for moose spotting?",
+      "Hidden gems for moose spotting near Jackson Hole?"
+    ],
+    "response": "Local insiders love moose spotting options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "moose spotting",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for fishing shops in Jackson.",
+      "Jackson's best kept secrets for fishing shops?",
+      "Hidden gems for fishing shops near Jackson Hole?"
+    ],
+    "response": "Local insiders love fishing shops options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "fishing shops",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for stargazing in Jackson.",
+      "Jackson's best kept secrets for stargazing?",
+      "Hidden gems for stargazing near Jackson Hole?"
+    ],
+    "response": "Local insiders love stargazing options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "stargazing",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for bike rentals in Jackson.",
+      "Jackson's best kept secrets for bike rentals?",
+      "Hidden gems for bike rentals near Jackson Hole?"
+    ],
+    "response": "Local insiders love bike rentals options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "bike rentals",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for trail closures in Jackson.",
+      "Jackson's best kept secrets for trail closures?",
+      "Hidden gems for trail closures near Jackson Hole?"
+    ],
+    "response": "Local insiders love trail closures options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "trail closures",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for climbing gear in Jackson.",
+      "Jackson's best kept secrets for climbing gear?",
+      "Hidden gems for climbing gear near Jackson Hole?"
+    ],
+    "response": "Local insiders love climbing gear options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "climbing gear",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for breweries in Jackson.",
+      "Jackson's best kept secrets for breweries?",
+      "Hidden gems for breweries near Jackson Hole?"
+    ],
+    "response": "Local insiders love breweries options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "breweries",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for road closures in Jackson.",
+      "Jackson's best kept secrets for road closures?",
+      "Hidden gems for road closures near Jackson Hole?"
+    ],
+    "response": "Local insiders love road closures options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "road closures",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for panoramic hikes in Jackson.",
+      "Jackson's best kept secrets for panoramic hikes?",
+      "Hidden gems for panoramic hikes near Jackson Hole?"
+    ],
+    "response": "Local insiders love panoramic hikes options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "panoramic hikes",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for coffee in Jackson.",
+      "Jackson's best kept secrets for coffee?",
+      "Hidden gems for coffee near Jackson Hole?"
+    ],
+    "response": "Local insiders love coffee options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "coffee",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for bike rentals in Jackson.",
+      "Jackson's best kept secrets for bike rentals?",
+      "Hidden gems for bike rentals near Jackson Hole?"
+    ],
+    "response": "Local insiders love bike rentals options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "bike rentals",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for breakfast in Jackson.",
+      "Jackson's best kept secrets for breakfast?",
+      "Hidden gems for breakfast near Jackson Hole?"
+    ],
+    "response": "Local insiders love breakfast options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "breakfast",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for ski rentals in Jackson.",
+      "Jackson's best kept secrets for ski rentals?",
+      "Hidden gems for ski rentals near Jackson Hole?"
+    ],
+    "response": "Local insiders love ski rentals options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "ski rentals",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for wildflower trails in Jackson.",
+      "Jackson's best kept secrets for wildflower trails?",
+      "Hidden gems for wildflower trails near Jackson Hole?"
+    ],
+    "response": "Local insiders love wildflower trails options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "wildflower trails",
+      "jackson"
+    ],
+    "tags": [
+      "hiking",
+      "scenic",
+      "trail",
+      "hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for avalanche risk in Jackson.",
+      "Jackson's best kept secrets for avalanche risk?",
+      "Hidden gems for avalanche risk near Jackson Hole?"
+    ],
+    "response": "Local insiders love avalanche risk options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "avalanche risk",
+      "jackson"
+    ],
+    "tags": [
+      "alerts",
+      "safety",
+      "conditions",
+      "alerts"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for bears in Jackson.",
+      "Jackson's best kept secrets for bears?",
+      "Hidden gems for bears near Jackson Hole?"
+    ],
+    "response": "Local insiders love bears options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "bears",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for birdwatching in Jackson.",
+      "Jackson's best kept secrets for birdwatching?",
+      "Hidden gems for birdwatching near Jackson Hole?"
+    ],
+    "response": "Local insiders love birdwatching options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "birdwatching",
+      "jackson"
+    ],
+    "tags": [
+      "wildlife",
+      "nature",
+      "photography",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for dinner in Jackson.",
+      "Jackson's best kept secrets for dinner?",
+      "Hidden gems for dinner near Jackson Hole?"
+    ],
+    "response": "Local insiders love dinner options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "dinner",
+      "jackson"
+    ],
+    "tags": [
+      "food",
+      "drink",
+      "local_eats",
+      "food"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for ski rentals in Jackson.",
+      "Jackson's best kept secrets for ski rentals?",
+      "Hidden gems for ski rentals near Jackson Hole?"
+    ],
+    "response": "Local insiders love ski rentals options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "ski rentals",
+      "jackson"
+    ],
+    "tags": [
+      "gear",
+      "rentals",
+      "equipment",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for panoramic hikes in Jackson.",
+      "Jackson's best kept secrets for panoramic hikes?",
+      "Hidden gems for panoramic hikes near Jackson Hole?"
+    ],
+    "response": "Local insiders love panoramic hikes options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "panoramic hikes",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  },
+  {
+    "patterns": [
+      "Give me insider recommendations for scenic drives in Jackson.",
+      "Jackson's best kept secrets for scenic drives?",
+      "Hidden gems for scenic drives near Jackson Hole?"
+    ],
+    "response": "Local insiders love scenic drives options around Jackson \u2014 keep an eye on places with good seasonal timing and fewer crowds. Try local outfitters and guides for better access.",
+    "keywords": [
+      "scenic drives",
+      "jackson"
+    ],
+    "tags": [
+      "views",
+      "landscape",
+      "photography",
+      "views"
+    ]
+  }
+]
