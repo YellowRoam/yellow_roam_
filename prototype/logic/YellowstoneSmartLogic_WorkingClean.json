@@ -1,0 +1,1952 @@
+[
+  {
+    "patterns": [
+      "Tell me about camping in Yellowstone",
+      "What are the best camping options in the park?",
+      "Is there camping info by the West Entrance?",
+      "Are there kid-friendly camping options?",
+      "Do you have tips for enjoying Yellowstone's camping?"
+    ],
+    "response": "Here's what you need to know about camping in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "camping"
+    ],
+    "tags": [
+      "camping",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about summer activities in Yellowstone",
+      "What are the best summer activities options in the park?",
+      "Is there summer activities info by the West Entrance?",
+      "Are there kid-friendly summer activities options?",
+      "Do you have tips for enjoying Yellowstone's summer activities?"
+    ],
+    "response": "Here's what you need to know about summer activities in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "summer activities"
+    ],
+    "tags": [
+      "summer_activities",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about visitor centers in Yellowstone",
+      "What are the best visitor centers options in the park?",
+      "Is there visitor centers info by the West Entrance?",
+      "Are there kid-friendly visitor centers options?",
+      "Do you have tips for enjoying Yellowstone's visitor centers?"
+    ],
+    "response": "Here's what you need to know about visitor centers in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "visitor centers"
+    ],
+    "tags": [
+      "visitor_centers",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about summer activities in Yellowstone",
+      "What are the best summer activities options in the park?",
+      "Is there summer activities info by the West Entrance?",
+      "Are there kid-friendly summer activities options?",
+      "Do you have tips for enjoying Yellowstone's summer activities?"
+    ],
+    "response": "Here's what you need to know about summer activities in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "summer activities"
+    ],
+    "tags": [
+      "summer_activities",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone",
+      "What are the best geothermal features options in the park?",
+      "Is there geothermal features info by the West Entrance?",
+      "Are there kid-friendly geothermal features options?",
+      "Do you have tips for enjoying Yellowstone's geothermal features?"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about rvs in Yellowstone",
+      "What are the best rvs options in the park?",
+      "Is there rvs info by the West Entrance?",
+      "Are there kid-friendly rvs options?",
+      "Do you have tips for enjoying Yellowstone's rvs?"
+    ],
+    "response": "Here's what you need to know about rvs in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "rvs"
+    ],
+    "tags": [
+      "rvs",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about wildlife in Yellowstone",
+      "What are the best wildlife options in the park?",
+      "Is there wildlife info by the West Entrance?",
+      "Are there kid-friendly wildlife options?",
+      "Do you have tips for enjoying Yellowstone's wildlife?"
+    ],
+    "response": "Here's what you need to know about wildlife in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "wildlife"
+    ],
+    "tags": [
+      "wildlife",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about scenic drives in Yellowstone",
+      "What are the best scenic drives options in the park?",
+      "Is there scenic drives info by the West Entrance?",
+      "Are there kid-friendly scenic drives options?",
+      "Do you have tips for enjoying Yellowstone's scenic drives?"
+    ],
+    "response": "Here's what you need to know about scenic drives in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "scenic drives"
+    ],
+    "tags": [
+      "scenic_drives",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about wildlife in Yellowstone",
+      "What are the best wildlife options in the park?",
+      "Is there wildlife info by the West Entrance?",
+      "Are there kid-friendly wildlife options?",
+      "Do you have tips for enjoying Yellowstone's wildlife?"
+    ],
+    "response": "Here's what you need to know about wildlife in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "wildlife"
+    ],
+    "tags": [
+      "wildlife",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about winter activities in Yellowstone",
+      "What are the best winter activities options in the park?",
+      "Is there winter activities info by the West Entrance?",
+      "Are there kid-friendly winter activities options?",
+      "Do you have tips for enjoying Yellowstone's winter activities?"
+    ],
+    "response": "Here's what you need to know about winter activities in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "winter activities"
+    ],
+    "tags": [
+      "winter_activities",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about winter activities in Yellowstone",
+      "What are the best winter activities options in the park?",
+      "Is there winter activities info by the West Entrance?",
+      "Are there kid-friendly winter activities options?",
+      "Do you have tips for enjoying Yellowstone's winter activities?"
+    ],
+    "response": "Here's what you need to know about winter activities in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "winter activities"
+    ],
+    "tags": [
+      "winter_activities",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about wildlife in Yellowstone",
+      "What are the best wildlife options in the park?",
+      "Is there wildlife info by the West Entrance?",
+      "Are there kid-friendly wildlife options?",
+      "Do you have tips for enjoying Yellowstone's wildlife?"
+    ],
+    "response": "Here's what you need to know about wildlife in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "wildlife"
+    ],
+    "tags": [
+      "wildlife",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about flora in Yellowstone",
+      "What are the best flora options in the park?",
+      "Is there flora info by the West Entrance?",
+      "Are there kid-friendly flora options?",
+      "Do you have tips for enjoying Yellowstone's flora?"
+    ],
+    "response": "Here's what you need to know about flora in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "flora"
+    ],
+    "tags": [
+      "flora",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about flora in Yellowstone",
+      "What are the best flora options in the park?",
+      "Is there flora info by the West Entrance?",
+      "Are there kid-friendly flora options?",
+      "Do you have tips for enjoying Yellowstone's flora?"
+    ],
+    "response": "Here's what you need to know about flora in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "flora"
+    ],
+    "tags": [
+      "flora",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about visitor centers in Yellowstone",
+      "What are the best visitor centers options in the park?",
+      "Is there visitor centers info by the West Entrance?",
+      "Are there kid-friendly visitor centers options?",
+      "Do you have tips for enjoying Yellowstone's visitor centers?"
+    ],
+    "response": "Here's what you need to know about visitor centers in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "visitor centers"
+    ],
+    "tags": [
+      "visitor_centers",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about visitor centers in Yellowstone",
+      "What are the best visitor centers options in the park?",
+      "Is there visitor centers info by the West Entrance?",
+      "Are there kid-friendly visitor centers options?",
+      "Do you have tips for enjoying Yellowstone's visitor centers?"
+    ],
+    "response": "Here's what you need to know about visitor centers in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "visitor centers"
+    ],
+    "tags": [
+      "visitor_centers",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone",
+      "What are the best lodging options in the park?",
+      "Is there lodging info by the West Entrance?",
+      "Are there kid-friendly lodging options?",
+      "Do you have tips for enjoying Yellowstone's lodging?"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone",
+      "What are the best lodging options in the park?",
+      "Is there lodging info by the West Entrance?",
+      "Are there kid-friendly lodging options?",
+      "Do you have tips for enjoying Yellowstone's lodging?"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about dining in Yellowstone",
+      "What are the best dining options in the park?",
+      "Is there dining info by the West Entrance?",
+      "Are there kid-friendly dining options?",
+      "Do you have tips for enjoying Yellowstone's dining?"
+    ],
+    "response": "Here's what you need to know about dining in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "dining"
+    ],
+    "tags": [
+      "dining",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone",
+      "What are the best lodging options in the park?",
+      "Is there lodging info by the West Entrance?",
+      "Are there kid-friendly lodging options?",
+      "Do you have tips for enjoying Yellowstone's lodging?"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about winter activities in Yellowstone",
+      "What are the best winter activities options in the park?",
+      "Is there winter activities info by the West Entrance?",
+      "Are there kid-friendly winter activities options?",
+      "Do you have tips for enjoying Yellowstone's winter activities?"
+    ],
+    "response": "Here's what you need to know about winter activities in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "winter activities"
+    ],
+    "tags": [
+      "winter_activities",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about winter activities in Yellowstone",
+      "What are the best winter activities options in the park?",
+      "Is there winter activities info by the West Entrance?",
+      "Are there kid-friendly winter activities options?",
+      "Do you have tips for enjoying Yellowstone's winter activities?"
+    ],
+    "response": "Here's what you need to know about winter activities in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "winter activities"
+    ],
+    "tags": [
+      "winter_activities",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about winter activities in Yellowstone",
+      "What are the best winter activities options in the park?",
+      "Is there winter activities info by the West Entrance?",
+      "Are there kid-friendly winter activities options?",
+      "Do you have tips for enjoying Yellowstone's winter activities?"
+    ],
+    "response": "Here's what you need to know about winter activities in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "winter activities"
+    ],
+    "tags": [
+      "winter_activities",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about winter activities in Yellowstone",
+      "What are the best winter activities options in the park?",
+      "Is there winter activities info by the West Entrance?",
+      "Are there kid-friendly winter activities options?",
+      "Do you have tips for enjoying Yellowstone's winter activities?"
+    ],
+    "response": "Here's what you need to know about winter activities in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "winter activities"
+    ],
+    "tags": [
+      "winter_activities",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about camping in Yellowstone",
+      "What are the best camping options in the park?",
+      "Is there camping info by the West Entrance?",
+      "Are there kid-friendly camping options?",
+      "Do you have tips for enjoying Yellowstone's camping?"
+    ],
+    "response": "Here's what you need to know about camping in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "camping"
+    ],
+    "tags": [
+      "camping",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone",
+      "What are the best geothermal features options in the park?",
+      "Is there geothermal features info by the West Entrance?",
+      "Are there kid-friendly geothermal features options?",
+      "Do you have tips for enjoying Yellowstone's geothermal features?"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about dining in Yellowstone",
+      "What are the best dining options in the park?",
+      "Is there dining info by the West Entrance?",
+      "Are there kid-friendly dining options?",
+      "Do you have tips for enjoying Yellowstone's dining?"
+    ],
+    "response": "Here's what you need to know about dining in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "dining"
+    ],
+    "tags": [
+      "dining",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about summer activities in Yellowstone",
+      "What are the best summer activities options in the park?",
+      "Is there summer activities info by the West Entrance?",
+      "Are there kid-friendly summer activities options?",
+      "Do you have tips for enjoying Yellowstone's summer activities?"
+    ],
+    "response": "Here's what you need to know about summer activities in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "summer activities"
+    ],
+    "tags": [
+      "summer_activities",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about scenic drives in Yellowstone",
+      "What are the best scenic drives options in the park?",
+      "Is there scenic drives info by the West Entrance?",
+      "Are there kid-friendly scenic drives options?",
+      "Do you have tips for enjoying Yellowstone's scenic drives?"
+    ],
+    "response": "Here's what you need to know about scenic drives in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "scenic drives"
+    ],
+    "tags": [
+      "scenic_drives",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone",
+      "What are the best lodging options in the park?",
+      "Is there lodging info by the West Entrance?",
+      "Are there kid-friendly lodging options?",
+      "Do you have tips for enjoying Yellowstone's lodging?"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone",
+      "What are the best lodging options in the park?",
+      "Is there lodging info by the West Entrance?",
+      "Are there kid-friendly lodging options?",
+      "Do you have tips for enjoying Yellowstone's lodging?"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about scenic drives in Yellowstone",
+      "What are the best scenic drives options in the park?",
+      "Is there scenic drives info by the West Entrance?",
+      "Are there kid-friendly scenic drives options?",
+      "Do you have tips for enjoying Yellowstone's scenic drives?"
+    ],
+    "response": "Here's what you need to know about scenic drives in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "scenic drives"
+    ],
+    "tags": [
+      "scenic_drives",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about flora in Yellowstone",
+      "What are the best flora options in the park?",
+      "Is there flora info by the West Entrance?",
+      "Are there kid-friendly flora options?",
+      "Do you have tips for enjoying Yellowstone's flora?"
+    ],
+    "response": "Here's what you need to know about flora in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "flora"
+    ],
+    "tags": [
+      "flora",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about rvs in Yellowstone",
+      "What are the best rvs options in the park?",
+      "Is there rvs info by the West Entrance?",
+      "Are there kid-friendly rvs options?",
+      "Do you have tips for enjoying Yellowstone's rvs?"
+    ],
+    "response": "Here's what you need to know about rvs in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "rvs"
+    ],
+    "tags": [
+      "rvs",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about winter activities in Yellowstone",
+      "What are the best winter activities options in the park?",
+      "Is there winter activities info by the West Entrance?",
+      "Are there kid-friendly winter activities options?",
+      "Do you have tips for enjoying Yellowstone's winter activities?"
+    ],
+    "response": "Here's what you need to know about winter activities in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "winter activities"
+    ],
+    "tags": [
+      "winter_activities",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about photography in Yellowstone",
+      "What are the best photography options in the park?",
+      "Is there photography info by the West Entrance?",
+      "Are there kid-friendly photography options?",
+      "Do you have tips for enjoying Yellowstone's photography?"
+    ],
+    "response": "Here's what you need to know about photography in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "photography"
+    ],
+    "tags": [
+      "photography",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about entrance information in Yellowstone",
+      "What are the best entrance information options in the park?",
+      "Is there entrance information info by the West Entrance?",
+      "Are there kid-friendly entrance information options?",
+      "Do you have tips for enjoying Yellowstone's entrance information?"
+    ],
+    "response": "Here's what you need to know about entrance information in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "entrance information"
+    ],
+    "tags": [
+      "entrance_information",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about hiking in Yellowstone",
+      "What are the best hiking options in the park?",
+      "Is there hiking info by the West Entrance?",
+      "Are there kid-friendly hiking options?",
+      "Do you have tips for enjoying Yellowstone's hiking?"
+    ],
+    "response": "Here's what you need to know about hiking in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "hiking"
+    ],
+    "tags": [
+      "hiking",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about wildlife in Yellowstone",
+      "What are the best wildlife options in the park?",
+      "Is there wildlife info by the West Entrance?",
+      "Are there kid-friendly wildlife options?",
+      "Do you have tips for enjoying Yellowstone's wildlife?"
+    ],
+    "response": "Here's what you need to know about wildlife in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "wildlife"
+    ],
+    "tags": [
+      "wildlife",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about summer activities in Yellowstone",
+      "What are the best summer activities options in the park?",
+      "Is there summer activities info by the West Entrance?",
+      "Are there kid-friendly summer activities options?",
+      "Do you have tips for enjoying Yellowstone's summer activities?"
+    ],
+    "response": "Here's what you need to know about summer activities in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "summer activities"
+    ],
+    "tags": [
+      "summer_activities",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about rvs in Yellowstone",
+      "What are the best rvs options in the park?",
+      "Is there rvs info by the West Entrance?",
+      "Are there kid-friendly rvs options?",
+      "Do you have tips for enjoying Yellowstone's rvs?"
+    ],
+    "response": "Here's what you need to know about rvs in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "rvs"
+    ],
+    "tags": [
+      "rvs",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about rvs in Yellowstone",
+      "What are the best rvs options in the park?",
+      "Is there rvs info by the West Entrance?",
+      "Are there kid-friendly rvs options?",
+      "Do you have tips for enjoying Yellowstone's rvs?"
+    ],
+    "response": "Here's what you need to know about rvs in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "rvs"
+    ],
+    "tags": [
+      "rvs",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about scenic drives in Yellowstone",
+      "What are the best scenic drives options in the park?",
+      "Is there scenic drives info by the West Entrance?",
+      "Are there kid-friendly scenic drives options?",
+      "Do you have tips for enjoying Yellowstone's scenic drives?"
+    ],
+    "response": "Here's what you need to know about scenic drives in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "scenic drives"
+    ],
+    "tags": [
+      "scenic_drives",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone",
+      "What are the best lodging options in the park?",
+      "Is there lodging info by the West Entrance?",
+      "Are there kid-friendly lodging options?",
+      "Do you have tips for enjoying Yellowstone's lodging?"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about entrance information in Yellowstone",
+      "What are the best entrance information options in the park?",
+      "Is there entrance information info by the West Entrance?",
+      "Are there kid-friendly entrance information options?",
+      "Do you have tips for enjoying Yellowstone's entrance information?"
+    ],
+    "response": "Here's what you need to know about entrance information in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "entrance information"
+    ],
+    "tags": [
+      "entrance_information",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone",
+      "What are the best geothermal features options in the park?",
+      "Is there geothermal features info by the West Entrance?",
+      "Are there kid-friendly geothermal features options?",
+      "Do you have tips for enjoying Yellowstone's geothermal features?"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about scenic drives in Yellowstone",
+      "What are the best scenic drives options in the park?",
+      "Is there scenic drives info by the West Entrance?",
+      "Are there kid-friendly scenic drives options?",
+      "Do you have tips for enjoying Yellowstone's scenic drives?"
+    ],
+    "response": "Here's what you need to know about scenic drives in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "scenic drives"
+    ],
+    "tags": [
+      "scenic_drives",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone",
+      "What are the best lodging options in the park?",
+      "Is there lodging info by the West Entrance?",
+      "Are there kid-friendly lodging options?",
+      "Do you have tips for enjoying Yellowstone's lodging?"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about wildlife in Yellowstone",
+      "What are the best wildlife options in the park?",
+      "Is there wildlife info by the West Entrance?",
+      "Are there kid-friendly wildlife options?",
+      "Do you have tips for enjoying Yellowstone's wildlife?"
+    ],
+    "response": "Here's what you need to know about wildlife in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "wildlife"
+    ],
+    "tags": [
+      "wildlife",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone",
+      "What are the best geothermal features options in the park?",
+      "Is there geothermal features info by the West Entrance?",
+      "Are there kid-friendly geothermal features options?",
+      "Do you have tips for enjoying Yellowstone's geothermal features?"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about dining in Yellowstone during summer",
+      "What are the best dining options in the park? during summer",
+      "Is there dining info by the West Entrance? during summer",
+      "Are there kid-friendly dining options? during summer",
+      "Do you have tips for enjoying Yellowstone's dining? during summer"
+    ],
+    "response": "Here's what you need to know about dining in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "dining",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "dining",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about camping in Yellowstone during winter",
+      "What are the best camping options in the park? during winter",
+      "Is there camping info by the West Entrance? during winter",
+      "Are there kid-friendly camping options? during winter",
+      "Do you have tips for enjoying Yellowstone's camping? during winter"
+    ],
+    "response": "Here's what you need to know about camping in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "camping",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "camping",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about winter activities in Yellowstone during summer",
+      "What are the best winter activities options in the park? during summer",
+      "Is there winter activities info by the West Entrance? during summer",
+      "Are there kid-friendly winter activities options? during summer",
+      "Do you have tips for enjoying Yellowstone's winter activities? during summer"
+    ],
+    "response": "Here's what you need to know about winter activities in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "winter activities",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "winter_activities",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about scenic drives in Yellowstone during summer",
+      "What are the best scenic drives options in the park? during summer",
+      "Is there scenic drives info by the West Entrance? during summer",
+      "Are there kid-friendly scenic drives options? during summer",
+      "Do you have tips for enjoying Yellowstone's scenic drives? during summer"
+    ],
+    "response": "Here's what you need to know about scenic drives in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "scenic drives",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "scenic_drives",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about camping in Yellowstone during summer",
+      "What are the best camping options in the park? during summer",
+      "Is there camping info by the West Entrance? during summer",
+      "Are there kid-friendly camping options? during summer",
+      "Do you have tips for enjoying Yellowstone's camping? during summer"
+    ],
+    "response": "Here's what you need to know about camping in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "camping",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "camping",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about summer activities in Yellowstone during summer",
+      "What are the best summer activities options in the park? during summer",
+      "Is there summer activities info by the West Entrance? during summer",
+      "Are there kid-friendly summer activities options? during summer",
+      "Do you have tips for enjoying Yellowstone's summer activities? during summer"
+    ],
+    "response": "Here's what you need to know about summer activities in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "summer activities",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "summer_activities",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about wildlife in Yellowstone during winter",
+      "What are the best wildlife options in the park? during winter",
+      "Is there wildlife info by the West Entrance? during winter",
+      "Are there kid-friendly wildlife options? during winter",
+      "Do you have tips for enjoying Yellowstone's wildlife? during winter"
+    ],
+    "response": "Here's what you need to know about wildlife in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "wildlife",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "wildlife",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about flora in Yellowstone during winter",
+      "What are the best flora options in the park? during winter",
+      "Is there flora info by the West Entrance? during winter",
+      "Are there kid-friendly flora options? during winter",
+      "Do you have tips for enjoying Yellowstone's flora? during winter"
+    ],
+    "response": "Here's what you need to know about flora in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "flora",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "flora",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about summer activities in Yellowstone during summer",
+      "What are the best summer activities options in the park? during summer",
+      "Is there summer activities info by the West Entrance? during summer",
+      "Are there kid-friendly summer activities options? during summer",
+      "Do you have tips for enjoying Yellowstone's summer activities? during summer"
+    ],
+    "response": "Here's what you need to know about summer activities in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "summer activities",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "summer_activities",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about visitor centers in Yellowstone during winter",
+      "What are the best visitor centers options in the park? during winter",
+      "Is there visitor centers info by the West Entrance? during winter",
+      "Are there kid-friendly visitor centers options? during winter",
+      "Do you have tips for enjoying Yellowstone's visitor centers? during winter"
+    ],
+    "response": "Here's what you need to know about visitor centers in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "visitor centers",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "visitor_centers",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone during summer",
+      "What are the best geothermal features options in the park? during summer",
+      "Is there geothermal features info by the West Entrance? during summer",
+      "Are there kid-friendly geothermal features options? during summer",
+      "Do you have tips for enjoying Yellowstone's geothermal features? during summer"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone during summer",
+      "What are the best lodging options in the park? during summer",
+      "Is there lodging info by the West Entrance? during summer",
+      "Are there kid-friendly lodging options? during summer",
+      "Do you have tips for enjoying Yellowstone's lodging? during summer"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about winter activities in Yellowstone during winter",
+      "What are the best winter activities options in the park? during winter",
+      "Is there winter activities info by the West Entrance? during winter",
+      "Are there kid-friendly winter activities options? during winter",
+      "Do you have tips for enjoying Yellowstone's winter activities? during winter"
+    ],
+    "response": "Here's what you need to know about winter activities in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "winter activities",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "winter_activities",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone during summer",
+      "What are the best geothermal features options in the park? during summer",
+      "Is there geothermal features info by the West Entrance? during summer",
+      "Are there kid-friendly geothermal features options? during summer",
+      "Do you have tips for enjoying Yellowstone's geothermal features? during summer"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about camping in Yellowstone during summer",
+      "What are the best camping options in the park? during summer",
+      "Is there camping info by the West Entrance? during summer",
+      "Are there kid-friendly camping options? during summer",
+      "Do you have tips for enjoying Yellowstone's camping? during summer"
+    ],
+    "response": "Here's what you need to know about camping in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "camping",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "camping",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about winter activities in Yellowstone during summer",
+      "What are the best winter activities options in the park? during summer",
+      "Is there winter activities info by the West Entrance? during summer",
+      "Are there kid-friendly winter activities options? during summer",
+      "Do you have tips for enjoying Yellowstone's winter activities? during summer"
+    ],
+    "response": "Here's what you need to know about winter activities in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "winter activities",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "winter_activities",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about dining in Yellowstone during winter",
+      "What are the best dining options in the park? during winter",
+      "Is there dining info by the West Entrance? during winter",
+      "Are there kid-friendly dining options? during winter",
+      "Do you have tips for enjoying Yellowstone's dining? during winter"
+    ],
+    "response": "Here's what you need to know about dining in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "dining",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "dining",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about entrance information in Yellowstone during winter",
+      "What are the best entrance information options in the park? during winter",
+      "Is there entrance information info by the West Entrance? during winter",
+      "Are there kid-friendly entrance information options? during winter",
+      "Do you have tips for enjoying Yellowstone's entrance information? during winter"
+    ],
+    "response": "Here's what you need to know about entrance information in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "entrance information",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "entrance_information",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about scenic drives in Yellowstone during winter",
+      "What are the best scenic drives options in the park? during winter",
+      "Is there scenic drives info by the West Entrance? during winter",
+      "Are there kid-friendly scenic drives options? during winter",
+      "Do you have tips for enjoying Yellowstone's scenic drives? during winter"
+    ],
+    "response": "Here's what you need to know about scenic drives in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "scenic drives",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "scenic_drives",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone during winter",
+      "What are the best lodging options in the park? during winter",
+      "Is there lodging info by the West Entrance? during winter",
+      "Are there kid-friendly lodging options? during winter",
+      "Do you have tips for enjoying Yellowstone's lodging? during winter"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone during winter",
+      "What are the best geothermal features options in the park? during winter",
+      "Is there geothermal features info by the West Entrance? during winter",
+      "Are there kid-friendly geothermal features options? during winter",
+      "Do you have tips for enjoying Yellowstone's geothermal features? during winter"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about summer activities in Yellowstone during summer",
+      "What are the best summer activities options in the park? during summer",
+      "Is there summer activities info by the West Entrance? during summer",
+      "Are there kid-friendly summer activities options? during summer",
+      "Do you have tips for enjoying Yellowstone's summer activities? during summer"
+    ],
+    "response": "Here's what you need to know about summer activities in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "summer activities",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "summer_activities",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about summer activities in Yellowstone during summer",
+      "What are the best summer activities options in the park? during summer",
+      "Is there summer activities info by the West Entrance? during summer",
+      "Are there kid-friendly summer activities options? during summer",
+      "Do you have tips for enjoying Yellowstone's summer activities? during summer"
+    ],
+    "response": "Here's what you need to know about summer activities in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "summer activities",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "summer_activities",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about camping in Yellowstone during summer",
+      "What are the best camping options in the park? during summer",
+      "Is there camping info by the West Entrance? during summer",
+      "Are there kid-friendly camping options? during summer",
+      "Do you have tips for enjoying Yellowstone's camping? during summer"
+    ],
+    "response": "Here's what you need to know about camping in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "camping",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "camping",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about wildlife in Yellowstone during winter",
+      "What are the best wildlife options in the park? during winter",
+      "Is there wildlife info by the West Entrance? during winter",
+      "Are there kid-friendly wildlife options? during winter",
+      "Do you have tips for enjoying Yellowstone's wildlife? during winter"
+    ],
+    "response": "Here's what you need to know about wildlife in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "wildlife",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "wildlife",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about winter activities in Yellowstone during winter",
+      "What are the best winter activities options in the park? during winter",
+      "Is there winter activities info by the West Entrance? during winter",
+      "Are there kid-friendly winter activities options? during winter",
+      "Do you have tips for enjoying Yellowstone's winter activities? during winter"
+    ],
+    "response": "Here's what you need to know about winter activities in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "winter activities",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "winter_activities",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about wildlife in Yellowstone during winter",
+      "What are the best wildlife options in the park? during winter",
+      "Is there wildlife info by the West Entrance? during winter",
+      "Are there kid-friendly wildlife options? during winter",
+      "Do you have tips for enjoying Yellowstone's wildlife? during winter"
+    ],
+    "response": "Here's what you need to know about wildlife in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "wildlife",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "wildlife",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about photography in Yellowstone during summer",
+      "What are the best photography options in the park? during summer",
+      "Is there photography info by the West Entrance? during summer",
+      "Are there kid-friendly photography options? during summer",
+      "Do you have tips for enjoying Yellowstone's photography? during summer"
+    ],
+    "response": "Here's what you need to know about photography in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "photography",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "photography",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone during winter",
+      "What are the best lodging options in the park? during winter",
+      "Is there lodging info by the West Entrance? during winter",
+      "Are there kid-friendly lodging options? during winter",
+      "Do you have tips for enjoying Yellowstone's lodging? during winter"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about hiking in Yellowstone during winter",
+      "What are the best hiking options in the park? during winter",
+      "Is there hiking info by the West Entrance? during winter",
+      "Are there kid-friendly hiking options? during winter",
+      "Do you have tips for enjoying Yellowstone's hiking? during winter"
+    ],
+    "response": "Here's what you need to know about hiking in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "hiking",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "hiking",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone during summer",
+      "What are the best lodging options in the park? during summer",
+      "Is there lodging info by the West Entrance? during summer",
+      "Are there kid-friendly lodging options? during summer",
+      "Do you have tips for enjoying Yellowstone's lodging? during summer"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone during summer",
+      "What are the best geothermal features options in the park? during summer",
+      "Is there geothermal features info by the West Entrance? during summer",
+      "Are there kid-friendly geothermal features options? during summer",
+      "Do you have tips for enjoying Yellowstone's geothermal features? during summer"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about dining in Yellowstone during winter",
+      "What are the best dining options in the park? during winter",
+      "Is there dining info by the West Entrance? during winter",
+      "Are there kid-friendly dining options? during winter",
+      "Do you have tips for enjoying Yellowstone's dining? during winter"
+    ],
+    "response": "Here's what you need to know about dining in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "dining",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "dining",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone during winter",
+      "What are the best geothermal features options in the park? during winter",
+      "Is there geothermal features info by the West Entrance? during winter",
+      "Are there kid-friendly geothermal features options? during winter",
+      "Do you have tips for enjoying Yellowstone's geothermal features? during winter"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about summer activities in Yellowstone during summer",
+      "What are the best summer activities options in the park? during summer",
+      "Is there summer activities info by the West Entrance? during summer",
+      "Are there kid-friendly summer activities options? during summer",
+      "Do you have tips for enjoying Yellowstone's summer activities? during summer"
+    ],
+    "response": "Here's what you need to know about summer activities in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "summer activities",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "summer_activities",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about scenic drives in Yellowstone during winter",
+      "What are the best scenic drives options in the park? during winter",
+      "Is there scenic drives info by the West Entrance? during winter",
+      "Are there kid-friendly scenic drives options? during winter",
+      "Do you have tips for enjoying Yellowstone's scenic drives? during winter"
+    ],
+    "response": "Here's what you need to know about scenic drives in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "scenic drives",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "scenic_drives",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about lodging in Yellowstone during summer",
+      "What are the best lodging options in the park? during summer",
+      "Is there lodging info by the West Entrance? during summer",
+      "Are there kid-friendly lodging options? during summer",
+      "Do you have tips for enjoying Yellowstone's lodging? during summer"
+    ],
+    "response": "Here's what you need to know about lodging in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "lodging",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "lodging",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about summer activities in Yellowstone during summer",
+      "What are the best summer activities options in the park? during summer",
+      "Is there summer activities info by the West Entrance? during summer",
+      "Are there kid-friendly summer activities options? during summer",
+      "Do you have tips for enjoying Yellowstone's summer activities? during summer"
+    ],
+    "response": "Here's what you need to know about summer activities in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "summer activities",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "summer_activities",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about dining in Yellowstone during summer",
+      "What are the best dining options in the park? during summer",
+      "Is there dining info by the West Entrance? during summer",
+      "Are there kid-friendly dining options? during summer",
+      "Do you have tips for enjoying Yellowstone's dining? during summer"
+    ],
+    "response": "Here's what you need to know about dining in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "dining",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "dining",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about wildlife in Yellowstone during winter",
+      "What are the best wildlife options in the park? during winter",
+      "Is there wildlife info by the West Entrance? during winter",
+      "Are there kid-friendly wildlife options? during winter",
+      "Do you have tips for enjoying Yellowstone's wildlife? during winter"
+    ],
+    "response": "Here's what you need to know about wildlife in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "wildlife",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "wildlife",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about hiking in Yellowstone during summer",
+      "What are the best hiking options in the park? during summer",
+      "Is there hiking info by the West Entrance? during summer",
+      "Are there kid-friendly hiking options? during summer",
+      "Do you have tips for enjoying Yellowstone's hiking? during summer"
+    ],
+    "response": "Here's what you need to know about hiking in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "hiking",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "hiking",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about summer activities in Yellowstone during summer",
+      "What are the best summer activities options in the park? during summer",
+      "Is there summer activities info by the West Entrance? during summer",
+      "Are there kid-friendly summer activities options? during summer",
+      "Do you have tips for enjoying Yellowstone's summer activities? during summer"
+    ],
+    "response": "Here's what you need to know about summer activities in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "summer activities",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "summer_activities",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone during summer",
+      "What are the best geothermal features options in the park? during summer",
+      "Is there geothermal features info by the West Entrance? during summer",
+      "Are there kid-friendly geothermal features options? during summer",
+      "Do you have tips for enjoying Yellowstone's geothermal features? during summer"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone during summer",
+      "What are the best geothermal features options in the park? during summer",
+      "Is there geothermal features info by the West Entrance? during summer",
+      "Are there kid-friendly geothermal features options? during summer",
+      "Do you have tips for enjoying Yellowstone's geothermal features? during summer"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about scenic drives in Yellowstone during winter",
+      "What are the best scenic drives options in the park? during winter",
+      "Is there scenic drives info by the West Entrance? during winter",
+      "Are there kid-friendly scenic drives options? during winter",
+      "Do you have tips for enjoying Yellowstone's scenic drives? during winter"
+    ],
+    "response": "Here's what you need to know about scenic drives in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "scenic drives",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "scenic_drives",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about photography in Yellowstone during winter",
+      "What are the best photography options in the park? during winter",
+      "Is there photography info by the West Entrance? during winter",
+      "Are there kid-friendly photography options? during winter",
+      "Do you have tips for enjoying Yellowstone's photography? during winter"
+    ],
+    "response": "Here's what you need to know about photography in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "photography",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "photography",
+      "yellowstone",
+      "winter"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about entrance information in Yellowstone during summer",
+      "What are the best entrance information options in the park? during summer",
+      "Is there entrance information info by the West Entrance? during summer",
+      "Are there kid-friendly entrance information options? during summer",
+      "Do you have tips for enjoying Yellowstone's entrance information? during summer"
+    ],
+    "response": "Here's what you need to know about entrance information in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "entrance information",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "entrance_information",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about scenic drives in Yellowstone during summer",
+      "What are the best scenic drives options in the park? during summer",
+      "Is there scenic drives info by the West Entrance? during summer",
+      "Are there kid-friendly scenic drives options? during summer",
+      "Do you have tips for enjoying Yellowstone's scenic drives? during summer"
+    ],
+    "response": "Here's what you need to know about scenic drives in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "scenic drives",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "scenic_drives",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about visitor centers in Yellowstone during summer",
+      "What are the best visitor centers options in the park? during summer",
+      "Is there visitor centers info by the West Entrance? during summer",
+      "Are there kid-friendly visitor centers options? during summer",
+      "Do you have tips for enjoying Yellowstone's visitor centers? during summer"
+    ],
+    "response": "Here's what you need to know about visitor centers in Yellowstone during the summer. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "visitor centers",
+      "hiking",
+      "campgrounds",
+      "wildflowers",
+      "bear safety"
+    ],
+    "tags": [
+      "visitor_centers",
+      "yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about geothermal features in Yellowstone during winter",
+      "What are the best geothermal features options in the park? during winter",
+      "Is there geothermal features info by the West Entrance? during winter",
+      "Are there kid-friendly geothermal features options? during winter",
+      "Do you have tips for enjoying Yellowstone's geothermal features? during winter"
+    ],
+    "response": "Here's what you need to know about geothermal features in Yellowstone during the winter. Make sure to check road status, trail conditions, and local tips for best results.",
+    "keywords": [
+      "geothermal features",
+      "snowshoeing",
+      "winter wildlife",
+      "road closures",
+      "winter lodging"
+    ],
+    "tags": [
+      "geothermal_features",
+      "yellowstone",
+      "winter"
+    ]
+  }
+]

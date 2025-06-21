@@ -1,0 +1,1407 @@
+[
+  {
+    "patterns": [
+      "Are there luxury resorts in Bozeman with spa access?"
+    ],
+    "tags": [
+      "lodging",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "are",
+      "there",
+      "luxury",
+      "resorts",
+      "in",
+      "bozeman",
+      "with",
+      "spa"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Are there luxury resorts in Bozeman with spa access?"
+  },
+  {
+    "patterns": [
+      "Where can I stay in Bozeman near the airport?"
+    ],
+    "tags": [
+      "lodging",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "where",
+      "can",
+      "i",
+      "stay",
+      "in",
+      "bozeman",
+      "near",
+      "the"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Where can I stay in Bozeman near the airport?"
+  },
+  {
+    "patterns": [
+      "Which accommodations in Bozeman include hot tubs?"
+    ],
+    "tags": [
+      "lodging",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "which",
+      "accommodations",
+      "in",
+      "bozeman",
+      "include",
+      "hot"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Which accommodations in Bozeman include hot tubs?"
+  },
+  {
+    "patterns": [
+      "Are there Bozeman hostels for budget travelers?"
+    ],
+    "tags": [
+      "lodging",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "are",
+      "there",
+      "bozeman",
+      "hostels",
+      "for",
+      "budget"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Are there Bozeman hostels for budget travelers?"
+  },
+  {
+    "patterns": [
+      "Which hotels in Bozeman offer free breakfast?"
+    ],
+    "tags": [
+      "lodging",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "which",
+      "hotels",
+      "in",
+      "bozeman",
+      "offer",
+      "free"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Which hotels in Bozeman offer free breakfast?"
+  },
+  {
+    "patterns": [
+      "Where should I go for local craft beer and dinner in Bozeman?"
+    ],
+    "tags": [
+      "dining",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "where",
+      "should",
+      "i",
+      "go",
+      "for",
+      "local",
+      "craft",
+      "beer",
+      "and",
+      "dinner",
+      "in"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Where should I go for local craft beer and dinner in Bozeman?"
+  },
+  {
+    "patterns": [
+      "Which Bozeman restaurants are good for special occasions?"
+    ],
+    "tags": [
+      "dining",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "which",
+      "bozeman",
+      "restaurants",
+      "are",
+      "good",
+      "for",
+      "special"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Which Bozeman restaurants are good for special occasions?"
+  },
+  {
+    "patterns": [
+      "Where can I get quick, healthy food in Bozeman?"
+    ],
+    "tags": [
+      "dining",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "where",
+      "can",
+      "i",
+      "get",
+      "healthy",
+      "food",
+      "in"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Where can I get quick, healthy food in Bozeman?"
+  },
+  {
+    "patterns": [
+      "Do any restaurants in Bozeman allow dogs on the patio?"
+    ],
+    "tags": [
+      "dining",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "do",
+      "any",
+      "restaurants",
+      "in",
+      "bozeman",
+      "allow",
+      "dogs",
+      "on",
+      "the"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Do any restaurants in Bozeman allow dogs on the patio?"
+  },
+  {
+    "patterns": [
+      "What's the best Italian food spot in Bozeman?"
+    ],
+    "tags": [
+      "dining",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "the",
+      "best",
+      "italian",
+      "food",
+      "spot",
+      "in"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: What's the best Italian food spot in Bozeman?"
+  },
+  {
+    "patterns": [
+      "Can I get a same-day ski rental in downtown Bozeman?"
+    ],
+    "tags": [
+      "skiing",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "can",
+      "i",
+      "get",
+      "a",
+      "ski",
+      "rental",
+      "in",
+      "downtown"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Can I get a same-day ski rental in downtown Bozeman?"
+  },
+  {
+    "patterns": [
+      "Where do locals ski if they want to avoid crowds near Bozeman?"
+    ],
+    "tags": [
+      "skiing",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "where",
+      "do",
+      "locals",
+      "ski",
+      "if",
+      "they",
+      "want",
+      "to",
+      "avoid",
+      "crowds",
+      "near"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Where do locals ski if they want to avoid crowds near Bozeman?"
+  },
+  {
+    "patterns": [
+      "What ski shops in Bozeman also offer lessons?"
+    ],
+    "tags": [
+      "skiing",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "what",
+      "ski",
+      "shops",
+      "in",
+      "bozeman",
+      "also",
+      "offer"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: What ski shops in Bozeman also offer lessons?"
+  },
+  {
+    "patterns": [
+      "Does Bozeman have cross-country skiing nearby?"
+    ],
+    "tags": [
+      "skiing",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "does",
+      "bozeman",
+      "have",
+      "skiing"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Does Bozeman have cross-country skiing nearby?"
+  },
+  {
+    "patterns": [
+      "Which ski areas near Bozeman have terrain parks?"
+    ],
+    "tags": [
+      "skiing",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "which",
+      "ski",
+      "areas",
+      "near",
+      "bozeman",
+      "have",
+      "terrain"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Which ski areas near Bozeman have terrain parks?"
+  },
+  {
+    "patterns": [
+      "Is there a hike near Bozeman that\u2019s good for photography?"
+    ],
+    "tags": [
+      "hiking",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "is",
+      "there",
+      "a",
+      "hike",
+      "near",
+      "bozeman",
+      "good",
+      "for"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Is there a hike near Bozeman that\u2019s good for photography?"
+  },
+  {
+    "patterns": [
+      "Where can I hike to see fall foliage around Bozeman?"
+    ],
+    "tags": [
+      "hiking",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "where",
+      "can",
+      "i",
+      "hike",
+      "to",
+      "see",
+      "fall",
+      "foliage",
+      "around"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Where can I hike to see fall foliage around Bozeman?"
+  },
+  {
+    "patterns": [
+      "Are there stroller-friendly trails in Bozeman?"
+    ],
+    "tags": [
+      "hiking",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "are",
+      "there",
+      "trails",
+      "in"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Are there stroller-friendly trails in Bozeman?"
+  },
+  {
+    "patterns": [
+      "Which Bozeman hikes have alpine lake views?"
+    ],
+    "tags": [
+      "hiking",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "which",
+      "bozeman",
+      "hikes",
+      "have",
+      "alpine",
+      "lake"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Which Bozeman hikes have alpine lake views?"
+  },
+  {
+    "patterns": [
+      "Are wildflowers common on Bozeman trails in June?"
+    ],
+    "tags": [
+      "hiking",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "are",
+      "wildflowers",
+      "common",
+      "on",
+      "bozeman",
+      "trails",
+      "in"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Are wildflowers common on Bozeman trails in June?"
+  },
+  {
+    "patterns": [
+      "Are there beginner-friendly casting clinics in Bozeman?"
+    ],
+    "tags": [
+      "fly fishing",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "are",
+      "there",
+      "casting",
+      "clinics",
+      "in"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Are there beginner-friendly casting clinics in Bozeman?"
+  },
+  {
+    "patterns": [
+      "Can I rent fly fishing gear in Bozeman?"
+    ],
+    "tags": [
+      "fly fishing",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "can",
+      "i",
+      "rent",
+      "fly",
+      "fishing",
+      "gear",
+      "in"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Can I rent fly fishing gear in Bozeman?"
+  },
+  {
+    "patterns": [
+      "What fly hatches happen near Bozeman in August?"
+    ],
+    "tags": [
+      "fly fishing",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "what",
+      "fly",
+      "hatches",
+      "happen",
+      "near",
+      "bozeman",
+      "in"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: What fly hatches happen near Bozeman in August?"
+  },
+  {
+    "patterns": [
+      "Which local rivers are best for catch-and-release fishing?"
+    ],
+    "tags": [
+      "fly fishing",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "which",
+      "local",
+      "rivers",
+      "are",
+      "best",
+      "for"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Which local rivers are best for catch-and-release fishing?"
+  },
+  {
+    "patterns": [
+      "Are there women-led fly fishing tours in Bozeman?"
+    ],
+    "tags": [
+      "fly fishing",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "are",
+      "there",
+      "fly",
+      "fishing",
+      "tours",
+      "in"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Are there women-led fly fishing tours in Bozeman?"
+  },
+  {
+    "patterns": [
+      "Is July the hottest month in Bozeman?"
+    ],
+    "tags": [
+      "weather",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "is",
+      "july",
+      "the",
+      "hottest",
+      "month",
+      "in"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Is July the hottest month in Bozeman?"
+  },
+  {
+    "patterns": [
+      "How often does it snow in downtown Bozeman?"
+    ],
+    "tags": [
+      "weather",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "how",
+      "often",
+      "does",
+      "it",
+      "snow",
+      "in",
+      "downtown"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: How often does it snow in downtown Bozeman?"
+  },
+  {
+    "patterns": [
+      "Does Bozeman experience summer hailstorms?"
+    ],
+    "tags": [
+      "weather",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "does",
+      "bozeman",
+      "experience",
+      "summer"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Does Bozeman experience summer hailstorms?"
+  },
+  {
+    "patterns": [
+      "What\u2019s the coldest month in Bozeman historically?"
+    ],
+    "tags": [
+      "weather",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "the",
+      "coldest",
+      "month",
+      "in",
+      "bozeman"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: What\u2019s the coldest month in Bozeman historically?"
+  },
+  {
+    "patterns": [
+      "Are spring mornings chilly in Bozeman?"
+    ],
+    "tags": [
+      "weather",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "are",
+      "spring",
+      "mornings",
+      "chilly",
+      "in"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Are spring mornings chilly in Bozeman?"
+  },
+  {
+    "patterns": [
+      "How long is security wait time at Bozeman Yellowstone Airport?"
+    ],
+    "tags": [
+      "airport",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "how",
+      "long",
+      "is",
+      "security",
+      "wait",
+      "time",
+      "at",
+      "bozeman",
+      "yellowstone"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: How long is security wait time at Bozeman Yellowstone Airport?"
+  },
+  {
+    "patterns": [
+      "Does the Bozeman airport have a lounge or quiet area?"
+    ],
+    "tags": [
+      "airport",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "does",
+      "the",
+      "bozeman",
+      "airport",
+      "have",
+      "a",
+      "lounge",
+      "or",
+      "quiet"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Does the Bozeman airport have a lounge or quiet area?"
+  },
+  {
+    "patterns": [
+      "Are there direct flights to California from Bozeman?"
+    ],
+    "tags": [
+      "airport",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "are",
+      "there",
+      "direct",
+      "flights",
+      "to",
+      "california",
+      "from"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Are there direct flights to California from Bozeman?"
+  },
+  {
+    "patterns": [
+      "Is rideshare pickup easy at BZN?"
+    ],
+    "tags": [
+      "airport",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "is",
+      "rideshare",
+      "pickup",
+      "easy",
+      "at"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Is rideshare pickup easy at BZN?"
+  },
+  {
+    "patterns": [
+      "Where is the long-term parking lot at Bozeman airport?"
+    ],
+    "tags": [
+      "airport",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "where",
+      "is",
+      "the",
+      "parking",
+      "lot",
+      "at",
+      "bozeman"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Where is the long-term parking lot at Bozeman airport?"
+  },
+  {
+    "patterns": [
+      "Are taxis reliable in Bozeman at night?"
+    ],
+    "tags": [
+      "transportation",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "are",
+      "taxis",
+      "reliable",
+      "in",
+      "bozeman",
+      "at"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Are taxis reliable in Bozeman at night?"
+  },
+  {
+    "patterns": [
+      "Does Bozeman have electric scooter rentals?"
+    ],
+    "tags": [
+      "transportation",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "does",
+      "bozeman",
+      "have",
+      "electric",
+      "scooter"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Does Bozeman have electric scooter rentals?"
+  },
+  {
+    "patterns": [
+      "Where are the public transit stops in Bozeman?"
+    ],
+    "tags": [
+      "transportation",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "where",
+      "are",
+      "the",
+      "public",
+      "transit",
+      "stops",
+      "in"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Where are the public transit stops in Bozeman?"
+  },
+  {
+    "patterns": [
+      "Is there a shuttle to Bridger Bowl from downtown Bozeman?"
+    ],
+    "tags": [
+      "transportation",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "is",
+      "there",
+      "a",
+      "shuttle",
+      "to",
+      "bridger",
+      "bowl",
+      "from",
+      "downtown"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Is there a shuttle to Bridger Bowl from downtown Bozeman?"
+  },
+  {
+    "patterns": [
+      "Can I park overnight in downtown Bozeman?"
+    ],
+    "tags": [
+      "transportation",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "can",
+      "i",
+      "park",
+      "overnight",
+      "in",
+      "downtown"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Can I park overnight in downtown Bozeman?"
+  },
+  {
+    "patterns": [
+      "Is the drive from Bozeman to Livingston scenic in the fall?"
+    ],
+    "tags": [
+      "scenic drives",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "is",
+      "the",
+      "drive",
+      "from",
+      "bozeman",
+      "to",
+      "livingston",
+      "scenic",
+      "in",
+      "the"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Is the drive from Bozeman to Livingston scenic in the fall?"
+  },
+  {
+    "patterns": [
+      "What\u2019s the best loop drive from Bozeman in early summer?"
+    ],
+    "tags": [
+      "scenic drives",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "the",
+      "best",
+      "loop",
+      "drive",
+      "from",
+      "bozeman",
+      "in",
+      "early"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: What\u2019s the best loop drive from Bozeman in early summer?"
+  },
+  {
+    "patterns": [
+      "Can I spot wildlife on the drive to Hyalite Canyon?"
+    ],
+    "tags": [
+      "scenic drives",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "can",
+      "i",
+      "spot",
+      "wildlife",
+      "on",
+      "the",
+      "drive",
+      "to",
+      "hyalite"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Can I spot wildlife on the drive to Hyalite Canyon?"
+  },
+  {
+    "patterns": [
+      "Is Norris Road a good scenic alternative to US-191?"
+    ],
+    "tags": [
+      "scenic drives",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "is",
+      "norris",
+      "road",
+      "a",
+      "good",
+      "scenic",
+      "alternative",
+      "to"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Is Norris Road a good scenic alternative to US-191?"
+  },
+  {
+    "patterns": [
+      "What scenic drives are best for sunrise photography near Bozeman?"
+    ],
+    "tags": [
+      "scenic drives",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "what",
+      "scenic",
+      "drives",
+      "are",
+      "best",
+      "for",
+      "sunrise",
+      "photography",
+      "near"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: What scenic drives are best for sunrise photography near Bozeman?"
+  },
+  {
+    "patterns": [
+      "Does Bozeman host snow sculpture events or competitions?"
+    ],
+    "tags": [
+      "winter activities",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "does",
+      "bozeman",
+      "host",
+      "snow",
+      "sculpture",
+      "events",
+      "or"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Does Bozeman host snow sculpture events or competitions?"
+  },
+  {
+    "patterns": [
+      "Are there winter night walks or lit trails in Bozeman?"
+    ],
+    "tags": [
+      "winter activities",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "are",
+      "there",
+      "winter",
+      "night",
+      "walks",
+      "or",
+      "lit",
+      "trails",
+      "in"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Are there winter night walks or lit trails in Bozeman?"
+  },
+  {
+    "patterns": [
+      "Where can I take kids tubing in Bozeman?"
+    ],
+    "tags": [
+      "winter activities",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "where",
+      "can",
+      "i",
+      "take",
+      "kids",
+      "tubing",
+      "in"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Where can I take kids tubing in Bozeman?"
+  },
+  {
+    "patterns": [
+      "What winter date night ideas are popular in Bozeman?"
+    ],
+    "tags": [
+      "winter activities",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "what",
+      "winter",
+      "date",
+      "night",
+      "ideas",
+      "are",
+      "popular",
+      "in"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: What winter date night ideas are popular in Bozeman?"
+  },
+  {
+    "patterns": [
+      "Is there a Bozeman hot spring open year-round?"
+    ],
+    "tags": [
+      "winter activities",
+      "bozeman",
+      "activity-guide",
+      "local-favorites"
+    ],
+    "keywords": [
+      "is",
+      "there",
+      "a",
+      "bozeman",
+      "hot",
+      "spring",
+      "open"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ],
+    "response": "This is a verified Bozeman recommendation: Is there a Bozeman hot spring open year-round?"
+  }
+]
