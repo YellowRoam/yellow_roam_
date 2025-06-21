@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Tao's Inn",
+    "location": "102 S Electric St, West Yellowstone, MT",
+    "reasons": [
+      "Comfortable and updated rooms",
+      "Easy walk to restaurants and downtown",
+      "Family-run with warm hospitality",
+      "Quiet, relaxing vibe",
+      "Excellent location near entrance"
+    ],
+    "tags": [
+      "Boutique",
+      "Walkable",
+      "Quiet",
+      "Modern",
+      "Budget-Friendly"
+    ],
+    "seasonal_availability": "Open late April through mid-October",
+    "apple_maps": "https://maps.apple.com/?q=Tao's+Inn+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/taos-inn-west-yellowstone"
+  },
+  {
+    "name": "Pine Shadows Motel",
+    "location": "115 Madison Ave, West Yellowstone, MT",
+    "reasons": [
+      "No-frills rooms with affordable pricing",
+      "Locally owned and operated",
+      "Surprisingly clean and cozy",
+      "Good parking for trailers",
+      "Easy in-and-out access"
+    ],
+    "tags": [
+      "Budget-Friendly",
+      "Independent",
+      "Motel",
+      "Pet-Friendly",
+      "Parking Access"
+    ],
+    "seasonal_availability": "Open May to October",
+    "apple_maps": "https://maps.apple.com/?q=Pine+Shadows+Motel+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/pine-shadows-motel-west-yellowstone"
+  },
+  {
+    "name": "The Aspen Inn",
+    "location": "229 Firehole Ave, West Yellowstone, MT",
+    "reasons": [
+      "Bright, remodeled rooms",
+      "Good for couples and small families",
+      "Modern furnishings with rustic touches",
+      "Close to shops and eateries",
+      "Quiet evenings away from crowds"
+    ],
+    "tags": [
+      "Modern",
+      "Walkable",
+      "Quiet",
+      "Couples",
+      "Refreshed"
+    ],
+    "seasonal_availability": "Open late April through mid-October",
+    "apple_maps": "https://maps.apple.com/?q=Aspen+Inn+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/aspen-inn-west-yellowstone"
+  },
+  {
+    "name": "Hebgen Lake Campground",
+    "location": "Forest Service Rd 167, Hebgen Lake, MT",
+    "reasons": [
+      "Waterfront views and trout fishing",
+      "Simple, quiet forest service sites",
+      "Tent and small RV spaces available",
+      "Great stargazing location",
+      "Good access to Madison Arm"
+    ],
+    "tags": [
+      "Campground",
+      "Lakefront",
+      "Fishing",
+      "Secluded",
+      "Nature-Lovers"
+    ],
+    "seasonal_availability": "Open mid-June through September (weather dependent)",
+    "apple_maps": "https://maps.apple.com/?q=Hebgen+Lake+Campground+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/hebgen-lake-campground-west-yellowstone"
+  },
+  {
+    "name": "West Yellowstone KOA",
+    "location": "3305 Targhee Pass Hwy, West Yellowstone, MT",
+    "reasons": [
+      "Kid-friendly with indoor pool and activities",
+      "Deluxe cabins and large RV pads",
+      "Free pancakes in the summer",
+      "Bike rentals and mini-golf",
+      "Organized campground with amenities"
+    ],
+    "tags": [
+      "RV-Friendly",
+      "Campground",
+      "Kid-Friendly",
+      "Deluxe Cabins",
+      "Family-Friendly"
+    ],
+    "seasonal_availability": "Open mid-May through early October",
+    "apple_maps": "https://maps.apple.com/?q=KOA+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/koa-west-yellowstone"
+  },
+  {
+    "name": "Wagon Wheel Cabin Rentals",
+    "location": "408 Firehole Ave, West Yellowstone, MT",
+    "reasons": [
+      "Authentic log cabins with vintage charm",
+      "Great location near downtown",
+      "Well-maintained and cozy",
+      "Perfect for couples and small families",
+      "Quiet, rustic experience"
+    ],
+    "tags": [
+      "Cabin",
+      "Romantic",
+      "Walkable",
+      "Rustic",
+      "Family-Friendly"
+    ],
+    "seasonal_availability": "Open May through October",
+    "apple_maps": "https://maps.apple.com/?q=Wagon+Wheel+Cabin+Rentals+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/wagon-wheel-cabin-rentals-west-yellowstone"
+  },
+  {
+    "name": "Bar N Ranch",
+    "location": "890 Buttermilk Creek Rd, West Yellowstone, MT",
+    "reasons": [
+      "Upscale rustic lodge and glamping",
+      "Restaurant and bar on site",
+      "Stunning mountain views",
+      "Spacious grounds and hot tubs",
+      "Great for romantic getaways or groups"
+    ],
+    "tags": [
+      "Luxury",
+      "Glamping",
+      "Lodge",
+      "Romantic",
+      "Scenic"
+    ],
+    "seasonal_availability": "Open late May through September",
+    "apple_maps": "https://maps.apple.com/?q=Bar+N+Ranch+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/bar-n-ranch-west-yellowstone"
+  },
+  {
+    "name": "Arrowhead Lodge",
+    "location": "145 N Canyon St, West Yellowstone, MT",
+    "reasons": [
+      "Clean, well-reviewed lodge-style motel",
+      "Close to restaurants and gift shops",
+      "Friendly, attentive staff",
+      "Simple but spacious rooms",
+      "Affordable alternative to chains"
+    ],
+    "tags": [
+      "Budget-Friendly",
+      "Walkable",
+      "Lodge",
+      "Independent",
+      "Couples"
+    ],
+    "seasonal_availability": "Open April through October",
+    "apple_maps": "https://maps.apple.com/?q=Arrowhead+Lodge+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/arrowhead-lodge-west-yellowstone"
+  },
+  {
+    "name": "Campfire Lodge Resort",
+    "location": "155 Campfire Ln, West Yellowstone, MT",
+    "reasons": [
+      "Cabins along the Madison River",
+      "Camp store and caf\u00e9 on site",
+      "Excellent fly fishing access",
+      "Friendly and rustic outdoor vibes",
+      "Pet-friendly and nature-rich"
+    ],
+    "tags": [
+      "Cabin",
+      "Fishing",
+      "Riverfront",
+      "Rustic",
+      "Pet-Friendly"
+    ],
+    "seasonal_availability": "Open May to October",
+    "apple_maps": "https://maps.apple.com/?q=Campfire+Lodge+Resort+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/campfire-lodge-resort-west-yellowstone"
+  },
+  {
+    "name": "Baker's Hole Campground (USFS)",
+    "location": "3 miles north of town on US-191",
+    "reasons": [
+      "Riverside sites with fire pits and trees",
+      "First-come, first-served national forest site",
+      "Quiet, spaced-out campsites",
+      "Popular with tent campers and small RVs",
+      "Elk and wildlife sightings common"
+    ],
+    "tags": [
+      "Campground",
+      "Secluded",
+      "Nature-Lovers",
+      "Tent-Friendly",
+      "Budget-Friendly"
+    ],
+    "seasonal_availability": "Open May to September (weather dependent)",
+    "apple_maps": "https://maps.apple.com/?q=Baker's+Hole+Campground+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/bakers-hole-campground-west-yellowstone"
+  }
+]
