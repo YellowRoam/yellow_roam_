@@ -1,0 +1,296 @@
+[
+  {
+    "patterns": [
+      "Where can I stay with an RV near West Yellowstone, MT?",
+      "Tell me about Grizzly RV Park & Cabins.",
+      "Is Grizzly RV Park & Cabins RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Grizzly RV Park & Cabins** \u2013 Open: Mid-April to Mid-October. Known for: Wi-Fi. [Apple Maps](https://maps.apple.com/?q=Grizzly+RV+Park+West+Yellowstone)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "grizzly rv park & cabins"
+    ],
+    "tags": [
+      "big_rig_friendly",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near West Yellowstone, MT?",
+      "Tell me about Buffalo Crossing RV Park.",
+      "Is Buffalo Crossing RV Park RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Buffalo Crossing RV Park** \u2013 Open: May to October. Known for: proximity to IMAX theater. [Apple Maps](https://maps.apple.com/?q=Buffalo+Crossing+RV+Park+West+Yellowstone)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "buffalo crossing rv park"
+    ],
+    "tags": [
+      "big_rig_friendly",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near West Yellowstone, MT?",
+      "Tell me about Fox Den RV and Campground.",
+      "Is Fox Den RV and Campground RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Fox Den RV and Campground** \u2013 Open: May to October. Known for: fire rings. [Apple Maps](https://maps.apple.com/?q=Fox+Den+RV+Park+West+Yellowstone)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "fox den rv and campground"
+    ],
+    "tags": [
+      "big_rig_friendly",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near 8 miles west of West Yellowstone?",
+      "Tell me about Yellowstone Park/West Gate KOA Holiday.",
+      "Is Yellowstone Park/West Gate KOA Holiday RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Yellowstone Park/West Gate KOA Holiday** \u2013 Open: May to October. Known for: hot tub. [Apple Maps](https://maps.apple.com/?q=Yellowstone+Park+KOA+Holiday)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "yellowstone park/west gate koa holiday"
+    ],
+    "tags": [
+      "big_rig_friendly",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near Hebgen Lake (15 miles NW of West Yellowstone)?",
+      "Tell me about Yellowstone Holiday RV Campground & Marina.",
+      "Is Yellowstone Holiday RV Campground & Marina RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Yellowstone Holiday RV Campground & Marina** \u2013 Open: Late May to Mid-September. Known for: lake access. [Apple Maps](https://maps.apple.com/?q=Yellowstone+Holiday+RV+Campground)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "yellowstone holiday rv campground & marina"
+    ],
+    "tags": [
+      "big_rig_friendly",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near North side of Hebgen Lake (20 mins from West Yellowstone)?",
+      "Tell me about Madison Arm Resort.",
+      "Is Madison Arm Resort RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Madison Arm Resort** \u2013 Open: Late May to September. Known for: cabins. [Apple Maps](https://maps.apple.com/?q=Madison+Arm+Resort)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "madison arm resort"
+    ],
+    "tags": [
+      "big_rig_friendly",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near Island Park, ID (25 min south of West Yellowstone)?",
+      "Tell me about Island Park Village RV Park.",
+      "Is Island Park Village RV Park RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Island Park Village RV Park** \u2013 Open: May to October. Known for: golf nearby. [Apple Maps](https://maps.apple.com/?q=Island+Park+Village+RV+Park)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "island park village rv park"
+    ],
+    "tags": [
+      "big_rig_friendly",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near Island Park, ID (25 minutes SW of West Yellowstone)?",
+      "Tell me about RedRock RV Park.",
+      "Is RedRock RV Park RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**RedRock RV Park** \u2013 Open: June to September. Known for: mountain views. [Apple Maps](https://maps.apple.com/?q=RedRock+RV+Park+Idaho)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "redrock rv park"
+    ],
+    "tags": [
+      "big_rig_friendly",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near Island Park, ID?",
+      "Tell me about Valley View RV Park.",
+      "Is Valley View RV Park RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Valley View RV Park** \u2013 Open: May to September. Known for: quiet atmosphere. [Apple Maps](https://maps.apple.com/?q=Valley+View+RV+Park+Island+Park)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "valley view rv park"
+    ],
+    "tags": [
+      "big_rig_friendly",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near Island Park, ID?",
+      "Tell me about Mack\u2019s Inn RV Park.",
+      "Is Mack\u2019s Inn RV Park RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Mack\u2019s Inn RV Park** \u2013 Open: May to October. Known for: floating access to river. [Apple Maps](https://maps.apple.com/?q=Macks+Inn+Island+Park)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "mack\u2019s inn rv park"
+    ],
+    "tags": [
+      "big_rig_friendly",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near West Yellowstone, MT?",
+      "Tell me about Fox Den RV and Campground.",
+      "Is Fox Den RV and Campground RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Fox Den RV and Campground** \u2013 Open: May to October. Known for: fire rings. [Apple Maps](https://maps.apple.com/?q=Fox+Den+RV+Park+West+Yellowstone)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "fox den rv and campground"
+    ],
+    "tags": [
+      "quietest_parks",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near North Shore of Hebgen Lake?",
+      "Tell me about Rainbow Point Campground (Forest Service).",
+      "Is Rainbow Point Campground (Forest Service) RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Rainbow Point Campground (Forest Service)** \u2013 Open: Memorial Day to Labor Day. Known for: lakeshore campsites. [Apple Maps](https://maps.apple.com/?q=Rainbow+Point+Campground)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "rainbow point campground (forest service)"
+    ],
+    "tags": [
+      "quietest_parks",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near Island Park, ID?",
+      "Tell me about Valley View RV Park.",
+      "Is Valley View RV Park RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Valley View RV Park** \u2013 Open: May to September. Known for: quiet atmosphere. [Apple Maps](https://maps.apple.com/?q=Valley+View+RV+Park+Island+Park)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "valley view rv park"
+    ],
+    "tags": [
+      "quietest_parks",
+      "rv",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay with an RV near Targhee National Forest, ID?",
+      "Tell me about Buttermilk Campground.",
+      "Is Buttermilk Campground RV-friendly?",
+      "Any quiet or scenic RV parks near Yellowstone?",
+      "What RV parks near West Yellowstone are good for families?"
+    ],
+    "response": "**Buttermilk Campground** \u2013 Open: June to September. Known for: primitive. [Apple Maps](https://maps.apple.com/?q=Buttermilk+Campground+Targhee)",
+    "keywords": [
+      "rv",
+      "yellowstone",
+      "camping",
+      "buttermilk campground"
+    ],
+    "tags": [
+      "quietest_parks",
+      "rv",
+      "west_yellowstone"
+    ]
+  }
+]

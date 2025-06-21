@@ -1,0 +1,94 @@
+[
+  {
+    "patterns": [
+      "What\u2019s the weather like in West Yellowstone in spring?",
+      "Tell me about spring conditions in Yellowstone.",
+      "What should I expect for weather and roads in spring?",
+      "Is it good to visit West Yellowstone during the spring?",
+      "What gear do I need for Yellowstone in the spring months?"
+    ],
+    "response": "Spring comes late and slow in West Yellowstone. Snow is common well into May, with many trails and roads still snow-covered through April. March: Highs 30s \u00b0F (-1 to 4\u00b0C), Lows teens \u00b0F (-10 to -5\u00b0C). April: Highs 40s \u00b0F (4\u20139\u00b0C), Lows 20s \u00b0F (-6 to -2\u00b0C). May: Highs 50s \u00b0F (10\u201316\u00b0C), Lows 20s\u201330s \u00b0F (-4 to 3\u00b0C).  Common alerts: Avalanche warnings (especially March), Park road opening delays, Sudden snow squalls and whiteouts.",
+    "keywords": [
+      "weather",
+      "season",
+      "climate",
+      "spring",
+      "west yellowstone"
+    ],
+    "tags": [
+      "weather",
+      "climate",
+      "west_yellowstone",
+      "spring"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the weather like in West Yellowstone in summer?",
+      "Tell me about summer conditions in Yellowstone.",
+      "What should I expect for weather and roads in summer?",
+      "Is it good to visit West Yellowstone during the summer?",
+      "What gear do I need for Yellowstone in the summer months?"
+    ],
+    "response": "Cool mornings, sunny days, and low humidity define summer in West Yellowstone. Ideal for hiking and park touring. June: 60s \u00b0F (15\u201321\u00b0C), lows in 30s \u00b0F (1\u20134\u00b0C). July/August: 70s \u00b0F (21\u201326\u00b0C), lows in 30s\u201340s \u00b0F (1\u20137\u00b0C).  Common alerts: Red Flag Warnings for fire danger, Smoke-related Air Quality Alerts, Thunderstorm lightning advisories.",
+    "keywords": [
+      "weather",
+      "season",
+      "climate",
+      "summer",
+      "west yellowstone"
+    ],
+    "tags": [
+      "weather",
+      "climate",
+      "west_yellowstone",
+      "summer"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the weather like in West Yellowstone in fall?",
+      "Tell me about fall conditions in Yellowstone.",
+      "What should I expect for weather and roads in fall?",
+      "Is it good to visit West Yellowstone during the fall?",
+      "What gear do I need for Yellowstone in the fall months?"
+    ],
+    "response": "Fall arrives quickly and early in West Yellowstone. First snows usually fall by October, with frost common in September. September: Highs in 60s \u00b0F (15\u201320\u00b0C), lows in 20s\u201330s \u00b0F. October: Highs in 40s\u201350s \u00b0F (4\u201311\u00b0C), lows in teens\u201320s \u00b0F. November: Highs in 30s\u201340s \u00b0F (0\u20136\u00b0C), lows in single digits.  Common alerts: First snow and freeze warnings, Road closures and seasonal shutdowns, Increased wildlife movement.",
+    "keywords": [
+      "weather",
+      "season",
+      "climate",
+      "fall",
+      "west yellowstone"
+    ],
+    "tags": [
+      "weather",
+      "climate",
+      "west_yellowstone",
+      "fall"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the weather like in West Yellowstone in winter?",
+      "Tell me about winter conditions in Yellowstone.",
+      "What should I expect for weather and roads in winter?",
+      "Is it good to visit West Yellowstone during the winter?",
+      "What gear do I need for Yellowstone in the winter months?"
+    ],
+    "response": "West Yellowstone is one of the coldest towns in the U.S., with heavy snowfall and frequent sub-zero temperatures. A major hub for snowmobiling and Nordic skiing. high: 10s\u201320s \u00b0F (-12 to -5\u00b0C). low: -20 \u00b0F or colder (-29\u00b0C).  Common alerts: Winter Storm Warnings, Extreme Cold and Wind Chill Advisories, Avalanche forecasts for surrounding national forest.",
+    "keywords": [
+      "weather",
+      "season",
+      "climate",
+      "winter",
+      "west yellowstone"
+    ],
+    "tags": [
+      "weather",
+      "climate",
+      "west_yellowstone",
+      "winter"
+    ]
+  }
+]

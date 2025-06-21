@@ -1,0 +1,122 @@
+[
+  {
+    "patterns": [
+      "Where should I get breakfast in West Yellowstone?",
+      "Tell me about Running Bear Pancake House in West Yellowstone.",
+      "Best morning eats before heading into the park?",
+      "Is Running Bear Pancake House good for coffee or breakfast?",
+      "Any kid-friendly breakfast options near Yellowstone?"
+    ],
+    "response": "Try **Running Bear Pancake House** \u2013 Best breakfast in town Tip: Opens early\u2014perfect for pre-park fuel-up. [Apple Maps](https://maps.apple.com/?q=Running+Bear+Pancake+House)",
+    "keywords": [
+      "breakfast",
+      "morning",
+      "coffee",
+      "running bear pancake house",
+      "breakfast",
+      "kid-friendly",
+      "family-friendly",
+      "casual",
+      "affordable"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "breakfast",
+      "breakfast",
+      "kid-friendly",
+      "family-friendly",
+      "casual",
+      "affordable"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get breakfast in West Yellowstone?",
+      "Tell me about Ernie\u2019s Bakery & Deli in West Yellowstone.",
+      "Best morning eats before heading into the park?",
+      "Is Ernie\u2019s Bakery & Deli good for coffee or breakfast?",
+      "Any kid-friendly breakfast options near Yellowstone?"
+    ],
+    "response": "Try **Ernie\u2019s Bakery & Deli** \u2013 Best grab-and-go breakfast and sandwiches Tip: Grab boxed lunches early\u2014they sell out. [Apple Maps](https://maps.apple.com/?q=Ernies+Bakery+West+Yellowstone)",
+    "keywords": [
+      "breakfast",
+      "morning",
+      "coffee",
+      "ernie\u2019s bakery & deli",
+      "breakfast",
+      "lunch",
+      "to-go",
+      "picnic-ready",
+      "budget-friendly"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "breakfast",
+      "breakfast",
+      "lunch",
+      "to-go",
+      "picnic-ready",
+      "budget-friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get breakfast in West Yellowstone?",
+      "Tell me about Book Peddler Cafe in West Yellowstone.",
+      "Best morning eats before heading into the park?",
+      "Is Book Peddler Cafe good for coffee or breakfast?",
+      "Any kid-friendly breakfast options near Yellowstone?"
+    ],
+    "response": "Try **Book Peddler Cafe** \u2013 Coffee + books + pastries combo Tip: Check their used book section while sipping coffee. [Apple Maps](https://maps.apple.com/?q=Book+Peddler+West+Yellowstone)",
+    "keywords": [
+      "breakfast",
+      "morning",
+      "coffee",
+      "book peddler cafe",
+      "caf\u00e9",
+      "coffee",
+      "souvenirs",
+      "quiet",
+      "indoor"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "breakfast",
+      "caf\u00e9",
+      "coffee",
+      "souvenirs",
+      "quiet",
+      "indoor"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get breakfast in West Yellowstone?",
+      "Tell me about Euro Cafe in West Yellowstone.",
+      "Best morning eats before heading into the park?",
+      "Is Euro Cafe good for coffee or breakfast?",
+      "Any kid-friendly breakfast options near Yellowstone?"
+    ],
+    "response": "Try **Euro Cafe** \u2013 European-style breakfast and sandwiches Tip: Try the Nutella crepes. [Apple Maps](https://maps.apple.com/?q=Euro+Cafe+West+Yellowstone)",
+    "keywords": [
+      "breakfast",
+      "morning",
+      "coffee",
+      "euro cafe",
+      "european",
+      "breakfast",
+      "coffee",
+      "cozy",
+      "gluten-free-options"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "breakfast",
+      "european",
+      "breakfast",
+      "coffee",
+      "cozy",
+      "gluten-free-options"
+    ]
+  }
+]

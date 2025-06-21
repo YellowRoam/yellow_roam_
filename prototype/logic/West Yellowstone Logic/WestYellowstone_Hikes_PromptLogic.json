@@ -1,0 +1,261 @@
+[
+  {
+    "patterns": [
+      "Where can I hike near West Yellowstone?",
+      "Tell me about the Fairy Falls Trail.",
+      "Is Fairy Falls Trail kid-friendly?",
+      "Any good moderate hikes near Yellowstone?",
+      "What\u2019s a scenic hike near Midway Geyser Basin?"
+    ],
+    "response": "Try **Fairy Falls Trail** \u2013 Incredible views of Grand Prismatic Spring from the overlook and ends with a picturesque waterfall. Difficulty: Moderate. Bear Safety: Yes, bear spray strongly recommended. Water Tip: Carry at least 1 liter per person. Summer heat can sneak up on you. [Apple Maps](https://maps.apple.com/?q=Fairy+Falls+Trailhead)",
+    "keywords": [
+      "hike",
+      "trail",
+      "yellowstone",
+      "fairy falls trail",
+      "kid-friendly",
+      "waterfall",
+      "geothermal",
+      "bear-country"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "hike",
+      "moderate",
+      "kid-friendly",
+      "waterfall",
+      "geothermal",
+      "bear-country"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I hike near West Yellowstone?",
+      "Tell me about the Purple Mountain Trail.",
+      "Is Purple Mountain Trail kid-friendly?",
+      "Any good strenuous hikes near Yellowstone?",
+      "What\u2019s a scenic hike near Northwest Yellowstone?"
+    ],
+    "response": "Try **Purple Mountain Trail** \u2013 Unbeatable views over the Madison River valley\u2014less crowded than other lookout hikes. Difficulty: Strenuous. Bear Safety: Yes, carry bear spray. Known grizzly activity in the area. Water Tip: Bring 2 liters minimum. No water on trail. [Apple Maps](https://maps.apple.com/?q=Purple+Mountain+Trail+Yellowstone)",
+    "keywords": [
+      "hike",
+      "trail",
+      "yellowstone",
+      "purple mountain trail",
+      "wildflowers",
+      "scenic-overlook",
+      "steep",
+      "bear-country"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "hike",
+      "strenuous",
+      "wildflowers",
+      "scenic-overlook",
+      "steep",
+      "bear-country"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I hike near West Yellowstone?",
+      "Tell me about the Riverside Trail.",
+      "Is Riverside Trail kid-friendly?",
+      "Any good easy hikes near Yellowstone?",
+      "What\u2019s a scenic hike near West Yellowstone (in-town)?"
+    ],
+    "response": "Try **Riverside Trail** \u2013 Peaceful riverside stroll just outside town. Great for elk or fox sightings in the morning. Difficulty: Easy. Bear Safety: Low risk but always recommended to carry bear spray. Water Tip: Bring water. Shaded but no access points. [Apple Maps](https://maps.apple.com/?q=Riverside+Trail+West+Yellowstone)",
+    "keywords": [
+      "hike",
+      "trail",
+      "yellowstone",
+      "riverside trail",
+      "easy",
+      "dog-friendly",
+      "family",
+      "wildlife"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "hike",
+      "easy",
+      "easy",
+      "dog-friendly",
+      "family",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I hike near West Yellowstone?",
+      "Tell me about the Harlequin Lake Trail.",
+      "Is Harlequin Lake Trail kid-friendly?",
+      "Any good easy hikes near Yellowstone?",
+      "What\u2019s a scenic hike near Just inside Yellowstone west entrance?"
+    ],
+    "response": "Try **Harlequin Lake Trail** \u2013 Quick and lovely trail to a peaceful lake\u2014perfect for stretching your legs. Difficulty: Easy. Bear Safety: Yes, carry bear spray. Water Tip: Short trail but bring a small bottle, especially in summer. [Apple Maps](https://maps.apple.com/?q=Harlequin+Lake+Trail)",
+    "keywords": [
+      "hike",
+      "trail",
+      "yellowstone",
+      "harlequin lake trail",
+      "lake",
+      "family-friendly",
+      "short-hike"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "hike",
+      "easy",
+      "lake",
+      "family-friendly",
+      "short-hike"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I hike near West Yellowstone?",
+      "Tell me about the Two Ribbons Trail.",
+      "Is Two Ribbons Trail kid-friendly?",
+      "Any good easy hikes near Yellowstone?",
+      "What\u2019s a scenic hike near Near Madison Junction?"
+    ],
+    "response": "Try **Two Ribbons Trail** \u2013 Boardwalk makes it easy for families or those with mobility concerns to explore the riverside habitat. Difficulty: Easy. Bear Safety: Low risk, but spray is still recommended. Water Tip: Flat but sunny\u2014bring water. [Apple Maps](https://maps.apple.com/?q=Two+Ribbons+Trail+Yellowstone)",
+    "keywords": [
+      "hike",
+      "trail",
+      "yellowstone",
+      "two ribbons trail",
+      "boardwalk",
+      "accessible",
+      "family-friendly",
+      "wildlife"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "hike",
+      "easy",
+      "boardwalk",
+      "accessible",
+      "family-friendly",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I hike near West Yellowstone?",
+      "Tell me about the Lava Creek Trail (Upper Section).",
+      "Is Lava Creek Trail (Upper Section) kid-friendly?",
+      "Any good moderate hikes near Yellowstone?",
+      "What\u2019s a scenic hike near East of Madison?"
+    ],
+    "response": "Try **Lava Creek Trail (Upper Section)** \u2013 Lesser-known trail with great trout-watching spots and a peaceful creek setting. Difficulty: Moderate. Bear Safety: Yes, carry bear spray. Moose and bear reported seasonally. Water Tip: Creek nearby, but still carry your own water. [Apple Maps](https://maps.apple.com/?q=Lava+Creek+Trail+Yellowstone)",
+    "keywords": [
+      "hike",
+      "trail",
+      "yellowstone",
+      "lava creek trail (upper section)",
+      "creek",
+      "wildlife",
+      "moderate",
+      "bear-country"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "hike",
+      "moderate",
+      "creek",
+      "wildlife",
+      "moderate",
+      "bear-country"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I hike near West Yellowstone?",
+      "Tell me about the Gneiss Creek Trail.",
+      "Is Gneiss Creek Trail kid-friendly?",
+      "Any good strenuous hikes near Yellowstone?",
+      "What\u2019s a scenic hike near South of West Yellowstone?"
+    ],
+    "response": "Try **Gneiss Creek Trail** \u2013 Backcountry hike that\u2019s great for solitude and cutthroat trout access. Difficulty: Strenuous. Bear Safety: Absolutely. Bear spray and proper food storage required. Water Tip: Bring water and a filter. Remote area. [Apple Maps](https://maps.apple.com/?q=Gneiss+Creek+Trail)",
+    "keywords": [
+      "hike",
+      "trail",
+      "yellowstone",
+      "gneiss creek trail",
+      "backcountry",
+      "fishing",
+      "strenuous",
+      "bear-country"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "hike",
+      "strenuous",
+      "backcountry",
+      "fishing",
+      "strenuous",
+      "bear-country"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I hike near West Yellowstone?",
+      "Tell me about the Yellowstone River Picnic Area Trail.",
+      "Is Yellowstone River Picnic Area Trail kid-friendly?",
+      "Any good moderate hikes near Yellowstone?",
+      "What\u2019s a scenic hike near North of Madison area?"
+    ],
+    "response": "Try **Yellowstone River Picnic Area Trail** \u2013 River canyon views with a great chance of spotting bighorn sheep. Difficulty: Moderate. Bear Safety: Yes, grizzly sightings are common. Water Tip: Bring 1\u20132 liters. No access en route. [Apple Maps](https://maps.apple.com/?q=Yellowstone+River+Picnic+Trail)",
+    "keywords": [
+      "hike",
+      "trail",
+      "yellowstone",
+      "yellowstone river picnic area trail",
+      "scenic",
+      "river",
+      "moderate",
+      "wildlife"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "hike",
+      "moderate",
+      "scenic",
+      "river",
+      "moderate",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I hike near West Yellowstone?",
+      "Tell me about the Firehole Lake Drive Boardwalk Hikes.",
+      "Is Firehole Lake Drive Boardwalk Hikes kid-friendly?",
+      "Any good easy hikes near Yellowstone?",
+      "What\u2019s a scenic hike near Firehole Lake Drive?"
+    ],
+    "response": "Try **Firehole Lake Drive Boardwalk Hikes** \u2013 Scenic drive with short strolls to hot springs and geysers. Difficulty: Easy. Bear Safety: Low risk, still bring spray. Water Tip: Carry water, especially in the heat. [Apple Maps](https://maps.apple.com/?q=Firehole+Lake+Drive)",
+    "keywords": [
+      "hike",
+      "trail",
+      "yellowstone",
+      "firehole lake drive boardwalk hikes",
+      "geothermal",
+      "boardwalk",
+      "accessible",
+      "family"
+    ],
+    "tags": [
+      "west_yellowstone",
+      "hike",
+      "easy",
+      "geothermal",
+      "boardwalk",
+      "accessible",
+      "family"
+    ]
+  }
+]

@@ -1,0 +1,228 @@
+[
+  {
+    "patterns": [
+      "Where should I get coffee in West Yellowstone?",
+      "Tell me about Morning Glory Coffee & Tea in West Yellowstone.",
+      "Is Morning Glory Coffee & Tea remote-work friendly?",
+      "Any kid-friendly coffee shops near the park entrance?",
+      "What\u2019s the best place for a quick espresso in town?"
+    ],
+    "response": "Try **Morning Glory Coffee & Tea** \u2013 Fresh-roasted beans on site [Apple Maps](https://maps.apple.com/?q=Morning+Glory+Coffee+West+Yellowstone) | [Yelp](https://www.yelp.com/biz/morning-glory-coffee-and-tea-west-yellowstone)",
+    "keywords": [
+      "coffee",
+      "espresso",
+      "cafe",
+      "yellowstone",
+      "morning glory coffee & tea"
+    ],
+    "tags": [
+      "coffee",
+      "west_yellowstone",
+      "remote-work-friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get coffee in West Yellowstone?",
+      "Tell me about Mountain Mama\u2019s Coffee House & Bakery in West Yellowstone.",
+      "Is Mountain Mama\u2019s Coffee House & Bakery remote-work friendly?",
+      "Any kid-friendly coffee shops near the park entrance?",
+      "What\u2019s the best place for a quick espresso in town?"
+    ],
+    "response": "Try **Mountain Mama\u2019s Coffee House & Bakery** \u2013 Excellent pastries and strong coffee [Apple Maps](https://maps.apple.com/?q=Mountain+Mamas+Coffee+House) | [Yelp](https://www.yelp.com/biz/mountain-mamas-coffee-house-west-yellowstone)",
+    "keywords": [
+      "coffee",
+      "espresso",
+      "cafe",
+      "yellowstone",
+      "mountain mama\u2019s coffee house & bakery"
+    ],
+    "tags": [
+      "coffee",
+      "west_yellowstone",
+      "pastries-available",
+      "shop-attached"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get coffee in West Yellowstone?",
+      "Tell me about Book Peddler Coffee Shop in West Yellowstone.",
+      "Is Book Peddler Coffee Shop remote-work friendly?",
+      "Any kid-friendly coffee shops near the park entrance?",
+      "What\u2019s the best place for a quick espresso in town?"
+    ],
+    "response": "Try **Book Peddler Coffee Shop** \u2013 Books + coffee = cozy charm [Apple Maps](https://maps.apple.com/?q=Book+Peddler+West+Yellowstone) | [Yelp](https://www.yelp.com/biz/book-peddler-west-yellowstone)",
+    "keywords": [
+      "coffee",
+      "espresso",
+      "cafe",
+      "yellowstone",
+      "book peddler coffee shop"
+    ],
+    "tags": [
+      "coffee",
+      "west_yellowstone",
+      "quiet-morning-spot",
+      "coffee-breakfast-combo"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get coffee in West Yellowstone?",
+      "Tell me about Euro Cafe in West Yellowstone.",
+      "Is Euro Cafe remote-work friendly?",
+      "Any kid-friendly coffee shops near the park entrance?",
+      "What\u2019s the best place for a quick espresso in town?"
+    ],
+    "response": "Try **Euro Cafe** \u2013 European-style breakfast and strong espresso [Apple Maps](https://maps.apple.com/?q=Euro+Cafe+West+Yellowstone) | [Yelp](https://www.yelp.com/biz/euro-cafe-west-yellowstone)",
+    "keywords": [
+      "coffee",
+      "espresso",
+      "cafe",
+      "yellowstone",
+      "euro cafe"
+    ],
+    "tags": [
+      "coffee",
+      "west_yellowstone",
+      "quiet-morning-spot",
+      "coffee-breakfast-combo"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get coffee in West Yellowstone?",
+      "Tell me about Espresso West in West Yellowstone.",
+      "Is Espresso West remote-work friendly?",
+      "Any kid-friendly coffee shops near the park entrance?",
+      "What\u2019s the best place for a quick espresso in town?"
+    ],
+    "response": "Try **Espresso West** \u2013 Drive-thru convenience [Apple Maps](https://maps.apple.com/?q=Espresso+West+Yellowstone) | [Yelp](https://www.yelp.com/biz/espresso-west-west-yellowstone)",
+    "keywords": [
+      "coffee",
+      "espresso",
+      "cafe",
+      "yellowstone",
+      "espresso west"
+    ],
+    "tags": [
+      "coffee",
+      "west_yellowstone",
+      "remote-work-friendly",
+      "teen-friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get coffee in West Yellowstone?",
+      "Tell me about Mocha Momma's at Yellowstone Giant Screen Theater in West Yellowstone.",
+      "Is Mocha Momma's at Yellowstone Giant Screen Theater remote-work friendly?",
+      "Any kid-friendly coffee shops near the park entrance?",
+      "What\u2019s the best place for a quick espresso in town?"
+    ],
+    "response": "Try **Mocha Momma's at Yellowstone Giant Screen Theater** \u2013 Inside the IMAX building\u2014great before a show [Apple Maps](https://maps.apple.com/?q=Mocha+Mommas+Yellowstone) | [Yelp](https://www.yelp.com/biz/mocha-mommas-west-yellowstone)",
+    "keywords": [
+      "coffee",
+      "espresso",
+      "cafe",
+      "yellowstone",
+      "mocha momma's at yellowstone giant screen theater"
+    ],
+    "tags": [
+      "coffee",
+      "west_yellowstone",
+      "kid-friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get coffee in West Yellowstone?",
+      "Tell me about Campfire Coffee in West Yellowstone.",
+      "Is Campfire Coffee remote-work friendly?",
+      "Any kid-friendly coffee shops near the park entrance?",
+      "What\u2019s the best place for a quick espresso in town?"
+    ],
+    "response": "Try **Campfire Coffee** \u2013 Fun rustic interior with log cabin vibes [Apple Maps](https://maps.apple.com/?q=Campfire+Coffee+West+Yellowstone) | [Yelp](https://www.yelp.com/biz/campfire-coffee-west-yellowstone)",
+    "keywords": [
+      "coffee",
+      "espresso",
+      "cafe",
+      "yellowstone",
+      "campfire coffee"
+    ],
+    "tags": [
+      "coffee",
+      "west_yellowstone",
+      "remote-work-friendly",
+      "shop-attached",
+      "teen-friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get coffee in West Yellowstone?",
+      "Tell me about Cowboy Coffee Co. (seasonal cart) in West Yellowstone.",
+      "Is Cowboy Coffee Co. (seasonal cart) remote-work friendly?",
+      "Any kid-friendly coffee shops near the park entrance?",
+      "What\u2019s the best place for a quick espresso in town?"
+    ],
+    "response": "Try **Cowboy Coffee Co. (seasonal cart)** \u2013 Mobile coffee stand near the park entrance [Apple Maps](https://maps.apple.com/?q=Cowboy+Coffee+West+Yellowstone) | [Yelp](https://www.yelp.com/biz/cowboy-coffee-west-yellowstone)",
+    "keywords": [
+      "coffee",
+      "espresso",
+      "cafe",
+      "yellowstone",
+      "cowboy coffee co. (seasonal cart)"
+    ],
+    "tags": [
+      "coffee",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get coffee in West Yellowstone?",
+      "Tell me about Daily Coffee Bar in West Yellowstone.",
+      "Is Daily Coffee Bar remote-work friendly?",
+      "Any kid-friendly coffee shops near the park entrance?",
+      "What\u2019s the best place for a quick espresso in town?"
+    ],
+    "response": "Try **Daily Coffee Bar** \u2013 Good basic menu\u2014espresso, drip, and chai [Apple Maps](https://maps.apple.com/?q=Daily+Coffee+Bar+West+Yellowstone) | [Yelp](https://www.yelp.com/biz/daily-coffee-bar-west-yellowstone)",
+    "keywords": [
+      "coffee",
+      "espresso",
+      "cafe",
+      "yellowstone",
+      "daily coffee bar"
+    ],
+    "tags": [
+      "coffee",
+      "west_yellowstone"
+    ]
+  },
+  {
+    "patterns": [
+      "Where should I get coffee in West Yellowstone?",
+      "Tell me about Yellowstone Perk in West Yellowstone.",
+      "Is Yellowstone Perk remote-work friendly?",
+      "Any kid-friendly coffee shops near the park entrance?",
+      "What\u2019s the best place for a quick espresso in town?"
+    ],
+    "response": "Try **Yellowstone Perk** \u2013 Friendly service and cute branding [Apple Maps](https://maps.apple.com/?q=Yellowstone+Perk+West+Yellowstone) | [Yelp](https://www.yelp.com/biz/yellowstone-perk-west-yellowstone)",
+    "keywords": [
+      "coffee",
+      "espresso",
+      "cafe",
+      "yellowstone",
+      "yellowstone perk"
+    ],
+    "tags": [
+      "coffee",
+      "west_yellowstone",
+      "pastries-available",
+      "kid-friendly",
+      "teen-friendly"
+    ]
+  }
+]
