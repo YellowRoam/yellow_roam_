@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "patterns": [
+        "What are the best winter outdoor activities in Bozeman?",
+        "Top things to do outside in Bozeman in winter?",
+        "Where can I ski or snowshoe in Bozeman?",
+        "Best snowy adventures around Bozeman?",
+        "Winter fun for families near Bozeman?",
+        "What\u2019s fun to do in Bozeman during winter?",
+        "Top-rated winter sports near Bozeman?",
+        "Where can I go tubing or sledding in Bozeman?",
+        "Best nature-based winter experiences near Bozeman?",
+        "Cool winter activities around Bozeman?"
+      ],
+      "response": "\u2744\ufe0f **Bozeman Winter Outdoor Activities Guide**\n\nBozeman\u2019s winter is packed with adventures for every age and activity level. From skiing Bridger Bowl and Nordic tracks at Crosscut, to snowshoeing in Hyalite or Sourdough, to skating at Southside Park \u2014 you\u2019ve got endless options. Sledding at Peets Hill, fat biking snowy trails, and soaking at Bozeman Hot Springs are all local favorites. More offbeat? Try a full moon snowshoe, dog sledding day trip, or climbing frozen waterfalls in Hyalite. Whether you want family fun, solo serenity, or wild winter sports, Bozeman\u2019s got it covered.",
+      "keywords": [
+        "bozeman winter activities",
+        "snowshoeing",
+        "ice skating",
+        "sledding",
+        "snowmobiling",
+        "bridger bowl",
+        "crosscut",
+        "hot springs",
+        "winter fun bozeman"
+      ],
+      "tags": [
+        "winter",
+        "bozeman",
+        "family_friendly",
+        "nature_lovers",
+        "adventure",
+        "seasonal",
+        "outdoor"
+      ]
+    }
+  ]
+}
