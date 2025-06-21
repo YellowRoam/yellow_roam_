@@ -1,4 +1,3 @@
-
 import os
 import json
 import logging
@@ -10,10 +9,18 @@ import stripe
 
 # === Load Environment Variables ===
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
 
-# === Flask Setup ===
+if not OPENAI_API_KEY:
+    raise ValueError("❌ Missing OPENAI_API_KEY in .env file")
+if not STRIPE_SECRET_KEY:
+    raise ValueError("❌ Missing STRIPE_SECRET_KEY in .env file")
+
+openai.api_key = OPENAI_API_KEY
+stripe.api_key = STRIPE_SECRET_KEY
+
+# === Flask App Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 
@@ -59,7 +66,7 @@ for filename in logic_filenames:
     lang_code = filename.split(".")[0]
     language_logics[lang_code] = load_json_file(path)
 
-# === Local Logic Processor ===
+# === Local Logic Matcher ===
 def match_local_logic(prompt, language, tier):
     logic_sets = [language_logics.get(language, {}), language_logics.get("intent", {})]
     for logic_set in logic_sets:
@@ -70,24 +77,25 @@ def match_local_logic(prompt, language, tier):
                         return entry["response"]
     return None
 
-# === Log unmatched prompts for future coverage ===
+# === Unmatched Prompt Logger ===
 def log_unmatched_prompt(prompt, language, tier):
-    log_entry = {
-        "prompt": prompt,
-        "language": language,
-        "tier": tier
-    }
+    log_entry = {"prompt": prompt, "language": language, "tier": tier}
     try:
         with open("unmatched_prompts.log", "a", encoding="utf-8") as f:
             f.write(json.dumps(log_entry) + "\n")
     except Exception as e:
         logger.error(f"Failed to log unmatched prompt: {e}")
 
-# === Routes ===
+# === Website Routes ===
 @app.route("/")
 def index():
     return render_template("index.html")
 
+@app.route("/yellowroamprompts")
+def yellowroam_prompt():
+    return render_template("yellowroamprompts.html")
+
+# === API Route ===
 @app.route("/api/chat", methods=["POST"])
 def chat():
     data = request.get_json()
@@ -98,12 +106,12 @@ def chat():
     if not prompt:
         return jsonify({"error": "No prompt received."}), 400
 
-    # Step 1: Try local logic
+    # Try local logic first
     local_response = match_local_logic(prompt, language, tier)
     if local_response:
         return jsonify({"response": local_response})
 
-    # Step 2: Log and fallback to OpenAI if needed
+    # Fallback to GPT
     log_unmatched_prompt(prompt, language, tier)
 
     try:
@@ -126,5 +134,8 @@ def chat():
         }
         return jsonify({"response": fallback_msg.get(language, fallback_msg["en"])})
 
+# === Run the App ===
 if __name__ == "__main__":
     app.run(debug=True)
+ 
+  
