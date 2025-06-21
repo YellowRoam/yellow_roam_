@@ -1,0 +1,377 @@
+[
+  {
+    "name": "Oxbow Bend",
+    "apple_maps_link": "https://maps.apple.com/?q=Oxbow+Bend+Grand+Teton",
+    "why_photographic": [
+      "Classic reflection of Mount Moran in still water",
+      "Frequent moose, elk, and bird sightings",
+      "Fog and early morning mist add mood",
+      "Perfect sunrise glow on the Teton range",
+      "Iconic, unobstructed view with layered composition"
+    ],
+    "best_time": "Sunrise",
+    "ideal_gear": [
+      "tripod",
+      "telephoto lens",
+      "polarizer"
+    ],
+    "tags": [
+      "reflection",
+      "sunrise",
+      "wildlife-heavy",
+      "landscape",
+      "classic"
+    ],
+    "notes": "One of the most photographed locations in Grand Teton; best just after dawn with a long lens and patience."
+  },
+  {
+    "name": "Snake River Overlook",
+    "apple_maps_link": "https://maps.apple.com/?q=Snake+River+Overlook+Grand+Teton",
+    "why_photographic": [
+      "Made famous by Ansel Adams in 1942",
+      "Iconic view of the winding river leading to the Tetons",
+      "Dramatic sunset and evening alpenglow",
+      "Foreground trees offer depth and scale",
+      "Easily accessible roadside turnout"
+    ],
+    "best_time": "Sunset",
+    "ideal_gear": [
+      "wide-angle lens",
+      "ND filter",
+      "tripod"
+    ],
+    "tags": [
+      "historic",
+      "sunset",
+      "landscape",
+      "classic",
+      "accessible"
+    ],
+    "notes": "Photography landmark with interpretive sign honoring Ansel Adams\u2019 original composition. Fall colors pop here."
+  },
+  {
+    "name": "Schwabacher Landing",
+    "apple_maps_link": "https://maps.apple.com/?q=Schwabacher+Landing+Grand+Teton",
+    "why_photographic": [
+      "Still water creates mirror reflection of Grand Teton",
+      "Great spot for beaver dams and wildlife",
+      "Low angle composition enhances grandeur",
+      "Popular for elopement and engagement photography",
+      "Stunning at both sunrise and sunset"
+    ],
+    "best_time": "Sunrise",
+    "ideal_gear": [
+      "tripod",
+      "mid-range zoom",
+      "ND filter"
+    ],
+    "tags": [
+      "reflection",
+      "wildlife",
+      "sunrise",
+      "romantic",
+      "popular"
+    ],
+    "notes": "Dirt road access may be closed in spring due to snowmelt. Look for moose in the brush at dawn."
+  },
+  {
+    "name": "Mormon Row - John Moulton Barn",
+    "apple_maps_link": "https://maps.apple.com/?q=Mormon+Row+Historic+District+Grand+Teton",
+    "why_photographic": [
+      "Historic barn with perfect Teton backdrop",
+      "Sunrise alpenglow lights up the peaks",
+      "Clouds and storms add dramatic effect",
+      "Iconic Americana image composition",
+      "Best visited in summer or early fall"
+    ],
+    "best_time": "Sunrise",
+    "ideal_gear": [
+      "tripod",
+      "wide-angle lens",
+      "remote shutter"
+    ],
+    "tags": [
+      "historic",
+      "sunrise",
+      "landscape",
+      "architecture",
+      "rustic"
+    ],
+    "notes": "Built by Mormon settlers in the early 1900s. Subject of thousands of postcards and calendars."
+  },
+  {
+    "name": "Jenny Lake Overlook",
+    "apple_maps_link": "https://maps.apple.com/?q=Jenny+Lake+Overlook+Grand+Teton",
+    "why_photographic": [
+      "Turquoise water with dramatic mountain backdrop",
+      "Sunset light glows behind Teewinot and Grand Teton",
+      "Fall foliage and lake clarity make vibrant contrasts",
+      "Best elevated view of Jenny Lake",
+      "Short hike to hidden vantage points"
+    ],
+    "best_time": "Late Afternoon to Sunset",
+    "ideal_gear": [
+      "telephoto lens",
+      "UV filter",
+      "tripod optional"
+    ],
+    "tags": [
+      "lake",
+      "scenic",
+      "sunset",
+      "family",
+      "accessible"
+    ],
+    "notes": "Road open seasonally; accessible by car with ADA-friendly lookout deck."
+  },
+  {
+    "name": "Taggart Lake Trail",
+    "apple_maps_link": "https://maps.apple.com/?q=Taggart+Lake+Trailhead+Grand+Teton",
+    "why_photographic": [
+      "Beautiful alpine lake framed by the Tetons",
+      "Reflection shots early in the morning",
+      "Trail offers changing views with elevation",
+      "Wildflowers and aspens in summer and fall",
+      "Less crowded than Jenny Lake"
+    ],
+    "best_time": "Morning",
+    "ideal_gear": [
+      "wide-angle lens",
+      "hiking tripod",
+      "polarizer"
+    ],
+    "tags": [
+      "reflection",
+      "wildflowers",
+      "hike",
+      "landscape",
+      "quiet"
+    ],
+    "notes": "Popular trail, but easy to find quiet photo moments. One of the best value short hikes for photographers."
+  },
+  {
+    "name": "Phelps Lake Overlook",
+    "apple_maps_link": "https://maps.apple.com/?q=Phelps+Lake+Overlook+Grand+Teton",
+    "why_photographic": [
+      "Stunning alpine lake tucked into forest",
+      "Best view from Laurance S. Rockefeller Preserve",
+      "Perfect symmetry with rock walls and lake",
+      "Great contrast in morning light",
+      "Accessible with a short hike"
+    ],
+    "best_time": "Morning",
+    "ideal_gear": [
+      "mid-range zoom",
+      "tripod",
+      "ND filter"
+    ],
+    "tags": [
+      "lake",
+      "hike",
+      "scenic",
+      "quiet",
+      "sunlight"
+    ],
+    "notes": "Part of the Rockefeller Preserve\u2019s eco-focused trail network. Trail has interpretive signage and serene vibes."
+  },
+  {
+    "name": "Jackson Lake Dam",
+    "apple_maps_link": "https://maps.apple.com/?q=Jackson+Lake+Dam+Grand+Teton",
+    "why_photographic": [
+      "Elevated perspective over Jackson Lake",
+      "Layers of lake, forest, and mountains",
+      "Good place to catch reflections",
+      "Moose and osprey often spotted nearby",
+      "Sunset creates warm glow across water"
+    ],
+    "best_time": "Sunset",
+    "ideal_gear": [
+      "telephoto lens",
+      "tripod",
+      "graduated ND filter"
+    ],
+    "tags": [
+      "sunset",
+      "scenic",
+      "wildlife",
+      "accessible",
+      "reflection"
+    ],
+    "notes": "Built in the early 1900s to store irrigation water. Views extend across entire Jackson Lake basin."
+  },
+  {
+    "name": "Mount Moran Turnout",
+    "apple_maps_link": "https://maps.apple.com/?q=Mount+Moran+Turnout+Grand+Teton",
+    "why_photographic": [
+      "One of the clearest unobstructed views of Mount Moran",
+      "Alpenglow in morning is spectacular",
+      "Great for long lens mountain portraits",
+      "Visible glaciers and peaks pop in late afternoon",
+      "Parking available roadside"
+    ],
+    "best_time": "Early morning",
+    "ideal_gear": [
+      "telephoto",
+      "tripod",
+      "lens hood"
+    ],
+    "tags": [
+      "mountain",
+      "sunrise",
+      "telephoto",
+      "accessible",
+      "glaciers"
+    ],
+    "notes": "Often overlooked by casual visitors. Worth a stop for crisp mountain silhouette compositions."
+  },
+  {
+    "name": "Blacktail Ponds Overlook",
+    "apple_maps_link": "https://maps.apple.com/?q=Blacktail+Ponds+Overlook+Grand+Teton",
+    "why_photographic": [
+      "Overlook with wetland foreground and Teton backdrop",
+      "Wildlife like elk, fox, and bears seen here",
+      "Fog hangs in basin at sunrise",
+      "Great mix of ecosystem layers",
+      "Peaceful and off the main road"
+    ],
+    "best_time": "Sunrise",
+    "ideal_gear": [
+      "telephoto",
+      "binoculars",
+      "tripod"
+    ],
+    "tags": [
+      "wildlife",
+      "wetlands",
+      "sunrise",
+      "quiet",
+      "layered"
+    ],
+    "notes": "Bring a long lens for wildlife. Good contrast between meadows and mountain ridges."
+  },
+  {
+    "name": "Menor\u2019s Ferry Historic District",
+    "apple_maps_link": "https://maps.apple.com/?q=Menor%27s+Ferry+Grand+Teton",
+    "why_photographic": [
+      "Restored homestead with antique buildings",
+      "Historic barn and cabins with Teton backdrop",
+      "Old wagon and ferry provide rustic charm",
+      "Low morning light makes great contrast",
+      "Near the Snake River footbridge"
+    ],
+    "best_time": "Morning to midday",
+    "ideal_gear": [
+      "mid-range zoom",
+      "tripod",
+      "circular polarizer"
+    ],
+    "tags": [
+      "historic",
+      "architecture",
+      "rustic",
+      "family",
+      "morning"
+    ],
+    "notes": "Features interpretive signs and preserved buildings from 1890s frontier life. Near Chapel of the Transfiguration."
+  },
+  {
+    "name": "Chapel of the Transfiguration",
+    "apple_maps_link": "https://maps.apple.com/?q=Chapel+of+the+Transfiguration+Grand+Teton",
+    "why_photographic": [
+      "Tiny log chapel with window framing the Tetons",
+      "Iconic wedding and travel photo location",
+      "Great contrast of man-made and natural beauty",
+      "Works well in black-and-white or color",
+      "Historic religious site with unique peace"
+    ],
+    "best_time": "Morning",
+    "ideal_gear": [
+      "wide-angle",
+      "tripod",
+      "low ISO"
+    ],
+    "tags": [
+      "historic",
+      "architecture",
+      "framing",
+      "wedding",
+      "quiet"
+    ],
+    "notes": "Built in 1925. Open for visitors during daylight hours. Please be respectful if services are in session."
+  },
+  {
+    "name": "Leigh Lake Trailhead & Shoreline",
+    "apple_maps_link": "https://maps.apple.com/?q=Leigh+Lake+Grand+Teton",
+    "why_photographic": [
+      "Mirror-like calm surface at sunrise",
+      "Mountain reflections and forested frame",
+      "Accessible by canoe or foot",
+      "Great for long exposures and nature abstracts",
+      "Wildflowers and wildlife nearby"
+    ],
+    "best_time": "Sunrise",
+    "ideal_gear": [
+      "wide-angle",
+      "tripod",
+      "ND filter"
+    ],
+    "tags": [
+      "reflection",
+      "sunrise",
+      "wilderness",
+      "lake",
+      "remote"
+    ],
+    "notes": "Flat trail access or canoe from String Lake. One of the more peaceful sunrise locations with fewer crowds."
+  },
+  {
+    "name": "Moose-Wilson Road Pullouts",
+    "apple_maps_link": "https://maps.apple.com/?q=Moose+Wilson+Road+Grand+Teton",
+    "why_photographic": [
+      "Best chance of spotting moose and bear",
+      "Dappled light creates dramatic forest shots",
+      "Curbside photography from safe distance",
+      "Beautiful in fall with changing leaves",
+      "Hidden scenes along less traveled road"
+    ],
+    "best_time": "Morning or dusk",
+    "ideal_gear": [
+      "telephoto lens",
+      "binoculars",
+      "fast shutter"
+    ],
+    "tags": [
+      "wildlife-heavy",
+      "forest",
+      "moose",
+      "quiet",
+      "fall"
+    ],
+    "notes": "Use pullouts only and stay in your vehicle when viewing wildlife. Flash is not recommended for animals."
+  },
+  {
+    "name": "Paintbrush Canyon Trail",
+    "apple_maps_link": "https://maps.apple.com/?q=Paintbrush+Canyon+Trailhead+Grand+Teton",
+    "why_photographic": [
+      "Dramatic alpine views along strenuous trail",
+      "Lake Solitude as a reward at the end",
+      "High peaks and glaciers surround trail",
+      "Beautiful sunrise or mid-hike lighting",
+      "Wildflowers in July and August"
+    ],
+    "best_time": "Early morning to midday",
+    "ideal_gear": [
+      "hiking camera setup",
+      "lightweight tripod",
+      "ND filter"
+    ],
+    "tags": [
+      "strenuous",
+      "alpine",
+      "hiking",
+      "wildflowers",
+      "remote"
+    ],
+    "notes": "This is a long hike\u2014bring water, layers, and be prepared. Photography at altitude is rewarding but challenging."
+  }
+]
