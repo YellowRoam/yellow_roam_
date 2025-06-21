@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,11 +85,11 @@
 
         <label for="language">Language:</label>
         <select id="language">
-            <option value="english">English</option>
-            <option value="spanish">Spanish</option>
-            <option value="french">French</option>
-            <option value="hindi">Hindi</option>
-            <option value="swedish">Swedish</option>
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="hi">Hindi</option>
+            <option value="sv">Swedish</option>
         </select>
 
         <button onclick="sendQuestion()">Send</button>
@@ -98,18 +97,30 @@
         <div class="response-box" id="response">Your response will appear here...</div>
     </div>
     <footer>
-        &copy; 2025 YellowRoam. Built for smarter national park travel.
+        &copy; 2025 YellowRoam. Roam Like A Local
     </footer>
 
     <script>
-        function sendQuestion() {
+        async function sendQuestion() {
             const question = document.getElementById('question').value;
             const language = document.getElementById('language').value;
-            const tier = document.getElementById('tier').value;
+            const tier = "free"; // Default tier
             const responseBox = document.getElementById('response');
 
             responseBox.innerText = "⏳ Thinking about your question: " + question;
-            // Normally, you'd send this to a backend API...
+
+            try {
+                const res = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ prompt: question, language, tier })
+                });
+
+                const data = await res.json();
+                responseBox.innerText = data.response || "No response.";
+            } catch (err) {
+                responseBox.innerText = "⚠️ An error occurred. Please try again.";
+            }
         }
     </script>
 </body>
