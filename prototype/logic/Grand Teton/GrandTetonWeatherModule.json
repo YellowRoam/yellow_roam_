@@ -1,0 +1,117 @@
+{
+  "region": "Grand Teton National Park",
+  "elevation_range": "6,320 ft to 13,775 ft",
+  "climate_overview": "Grand Teton has a high-elevation alpine climate. Winters are long and snowy; summers are short and warm. Weather is unpredictable year-round.",
+  "monthly_climate_averages": [
+    {
+      "month": "January",
+      "avg_high_f": 26,
+      "avg_low_f": 1,
+      "avg_precip_in": 1.5,
+      "notes": "Deep snow, frigid nights"
+    },
+    {
+      "month": "February",
+      "avg_high_f": 31,
+      "avg_low_f": 3,
+      "avg_precip_in": 1.3,
+      "notes": "Cold, clearer days"
+    },
+    {
+      "month": "March",
+      "avg_high_f": 38,
+      "avg_low_f": 10,
+      "avg_precip_in": 1.5,
+      "notes": "Snow starts to melt"
+    },
+    {
+      "month": "April",
+      "avg_high_f": 48,
+      "avg_low_f": 20,
+      "avg_precip_in": 1.3,
+      "notes": "Bears emerge"
+    },
+    {
+      "month": "May",
+      "avg_high_f": 58,
+      "avg_low_f": 28,
+      "avg_precip_in": 1.6,
+      "notes": "Mud season"
+    },
+    {
+      "month": "June",
+      "avg_high_f": 68,
+      "avg_low_f": 35,
+      "avg_precip_in": 1.4,
+      "notes": "Wildflowers bloom"
+    },
+    {
+      "month": "July",
+      "avg_high_f": 78,
+      "avg_low_f": 41,
+      "avg_precip_in": 1.3,
+      "notes": "Warmest month, dry"
+    },
+    {
+      "month": "August",
+      "avg_high_f": 76,
+      "avg_low_f": 39,
+      "avg_precip_in": 1.2,
+      "notes": "Thunderstorms possible"
+    },
+    {
+      "month": "September",
+      "avg_high_f": 66,
+      "avg_low_f": 31,
+      "avg_precip_in": 1.3,
+      "notes": "Crisp air, elk rut"
+    },
+    {
+      "month": "October",
+      "avg_high_f": 52,
+      "avg_low_f": 23,
+      "avg_precip_in": 1.1,
+      "notes": "First snows"
+    },
+    {
+      "month": "November",
+      "avg_high_f": 37,
+      "avg_low_f": 13,
+      "avg_precip_in": 1.4,
+      "notes": "Cold and icy"
+    },
+    {
+      "month": "December",
+      "avg_high_f": 27,
+      "avg_low_f": 4,
+      "avg_precip_in": 1.5,
+      "notes": "Deep winter returns"
+    }
+  ],
+  "active_alerts": [
+    {
+      "type": "Thunderstorm Warning",
+      "issued_by": "NOAA",
+      "severity": "Severe",
+      "effective_time": "2025-06-20T14:00:00Z",
+      "expires_time": "2025-06-20T18:00:00Z",
+      "description": "Severe thunderstorm expected with hail, gusts up to 60 mph. Avoid exposed ridgelines.",
+      "recommended_action": "Seek shelter and avoid high elevation trails."
+    },
+    {
+      "type": "Bear Activity Advisory",
+      "issued_by": "NPS",
+      "severity": "Moderate",
+      "effective_time": "2025-06-20T06:00:00Z",
+      "expires_time": "2025-06-21T06:00:00Z",
+      "description": "Increased bear sightings near Taggart Lake trailhead.",
+      "recommended_action": "Carry bear spray and hike in groups."
+    }
+  ],
+  "weather_tips": [
+    "Weather can change rapidly \u2013 always be prepared for sun, wind, snow, and rain.",
+    "Afternoon thunderstorms are common in summer \u2013 plan hikes early.",
+    "Carry bear spray and extra layers regardless of the season.",
+    "Check NOAA or NPS for latest conditions before heading out."
+  ]
+}
