@@ -1,0 +1,211 @@
+[
+  {
+    "loop_name": "Grand Teton\u2013Yellowstone Loop 1",
+    "direction": "counterclockwise",
+    "summary": "Segmented scenic route through Grand Teton and Yellowstone National Parks. Loop 1 includes major wildlife areas, family stops, RV pullouts, and accessible amenities.",
+    "total_mileage": "125 miles",
+    "estimated_drive_time": "4.2 hours",
+    "stops": [
+      {
+        "name": "Jenny Lake Visitor Center",
+        "type": "Visitor Center",
+        "amenities": [
+          "bathrooms",
+          "water fountain",
+          "ADA accessible"
+        ],
+        "tags": [
+          "kid-friendly",
+          "scenic",
+          "ADA"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=Jenny+Lake+Visitor+Center",
+        "details": "Explore Jenny Lake Visitor Center, a key point of interest offering amenities like bathrooms, water fountain, ADA accessible. This location is known for being kid-friendly, scenic, ADA, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      },
+      {
+        "name": "Signal Mountain Overlook",
+        "type": "Scenic Overlook",
+        "amenities": [
+          "RV parking",
+          "photography spot"
+        ],
+        "tags": [
+          "RV",
+          "scenic",
+          "quiet"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=Signal+Mountain+Overlook",
+        "details": "Explore Signal Mountain Overlook, a key point of interest offering amenities like RV parking, photography spot. This location is known for being RV, scenic, quiet, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      },
+      {
+        "name": "Colter Bay Village",
+        "type": "Village",
+        "amenities": [
+          "restaurant",
+          "restrooms",
+          "RV dump station",
+          "general store"
+        ],
+        "tags": [
+          "family",
+          "RV",
+          "bathrooms",
+          "kid-friendly"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=Colter+Bay+Village",
+        "details": "Explore Colter Bay Village, a key point of interest offering amenities like restaurant, restrooms, RV dump station, general store. This location is known for being family, RV, bathrooms, kid-friendly, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      },
+      {
+        "name": "West Thumb Geyser Basin",
+        "type": "Geothermal Area",
+        "amenities": [
+          "ADA boardwalks",
+          "bathrooms"
+        ],
+        "tags": [
+          "scenic",
+          "ADA",
+          "educational"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=West+Thumb+Geyser+Basin",
+        "details": "Explore West Thumb Geyser Basin, a key point of interest offering amenities like ADA boardwalks, bathrooms. This location is known for being scenic, ADA, educational, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      },
+      {
+        "name": "Hayden Valley",
+        "type": "Wildlife Viewing",
+        "amenities": [
+          "pullouts",
+          "viewing scopes"
+        ],
+        "tags": [
+          "wildlife-heavy",
+          "photography"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=Hayden+Valley",
+        "details": "Explore Hayden Valley, a key point of interest offering amenities like pullouts, viewing scopes. This location is known for being wildlife-heavy, photography, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      },
+      {
+        "name": "Canyon Village",
+        "type": "Village",
+        "amenities": [
+          "lodging",
+          "dining",
+          "bathrooms",
+          "gas station"
+        ],
+        "tags": [
+          "family",
+          "food",
+          "bathrooms",
+          "kid-friendly"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=Canyon+Village",
+        "details": "Explore Canyon Village, a key point of interest offering amenities like lodging, dining, bathrooms, gas station. This location is known for being family, food, bathrooms, kid-friendly, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      },
+      {
+        "name": "Norris Geyser Basin",
+        "type": "Geothermal Area",
+        "amenities": [
+          "ADA accessible areas",
+          "bathrooms"
+        ],
+        "tags": [
+          "ADA",
+          "scenic",
+          "educational"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=Norris+Geyser+Basin",
+        "details": "Explore Norris Geyser Basin, a key point of interest offering amenities like ADA accessible areas, bathrooms. This location is known for being ADA, scenic, educational, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      },
+      {
+        "name": "Mammoth Hot Springs",
+        "type": "Historic Site",
+        "amenities": [
+          "restrooms",
+          "ADA trails",
+          "museum",
+          "restaurant"
+        ],
+        "tags": [
+          "ADA",
+          "family",
+          "educational"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=Mammoth+Hot+Springs",
+        "details": "Explore Mammoth Hot Springs, a key point of interest offering amenities like restrooms, ADA trails, museum, restaurant. This location is known for being ADA, family, educational, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      },
+      {
+        "name": "Tower Fall Overlook",
+        "type": "Scenic Overlook",
+        "amenities": [
+          "parking",
+          "picnic area",
+          "bathroom"
+        ],
+        "tags": [
+          "scenic",
+          "RV",
+          "quiet"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=Tower+Fall+Overlook",
+        "details": "Explore Tower Fall Overlook, a key point of interest offering amenities like parking, picnic area, bathroom. This location is known for being scenic, RV, quiet, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      },
+      {
+        "name": "Lamar Valley",
+        "type": "Wildlife Viewing",
+        "amenities": [
+          "RV pullouts",
+          "wildlife interpretive signs"
+        ],
+        "tags": [
+          "wildlife-heavy",
+          "RV",
+          "must-see"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=Lamar+Valley",
+        "details": "Explore Lamar Valley, a key point of interest offering amenities like RV pullouts, wildlife interpretive signs. This location is known for being wildlife-heavy, RV, must-see, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      },
+      {
+        "name": "Old Faithful Visitor Area",
+        "type": "Visitor Center",
+        "amenities": [
+          "bathrooms",
+          "ADA boardwalks",
+          "lodging",
+          "restaurant",
+          "gift shop"
+        ],
+        "tags": [
+          "family",
+          "ADA",
+          "food",
+          "kid-friendly"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=Old+Faithful+Visitor+Area",
+        "details": "Explore Old Faithful Visitor Area, a key point of interest offering amenities like bathrooms, ADA boardwalks, lodging, restaurant, gift shop. This location is known for being family, ADA, food, kid-friendly, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      },
+      {
+        "name": "Jackson Lake Dam",
+        "type": "Historic/Scenic",
+        "amenities": [
+          "parking",
+          "photo op"
+        ],
+        "tags": [
+          "scenic",
+          "quiet"
+        ],
+        "apple_maps_link": "https://maps.apple.com/?q=Jackson+Lake+Dam",
+        "details": "Explore Jackson Lake Dam, a key point of interest offering amenities like parking, photo op. This location is known for being scenic, quiet, and is a recommended stop along this loop for travelers seeking comfort, accessibility, or natural beauty."
+      }
+    ],
+    "tags": [
+      "family",
+      "RV",
+      "ADA",
+      "wildlife-heavy",
+      "kid-friendly",
+      "scenic"
+    ]
+  }
+]
