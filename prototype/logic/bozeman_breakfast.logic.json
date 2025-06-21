@@ -1,0 +1,104 @@
+[
+  {
+    "patterns": [
+      "best breakfast in bozeman",
+      "where to get breakfast bozeman",
+      "top breakfast spots bozeman",
+      "local breakfast bozeman"
+    ],
+    "response": "Locals love The Western Caf\u00e9 for classic Montana breakfasts. Biscuits and gravy and the cinnamon roll are standout favorites.",
+    "tags": [
+      "bozeman",
+      "breakfast",
+      "local"
+    ],
+    "tiers": [
+      "free",
+      "basic",
+      "plus",
+      "pro"
+    ]
+  },
+  {
+    "patterns": [
+      "where is jam in bozeman",
+      "is jam good for breakfast",
+      "jam bozeman review",
+      "jam breakfast menu bozeman"
+    ],
+    "response": "Jam! in downtown Bozeman is a modern brunch spot known for creative dishes like the smoked salmon benedict and lemon ricotta pancakes.",
+    "tags": [
+      "bozeman",
+      "jam",
+      "breakfast",
+      "brunch"
+    ],
+    "tiers": [
+      "free",
+      "basic",
+      "plus",
+      "pro"
+    ]
+  },
+  {
+    "patterns": [
+      "cat eye cafe bozeman",
+      "quirky breakfast spot bozeman",
+      "local breakfast cafe bozeman"
+    ],
+    "response": "The Cat Eye Caf\u00e9 is beloved for its quirky decor, fun atmosphere, and hearty breakfasts. Try the 'Garfield' or 'Judge Judy' specials!",
+    "tags": [
+      "bozeman",
+      "cat eye",
+      "breakfast",
+      "cafe"
+    ],
+    "tiers": [
+      "free",
+      "basic",
+      "plus",
+      "pro"
+    ]
+  },
+  {
+    "patterns": [
+      "vienne cafe bozeman",
+      "french breakfast bozeman",
+      "pastries and coffee bozeman"
+    ],
+    "response": "Vienne Caf\u00e9 brings a taste of France to Bozeman with house-made croissants, fresh bread, and excellent espresso drinks.",
+    "tags": [
+      "bozeman",
+      "vienne",
+      "breakfast",
+      "pastries",
+      "coffee"
+    ],
+    "tiers": [
+      "free",
+      "basic",
+      "plus",
+      "pro"
+    ]
+  },
+  {
+    "patterns": [
+      "western cafe bozeman",
+      "classic breakfast bozeman",
+      "where do locals eat breakfast bozeman"
+    ],
+    "response": "Western Caf\u00e9 is an iconic spot where locals gather for biscuits, eggs, sausage, and strong coffee. It\u2019s the real Bozeman deal.",
+    "tags": [
+      "bozeman",
+      "western cafe",
+      "classic",
+      "breakfast"
+    ],
+    "tiers": [
+      "free",
+      "basic",
+      "plus",
+      "pro"
+    ]
+  }
+]
