@@ -1,0 +1,135 @@
+{
+  "location": "Jackson, Wyoming",
+  "type": "Year-Round Weather and Climate Module",
+  "seasons": {
+    "spring": {
+      "months": "March \u2013 May",
+      "overview": "Spring in Jackson is slow to arrive. Snow can last into May, especially in Grand Teton National Park and nearby mountain terrain.",
+      "temperatures": {
+        "March": {
+          "high": "30s\u201340s \u00b0F (0\u20138\u00b0C)",
+          "low": "10s\u201320s \u00b0F (-12 to -5\u00b0C)"
+        },
+        "April": {
+          "high": "40s\u201350s \u00b0F (5\u201312\u00b0C)",
+          "low": "Near freezing"
+        },
+        "May": {
+          "high": "50s\u201360s \u00b0F (10\u201316\u00b0C)",
+          "low": "30s\u201340s \u00b0F (0\u20137\u00b0C)"
+        }
+      },
+      "conditions": [
+        "Deep snowpack in the Tetons and Gros Ventre Range",
+        "Melting snow may cause soggy trails and muddy roads",
+        "Moose, elk, and bear movement increases in the valley"
+      ],
+      "alerts": [
+        "Avalanche warnings",
+        "Trail flooding or closures",
+        "Wildlife on roads during dawn and dusk"
+      ]
+    },
+    "summer": {
+      "months": "June \u2013 August",
+      "overview": "Jackson summers are dry, warm, and stunningly beautiful. Early summer brings lingering snow to high elevation trails.",
+      "temperatures": {
+        "June": "60s\u201370s \u00b0F (15\u201325\u00b0C), cool nights in 30s\u201340s \u00b0F",
+        "July\u2013August": "Highs in 70s\u201380s \u00b0F (21\u201328\u00b0C), lows in 40s\u201350s \u00b0F"
+      },
+      "conditions": [
+        "Snow on shaded or alpine trails through June",
+        "Afternoon thunderstorms and lightning risks",
+        "Smoke from wildfires (July/August)",
+        "Wildlife activity: bears, elk, bison near roads and trails"
+      ],
+      "alerts": [
+        "Red Flag Warnings for fire danger",
+        "Air Quality Index for wildfire smoke",
+        "Lightning storm alerts, especially above treeline"
+      ]
+    },
+    "fall": {
+      "months": "September \u2013 November",
+      "overview": "Jackson fall is crisp and brief, with golden aspens and early snow possible as soon as mid-October.",
+      "temperatures": {
+        "September": {
+          "high": "60s \u00b0F",
+          "low": "30s \u00b0F"
+        },
+        "October": {
+          "high": "40s\u201350s \u00b0F",
+          "low": "20\u00b0F"
+        },
+        "November": {
+          "high": "30s\u201340s \u00b0F",
+          "snowfall": "Begins"
+        }
+      },
+      "conditions": [
+        "Stunning fall color (esp. Snake River Valley)",
+        "Wildlife migrations: elk, moose, and pronghorn",
+        "Snow and frost on trails, especially mornings"
+      ],
+      "alerts": [
+        "First freeze and snow warnings",
+        "Elk rut activity near roads",
+        "Hunting season visibility alerts"
+      ]
+    },
+    "winter": {
+      "months": "December \u2013 February",
+      "overview": "Jackson winters are long, cold, and snowy \u2014 ideal for skiing but demanding for travelers.",
+      "temperatures": {
+        "high": "20s\u201330s \u00b0F (-6 to 0\u00b0C)",
+        "low": "Frequently single digits or below 0 \u00b0F (-18\u00b0C or colder)"
+      },
+      "snowfall": {
+        "Tetons": "Over 400 inches annually",
+        "Jackson": "150\u2013200+ inches per season"
+      },
+      "conditions": [
+        "Deep snowpack in mountains and parks",
+        "Wind chill advisories",
+        "Road closures (e.g., Teton Pass, Moose-Wilson Rd)"
+      ],
+      "alerts": [
+        "Avalanche Warnings (Bridger-Teton Avalanche Center)",
+        "Winter Storm Warnings",
+        "Road closure alerts and plowing updates",
+        "Wildlife crossing roads during low visibility"
+      ]
+    }
+  },
+  "alert_sources": {
+    "Bridger-Teton Avalanche Center": "https://www.jhavalanche.org",
+    "National Weather Service \u2013 Riverton WY Office": "https://www.weather.gov/riw/",
+    "WYDOT Road Conditions": "https://www.wyoroad.info/"
+  },
+  "alert_types": [
+    "Avalanche Watches and Warnings",
+    "Winter Storm Watches and Warnings",
+    "Red Flag (Fire) Warnings",
+    "Air Quality Index Alerts",
+    "Wind Chill and Frost Advisories",
+    "Road Condition Alerts and Closures"
+  ],
+  "tags": [
+    "Jackson",
+    "weather",
+    "climate",
+    "year-round",
+    "seasonal",
+    "Grand Teton",
+    "avalanche alerts",
+    "storm warnings",
+    "wildfire smoke",
+    "air quality",
+    "road closures",
+    "travel safety",
+    "RV-friendly",
+    "kid-friendly",
+    "backcountry",
+    "wildlife"
+  ]
+}
