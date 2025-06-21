@@ -1,0 +1,235 @@
+[
+  {
+    "name": "Persephone Bakery",
+    "reasons": [
+      "Artisan pastries baked fresh daily",
+      "Excellent coffee with beautiful lattes",
+      "Cozy garden seating (great in summer)",
+      "Heated outdoor seating in winter",
+      "Locally loved avocado toast & tartines",
+      "Instagram-worthy setting in a log cabin",
+      "Small but curated seasonal menu",
+      "Pet-friendly patio",
+      "Kid-friendly, quick bites available",
+      "Opens early \u2014 great for pre-adventure fuel"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=145%20E%20Broadway%20Ave,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/persephone-bakery-jackson",
+    "tags": [
+      "kid-friendly",
+      "pet-friendly",
+      "seasonal outdoor",
+      "popular with locals",
+      "long waits in peak season"
+    ]
+  },
+  {
+    "name": "Cafe Genevieve",
+    "reasons": [
+      "Famous for their Pig Candy (candied bacon)",
+      "Southern-style comfort food with local flair",
+      "Historic log cabin in downtown",
+      "Great for brunch on the sunny porch",
+      "Weekend mimosas + Bloody Marys",
+      "Friendly staff and welcoming for families",
+      "Creative egg dishes and local sausage",
+      "Open year-round, including holidays",
+      "Dog-friendly patio seating",
+      "Often recommended by locals for brunch"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=135%20E%20Broadway%20Ave,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/cafe-genevieve-jackson",
+    "tags": [
+      "family-friendly",
+      "pet-friendly",
+      "southern",
+      "brunch cocktails"
+    ]
+  },
+  {
+    "name": "The Bunnery Bakery & Restaurant",
+    "reasons": [
+      "Fluffy pancakes made with signature O.S.M. mix",
+      "Full American breakfast & bakery goods",
+      "In-house jams, granola, pancake mix for sale",
+      "Views of Snow King from front patio",
+      "Fast service, great for early risers",
+      "Kids\u2019 menu available",
+      "Walkable from Town Square",
+      "Baked goods made fresh each morning",
+      "Cozy winter seating, warm drinks",
+      "Big portions = great value"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=130%20N%20Cache%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/the-bunnery-jackson",
+    "tags": [
+      "kid-friendly",
+      "good value",
+      "bakery",
+      "take-home goods"
+    ]
+  },
+  {
+    "name": "Glorietta Trattoria",
+    "reasons": [
+      "Upscale rustic Italian-inspired brunch",
+      "Brunch cocktails, craft mimosas",
+      "Open kitchen & wood-fire cooking",
+      "Beautiful interior, cozy and elegant",
+      "Weekend-only brunch = special treat",
+      "House-made breads and sausage",
+      "Seasonally rotating menu",
+      "Best for adult brunch dates or groups",
+      "Dinner spot by night",
+      "Stunning plating and vibes"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=242%20Glenwood%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/glorietta-jackson",
+    "tags": [
+      "adult-focused",
+      "weekend only",
+      "elegant",
+      "seasonal menu"
+    ]
+  },
+  {
+    "name": "Jackson Drug & Original Soda Fountain",
+    "reasons": [
+      "All-American diner breakfast",
+      "Old-fashioned soda fountain charm",
+      "Great milkshakes & breakfast burgers",
+      "A hit with kids and nostalgic adults",
+      "Local beef from Mead Ranch",
+      "Opens at 11am \u2014 good for late brunch",
+      "Casual, fast seating",
+      "Mid-range pricing",
+      "Warm up post-ski with comfort food",
+      "Historic photos and story inside"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=15%20N%20Cache%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/jackson-drug-jackson",
+    "tags": [
+      "kid-friendly",
+      "historic",
+      "diner",
+      "late brunch"
+    ]
+  },
+  {
+    "name": "Snake River Roasting Co.",
+    "reasons": [
+      "Local craft coffee roaster",
+      "Great small bites and pastries",
+      "Art and cozy workspace for remote workers",
+      "Minimalist, airy design",
+      "Off the main drag = quieter vibe",
+      "Dog-friendly patio",
+      "Popular with locals heading to the slopes",
+      "Rotating seasonal coffee specials",
+      "Opens early for ski & hike mornings",
+      "Eco-conscious, sustainable packaging"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=50%20W%20Broadway%20Ave,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/snake-river-roasting-jackson",
+    "tags": [
+      "local favorite",
+      "pet-friendly",
+      "coffee-first",
+      "eco-friendly"
+    ]
+  },
+  {
+    "name": "Butter Caf\u00e9",
+    "reasons": [
+      "Local secret, off-the-beaten-path",
+      "Creative daily specials, locally sourced",
+      "Baked treats and healthy options",
+      "Beautiful drive out to Wilson",
+      "Patio is gorgeous in summer",
+      "Cozy interior in winter",
+      "Dogs welcome outdoors",
+      "Chill mountain town vibe",
+      "Bike-friendly with outdoor racks",
+      "Great for vegans & gluten-free travelers"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=57%20S%20Wilson%20St,%20Wilson,%20WY%2083021",
+    "yelp": "https://www.yelp.com/biz/butter-cafe-wilson",
+    "tags": [
+      "hidden gem",
+      "vegan options",
+      "bike-friendly",
+      "locals\u2019 pick"
+    ]
+  },
+  {
+    "name": "Picnic",
+    "reasons": [
+      "Sister caf\u00e9 to Persephone",
+      "Bright, modern space",
+      "Smoothies, juices, coffee, pastries",
+      "Friendly to laptop users",
+      "Excellent bread and breakfast sandwiches",
+      "Quieter than downtown options",
+      "Plants and artwork make it cozy",
+      "Dog-friendly seating outside",
+      "Good stop before heading to Teton Village",
+      "Nearby small shops and yoga studios"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=1110%20Maple%20Way,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/picnic-jackson",
+    "tags": [
+      "pet-friendly",
+      "coffee + light bites",
+      "modern",
+      "locals stop"
+    ]
+  },
+  {
+    "name": "Healthy Being Caf\u00e9 & Juicery",
+    "reasons": [
+      "Organic & clean eating brunch",
+      "Great post-yoga or hike meal",
+      "Fresh-pressed juices and smoothies",
+      "Vegan and paleo friendly",
+      "Nourishing bowls, soups, toasts",
+      "Great courtyard in summer",
+      "Wellness-focused shop attached",
+      "Bike rack & quick stop for travelers",
+      "Yoga crowd hangout",
+      "Staff knowledgeable about dietary needs"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=165%20E%20Broadway%20Ave,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/healthy-being-cafe-and-juicery-jackson",
+    "tags": [
+      "vegan",
+      "paleo",
+      "clean eats",
+      "juice bar",
+      "healthy"
+    ]
+  },
+  {
+    "name": "The Virginian Restaurant",
+    "reasons": [
+      "Classic American diner",
+      "Early opening hours",
+      "No-fuss, hearty breakfasts",
+      "One of the most affordable in Jackson",
+      "Easy parking off the highway",
+      "Known as a local staple",
+      "Big booths and quick service",
+      "Excellent omelets and hashbrowns",
+      "No patio, but takeout is fast",
+      "Year-round operation"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=750%20W%20Broadway%20Ave,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/the-virginian-restaurant-jackson",
+    "tags": [
+      "budget",
+      "classic",
+      "quick service",
+      "no-frills",
+      "local\u2019s staple"
+    ]
+  }
+]

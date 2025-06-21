@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Rock Springs Buttress (Rendezvous Mountain)",
+    "location": "Jackson Hole Mountain Resort, WY",
+    "apple_maps": "https://maps.apple.com/?q=Rock+Springs+Buttress+Jackson+WY",
+    "yelp_rating": "N/A",
+    "difficulty": "5.9\u20135.11 (Trad & Sport), up to 4 pitches",
+    "season": "Summer\u2013Early Fall",
+    "gear_needed": [
+      "Trad rack (cams & nuts)",
+      "Rope (60m)",
+      "Helmet",
+      "Climbing shoes",
+      "Personal anchor system"
+    ],
+    "reasons": [
+      "Short approach via tram or trail",
+      "Varied route styles (trad & sport)",
+      "Epic alpine views at high elevation",
+      "Popular trad grade 5.9\u20135.11 climbs like Exum Arete",
+      "Less crowded than park routes"
+    ]
+  },
+  {
+    "name": "Rodeo Wall (Hoback Junction)",
+    "location": "Near Hoback Junction, WY",
+    "apple_maps": "https://maps.apple.com/?q=Rodeo+Wall+Hoback+Junction+WY",
+    "yelp_rating": "N/A",
+    "difficulty": "5.9\u20135.11 (Sport)",
+    "season": "Late Spring\u2013Fall",
+    "gear_needed": [
+      "Sport climbing shoes",
+      "60m rope",
+      "Quickdraws",
+      "Helmet",
+      "Belay device"
+    ],
+    "reasons": [
+      "Bold yet accessible sport climbing crag",
+      "Scenic setting above Snake River",
+      "Routes topping out at around 5.11",
+      "Good for practice with bolted protection",
+      "Local \u201cmust-do\u201d for easy to mid sport climbs"
+    ]
+  },
+  {
+    "name": "Hoback Shield",
+    "location": "Hoback Junction, WY",
+    "apple_maps": "https://maps.apple.com/?q=Hoback+Shield+WY",
+    "yelp_rating": "N/A",
+    "difficulty": "5.10\u20135.12 (Sport/Trad)",
+    "season": "Late Spring\u2013Fall",
+    "gear_needed": [
+      "Trad rack & quickdraws",
+      "Rope",
+      "Helmet",
+      "Climbing shoes"
+    ],
+    "reasons": [
+      "Mixed sport/trad routes in quiet setting",
+      "Bold styles with natural protection",
+      "Short approach off highway",
+      "Connected to Rodeo Wall climbing area",
+      "Favorite among intermediate locals"
+    ]
+  },
+  {
+    "name": "Blacktail Butte",
+    "location": "Moose, WY (Grand Teton area)",
+    "apple_maps": "https://maps.apple.com/?q=Blacktail+Butte+Climbing+Moose+WY",
+    "yelp_rating": "N/A",
+    "difficulty": "5.6\u20135.13 (Sport/Trad)",
+    "season": "Spring\u2013Fall",
+    "gear_needed": [
+      "Quickdraws",
+      "Trad rack (if venturing on trad routes)",
+      "Rope",
+      "Helmet",
+      "Climbing shoes"
+    ],
+    "reasons": [
+      "Closest sport crag to Jackson",
+      "Bolted routes with scenic valley views",
+      "Great after-work spot for locals",
+      "Well-maintained hardware",
+      "Popular for technical face climbing"
+    ]
+  },
+  {
+    "name": "Ferry Peak (Alpine Routes)",
+    "location": "Alpine, WY",
+    "apple_maps": "https://maps.apple.com/?q=Ferry+Peak+Alpine+WY",
+    "yelp_rating": "N/A",
+    "difficulty": "5.8\u20135.10 (Alpine Trad)",
+    "season": "Summer\u2013Early Fall",
+    "gear_needed": [
+      "Alpine trad rack",
+      "Rope (60\u201370m)",
+      "Helmet",
+      "Approach shoes and hiking gear"
+    ],
+    "reasons": [
+      "Remote and wild alpine climbing",
+      "Multi-pitch lines with big views",
+      "Less traveled than Tetons",
+      "Offers solitude and scenic summits",
+      "Challenging approach adds to adventure"
+    ]
+  },
+  {
+    "name": "Curtis Canyon Bouldering",
+    "location": "Curtis Canyon, Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Curtis+Canyon+Jackson+WY",
+    "yelp_rating": "N/A",
+    "difficulty": "V1\u2013V9 (Bouldering)",
+    "season": "Spring\u2013Fall",
+    "gear_needed": [
+      "Crash pad",
+      "Climbing shoes",
+      "Chalk bag",
+      "Brush kit"
+    ],
+    "reasons": [
+      "Great sandstone bouldering near town",
+      "Short approaches and peaceful location",
+      "Mix of overhangs and slabs",
+      "Rarely crowded",
+      "Awesome views back toward Jackson"
+    ]
+  },
+  {
+    "name": "Targhee Canyon Bouldering",
+    "location": "Near Driggs, ID",
+    "apple_maps": "https://maps.apple.com/?q=Targhee+Canyon+Bouldering+Driggs+ID",
+    "yelp_rating": "N/A",
+    "difficulty": "V0\u2013V6",
+    "season": "Late Spring\u2013Fall",
+    "gear_needed": [
+      "Crash pad",
+      "Climbing shoes",
+      "Brush",
+      "Chalk"
+    ],
+    "reasons": [
+      "Newer bouldering destination with great potential",
+      "Secluded with lots of development underway",
+      "Good landings and mellow problems",
+      "Nice option for warmups or kids",
+      "Easy access from Driggs"
+    ]
+  },
+  {
+    "name": "Wolverine Canyon",
+    "location": "Near Alpine, WY",
+    "apple_maps": "https://maps.apple.com/?q=Wolverine+Canyon+WY",
+    "yelp_rating": "N/A",
+    "difficulty": "5.9\u20135.12 (Sport)",
+    "season": "Spring\u2013Fall",
+    "gear_needed": [
+      "Quickdraws",
+      "Helmet",
+      "Rope",
+      "Climbing shoes"
+    ],
+    "reasons": [
+      "Hidden gem for steep sport routes",
+      "Diverse overhangs and face climbs",
+      "Quiet and uncrowded",
+      "Good for mid-grade redpointing",
+      "Great scenery with easy access"
+    ]
+  },
+  {
+    "name": "Ross Butte Bouldering",
+    "location": "Driggs, ID",
+    "apple_maps": "https://maps.apple.com/?q=Ross+Butte+Bouldering+Driggs+ID",
+    "yelp_rating": "N/A",
+    "difficulty": "V1\u2013V8",
+    "season": "Summer\u2013Fall",
+    "gear_needed": [
+      "Crash pad",
+      "Chalk",
+      "Bouldering shoes"
+    ],
+    "reasons": [
+      "Quick sessions for locals and travelers",
+      "Beautiful setting with dramatic rock features",
+      "Shady spots available in summer",
+      "Multiple problems on each boulder",
+      "Good for intermediate and above"
+    ]
+  },
+  {
+    "name": "Snow King Summit Trad Routes",
+    "location": "Snow King Mountain, Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Snow+King+Mountain+Jackson+WY",
+    "yelp_rating": "N/A",
+    "difficulty": "5.7\u20135.10 (Trad)",
+    "season": "Summer\u2013Early Fall",
+    "gear_needed": [
+      "Trad rack",
+      "60m rope",
+      "Helmet",
+      "Belay gloves"
+    ],
+    "reasons": [
+      "Quick access from downtown Jackson",
+      "Scrambling and trad options",
+      "Sun-exposed and dry early season",
+      "Linked with hiking or via-ferrata",
+      "Views of the Tetons and town"
+    ]
+  }
+]

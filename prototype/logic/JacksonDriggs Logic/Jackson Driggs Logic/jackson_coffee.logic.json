@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Persephone Bakery",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Persephone+Bakery+Jackson",
+    "yelp": "https://www.yelp.com/biz/persephone-bakery-jackson",
+    "tags": [
+      "kid-friendly",
+      "pet-friendly",
+      "outdoor seating",
+      "high-end",
+      "downtown"
+    ]
+  },
+  {
+    "name": "Cowboy Coffee",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Cowboy+Coffee+Jackson",
+    "yelp": "https://www.yelp.com/biz/cowboy-coffee-jackson",
+    "tags": [
+      "kid-friendly",
+      "solo",
+      "remote-work",
+      "budget-friendly",
+      "downtown"
+    ]
+  },
+  {
+    "name": "Picnic",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Picnic+Jackson",
+    "yelp": "https://www.yelp.com/biz/picnic-jackson",
+    "tags": [
+      "romantic",
+      "indoor",
+      "modern",
+      "pet-friendly",
+      "local favorite"
+    ]
+  },
+  {
+    "name": "Elevate Coffee House",
+    "location": "Driggs, ID",
+    "apple_maps": "https://maps.apple.com/?q=Elevate+Coffee+House+Driggs",
+    "yelp": "https://www.yelp.com/biz/elevate-coffee-house-driggs",
+    "tags": [
+      "local",
+      "budget",
+      "family",
+      "music",
+      "creative-space"
+    ]
+  },
+  {
+    "name": "Rise Coffee House",
+    "location": "Driggs, ID",
+    "apple_maps": "https://maps.apple.com/?q=Rise+Coffee+House+Driggs",
+    "yelp": "https://www.yelp.com/biz/rise-coffee-house-driggs",
+    "tags": [
+      "pet-friendly",
+      "group",
+      "remote-work",
+      "eco-conscious",
+      "chill"
+    ]
+  },
+  {
+    "name": "Jackson Hole Roasters",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Jackson+Hole+Roasters",
+    "yelp": "https://www.yelp.com/biz/jackson-hole-roasters-jackson",
+    "tags": [
+      "coffee-enthusiasts",
+      "quiet",
+      "roastery",
+      "solo",
+      "local"
+    ]
+  },
+  {
+    "name": "Pearl Street Bagels",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Pearl+Street+Bagels",
+    "yelp": "https://www.yelp.com/biz/pearl-street-bagels-jackson",
+    "tags": [
+      "budget",
+      "family",
+      "fast",
+      "grab-n-go",
+      "hiker-favorite"
+    ]
+  },
+  {
+    "name": "Barrels & Bins",
+    "location": "Driggs, ID",
+    "apple_maps": "https://maps.apple.com/?q=Barrels+%26+Bins+Driggs",
+    "yelp": "https://www.yelp.com/biz/barrels-and-bins-driggs",
+    "tags": [
+      "eco-friendly",
+      "pet-friendly",
+      "budget",
+      "organic",
+      "grocery-combo"
+    ]
+  },
+  {
+    "name": "Basecamp",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Basecamp+Coffee+Jackson",
+    "yelp": "https://www.yelp.com/biz/basecamp-jackson",
+    "tags": [
+      "outdoorsy",
+      "adventurers",
+      "quick",
+      "hybrid-shop",
+      "locals-only"
+    ]
+  },
+  {
+    "name": "Moos Gourmet Ice Cream & Coffee",
+    "location": "Jackson, WY",
+    "apple_maps": "https://maps.apple.com/?q=Moos+Gourmet+Ice+Cream+Jackson",
+    "yelp": "https://www.yelp.com/biz/moos-gourmet-ice-cream-jackson",
+    "tags": [
+      "kid-friendly",
+      "family",
+      "sweet-treat",
+      "casual",
+      "central"
+    ]
+  }
+]

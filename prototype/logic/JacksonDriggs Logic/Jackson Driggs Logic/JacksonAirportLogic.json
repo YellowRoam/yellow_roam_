@@ -1,0 +1,103 @@
+{
+  "airport": {
+    "name": "Jackson Hole Airport",
+    "code": "JAC",
+    "location": "Jackson, WY (inside Grand Teton National Park)",
+    "seasonal_travel_advice": {
+      "winter": {
+        "notes": "High season for skiing; flights are more expensive (Dec\u2013Mar). Book early.",
+        "average_roundtrip_cost": "$400\u2013$750 (domestic, depending on origin)",
+        "tips": [
+          "Holiday weeks (Christmas, Presidents Day) see surge pricing.",
+          "Snowstorms can cause delays\u2014try to arrive midday if possible.",
+          "Airport shuttles to Teton Village and Jackson hotels often require reservations."
+        ]
+      },
+      "summer": {
+        "notes": "Peak season for Yellowstone/GTNP visitors (June\u2013Sept)",
+        "average_roundtrip_cost": "$350\u2013$700",
+        "tips": [
+          "Flights into JAC often sell out, especially for mid-June to mid-August.",
+          "Arrive early in the day to avoid afternoon thunderstorms.",
+          "National Park traffic can delay airport transfers\u2014pad your timing."
+        ]
+      },
+      "shoulder_seasons": {
+        "notes": "April\u2013May and Oct\u2013early Nov offer cheaper flights",
+        "average_roundtrip_cost": "$250\u2013$500",
+        "tips": [
+          "Some carriers reduce flights in off-seasons\u2014expect fewer direct routes.",
+          "Rental cars and lodging are easier to find and cheaper.",
+          "Great time for wildlife photographers and hikers without crowds."
+        ]
+      }
+    },
+    "destinations": {
+      "direct_flights_from": [
+        "Salt Lake City (SLC)",
+        "Denver (DEN)",
+        "Dallas/Fort Worth (DFW)",
+        "Chicago O\u2019Hare (ORD)",
+        "Los Angeles (LAX)",
+        "San Francisco (SFO)",
+        "Atlanta (ATL)",
+        "Seattle (SEA)",
+        "Minneapolis (MSP)",
+        "Phoenix (PHX)",
+        "Houston (IAH)",
+        "Newark (EWR) \u2013 summer only",
+        "Boston (BOS) \u2013 summer only"
+      ],
+      "airlines": [
+        "Delta",
+        "United",
+        "American Airlines",
+        "Alaska Airlines"
+      ]
+    },
+    "ground_transportation": {
+      "public_transport": {
+        "START Bus": {
+          "description": "START Bus offers limited seasonal service to/from the airport and into downtown Jackson.",
+          "link": "https://www.startbus.com/",
+          "tip": "Check ahead for current seasonal schedule\u2014may not run in off-season."
+        }
+      },
+      "private_shuttles": [
+        {
+          "name": "Jackson Hole Shuttle",
+          "type": "Shared or Private",
+          "service_area": "Jackson hotels, Teton Village, Airbnbs",
+          "reservation_required": true,
+          "link": "https://jacksonholeshuttle.com/"
+        },
+        {
+          "name": "Mountain Resort Services",
+          "type": "Private luxury SUV",
+          "service_area": "Jackson, Teton Village, private residences",
+          "reservation_required": true,
+          "link": "https://www.mountain-resort.com/"
+        }
+      ],
+      "rideshare": {
+        "services": [
+          "Uber",
+          "Lyft"
+        ],
+        "tip": "Availability may be limited in early mornings and late evenings; expect surge pricing during ski season."
+      },
+      "car_rentals": {
+        "onsite_companies": [
+          "Hertz",
+          "Avis",
+          "Enterprise",
+          "Budget",
+          "Alamo",
+          "National"
+        ],
+        "tip": "Book ahead in summer and ski season. Some inventory is limited at this small airport."
+      }
+    },
+    "local_tip": "JAC is the only commercial airport inside a U.S. National Park. Expect beautiful views on landing and takeoff, but limited space and services\u2014arrive early and plan for minimal food options."
+  }
+}

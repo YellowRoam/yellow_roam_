@@ -1,0 +1,287 @@
+[
+  {
+    "activity": "Scenic Float Trip on the Snake River",
+    "reasons": [
+      "Incredible views of the Tetons from the water",
+      "Accessible for all ages and skill levels",
+      "Great chance to see bald eagles and moose",
+      "No paddling required\u2014just relax and enjoy",
+      "Cool way to beat the summer heat",
+      "Photography opportunities around every bend",
+      "Local guides provide fun educational commentary",
+      "Perfect mix of adventure and serenity",
+      "Multiple outfitters make scheduling easy",
+      "Great intro to Jackson\u2019s natural beauty"
+    ]
+  },
+  {
+    "activity": "Horseback Riding in Bridger-Teton National Forest",
+    "reasons": [
+      "Classic western experience near Jackson",
+      "Suitable for beginners and families",
+      "Stunning mountain and forest scenery",
+      "Local guides match horses to skill level",
+      "Get off the beaten path with little effort",
+      "Rides from 1 hour to full-day trips available",
+      "Wildlife sightings are common",
+      "Several reputable outfitters nearby",
+      "Kid-friendly and Instagram-worthy",
+      "Deepens connection with the area\u2019s cowboy roots"
+    ]
+  },
+  {
+    "activity": "Mountain Biking at Snow King or Teton Pass",
+    "reasons": [
+      "Trail options from beginner to advanced",
+      "Lift-access biking available at Snow King",
+      "High-alpine descents with sweeping views",
+      "Cooler temps at elevation in summer",
+      "Bikes and gear available for rent in town",
+      "Teton Freedom Riders maintain excellent trails",
+      "Popular with both locals and visitors",
+      "Thrilling and rewarding activity",
+      "Connects to National Forest adventures",
+      "Bike-friendly town with lots of support"
+    ]
+  },
+  {
+    "activity": "Whitewater Rafting the Snake River Canyon",
+    "reasons": [
+      "Thrilling rapids rated class II\u2013III",
+      "Gorgeous canyon scenery and big splash zones",
+      "Safe and fun for older kids and adults",
+      "Great bonding activity for families or groups",
+      "Multiple outfitters run trips daily",
+      "Professional guides make it safe and fun",
+      "Great for hot afternoons",
+      "Adrenaline without needing experience",
+      "One of the most popular Jackson adventures",
+      "Photos and videos of your trip are available"
+    ]
+  },
+  {
+    "activity": "Hiking Munger Mountain Trails",
+    "reasons": [
+      "Just outside of town but quiet and wild",
+      "Loop options allow flexible distance",
+      "Scenic ridgelines and shady forests",
+      "Great chance to see moose and deer",
+      "Well-marked and dog-friendly",
+      "Less crowded than National Park trails",
+      "Popular with mountain bikers and hikers",
+      "Excellent picnic and rest spots",
+      "Good elevation gain for a challenge",
+      "Ideal for sunrise or sunset hikes"
+    ]
+  },
+  {
+    "activity": "Fly Fishing on the Snake or Gros Ventre Rivers",
+    "reasons": [
+      "World-class trout fishing waters",
+      "Local guides tailor trips to all levels",
+      "Peaceful way to experience nature",
+      "Catch-and-release helps preserve the fishery",
+      "Wade fishing and drift boat options",
+      "Spectacular mountain and river scenery",
+      "Wildlife sightings while fishing are common",
+      "Summer hatches bring good action",
+      "Gear rentals available in town",
+      "Licensed outfitters simplify logistics"
+    ],
+    "reservations": {
+      "required": true,
+      "recommended_outfitters": [
+        "Snake River Angler",
+        "Westbank Anglers",
+        "Grand Teton Fly Fishing"
+      ]
+    }
+  },
+  {
+    "activity": "Riding the Jackson Hole Aerial Tram (Teton Village)",
+    "reasons": [
+      "Fastest way to 10,450 feet elevation",
+      "Unbeatable views of the Tetons and valley",
+      "Great access to high-elevation trails",
+      "Cooler temperatures up high",
+      "Waffles at Corbet\u2019s Cabin = iconic",
+      "Family-friendly adventure",
+      "No hiking required to enjoy the view",
+      "Tram runs all summer long",
+      "Popular for photos and picnics",
+      "Can combine with a short hike or paraglide"
+    ],
+    "reservations": {
+      "required": false,
+      "ticket_link": "https://www.jacksonhole.com/summer-tram.html"
+    }
+  },
+  {
+    "activity": "Paragliding off Rendezvous Mountain",
+    "reasons": [
+      "Tandem flights with licensed pilots",
+      "Adrenaline + scenery = unforgettable",
+      "Launches from the top of the tram",
+      "No experience needed",
+      "Can be paired with a tram ride",
+      "Stunning bird's-eye views of the Tetons",
+      "Great photos and GoPro footage",
+      "Safe and thrilling for most ages",
+      "Great for bucket lists",
+      "Operates most mornings (weather dependent)"
+    ],
+    "reservations": {
+      "required": true,
+      "recommended_outfitters": [
+        "Jackson Hole Paragliding"
+      ]
+    }
+  },
+  {
+    "activity": "Wildlife Safari in National Forest",
+    "reasons": [
+      "Avoids park crowds but sees great animals",
+      "Expert guides help spot elusive wildlife",
+      "Good chance to see bears, wolves, elk",
+      "Great photography opportunities",
+      "Private or small group options",
+      "Sunrise and sunset safaris available",
+      "Educational and conservation focused",
+      "Kids love the scavenger hunt element",
+      "4x4 or high-clearance vehicles used",
+      "Unplugged, awe-inspiring experience"
+    ],
+    "reservations": {
+      "required": true,
+      "recommended_outfitters": [
+        "EcoTour Adventures",
+        "BrushBuck Wildlife Tours"
+      ]
+    }
+  },
+  {
+    "activity": "Sunset at Snow King Mountain",
+    "reasons": [
+      "Quick hike or ride to the top",
+      "Stunning sunsets over the Tetons",
+      "Great spot for town views",
+      "Chairlift access available",
+      "Often quiet and peaceful",
+      "Ideal for evening photography",
+      "Short but rewarding climb",
+      "Popular with locals",
+      "Great way to end the day",
+      "Family- and dog-friendly"
+    ],
+    "reservations": {
+      "required": false,
+      "chairlift_info": "https://snowkingmountain.com/"
+    }
+  },
+  {
+    "activity": "Guided Rock Climbing at Snow King or Blacktail Butte",
+    "reasons": [
+      "Professional guides teach all levels",
+      "Learn to climb in a safe environment",
+      "Incredible backdrop for first climb",
+      "Great for teens and adults",
+      "Gear provided by outfitters",
+      "Half-day or full-day options",
+      "Good intro to outdoor adventure",
+      "Builds confidence and skills",
+      "Available May through Sept",
+      "Fun and active way to explore Jackson"
+    ],
+    "reservations": {
+      "required": true,
+      "recommended_outfitters": [
+        "Exum Mountain Guides",
+        "Jackson Hole Mountain Guides"
+      ]
+    }
+  },
+  {
+    "activity": "Horseback Dinner Ride",
+    "reasons": [
+      "Ride through the forest to a campfire dinner",
+      "Authentic cowboy meal in the mountains",
+      "Good for all skill levels",
+      "Perfect for couples or families",
+      "Sunset rides are especially scenic",
+      "Some rides include live music",
+      "Memorable, immersive experience",
+      "Safe, calm horses provided",
+      "Locally owned outfitters lead trips",
+      "Combine two classic activities in one"
+    ],
+    "reservations": {
+      "required": true,
+      "recommended_outfitters": [
+        "Mill Iron Ranch",
+        "Goosewing Ranch",
+        "Spring Creek Ranch"
+      ]
+    }
+  },
+  {
+    "activity": "Mountain Biking on Cache Creek and Hagen Trails",
+    "reasons": [
+      "Right out of town\u2014no car needed",
+      "Trails for all experience levels",
+      "Cool shady routes through forest",
+      "Bikes can be rented in downtown Jackson",
+      "Dog-friendly trails",
+      "Nice mix of flow and technical riding",
+      "Teton Freedom Riders maintain them well",
+      "Great workout with scenery",
+      "Good signage and safe routes",
+      "Locals' favorite evening ride"
+    ],
+    "reservations": {
+      "required": false,
+      "bike_rentals": [
+        "Hoback Sports",
+        "The Hub Bicycles",
+        "Fitzgerald\u2019s Bicycles"
+      ]
+    }
+  },
+  {
+    "activity": "Alpine Slide at Snow King",
+    "reasons": [
+      "Fun gravity-powered thrill ride",
+      "Great for kids and adults",
+      "Scenic chairlift to the top",
+      "Located right in town",
+      "Easy to combine with mini-golf or coaster",
+      "Open daily in summer",
+      "Operates rain or shine",
+      "No experience necessary",
+      "Satisfies thrill-seekers",
+      "Affordable and easy to access"
+    ],
+    "reservations": {
+      "required": false,
+      "info_link": "https://snowkingmountain.com/summer-activities/"
+    }
+  },
+  {
+    "activity": "Camping in Bridger-Teton National Forest",
+    "reasons": [
+      "No park pass required",
+      "Free dispersed camping available",
+      "Campfires allowed in most areas",
+      "Close to town but feels remote",
+      "Quiet and stargazing-friendly",
+      "Great wildlife spotting at dawn/dusk",
+      "Family- and pet-friendly",
+      "Perfect for vanlife or tents",
+      "Connects to hiking and biking trails",
+      "Escape the busy tourist zones"
+    ],
+    "reservations": {
+      "required": false,
+      "notes": "Dispersed sites are first-come, first-serve. Developed campgrounds may require reservations via recreation.gov."
+    }
+  }
+]

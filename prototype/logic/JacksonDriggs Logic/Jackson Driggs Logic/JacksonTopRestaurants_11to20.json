@@ -1,0 +1,245 @@
+[
+  {
+    "name": "Blue Lion",
+    "reasons": [
+      "Located in a charming old house",
+      "Famous for their rack of lamb",
+      "Excellent fine dining with attentive service",
+      "Great wine list with local and international bottles",
+      "Perfect for romantic evenings",
+      "Quiet, intimate atmosphere",
+      "Locals rave about consistency and quality",
+      "Outdoor seating available in summer",
+      "Desserts are especially good",
+      "Open for dinner only"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=160%20N%20Millward%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/the-blue-lion-jackson",
+    "tags": [
+      "romantic",
+      "fine dining",
+      "outdoor seating",
+      "local favorite"
+    ],
+    "price_tier": "$$$$"
+  },
+  {
+    "name": "Gather",
+    "reasons": [
+      "Inventive New American cuisine",
+      "Fun atmosphere for both locals and visitors",
+      "Great for groups and date nights",
+      "Unique bison and elk dishes",
+      "Craft cocktails and well-chosen wine list",
+      "Kid-friendly despite upscale menu",
+      "Modern and lively interior",
+      "Popular for happy hour and early seating",
+      "Locally sourced ingredients",
+      "Gluten-free options available"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=72%20S%20Glenwood%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/gather-jackson",
+    "tags": [
+      "kid-friendly",
+      "modern",
+      "happy hour",
+      "gluten-free"
+    ],
+    "price_tier": "$$$"
+  },
+  {
+    "name": "Sidewinders American Grill",
+    "reasons": [
+      "Laid-back sports bar atmosphere",
+      "Massive menu with something for everyone",
+      "TVs everywhere \u2014 great for game day",
+      "Kid\u2019s menu and arcade inside",
+      "Big portions, reasonable prices",
+      "Pet-friendly patio seating",
+      "Great burgers and beer list",
+      "Crowd-pleaser for large families",
+      "Easy parking and fast service",
+      "Consistently friendly staff"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=945%20W%20Broadway%20Ave,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/sidewinders-american-grill-jackson",
+    "tags": [
+      "kid-friendly",
+      "sports bar",
+      "pet-friendly",
+      "budget-friendly",
+      "family-oriented"
+    ],
+    "price_tier": "$$"
+  },
+  {
+    "name": "The Bird",
+    "reasons": [
+      "Hidden gem south of town",
+      "Locals love the burgers and schnitzel",
+      "Great deck with mountain views",
+      "Beer-focused menu with German influence",
+      "Laid-back, quirky vibe",
+      "Adults-only inside; kid-friendly deck",
+      "No reservations = casual drop-in spot",
+      "Unpretentious and fun",
+      "A true locals\u2019 hangout",
+      "Open seasonally"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=4125%20S%20Pub%20Pl,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/the-bird-jackson",
+    "tags": [
+      "hidden gem",
+      "locals only",
+      "beer-heavy",
+      "adults indoor",
+      "kid-friendly outdoor"
+    ],
+    "price_tier": "$$"
+  },
+  {
+    "name": "Jackson Hole Grocer",
+    "reasons": [
+      "Organic deli with healthy meals",
+      "Best smoothies and fresh bowls",
+      "Quick grab-and-go for travelers",
+      "Friendly staff and clean layout",
+      "Nice outdoor tables in summer",
+      "Focus on health-conscious food",
+      "Options for gluten-free and vegans",
+      "Small but reliable grocery shop attached",
+      "Popular with locals avoiding tourist crowds",
+      "Budget-friendly and fast"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=974%20W%20Broadway,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/jackson-hole-grocer-jackson",
+    "tags": [
+      "healthy",
+      "quick bite",
+      "budget-friendly",
+      "gluten-free",
+      "vegan options"
+    ],
+    "price_tier": "$"
+  },
+  {
+    "name": "Million Dollar Cowboy Steakhouse",
+    "reasons": [
+      "Located under the famous Cowboy Bar",
+      "Classic Western steakhouse experience",
+      "Rustic decor with cowboy vibe",
+      "Great steaks and wild game options",
+      "Live music and saloon energy upstairs",
+      "Good for a fun night out",
+      "Reservations recommended",
+      "Popular with tourists",
+      "Surprisingly good service and quality",
+      "Historic and iconic"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=25%20N%20Cache%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/million-dollar-cowboy-steakhouse-jackson",
+    "tags": [
+      "steakhouse",
+      "historic",
+      "tourist-friendly",
+      "fun night out"
+    ],
+    "price_tier": "$$$"
+  },
+  {
+    "name": "Hand Fire Pizza",
+    "reasons": [
+      "Housed in an old theater = cool vibes",
+      "Wood-fired pizzas with creative toppings",
+      "Great for kids and big groups",
+      "Casual and quick service",
+      "Locally sourced ingredients",
+      "Nice drink menu with beers and cocktails",
+      "Often has live music or events",
+      "Good for both lunch and dinner",
+      "Friendly staff and family atmosphere",
+      "Reasonably priced for Jackson"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=120%20N%20Cache%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/hand-fire-pizza-jackson",
+    "tags": [
+      "pizza",
+      "kid-friendly",
+      "budget-friendly",
+      "group-friendly"
+    ],
+    "price_tier": "$$"
+  },
+  {
+    "name": "Orsetto Italian Bar and Eatery",
+    "reasons": [
+      "Modern Italian food with Western flair",
+      "Trendy downtown spot with great design",
+      "Excellent wine list and cocktails",
+      "Perfect for date nights",
+      "Good vegetarian pasta options",
+      "Classy without being stuffy",
+      "Great service with attention to detail",
+      "Outdoor seating in summer",
+      "Reservations often needed",
+      "Upscale but not overpriced"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=161%20N%20Center%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/orsetto-italian-bar-and-eatery-jackson",
+    "tags": [
+      "modern Italian",
+      "romantic",
+      "downtown",
+      "vegetarian friendly"
+    ],
+    "price_tier": "$$$"
+  },
+  {
+    "name": "Liberty Burger",
+    "reasons": [
+      "Casual burger joint in the heart of town",
+      "Tons of topping choices and combos",
+      "Fast and family-friendly",
+      "Gluten-free buns and veggie options",
+      "Cool, clean interior design",
+      "Affordable and tasty",
+      "Great for a quick lunch",
+      "Beer and wine available",
+      "Locally sourced beef",
+      "Easy walk from Town Square"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=160%20N%20Cache%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/liberty-burger-jackson",
+    "tags": [
+      "budget",
+      "kid-friendly",
+      "gluten-free",
+      "quick lunch"
+    ],
+    "price_tier": "$"
+  },
+  {
+    "name": "The Bistro",
+    "reasons": [
+      "Sophisticated French-American cuisine",
+      "Lovely for anniversaries and special events",
+      "Wine-focused menu and elegant ambiance",
+      "Attentive service and beautiful plating",
+      "High-end seafood and meats",
+      "Quiet and cozy dining room",
+      "Located in a boutique hotel",
+      "Upscale but approachable",
+      "Locals love the oysters and lamb dishes",
+      "One of Jackson\u2019s best-kept fine dining secrets"
+    ],
+    "apple_maps": "https://maps.apple.com/?address=112%20Center%20St,%20Jackson,%20WY%2083001",
+    "yelp": "https://www.yelp.com/biz/the-bistro-jackson",
+    "tags": [
+      "fine dining",
+      "romantic",
+      "wine bar",
+      "special occasion"
+    ],
+    "price_tier": "$$$$"
+  }
+]

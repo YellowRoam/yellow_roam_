@@ -1,0 +1,93 @@
+{
+  "resort_name": "Jackson Hole Mountain Resort",
+  "location": "Teton Village, Wyoming",
+  "mountain_stats": {
+    "vertical_drop": "4,139 ft",
+    "summit_elevation": "10,450 ft",
+    "base_elevation": "6,311 ft",
+    "skiable_acres": "2,500+ acres",
+    "number_of_trails": "133+",
+    "terrain_difficulty": {
+      "beginner": "10%",
+      "intermediate": "40%",
+      "advanced_expert": "50%"
+    },
+    "lifts": {
+      "total": 13,
+      "highlight": "Aerial Tram (4,139 ft vertical in 9 minutes)"
+    },
+    "annual_snowfall": "459 inches avg"
+  },
+  "passes_and_tickets": {
+    "ikon_pass": {
+      "accepted": true,
+      "note": "Limited access unless you have Ikon Base Plus or Full",
+      "blackout_dates": [
+        "Late Dec holidays",
+        "MLK weekend",
+        "Presidents' Day weekend"
+      ]
+    },
+    "day_passes": {
+      "prices": {
+        "adult_peak": "$189\u2013$229",
+        "child_peak": "$85\u2013$100",
+        "multi_day_discount": "Available (3+ days)",
+        "half_day": "Available starting at noon"
+      },
+      "purchase_link": "https://www.jacksonhole.com/lift-tickets.html",
+      "recommendation": "Purchase online in advance to avoid sell-outs"
+    },
+    "season_pass": {
+      "jackson_hole_pass": true,
+      "price_range": "$2,100+ (varies by age and perks)",
+      "includes": [
+        "Unlimited access",
+        "Early Tram",
+        "Discounts on food/rentals"
+      ]
+    }
+  },
+  "ski_school_and_lessons": {
+    "programs": [
+      "Group Lessons (Kids & Adults)",
+      "Private Lessons (Half & Full Day)",
+      "Steep & Deep Camps",
+      "Adaptive Ski Program"
+    ],
+    "booking_link": "https://www.jacksonhole.com/mountain-sports-school.html",
+    "local_tip": "Book lessons early\u2014holiday and powder weeks fill quickly"
+  },
+  "rentals_and_demos": {
+    "shops": [
+      "JH Sports (base of Bridger Gondola)",
+      "Teton Village Sports",
+      "Christy Sports (gear + clothing)",
+      "Roadhouse Sports (local option)"
+    ],
+    "gear_types": [
+      "Performance skis/snowboards",
+      "Demo packages",
+      "Kids' gear",
+      "Helmets, boots, poles"
+    ],
+    "online_booking": "https://www.jacksonhole.com/ski-rentals.html"
+  },
+  "local_tips": [
+    "Download the JH Insider app for real-time lift status and grooming",
+    "First Tram is legendary\u2014get in line early for powder days",
+    "The Hobacks are for advanced skiers\u2014know your limits",
+    "Apres ski at The Spur or the Mangy Moose is a must",
+    "Avoid big crowds by skiing Thunder and Sublette mid-morning",
+    "Mid-week offers thinner lift lines and more fresh tracks"
+  ],
+  "parking_and_transportation": {
+    "free_lot": "Ranch Lot with shuttle (arrive early)",
+    "paid_parking": "Under the Tram and Crystal Springs garages",
+    "START Bus": "Frequent shuttle from downtown Jackson"
+  },
+  "night_skiing": {
+    "available": false,
+    "alternative": "Night skiing available at Snow King in town"
+  }
+}

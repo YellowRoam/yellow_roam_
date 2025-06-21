@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Cache Creek Trail",
+    "distance": "6.2 miles out-and-back",
+    "difficulty": "Easy to Moderate",
+    "wildlife": [
+      "moose",
+      "elk",
+      "foxes",
+      "bears"
+    ],
+    "tags": [
+      "kid-friendly",
+      "dog-friendly",
+      "bike-friendly",
+      "wildlife hotspot",
+      "in-town access"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Cache+Creek+Trailhead&ll=43.470997,-110.733125"
+  },
+  {
+    "name": "Phillips Canyon Trail",
+    "distance": "7 miles round trip",
+    "difficulty": "Moderate",
+    "wildlife": [
+      "bears",
+      "deer"
+    ],
+    "tags": [
+      "dog-friendly",
+      "bike-friendly",
+      "shaded",
+      "wildlife",
+      "local favorite"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Phillips+Canyon+Trailhead&ll=43.466665,-110.895470"
+  },
+  {
+    "name": "Teton Pass Ridge (Mt. Elly Trail)",
+    "distance": "4.5 miles out-and-back",
+    "difficulty": "Moderate",
+    "wildlife": [
+      "birds",
+      "moose"
+    ],
+    "tags": [
+      "dog-friendly",
+      "bike-optional",
+      "view-heavy",
+      "moderate"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Teton+Pass+Trailhead&ll=43.489187,-110.980123"
+  },
+  {
+    "name": "Game Creek Trail",
+    "distance": "Up to 10+ miles out-and-back",
+    "difficulty": "Easy to Moderate",
+    "wildlife": [
+      "elk",
+      "deer",
+      "moose"
+    ],
+    "tags": [
+      "kid-friendly",
+      "bike-friendly",
+      "dog-friendly",
+      "wildlife",
+      "fall colors"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Game+Creek+Trailhead&ll=43.405139,-110.741889"
+  },
+  {
+    "name": "Mail Cabin Creek Trail",
+    "distance": "6.5 miles round trip",
+    "difficulty": "Moderate to Strenuous",
+    "wildlife": [
+      "owls",
+      "deer"
+    ],
+    "tags": [
+      "dog-friendly",
+      "wildlife",
+      "winter-capable",
+      "quiet",
+      "strenuous"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Mail+Cabin+Creek+Trailhead&ll=43.489948,-111.002131"
+  },
+  {
+    "name": "Munger Mountain Loop",
+    "distance": "8 miles loop",
+    "difficulty": "Moderate",
+    "wildlife": [
+      "elk",
+      "moose",
+      "mountain lions"
+    ],
+    "tags": [
+      "dog-friendly",
+      "bike-friendly",
+      "wildlife",
+      "loop trail",
+      "moderate"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=Munger+Mountain+Trailhead&ll=43.384519,-110.859406"
+  },
+  {
+    "name": "South Fork Horseshoe Creek",
+    "distance": "4.5 miles out-and-back",
+    "difficulty": "Easy",
+    "wildlife": [
+      "moose",
+      "birds"
+    ],
+    "tags": [
+      "kid-friendly",
+      "dog-friendly",
+      "wildlife",
+      "forest hike",
+      "creekside"
+    ],
+    "apple_maps": "https://maps.apple.com/?q=South+Fork+Horseshoe+Creek+Trailhead&ll=43.659489,-111.180555"
+  }
+]
