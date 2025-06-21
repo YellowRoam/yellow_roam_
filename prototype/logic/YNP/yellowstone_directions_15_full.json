@@ -1,0 +1,77 @@
+[
+  {
+    "prompt": "How far is it from Old Faithful to Canyon Village?",
+    "category": "directions",
+    "answer": "It's about 40 miles from Old Faithful to Canyon Village via the Grand Loop Road. The drive typically takes 1.5 to 2 hours, depending on traffic, construction, and wildlife delays."
+  },
+  {
+    "prompt": "How long does it take to drive from West Yellowstone to Mammoth Hot Springs?",
+    "category": "directions",
+    "answer": "The drive from West Yellowstone to Mammoth Hot Springs is approximately 51 miles and takes about 1.5 hours without stops."
+  },
+  {
+    "prompt": "What's the best route from Jackson to Old Faithful?",
+    "category": "directions",
+    "answer": "From Jackson, take US-191 north through Grand Teton National Park, then enter Yellowstone via the South Entrance. Continue north to West Thumb, then follow the Grand Loop Road west to Old Faithful. It takes around 2 to 2.5 hours without stops."
+  },
+  {
+    "prompt": "Is it faster to reach Grand Prismatic Spring from West Yellowstone or from Grant Village?",
+    "category": "directions",
+    "answer": "It's faster from West Yellowstone. It's about 20 miles (roughly 30 minutes) to Grand Prismatic, compared to 40 minutes from Grant Village."
+  },
+  {
+    "prompt": "How do I get from Mammoth Hot Springs to the Lamar Valley?",
+    "category": "directions",
+    "answer": "Head east on Grand Loop Road from Mammoth to Tower Junction, then turn right onto the Northeast Entrance Road. Lamar Valley starts just past Tower and continues toward Cooke City. The total drive is about 29 miles and takes roughly 1 hour."
+  },
+  {
+    "prompt": "What\u2019s the most scenic route from Cody to Yellowstone Lake?",
+    "category": "directions",
+    "answer": "Take the East Entrance Road from Cody along Highway 14/16/20 through Shoshone National Forest. Once you enter the park, continue west toward Fishing Bridge and Yellowstone Lake. This route is especially scenic with river and mountain views. Expect a 1.5 to 2-hour drive."
+  },
+  {
+    "prompt": "How long is the drive from Norris Geyser Basin to Tower-Roosevelt?",
+    "category": "directions",
+    "answer": "The drive from Norris to Tower-Roosevelt is about 28 miles and takes roughly 45 minutes to an hour depending on road and wildlife conditions."
+  },
+  {
+    "prompt": "Which entrance is closest to Yellowstone Falls?",
+    "category": "directions",
+    "answer": "The East Entrance (near Cody) is closest to Yellowstone Falls. It\u2019s about 29 miles from the entrance to Canyon Village, where the falls are located, taking about 45\u201360 minutes."
+  },
+  {
+    "prompt": "Can I enter the park at the Northeast Entrance and reach Old Faithful in one day?",
+    "category": "trip_planning",
+    "answer": "Yes, but it\u2019s a long day. The drive from the Northeast Entrance (Cooke City) to Old Faithful is about 95 miles and can take 3 to 4 hours one way depending on stops and bison traffic."
+  },
+  {
+    "prompt": "How far is Lamar Valley from the North Entrance near Gardiner?",
+    "category": "directions",
+    "answer": "Lamar Valley is about 50 miles from the North Entrance in Gardiner. The drive typically takes around 1.5 to 2 hours."
+  },
+  {
+    "prompt": "What\u2019s the distance between Grant Village and Fishing Bridge?",
+    "category": "directions",
+    "answer": "It\u2019s approximately 22 miles from Grant Village to Fishing Bridge via the Grand Loop Road. Expect about 35\u201345 minutes of drive time."
+  },
+  {
+    "prompt": "Is there a direct road from Tower Fall to Yellowstone Lake?",
+    "category": "directions",
+    "answer": "No direct road exists. You'll need to take the Grand Loop through Canyon Village and then head south to Yellowstone Lake. The trip is about 45 miles and takes 1.5 to 2 hours."
+  },
+  {
+    "prompt": "What\u2019s the best route to take from the South Entrance to Hayden Valley?",
+    "category": "directions",
+    "answer": "From the South Entrance, take the main road north past Grant Village to West Thumb. Then continue north toward Fishing Bridge and follow signs for Hayden Valley. Total drive is about 45 miles and takes around 1.5 hours."
+  },
+  {
+    "prompt": "How long does it take to drive the full Grand Loop Road?",
+    "category": "loops",
+    "answer": "Driving the full Grand Loop Road, which is about 142 miles, takes 4 to 7 hours without stops depending on traffic and wildlife sightings. With scenic stops, it can take a full day or more."
+  },
+  {
+    "prompt": "Can I do the Grand Loop in a clockwise direction?",
+    "category": "loops",
+    "answer": "Yes, you can drive the Grand Loop either clockwise or counterclockwise. There are no restrictions. Clockwise is often preferred for hitting geyser basins early in the day with less crowding."
+  }
+]

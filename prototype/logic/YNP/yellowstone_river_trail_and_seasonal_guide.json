@@ -1,0 +1,79 @@
+{
+  "river_to_trail_guide": {
+    "Yellowstone River": [
+      "Specimen Ridge Trail",
+      "Blacktail Deer Creek Trail",
+      "Hellroaring Creek Trail"
+    ],
+    "Lamar River": [
+      "Lamar River Trail",
+      "Cache Creek Trail",
+      "Soda Butte Trail"
+    ],
+    "Firehole River": [
+      "Fairy Falls Trail",
+      "Mystic Falls Trail",
+      "Fountain Flat Drive (biking and hiking)"
+    ],
+    "Gibbon River": [
+      "Gibbon Falls Overlook Trail",
+      "Monument Geyser Basin Trail",
+      "Wolf Lake Trail"
+    ],
+    "Gardner River": [
+      "Boiling River Walkway (closed indefinitely as of 2022)",
+      "Snow Pass Trail",
+      "Mount Everts Trail"
+    ],
+    "Snake River": [
+      "South Boundary Trail",
+      "Heart Lake Trail",
+      "Snake River Trail"
+    ],
+    "Madison River": [
+      "Harlequin Lake Trail",
+      "Purple Mountain Trail",
+      "Seven Mile Hole Trail (connects upper river areas)"
+    ],
+    "Soda Butte Creek": [
+      "Pebble Creek Trail",
+      "Soda Butte Trail",
+      "Lamar River Trail (access nearby)"
+    ],
+    "Pelican Creek": [
+      "Pelican Valley Trail",
+      "Pelican Cone Trail",
+      "Pelican Creek Nature Trail"
+    ],
+    "Slough Creek": [
+      "Slough Creek Trail",
+      "Buffalo Plateau Trail"
+    ]
+  },
+  "seasonal_species_calendar": {
+    "Spring (April\u2013June)": [
+      "Yellowstone Cutthroat Trout spawning (Yellowstone & Lamar Rivers)",
+      "River Otter activity increases (Gibbon & Madison Rivers)",
+      "Trumpeter Swan nesting (Firehole & Madison)",
+      "Mayfly and stonefly hatches (Firehole, Gardner, and Lamar Rivers)"
+    ],
+    "Summer (July\u2013August)": [
+      "Beavers most visible at dusk (Gibbon & Pelican Creeks)",
+      "Osprey and Bald Eagle chicks visible at nest sites (Yellowstone River)",
+      "Moose with calves seen along Soda Butte and Lamar",
+      "Caddisfly emergence supports fish feeding frenzies (Yellowstone River)"
+    ],
+    "Fall (September\u2013October)": [
+      "Bears forage near creeks for fish and berries (Slough, Soda Butte)",
+      "Trout begin fall spawning (Firehole, Gibbon, and Madison)",
+      "American Dipper active before freeze (Yellowstone River)",
+      "Elk and moose near rivers during rut season (Gardner & Lamar Rivers)"
+    ],
+    "Winter (November\u2013March)": [
+      "Thermal midges persist in Firehole River",
+      "Otters slide and fish along Yellowstone and Madison Rivers",
+      "Bald Eagles perch along ice-free banks",
+      "Coyotes and foxes hunt along open river channels (Lamar & Yellowstone)"
+    ]
+  }
+}
