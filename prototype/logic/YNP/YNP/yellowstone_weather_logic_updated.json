@@ -1,0 +1,100 @@
+{
+  "location": "Yellowstone National Park",
+  "type": "Year-Round Weather and Climate Module (Multi-Zone)",
+  "note": "Yellowstone weather can shift rapidly in all seasons. Visitors should be prepared for any weather condition at any time.",
+  "zones": [
+    "Mammoth Hot Springs Zone (North Entrance, ~6,200 ft)",
+    "Old Faithful & Geyser Basin Zone (~7,300 ft)",
+    "Cody / East Entrance Zone (~6,600 ft)",
+    "South Entrance / Snake River Zone (~6,900 ft)"
+  ],
+  "seasons": {
+    "spring": {
+      "months": "March\u2013May",
+      "general_notes": "Spring arrives late and unevenly across Yellowstone. Roads open in phases, wildlife migration begins, and snow lingers into May in high country.",
+      "clothing_tips": [
+        "Wear waterproof hiking boots, base layers, a waterproof shell, and warm hat and gloves.",
+        "Bring layers that can be added or removed as temperatures shift.",
+        "Pack traction aids for icy areas."
+      ],
+      "sun_safety": [
+        "UV rays are strong even when it's cold. Use SPF 30+ sunscreen.",
+        "Snow glare can burn skin\u2014use lip balm with SPF and wear sunglasses."
+      ],
+      "local_tip": "Bring extra socks and backup footwear. Trails are often soggy or snow-packed through May."
+    },
+    "summer": {
+      "months": "June\u2013August",
+      "general_notes": "Warm days, cool nights, and powerful afternoon thunderstorms are common. Wildfire smoke can impact visibility.",
+      "clothing_tips": [
+        "Lightweight hiking pants, breathable shirts, and insulating layers for evenings.",
+        "Rain jacket and quick-dry fabrics are essential.",
+        "Always carry an extra warm layer for high elevation."
+      ],
+      "sun_safety": [
+        "Apply sunscreen every 2 hours, especially at higher elevations.",
+        "Wear a brimmed hat, UV-protection sunglasses, and SPF lip balm."
+      ],
+      "local_tip": "Storms often arrive between 2\u20135 PM. Start hikes early and be back by mid-afternoon."
+    },
+    "fall": {
+      "months": "September\u2013November",
+      "general_notes": "Crisp days, golden aspens, rutting season for elk. Sudden snowstorms begin in October.",
+      "clothing_tips": [
+        "Warm layers, gloves, fleece or down jacket.",
+        "Waterproof outerwear and insulated boots.",
+        "Hat and neck gaiter helpful during early storms."
+      ],
+      "sun_safety": [
+        "Lower sun angles can still burn. Apply SPF on nose, cheeks, and lips."
+      ],
+      "local_tip": "Wildlife is most active near roads. Carry binoculars and never block traffic for photos."
+    },
+    "winter": {
+      "months": "December\u2013February",
+      "general_notes": "Harsh, remote, and stunning. Interior access is by oversnow travel only. Northern tier remains open (Mammoth to Lamar).",
+      "clothing_tips": [
+        "Insulated winter boots, base layers, snow pants, insulated parka.",
+        "Face mask, thermal gloves, wool socks, and layered headwear."
+      ],
+      "sun_safety": [
+        "Use sunscreen on exposed areas, especially when snow reflects UV.",
+        "Frostbite can occur quickly\u2014protect all exposed skin."
+      ],
+      "local_tip": "Mornings can reach -40\u00b0F. Always check your vehicle battery, carry hand warmers, and top off fuel."
+    }
+  },
+  "alert_sources": {
+    "NPS Yellowstone Road Alerts": "https://www.nps.gov/yell/planyourvisit/parkroads.htm",
+    "Yellowstone Snow Conditions": "https://www.nps.gov/yell/planyourvisit/winter-visiting.htm",
+    "Avalanche Warnings": "https://www.mtavalanche.com",
+    "Air Quality & Fire Risk": "https://fire.airnow.gov"
+  },
+  "tags": [
+    "Yellowstone",
+    "weather",
+    "climate",
+    "Mammoth",
+    "Old Faithful",
+    "South Entrance",
+    "Cody",
+    "wildlife",
+    "snow alerts",
+    "storm closures",
+    "seasonal access",
+    "road status",
+    "RV",
+    "hiking safety",
+    "oversnow travel",
+    "avalanche risk",
+    "clothing advice",
+    "sun protection",
+    "local tips"
+  ],
+  "local_tips": {
+    "Mammoth": "Most reliable area for year-round access. Elk often roam the town in spring and fall.",
+    "Old Faithful": "Conditions change quickly due to geothermal steam. Always bring a warm layer, even in summer.",
+    "Cody": "Sunniest and driest approach to the park. Stay hydrated and wear sun protection.",
+    "South Entrance": "Storms build fast. Download offline maps and expect snow well into June."
+  }
+}

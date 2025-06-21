@@ -1,0 +1,92 @@
+[
+  {
+    "intent": "wildlife_viewing_best_times",
+    "patterns": [
+      "When is the best time to see wildlife in Yellowstone?",
+      "What time of day is best for seeing animals?",
+      "Is sunrise or sunset better for wildlife?"
+    ],
+    "response": "Wildlife is most active at dawn and dusk. Sunrise is excellent for spotting wolves, bears, and elk, especially in Lamar and Hayden Valleys. Sunset also works well for elk and bison. Always stay on pullouts and never approach wildlife \u2014 serious injuries from bison have already occurred in 2025. Stay safe and respectful."
+  },
+  {
+    "intent": "wildlife_viewing_locations",
+    "patterns": [
+      "Where can I see wolves in Yellowstone?",
+      "Best place to spot wolves?",
+      "Where to find bison and wolves?"
+    ],
+    "response": "Lamar Valley is the top spot for wolves, with Hayden Valley close behind. Bring binoculars or a scope. Early morning sightings are most common. Stay in your car or behind designated fences and pullouts \u2014 never walk toward wolves or carcasses. Apple Maps: https://maps.apple.com/?q=Lamar+Valley+Yellowstone"
+  },
+  {
+    "intent": "wildlife_seasonal_behavior",
+    "patterns": [
+      "When do elk rut in Yellowstone?",
+      "What animals are active in spring?",
+      "What wildlife can I see by season?"
+    ],
+    "response": "Spring (Apr\u2013Jun): bear emergence, bison calves, wolf pups. Summer: elk, bison herds, bald eagles. Fall (Sep\u2013Oct): elk rut, bugling, bear fattening. Winter: wolves visible on snow. Always maintain distance \u2014 especially during mating or calving seasons."
+  },
+  {
+    "intent": "wildlife_lamar_vs_hayden",
+    "patterns": [
+      "Which is better: Lamar or Hayden Valley?",
+      "Compare Hayden and Lamar Valley for animals.",
+      "Is Hayden Valley better than Lamar?"
+    ],
+    "response": "Lamar Valley is best for wolves and early sunrises. Hayden Valley offers more bison and grizzlies in open views. Lamar is quieter and has more serious wildlife watchers; Hayden can be busier. Both are excellent. Apple Maps Lamar: https://maps.apple.com/?q=Lamar+Valley; Hayden: https://maps.apple.com/?q=Hayden+Valley"
+  },
+  {
+    "intent": "wildlife_safety_bison_warning",
+    "patterns": [
+      "Can I get close to a bison?",
+      "Has anyone been hurt by bison?",
+      "Are bison dangerous?"
+    ],
+    "response": "Yes \u2014 multiple visitors have been injured in 2025 by approaching bison. Stay 25+ yards away at all times. Bison can charge without warning. Keep kids nearby, do not approach for photos, and always use zoom lenses or binoculars."
+  },
+  {
+    "intent": "wildlife_photography_tips",
+    "patterns": [
+      "How can I photograph wildlife safely?",
+      "Tips for photographing animals in Yellowstone?",
+      "What gear should I use for wildlife photos?"
+    ],
+    "response": "Use a 300mm+ zoom lens, stay inside pullouts, and shoot from your car if possible. Dawn light is golden in Lamar. Never bait or call wildlife. Respect boundaries \u2014 a good photo isn\u2019t worth a dangerous encounter or a fine."
+  },
+  {
+    "intent": "wildlife_pet_rules",
+    "patterns": [
+      "Can I bring my dog to see wildlife?",
+      "Are pets allowed in wildlife areas?",
+      "Can pets be outside the car in Yellowstone?"
+    ],
+    "response": "Pets are NOT allowed on trails or in wildlife areas. In 2025, loose pets have caused incidents near bison. Pets must stay in vehicles or on a leash near roads. Never let pets approach wildlife. Violations can result in fines or injury."
+  },
+  {
+    "intent": "wildlife_kid_friendly_viewing",
+    "patterns": [
+      "Where can kids see animals safely in Yellowstone?",
+      "Are there wildlife spots good for children?",
+      "What\u2019s a safe way for kids to see animals?"
+    ],
+    "response": "Try roadside pullouts in Lamar or Hayden Valley early in the day. Stay in the car or on wide shoulders. Teach kids to stay quiet and watch from afar. Bison may look calm but can charge. Binoculars or a spotting scope make it more fun and safe."
+  },
+  {
+    "intent": "wildlife_best_photo_spots",
+    "patterns": [
+      "Where should I go for animal photos in Yellowstone?",
+      "Best spots for wildlife photography?",
+      "Scenic places to shoot animals?"
+    ],
+    "response": "Top photo spots: Lamar Valley (wolves), Hayden Valley (bison, bears), Swan Lake Flats (moose), and Yellowstone River bend pullouts. Use zoom lenses. Sunrise and late golden hour lighting is ideal. Do NOT leave pullouts or approach wildlife."
+  },
+  {
+    "intent": "wildlife_general_guidelines",
+    "patterns": [
+      "What are the wildlife safety rules?",
+      "How do I safely watch animals in Yellowstone?",
+      "What should I know about Yellowstone wildlife?"
+    ],
+    "response": "Stay 25 yards from bison and elk, 100 yards from bears and wolves. Use binoculars or long lenses. Never feed wildlife. Do not block roads. Always follow ranger instructions and never leave food out \u2014 even crumbs attract trouble."
+  }
+]
