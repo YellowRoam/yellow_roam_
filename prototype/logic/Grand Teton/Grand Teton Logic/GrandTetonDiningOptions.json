@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Jenny Lake Lodge Dining Room",
+    "location": "Jenny Lake",
+    "why_it's_great": [
+      "Upscale, multi-course meals with seasonal ingredients",
+      "Breathtaking views of the Tetons",
+      "Exceptional service in a quiet setting",
+      "Perfect for special occasions",
+      "Locally sourced meats and produce"
+    ],
+    "tags": [
+      "fine-dining",
+      "romantic",
+      "scenic",
+      "quiet",
+      "not kid-friendly"
+    ],
+    "apple_maps_link": "https://maps.apple.com/?q=Jenny+Lake+Lodge+Dining+Room+Jenny+Lake",
+    "yelp_link": "https://www.yelp.com/search?find_desc=Jenny+Lake+Lodge+Dining+Room+Jenny+Lake",
+    "seasonal_closure": "Closed in winter (typically open mid-May to early October)",
+    "reservation_tip": "Highly recommended for dinner\u2014book early via GTLC or in-person",
+    "best_meals": [
+      "dinner"
+    ]
+  },
+  {
+    "name": "Jackson Lake Lodge Pioneer Grill",
+    "location": "Jackson Lake Lodge",
+    "why_it's_great": [
+      "Classic 1950s-style counter dining",
+      "Good for breakfast, lunch, or dinner",
+      "Kid-friendly atmosphere and pricing",
+      "Quick service with hearty portions",
+      "Close to major wildlife viewing spots"
+    ],
+    "tags": [
+      "kid-friendly",
+      "family",
+      "budget-friendly",
+      "quick-service",
+      "casual"
+    ],
+    "apple_maps_link": "https://maps.apple.com/?q=Jackson+Lake+Lodge+Pioneer+Grill+Jackson+Lake+Lodge",
+    "yelp_link": "https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Pioneer+Grill+Jackson+Lake+Lodge",
+    "seasonal_closure": "Closed in winter (typically open mid-May to early October)",
+    "reservation_tip": "Highly recommended for dinner\u2014book early via GTLC or in-person",
+    "best_meals": [
+      "dinner"
+    ]
+  },
+  {
+    "name": "Mural Room at Jackson Lake Lodge",
+    "location": "Jackson Lake Lodge",
+    "why_it's_great": [
+      "Wall-to-wall windows with Teton views",
+      "Elegant dining in a national park lodge",
+      "Seasonal menu with game, fish, and local produce",
+      "Great for sunset dinners",
+      "Professional, attentive staff"
+    ],
+    "tags": [
+      "fine-dining",
+      "scenic",
+      "romantic",
+      "special occasion",
+      "family"
+    ],
+    "apple_maps_link": "https://maps.apple.com/?q=Mural+Room+at+Jackson+Lake+Lodge+Jackson+Lake+Lodge",
+    "yelp_link": "https://www.yelp.com/search?find_desc=Mural+Room+at+Jackson+Lake+Lodge+Jackson+Lake+Lodge",
+    "seasonal_closure": "Closed in winter (typically open mid-May to early October)",
+    "reservation_tip": "Highly recommended for dinner\u2014book early via GTLC or in-person",
+    "best_meals": [
+      "dinner"
+    ]
+  },
+  {
+    "name": "Trapper Grill at Signal Mountain Lodge",
+    "location": "Signal Mountain",
+    "why_it's_great": [
+      "Deck seating overlooking Jackson Lake",
+      "Famous for its massive Signal Mountain nachos",
+      "Casual, family-friendly vibe",
+      "Great stop after hikes or paddling",
+      "Local beer on tap"
+    ],
+    "tags": [
+      "kid-friendly",
+      "casual",
+      "family",
+      "lake-view",
+      "popular"
+    ],
+    "apple_maps_link": "https://maps.apple.com/?q=Trapper+Grill+at+Signal+Mountain+Lodge+Signal+Mountain",
+    "yelp_link": "https://www.yelp.com/search?find_desc=Trapper+Grill+at+Signal+Mountain+Lodge+Signal+Mountain",
+    "seasonal_closure": "Varies\u2014generally open late May to early October",
+    "reservation_tip": "Usually first-come, first-served",
+    "best_meals": [
+      "dinner"
+    ]
+  },
+  {
+    "name": "Leek\u2019s Marina & Pizzeria",
+    "location": "Colter Bay Area",
+    "why_it's_great": [
+      "Surprisingly good pizza with marina views",
+      "Relaxed picnic-table seating",
+      "Great for families and groups",
+      "Beer and wine available",
+      "Affordable and fast"
+    ],
+    "tags": [
+      "kid-friendly",
+      "casual",
+      "pizza",
+      "family",
+      "budget-friendly"
+    ],
+    "apple_maps_link": "https://maps.apple.com/?q=Leek\u2019s+Marina+&+Pizzeria+Colter+Bay+Area",
+    "yelp_link": "https://www.yelp.com/search?find_desc=Leek\u2019s+Marina+&+Pizzeria+Colter+Bay+Area",
+    "seasonal_closure": "Open mid-May to late September",
+    "reservation_tip": "Walk-up friendly; no reservations required",
+    "best_meals": [
+      "dinner"
+    ]
+  },
+  {
+    "name": "Colter Bay Village Cafeteria",
+    "location": "Colter Bay",
+    "why_it's_great": [
+      "Efficient and affordable for campers and RVers",
+      "Simple meals like burgers, breakfast, and pasta",
+      "Open early and closes late",
+      "Close to campgrounds and visitor center",
+      "Indoor and patio seating"
+    ],
+    "tags": [
+      "kid-friendly",
+      "budget-friendly",
+      "casual",
+      "quick-service",
+      "RV-friendly"
+    ],
+    "apple_maps_link": "https://maps.apple.com/?q=Colter+Bay+Village+Cafeteria+Colter+Bay",
+    "yelp_link": "https://www.yelp.com/search?find_desc=Colter+Bay+Village+Cafeteria+Colter+Bay",
+    "seasonal_closure": "Open mid-May to late September",
+    "reservation_tip": "Walk-up friendly; no reservations required",
+    "best_meals": [
+      "dinner"
+    ]
+  },
+  {
+    "name": "Dornan\u2019s Chuckwagon",
+    "location": "Moose Junction",
+    "why_it's_great": [
+      "Rustic outdoor dining with Teton views",
+      "Hearty breakfasts and cowboy-style dinners",
+      "Live music on select summer nights",
+      "Great spot to watch the sunset",
+      "Convenient location near Moose Entrance"
+    ],
+    "tags": [
+      "scenic",
+      "casual",
+      "kid-friendly",
+      "rustic",
+      "family"
+    ],
+    "apple_maps_link": "https://maps.apple.com/?q=Dornan\u2019s+Chuckwagon+Moose+Junction",
+    "yelp_link": "https://www.yelp.com/search?find_desc=Dornan\u2019s+Chuckwagon+Moose+Junction",
+    "seasonal_closure": "Some parts open year-round; check ahead for winter closures",
+    "reservation_tip": "No reservations needed\u2014arrive early for best seating with views",
+    "best_meals": [
+      "dinner"
+    ]
+  },
+  {
+    "name": "Dornan\u2019s Pizza Pasta Company",
+    "location": "Moose Junction",
+    "why_it's_great": [
+      "Delicious pizza and pasta with panoramic views",
+      "Indoor and patio seating",
+      "Great beer and wine selection",
+      "Relaxed, family-friendly setting",
+      "Popular among locals and tourists"
+    ],
+    "tags": [
+      "pizza",
+      "family",
+      "kid-friendly",
+      "scenic",
+      "casual"
+    ],
+    "apple_maps_link": "https://maps.apple.com/?q=Dornan\u2019s+Pizza+Pasta+Company+Moose+Junction",
+    "yelp_link": "https://www.yelp.com/search?find_desc=Dornan\u2019s+Pizza+Pasta+Company+Moose+Junction",
+    "seasonal_closure": "Some parts open year-round; check ahead for winter closures",
+    "reservation_tip": "No reservations needed\u2014arrive early for best seating with views",
+    "best_meals": [
+      "lunch",
+      "dinner"
+    ]
+  },
+  {
+    "name": "Blue Heron Lounge",
+    "location": "Jackson Lake Lodge",
+    "why_it's_great": [
+      "Cocktails with unmatched views of the Tetons",
+      "Light menu and appetizers available",
+      "Great happy hour vibe",
+      "Cozy indoor space and outdoor terrace",
+      "Popular with adults and couples"
+    ],
+    "tags": [
+      "drinks",
+      "romantic",
+      "scenic",
+      "lounge",
+      "not kid-friendly"
+    ],
+    "apple_maps_link": "https://maps.apple.com/?q=Blue+Heron+Lounge+Jackson+Lake+Lodge",
+    "yelp_link": "https://www.yelp.com/search?find_desc=Blue+Heron+Lounge+Jackson+Lake+Lodge",
+    "seasonal_closure": "Closed in winter (typically open mid-May to early October)",
+    "reservation_tip": "Highly recommended for dinner\u2014book early via GTLC or in-person",
+    "best_meals": [
+      "drinks",
+      "appetizers"
+    ]
+  },
+  {
+    "name": "Sheffields at Headwaters Lodge",
+    "location": "Flagg Ranch (between parks)",
+    "why_it's_great": [
+      "Full-service dining between Yellowstone and Grand Teton",
+      "Comfort food like steaks, trout, and burgers",
+      "Good option for RV travelers",
+      "Rustic setting with indoor fireplace",
+      "Friendly service and hearty portions"
+    ],
+    "tags": [
+      "family",
+      "RV-friendly",
+      "steakhouse",
+      "rustic",
+      "kid-friendly"
+    ],
+    "apple_maps_link": "https://maps.apple.com/?q=Sheffields+at+Headwaters+Lodge+Flagg+Ranch+(between+parks)",
+    "yelp_link": "https://www.yelp.com/search?find_desc=Sheffields+at+Headwaters+Lodge+Flagg+Ranch+(between+parks)",
+    "seasonal_closure": "Varies\u2014generally open late May to early October",
+    "reservation_tip": "Usually first-come, first-served",
+    "best_meals": [
+      "dinner"
+    ]
+  }
+]
