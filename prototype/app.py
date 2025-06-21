@@ -93,6 +93,7 @@ def index():
 
 @app.route("/yellowroamprompts")
 def yellowroam_prompt():
+    print("🟢 Loading yellowroamprompts.html")
     return render_template("yellowroamprompts.html")
 
 # === API Route ===
