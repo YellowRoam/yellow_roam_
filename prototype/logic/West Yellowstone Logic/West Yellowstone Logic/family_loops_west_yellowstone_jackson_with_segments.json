@@ -1,0 +1,1042 @@
+[
+  {
+    "loop_title": "Loop 1: Yellowstone Family Adventure",
+    "overview": "Designed for kids ages 5\u201312, this 5-day loop includes geysers, wildlife zones, museums, and scenic drives. Lodging flexibility included.",
+    "days": [
+      {
+        "day": 1,
+        "route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village",
+        "stops": [
+          "Grizzly & Wolf Discovery Center",
+          "Madison River scenic pullout",
+          "Picnic near Gibbon Falls",
+          "Evening wildlife viewing in Hayden Valley"
+        ],
+        "overnight": "Canyon Village"
+      },
+      {
+        "day": 2,
+        "route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson",
+        "stops": [
+          "Mud Volcano boardwalk",
+          "Fishing Bridge Visitor Center",
+          "Yellowstone Lake overlook",
+          "Lunch at Lake Hotel",
+          "Arrive in Jackson via South Entrance"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 3,
+        "route": "Jackson exploration day",
+        "stops": [
+          "Jackson Hole Children\u2019s Museum",
+          "Snow King alpine slide or mini-golf (seasonal)",
+          "Lunch downtown",
+          "Art project or local ice cream",
+          "Walk near Snake River levee or Rendezvous Park"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 4,
+        "route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village",
+        "stops": [
+          "Photo stop at Snake River Overlook",
+          "Jenny Lake visitor area and boat ride (optional hike)",
+          "Lunch stop at Old Faithful Lodge",
+          "Old Faithful eruption + Junior Ranger badge",
+          "Arrive in Grant Village"
+        ],
+        "overnight": "Grant Village"
+      },
+      {
+        "day": 5,
+        "route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone",
+        "stops": [
+          "West Thumb Geyser Basin boardwalk",
+          "Fountain Paint Pot trail (Firehole Drive)",
+          "Picnic at Firehole River pullout",
+          "Return to West Yellowstone by evening"
+        ],
+        "overnight": "West Yellowstone"
+      }
+    ],
+    "tags": [
+      "Kid-Friendly",
+      "Wildlife Viewing",
+      "Geysers",
+      "Scenic Drives",
+      "Museums"
+    ],
+    "flexible_lodging": [
+      "Canyon Village",
+      "Jackson",
+      "Grant Village",
+      "West Yellowstone"
+    ],
+    "segments": [
+      {
+        "from": "West Yellowstone",
+        "to": "Canyon Village",
+        "full_route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village"
+      },
+      {
+        "from": "Canyon",
+        "to": "Jackson",
+        "full_route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson"
+      },
+      {
+        "from": "Jackson exploration day",
+        "to": "Jackson exploration day",
+        "full_route": "Jackson exploration day"
+      },
+      {
+        "from": "Jackson",
+        "to": "Grant Village",
+        "full_route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village"
+      },
+      {
+        "from": "Grant Village",
+        "to": "West Yellowstone",
+        "full_route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone"
+      }
+    ]
+  },
+  {
+    "loop_title": "Loop 2: Yellowstone Family Adventure",
+    "overview": "Designed for kids ages 5\u201312, this 5-day loop includes geysers, wildlife zones, museums, and scenic drives. Lodging flexibility included.",
+    "days": [
+      {
+        "day": 1,
+        "route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village",
+        "stops": [
+          "Grizzly & Wolf Discovery Center",
+          "Madison River scenic pullout",
+          "Picnic near Gibbon Falls",
+          "Evening wildlife viewing in Hayden Valley"
+        ],
+        "overnight": "Canyon Village"
+      },
+      {
+        "day": 2,
+        "route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson",
+        "stops": [
+          "Mud Volcano boardwalk",
+          "Fishing Bridge Visitor Center",
+          "Yellowstone Lake overlook",
+          "Lunch at Lake Hotel",
+          "Arrive in Jackson via South Entrance"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 3,
+        "route": "Jackson exploration day",
+        "stops": [
+          "Jackson Hole Children\u2019s Museum",
+          "Snow King alpine slide or mini-golf (seasonal)",
+          "Lunch downtown",
+          "Art project or local ice cream",
+          "Walk near Snake River levee or Rendezvous Park"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 4,
+        "route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village",
+        "stops": [
+          "Photo stop at Snake River Overlook",
+          "Jenny Lake visitor area and boat ride (optional hike)",
+          "Lunch stop at Old Faithful Lodge",
+          "Old Faithful eruption + Junior Ranger badge",
+          "Arrive in Grant Village"
+        ],
+        "overnight": "Grant Village"
+      },
+      {
+        "day": 5,
+        "route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone",
+        "stops": [
+          "West Thumb Geyser Basin boardwalk",
+          "Fountain Paint Pot trail (Firehole Drive)",
+          "Picnic at Firehole River pullout",
+          "Return to West Yellowstone by evening"
+        ],
+        "overnight": "West Yellowstone"
+      }
+    ],
+    "tags": [
+      "Kid-Friendly",
+      "Wildlife Viewing",
+      "Geysers",
+      "Scenic Drives",
+      "Museums"
+    ],
+    "flexible_lodging": [
+      "Canyon Village",
+      "Jackson",
+      "Grant Village",
+      "West Yellowstone"
+    ],
+    "segments": [
+      {
+        "from": "West Yellowstone",
+        "to": "Canyon Village",
+        "full_route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village"
+      },
+      {
+        "from": "Canyon",
+        "to": "Jackson",
+        "full_route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson"
+      },
+      {
+        "from": "Jackson exploration day",
+        "to": "Jackson exploration day",
+        "full_route": "Jackson exploration day"
+      },
+      {
+        "from": "Jackson",
+        "to": "Grant Village",
+        "full_route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village"
+      },
+      {
+        "from": "Grant Village",
+        "to": "West Yellowstone",
+        "full_route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone"
+      }
+    ]
+  },
+  {
+    "loop_title": "Loop 3: Yellowstone Family Adventure",
+    "overview": "Designed for kids ages 5\u201312, this 5-day loop includes geysers, wildlife zones, museums, and scenic drives. Lodging flexibility included.",
+    "days": [
+      {
+        "day": 1,
+        "route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village",
+        "stops": [
+          "Grizzly & Wolf Discovery Center",
+          "Madison River scenic pullout",
+          "Picnic near Gibbon Falls",
+          "Evening wildlife viewing in Hayden Valley"
+        ],
+        "overnight": "Canyon Village"
+      },
+      {
+        "day": 2,
+        "route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson",
+        "stops": [
+          "Mud Volcano boardwalk",
+          "Fishing Bridge Visitor Center",
+          "Yellowstone Lake overlook",
+          "Lunch at Lake Hotel",
+          "Arrive in Jackson via South Entrance"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 3,
+        "route": "Jackson exploration day",
+        "stops": [
+          "Jackson Hole Children\u2019s Museum",
+          "Snow King alpine slide or mini-golf (seasonal)",
+          "Lunch downtown",
+          "Art project or local ice cream",
+          "Walk near Snake River levee or Rendezvous Park"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 4,
+        "route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village",
+        "stops": [
+          "Photo stop at Snake River Overlook",
+          "Jenny Lake visitor area and boat ride (optional hike)",
+          "Lunch stop at Old Faithful Lodge",
+          "Old Faithful eruption + Junior Ranger badge",
+          "Arrive in Grant Village"
+        ],
+        "overnight": "Grant Village"
+      },
+      {
+        "day": 5,
+        "route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone",
+        "stops": [
+          "West Thumb Geyser Basin boardwalk",
+          "Fountain Paint Pot trail (Firehole Drive)",
+          "Picnic at Firehole River pullout",
+          "Return to West Yellowstone by evening"
+        ],
+        "overnight": "West Yellowstone"
+      }
+    ],
+    "tags": [
+      "Kid-Friendly",
+      "Wildlife Viewing",
+      "Geysers",
+      "Scenic Drives",
+      "Museums"
+    ],
+    "flexible_lodging": [
+      "Canyon Village",
+      "Jackson",
+      "Grant Village",
+      "West Yellowstone"
+    ],
+    "segments": [
+      {
+        "from": "West Yellowstone",
+        "to": "Canyon Village",
+        "full_route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village"
+      },
+      {
+        "from": "Canyon",
+        "to": "Jackson",
+        "full_route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson"
+      },
+      {
+        "from": "Jackson exploration day",
+        "to": "Jackson exploration day",
+        "full_route": "Jackson exploration day"
+      },
+      {
+        "from": "Jackson",
+        "to": "Grant Village",
+        "full_route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village"
+      },
+      {
+        "from": "Grant Village",
+        "to": "West Yellowstone",
+        "full_route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone"
+      }
+    ]
+  },
+  {
+    "loop_title": "Loop 4: Yellowstone Family Adventure",
+    "overview": "Designed for kids ages 5\u201312, this 5-day loop includes geysers, wildlife zones, museums, and scenic drives. Lodging flexibility included.",
+    "days": [
+      {
+        "day": 1,
+        "route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village",
+        "stops": [
+          "Grizzly & Wolf Discovery Center",
+          "Madison River scenic pullout",
+          "Picnic near Gibbon Falls",
+          "Evening wildlife viewing in Hayden Valley"
+        ],
+        "overnight": "Canyon Village"
+      },
+      {
+        "day": 2,
+        "route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson",
+        "stops": [
+          "Mud Volcano boardwalk",
+          "Fishing Bridge Visitor Center",
+          "Yellowstone Lake overlook",
+          "Lunch at Lake Hotel",
+          "Arrive in Jackson via South Entrance"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 3,
+        "route": "Jackson exploration day",
+        "stops": [
+          "Jackson Hole Children\u2019s Museum",
+          "Snow King alpine slide or mini-golf (seasonal)",
+          "Lunch downtown",
+          "Art project or local ice cream",
+          "Walk near Snake River levee or Rendezvous Park"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 4,
+        "route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village",
+        "stops": [
+          "Photo stop at Snake River Overlook",
+          "Jenny Lake visitor area and boat ride (optional hike)",
+          "Lunch stop at Old Faithful Lodge",
+          "Old Faithful eruption + Junior Ranger badge",
+          "Arrive in Grant Village"
+        ],
+        "overnight": "Grant Village"
+      },
+      {
+        "day": 5,
+        "route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone",
+        "stops": [
+          "West Thumb Geyser Basin boardwalk",
+          "Fountain Paint Pot trail (Firehole Drive)",
+          "Picnic at Firehole River pullout",
+          "Return to West Yellowstone by evening"
+        ],
+        "overnight": "West Yellowstone"
+      }
+    ],
+    "tags": [
+      "Kid-Friendly",
+      "Wildlife Viewing",
+      "Geysers",
+      "Scenic Drives",
+      "Museums"
+    ],
+    "flexible_lodging": [
+      "Canyon Village",
+      "Jackson",
+      "Grant Village",
+      "West Yellowstone"
+    ],
+    "segments": [
+      {
+        "from": "West Yellowstone",
+        "to": "Canyon Village",
+        "full_route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village"
+      },
+      {
+        "from": "Canyon",
+        "to": "Jackson",
+        "full_route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson"
+      },
+      {
+        "from": "Jackson exploration day",
+        "to": "Jackson exploration day",
+        "full_route": "Jackson exploration day"
+      },
+      {
+        "from": "Jackson",
+        "to": "Grant Village",
+        "full_route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village"
+      },
+      {
+        "from": "Grant Village",
+        "to": "West Yellowstone",
+        "full_route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone"
+      }
+    ]
+  },
+  {
+    "loop_title": "Loop 5: Yellowstone Family Adventure",
+    "overview": "Designed for kids ages 5\u201312, this 5-day loop includes geysers, wildlife zones, museums, and scenic drives. Lodging flexibility included.",
+    "days": [
+      {
+        "day": 1,
+        "route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village",
+        "stops": [
+          "Grizzly & Wolf Discovery Center",
+          "Madison River scenic pullout",
+          "Picnic near Gibbon Falls",
+          "Evening wildlife viewing in Hayden Valley"
+        ],
+        "overnight": "Canyon Village"
+      },
+      {
+        "day": 2,
+        "route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson",
+        "stops": [
+          "Mud Volcano boardwalk",
+          "Fishing Bridge Visitor Center",
+          "Yellowstone Lake overlook",
+          "Lunch at Lake Hotel",
+          "Arrive in Jackson via South Entrance"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 3,
+        "route": "Jackson exploration day",
+        "stops": [
+          "Jackson Hole Children\u2019s Museum",
+          "Snow King alpine slide or mini-golf (seasonal)",
+          "Lunch downtown",
+          "Art project or local ice cream",
+          "Walk near Snake River levee or Rendezvous Park"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 4,
+        "route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village",
+        "stops": [
+          "Photo stop at Snake River Overlook",
+          "Jenny Lake visitor area and boat ride (optional hike)",
+          "Lunch stop at Old Faithful Lodge",
+          "Old Faithful eruption + Junior Ranger badge",
+          "Arrive in Grant Village"
+        ],
+        "overnight": "Grant Village"
+      },
+      {
+        "day": 5,
+        "route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone",
+        "stops": [
+          "West Thumb Geyser Basin boardwalk",
+          "Fountain Paint Pot trail (Firehole Drive)",
+          "Picnic at Firehole River pullout",
+          "Return to West Yellowstone by evening"
+        ],
+        "overnight": "West Yellowstone"
+      }
+    ],
+    "tags": [
+      "Kid-Friendly",
+      "Wildlife Viewing",
+      "Geysers",
+      "Scenic Drives",
+      "Museums"
+    ],
+    "flexible_lodging": [
+      "Canyon Village",
+      "Jackson",
+      "Grant Village",
+      "West Yellowstone"
+    ],
+    "segments": [
+      {
+        "from": "West Yellowstone",
+        "to": "Canyon Village",
+        "full_route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village"
+      },
+      {
+        "from": "Canyon",
+        "to": "Jackson",
+        "full_route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson"
+      },
+      {
+        "from": "Jackson exploration day",
+        "to": "Jackson exploration day",
+        "full_route": "Jackson exploration day"
+      },
+      {
+        "from": "Jackson",
+        "to": "Grant Village",
+        "full_route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village"
+      },
+      {
+        "from": "Grant Village",
+        "to": "West Yellowstone",
+        "full_route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone"
+      }
+    ]
+  },
+  {
+    "loop_title": "Loop 6: Yellowstone Family Adventure",
+    "overview": "Designed for kids ages 5\u201312, this 5-day loop includes geysers, wildlife zones, museums, and scenic drives. Lodging flexibility included.",
+    "days": [
+      {
+        "day": 1,
+        "route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village",
+        "stops": [
+          "Grizzly & Wolf Discovery Center",
+          "Madison River scenic pullout",
+          "Picnic near Gibbon Falls",
+          "Evening wildlife viewing in Hayden Valley"
+        ],
+        "overnight": "Canyon Village"
+      },
+      {
+        "day": 2,
+        "route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson",
+        "stops": [
+          "Mud Volcano boardwalk",
+          "Fishing Bridge Visitor Center",
+          "Yellowstone Lake overlook",
+          "Lunch at Lake Hotel",
+          "Arrive in Jackson via South Entrance"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 3,
+        "route": "Jackson exploration day",
+        "stops": [
+          "Jackson Hole Children\u2019s Museum",
+          "Snow King alpine slide or mini-golf (seasonal)",
+          "Lunch downtown",
+          "Art project or local ice cream",
+          "Walk near Snake River levee or Rendezvous Park"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 4,
+        "route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village",
+        "stops": [
+          "Photo stop at Snake River Overlook",
+          "Jenny Lake visitor area and boat ride (optional hike)",
+          "Lunch stop at Old Faithful Lodge",
+          "Old Faithful eruption + Junior Ranger badge",
+          "Arrive in Grant Village"
+        ],
+        "overnight": "Grant Village"
+      },
+      {
+        "day": 5,
+        "route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone",
+        "stops": [
+          "West Thumb Geyser Basin boardwalk",
+          "Fountain Paint Pot trail (Firehole Drive)",
+          "Picnic at Firehole River pullout",
+          "Return to West Yellowstone by evening"
+        ],
+        "overnight": "West Yellowstone"
+      }
+    ],
+    "tags": [
+      "Kid-Friendly",
+      "Wildlife Viewing",
+      "Geysers",
+      "Scenic Drives",
+      "Museums"
+    ],
+    "flexible_lodging": [
+      "Canyon Village",
+      "Jackson",
+      "Grant Village",
+      "West Yellowstone"
+    ],
+    "segments": [
+      {
+        "from": "West Yellowstone",
+        "to": "Canyon Village",
+        "full_route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village"
+      },
+      {
+        "from": "Canyon",
+        "to": "Jackson",
+        "full_route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson"
+      },
+      {
+        "from": "Jackson exploration day",
+        "to": "Jackson exploration day",
+        "full_route": "Jackson exploration day"
+      },
+      {
+        "from": "Jackson",
+        "to": "Grant Village",
+        "full_route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village"
+      },
+      {
+        "from": "Grant Village",
+        "to": "West Yellowstone",
+        "full_route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone"
+      }
+    ]
+  },
+  {
+    "loop_title": "Loop 7: Yellowstone Family Adventure",
+    "overview": "Designed for kids ages 5\u201312, this 5-day loop includes geysers, wildlife zones, museums, and scenic drives. Lodging flexibility included.",
+    "days": [
+      {
+        "day": 1,
+        "route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village",
+        "stops": [
+          "Grizzly & Wolf Discovery Center",
+          "Madison River scenic pullout",
+          "Picnic near Gibbon Falls",
+          "Evening wildlife viewing in Hayden Valley"
+        ],
+        "overnight": "Canyon Village"
+      },
+      {
+        "day": 2,
+        "route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson",
+        "stops": [
+          "Mud Volcano boardwalk",
+          "Fishing Bridge Visitor Center",
+          "Yellowstone Lake overlook",
+          "Lunch at Lake Hotel",
+          "Arrive in Jackson via South Entrance"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 3,
+        "route": "Jackson exploration day",
+        "stops": [
+          "Jackson Hole Children\u2019s Museum",
+          "Snow King alpine slide or mini-golf (seasonal)",
+          "Lunch downtown",
+          "Art project or local ice cream",
+          "Walk near Snake River levee or Rendezvous Park"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 4,
+        "route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village",
+        "stops": [
+          "Photo stop at Snake River Overlook",
+          "Jenny Lake visitor area and boat ride (optional hike)",
+          "Lunch stop at Old Faithful Lodge",
+          "Old Faithful eruption + Junior Ranger badge",
+          "Arrive in Grant Village"
+        ],
+        "overnight": "Grant Village"
+      },
+      {
+        "day": 5,
+        "route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone",
+        "stops": [
+          "West Thumb Geyser Basin boardwalk",
+          "Fountain Paint Pot trail (Firehole Drive)",
+          "Picnic at Firehole River pullout",
+          "Return to West Yellowstone by evening"
+        ],
+        "overnight": "West Yellowstone"
+      }
+    ],
+    "tags": [
+      "Kid-Friendly",
+      "Wildlife Viewing",
+      "Geysers",
+      "Scenic Drives",
+      "Museums"
+    ],
+    "flexible_lodging": [
+      "Canyon Village",
+      "Jackson",
+      "Grant Village",
+      "West Yellowstone"
+    ],
+    "segments": [
+      {
+        "from": "West Yellowstone",
+        "to": "Canyon Village",
+        "full_route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village"
+      },
+      {
+        "from": "Canyon",
+        "to": "Jackson",
+        "full_route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson"
+      },
+      {
+        "from": "Jackson exploration day",
+        "to": "Jackson exploration day",
+        "full_route": "Jackson exploration day"
+      },
+      {
+        "from": "Jackson",
+        "to": "Grant Village",
+        "full_route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village"
+      },
+      {
+        "from": "Grant Village",
+        "to": "West Yellowstone",
+        "full_route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone"
+      }
+    ]
+  },
+  {
+    "loop_title": "Loop 8: Yellowstone Family Adventure",
+    "overview": "Designed for kids ages 5\u201312, this 5-day loop includes geysers, wildlife zones, museums, and scenic drives. Lodging flexibility included.",
+    "days": [
+      {
+        "day": 1,
+        "route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village",
+        "stops": [
+          "Grizzly & Wolf Discovery Center",
+          "Madison River scenic pullout",
+          "Picnic near Gibbon Falls",
+          "Evening wildlife viewing in Hayden Valley"
+        ],
+        "overnight": "Canyon Village"
+      },
+      {
+        "day": 2,
+        "route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson",
+        "stops": [
+          "Mud Volcano boardwalk",
+          "Fishing Bridge Visitor Center",
+          "Yellowstone Lake overlook",
+          "Lunch at Lake Hotel",
+          "Arrive in Jackson via South Entrance"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 3,
+        "route": "Jackson exploration day",
+        "stops": [
+          "Jackson Hole Children\u2019s Museum",
+          "Snow King alpine slide or mini-golf (seasonal)",
+          "Lunch downtown",
+          "Art project or local ice cream",
+          "Walk near Snake River levee or Rendezvous Park"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 4,
+        "route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village",
+        "stops": [
+          "Photo stop at Snake River Overlook",
+          "Jenny Lake visitor area and boat ride (optional hike)",
+          "Lunch stop at Old Faithful Lodge",
+          "Old Faithful eruption + Junior Ranger badge",
+          "Arrive in Grant Village"
+        ],
+        "overnight": "Grant Village"
+      },
+      {
+        "day": 5,
+        "route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone",
+        "stops": [
+          "West Thumb Geyser Basin boardwalk",
+          "Fountain Paint Pot trail (Firehole Drive)",
+          "Picnic at Firehole River pullout",
+          "Return to West Yellowstone by evening"
+        ],
+        "overnight": "West Yellowstone"
+      }
+    ],
+    "tags": [
+      "Kid-Friendly",
+      "Wildlife Viewing",
+      "Geysers",
+      "Scenic Drives",
+      "Museums"
+    ],
+    "flexible_lodging": [
+      "Canyon Village",
+      "Jackson",
+      "Grant Village",
+      "West Yellowstone"
+    ],
+    "segments": [
+      {
+        "from": "West Yellowstone",
+        "to": "Canyon Village",
+        "full_route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village"
+      },
+      {
+        "from": "Canyon",
+        "to": "Jackson",
+        "full_route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson"
+      },
+      {
+        "from": "Jackson exploration day",
+        "to": "Jackson exploration day",
+        "full_route": "Jackson exploration day"
+      },
+      {
+        "from": "Jackson",
+        "to": "Grant Village",
+        "full_route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village"
+      },
+      {
+        "from": "Grant Village",
+        "to": "West Yellowstone",
+        "full_route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone"
+      }
+    ]
+  },
+  {
+    "loop_title": "Loop 9: Yellowstone Family Adventure",
+    "overview": "Designed for kids ages 5\u201312, this 5-day loop includes geysers, wildlife zones, museums, and scenic drives. Lodging flexibility included.",
+    "days": [
+      {
+        "day": 1,
+        "route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village",
+        "stops": [
+          "Grizzly & Wolf Discovery Center",
+          "Madison River scenic pullout",
+          "Picnic near Gibbon Falls",
+          "Evening wildlife viewing in Hayden Valley"
+        ],
+        "overnight": "Canyon Village"
+      },
+      {
+        "day": 2,
+        "route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson",
+        "stops": [
+          "Mud Volcano boardwalk",
+          "Fishing Bridge Visitor Center",
+          "Yellowstone Lake overlook",
+          "Lunch at Lake Hotel",
+          "Arrive in Jackson via South Entrance"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 3,
+        "route": "Jackson exploration day",
+        "stops": [
+          "Jackson Hole Children\u2019s Museum",
+          "Snow King alpine slide or mini-golf (seasonal)",
+          "Lunch downtown",
+          "Art project or local ice cream",
+          "Walk near Snake River levee or Rendezvous Park"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 4,
+        "route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village",
+        "stops": [
+          "Photo stop at Snake River Overlook",
+          "Jenny Lake visitor area and boat ride (optional hike)",
+          "Lunch stop at Old Faithful Lodge",
+          "Old Faithful eruption + Junior Ranger badge",
+          "Arrive in Grant Village"
+        ],
+        "overnight": "Grant Village"
+      },
+      {
+        "day": 5,
+        "route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone",
+        "stops": [
+          "West Thumb Geyser Basin boardwalk",
+          "Fountain Paint Pot trail (Firehole Drive)",
+          "Picnic at Firehole River pullout",
+          "Return to West Yellowstone by evening"
+        ],
+        "overnight": "West Yellowstone"
+      }
+    ],
+    "tags": [
+      "Kid-Friendly",
+      "Wildlife Viewing",
+      "Geysers",
+      "Scenic Drives",
+      "Museums"
+    ],
+    "flexible_lodging": [
+      "Canyon Village",
+      "Jackson",
+      "Grant Village",
+      "West Yellowstone"
+    ],
+    "segments": [
+      {
+        "from": "West Yellowstone",
+        "to": "Canyon Village",
+        "full_route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village"
+      },
+      {
+        "from": "Canyon",
+        "to": "Jackson",
+        "full_route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson"
+      },
+      {
+        "from": "Jackson exploration day",
+        "to": "Jackson exploration day",
+        "full_route": "Jackson exploration day"
+      },
+      {
+        "from": "Jackson",
+        "to": "Grant Village",
+        "full_route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village"
+      },
+      {
+        "from": "Grant Village",
+        "to": "West Yellowstone",
+        "full_route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone"
+      }
+    ]
+  },
+  {
+    "loop_title": "Loop 10: Yellowstone Family Adventure",
+    "overview": "Designed for kids ages 5\u201312, this 5-day loop includes geysers, wildlife zones, museums, and scenic drives. Lodging flexibility included.",
+    "days": [
+      {
+        "day": 1,
+        "route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village",
+        "stops": [
+          "Grizzly & Wolf Discovery Center",
+          "Madison River scenic pullout",
+          "Picnic near Gibbon Falls",
+          "Evening wildlife viewing in Hayden Valley"
+        ],
+        "overnight": "Canyon Village"
+      },
+      {
+        "day": 2,
+        "route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson",
+        "stops": [
+          "Mud Volcano boardwalk",
+          "Fishing Bridge Visitor Center",
+          "Yellowstone Lake overlook",
+          "Lunch at Lake Hotel",
+          "Arrive in Jackson via South Entrance"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 3,
+        "route": "Jackson exploration day",
+        "stops": [
+          "Jackson Hole Children\u2019s Museum",
+          "Snow King alpine slide or mini-golf (seasonal)",
+          "Lunch downtown",
+          "Art project or local ice cream",
+          "Walk near Snake River levee or Rendezvous Park"
+        ],
+        "overnight": "Jackson"
+      },
+      {
+        "day": 4,
+        "route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village",
+        "stops": [
+          "Photo stop at Snake River Overlook",
+          "Jenny Lake visitor area and boat ride (optional hike)",
+          "Lunch stop at Old Faithful Lodge",
+          "Old Faithful eruption + Junior Ranger badge",
+          "Arrive in Grant Village"
+        ],
+        "overnight": "Grant Village"
+      },
+      {
+        "day": 5,
+        "route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone",
+        "stops": [
+          "West Thumb Geyser Basin boardwalk",
+          "Fountain Paint Pot trail (Firehole Drive)",
+          "Picnic at Firehole River pullout",
+          "Return to West Yellowstone by evening"
+        ],
+        "overnight": "West Yellowstone"
+      }
+    ],
+    "tags": [
+      "Kid-Friendly",
+      "Wildlife Viewing",
+      "Geysers",
+      "Scenic Drives",
+      "Museums"
+    ],
+    "flexible_lodging": [
+      "Canyon Village",
+      "Jackson",
+      "Grant Village",
+      "West Yellowstone"
+    ],
+    "segments": [
+      {
+        "from": "West Yellowstone",
+        "to": "Canyon Village",
+        "full_route": "West Yellowstone \u2192 Madison Junction \u2192 Canyon Village"
+      },
+      {
+        "from": "Canyon",
+        "to": "Jackson",
+        "full_route": "Canyon \u2192 Fishing Bridge \u2192 Lake Village \u2192 Jackson"
+      },
+      {
+        "from": "Jackson exploration day",
+        "to": "Jackson exploration day",
+        "full_route": "Jackson exploration day"
+      },
+      {
+        "from": "Jackson",
+        "to": "Grant Village",
+        "full_route": "Jackson \u2192 Jenny Lake \u2192 Old Faithful \u2192 Grant Village"
+      },
+      {
+        "from": "Grant Village",
+        "to": "West Yellowstone",
+        "full_route": "Grant Village \u2192 West Thumb \u2192 Madison \u2192 West Yellowstone"
+      }
+    ]
+  }
+]

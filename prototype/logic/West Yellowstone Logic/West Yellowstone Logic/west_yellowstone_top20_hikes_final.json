@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Fairy Falls Trail",
+    "distance_miles": 5.4,
+    "difficulty": "Moderate",
+    "location": "Midway Geyser Basin",
+    "tags": [
+      "kid-friendly",
+      "waterfall",
+      "geothermal",
+      "bear-country"
+    ],
+    "why_locals_love_it": "Incredible views of Grand Prismatic Spring from the overlook and ends with a picturesque waterfall.",
+    "bear_safety": "Yes, bear spray strongly recommended.",
+    "water_reminder": "Carry at least 1 liter per person. Summer heat can sneak up on you.",
+    "apple_maps": "https://maps.apple.com/?q=Fairy+Falls+Trailhead"
+  },
+  {
+    "name": "Purple Mountain Trail",
+    "distance_miles": 6.6,
+    "difficulty": "Strenuous",
+    "location": "Northwest Yellowstone",
+    "tags": [
+      "wildflowers",
+      "scenic-overlook",
+      "steep",
+      "bear-country"
+    ],
+    "why_locals_love_it": "Unbeatable views over the Madison River valley\u2014less crowded than other lookout hikes.",
+    "bear_safety": "Yes, carry bear spray. Known grizzly activity in the area.",
+    "water_reminder": "Bring 2 liters minimum. No water on trail.",
+    "apple_maps": "https://maps.apple.com/?q=Purple+Mountain+Trail+Yellowstone"
+  },
+  {
+    "name": "Riverside Trail",
+    "distance_miles": 3.0,
+    "difficulty": "Easy",
+    "location": "West Yellowstone (in-town)",
+    "tags": [
+      "easy",
+      "dog-friendly",
+      "family",
+      "wildlife"
+    ],
+    "why_locals_love_it": "Peaceful riverside stroll just outside town. Great for elk or fox sightings in the morning.",
+    "bear_safety": "Low risk but always recommended to carry bear spray.",
+    "water_reminder": "Bring water. Shaded but no access points.",
+    "apple_maps": "https://maps.apple.com/?q=Riverside+Trail+West+Yellowstone"
+  },
+  {
+    "name": "Harlequin Lake Trail",
+    "distance_miles": 1.0,
+    "difficulty": "Easy",
+    "location": "Just inside Yellowstone west entrance",
+    "tags": [
+      "lake",
+      "family-friendly",
+      "short-hike"
+    ],
+    "why_locals_love_it": "Quick and lovely trail to a peaceful lake\u2014perfect for stretching your legs.",
+    "bear_safety": "Yes, carry bear spray.",
+    "water_reminder": "Short trail but bring a small bottle, especially in summer.",
+    "apple_maps": "https://maps.apple.com/?q=Harlequin+Lake+Trail"
+  },
+  {
+    "name": "Two Ribbons Trail",
+    "distance_miles": 1.2,
+    "difficulty": "Easy",
+    "location": "Near Madison Junction",
+    "tags": [
+      "boardwalk",
+      "accessible",
+      "family-friendly",
+      "wildlife"
+    ],
+    "why_locals_love_it": "Boardwalk makes it easy for families or those with mobility concerns to explore the riverside habitat.",
+    "bear_safety": "Low risk, but spray is still recommended.",
+    "water_reminder": "Flat but sunny\u2014bring water.",
+    "apple_maps": "https://maps.apple.com/?q=Two+Ribbons+Trail+Yellowstone"
+  },
+  {
+    "name": "Lava Creek Trail (Upper Section)",
+    "distance_miles": 4.0,
+    "difficulty": "Moderate",
+    "location": "East of Madison",
+    "tags": [
+      "creek",
+      "wildlife",
+      "moderate",
+      "bear-country"
+    ],
+    "why_locals_love_it": "Lesser-known trail with great trout-watching spots and a peaceful creek setting.",
+    "bear_safety": "Yes, carry bear spray. Moose and bear reported seasonally.",
+    "water_reminder": "Creek nearby, but still carry your own water.",
+    "apple_maps": "https://maps.apple.com/?q=Lava+Creek+Trail+Yellowstone"
+  },
+  {
+    "name": "Gneiss Creek Trail",
+    "distance_miles": 10.0,
+    "difficulty": "Strenuous",
+    "location": "South of West Yellowstone",
+    "tags": [
+      "backcountry",
+      "fishing",
+      "strenuous",
+      "bear-country"
+    ],
+    "why_locals_love_it": "Backcountry hike that\u2019s great for solitude and cutthroat trout access.",
+    "bear_safety": "Absolutely. Bear spray and proper food storage required.",
+    "water_reminder": "Bring water and a filter. Remote area.",
+    "apple_maps": "https://maps.apple.com/?q=Gneiss+Creek+Trail"
+  },
+  {
+    "name": "Yellowstone River Picnic Area Trail",
+    "distance_miles": 3.7,
+    "difficulty": "Moderate",
+    "location": "North of Madison area",
+    "tags": [
+      "scenic",
+      "river",
+      "moderate",
+      "wildlife"
+    ],
+    "why_locals_love_it": "River canyon views with a great chance of spotting bighorn sheep.",
+    "bear_safety": "Yes, grizzly sightings are common.",
+    "water_reminder": "Bring 1\u20132 liters. No access en route.",
+    "apple_maps": "https://maps.apple.com/?q=Yellowstone+River+Picnic+Trail"
+  },
+  {
+    "name": "Firehole Lake Drive Boardwalk Hikes",
+    "distance_miles": 2.0,
+    "difficulty": "Easy",
+    "location": "Firehole Lake Drive",
+    "tags": [
+      "geothermal",
+      "boardwalk",
+      "accessible",
+      "family"
+    ],
+    "why_locals_love_it": "Scenic drive with short strolls to hot springs and geysers.",
+    "bear_safety": "Low risk, still bring spray.",
+    "water_reminder": "Carry water, especially in the heat.",
+    "apple_maps": "https://maps.apple.com/?q=Firehole+Lake+Drive"
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "name": "Yellowstone Vacation Tours",
+    "location": "415 Yellowstone Ave, West Yellowstone, MT",
+    "phone": "800-426-7669",
+    "apple_maps": "https://maps.apple.com/?q=Yellowstone+Vacation+Tours+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/yellowstone-vacation-tours-west-yellowstone",
+    "five_reasons": [
+      "Seasonal snowcoach + bus tours with Certified Interpretive Guides",
+      "Custom private tours for groups up to 13",
+      "Door-to-door pickup from local campgrounds",
+      "Experienced in both summer & winter operations",
+      "Excellent track record in wildlife spotting"
+    ],
+    "pricing": "From $150 per person (shared) / $895+ per private group",
+    "group_capacity": "Up to 13 guests per vehicle",
+    "seasonal_availability": "Summer and Winter (Snowcoach tours in winter)"
+  },
+  {
+    "name": "Yellowstone Safari Company",
+    "location": "West Yellowstone, MT",
+    "phone": null,
+    "apple_maps": null,
+    "yelp": null,
+    "five_reasons": [
+      "Family-run, wildlife-focused safaris",
+      "Highly rated on Reddit and TripAdvisor",
+      "Comfortable vehicles with door-to-door service",
+      "Great for families with kids",
+      "Seasonal adaptability (summer & winter)"
+    ],
+    "pricing": "From $325 per person (shared) / $1,195+ private group",
+    "group_capacity": "Up to 6 guests per SUV",
+    "seasonal_availability": "Year-round"
+  },
+  {
+    "name": "Yellowstone Tour Guides (Jim & team)",
+    "location": "West Yellowstone, MT",
+    "phone": "307-413-6177",
+    "apple_maps": null,
+    "yelp": null,
+    "five_reasons": [
+      "Led by Jim\u2014a former Yellowstone Institute naturalist",
+      "Strong TripAdvisor feedback",
+      "Emphasis on interpretive, educational experiences",
+      "Custom multi-day and winter offerings",
+      "Small-group format (personalized experience)"
+    ],
+    "pricing": "$850\u2013$1,200+ per day (private only)",
+    "group_capacity": "Up to 10 per guide",
+    "seasonal_availability": "Year-round, including winter"
+  },
+  {
+    "name": "Yellowstone Guidelines",
+    "location": "Livingston, MT (serves West Yellowstone)",
+    "phone": "406-599-2960",
+    "apple_maps": null,
+    "yelp": null,
+    "five_reasons": [
+      "Over 20 years of park guiding experience",
+      "Expertise in wildlife, photography, geology & senior tours",
+      "Private, customizable full-day or multi-day itineraries",
+      "Transport, scopes, deli lunches included",
+      "Highly reviewed guides and personal attention"
+    ],
+    "pricing": "$950\u2013$1,450 per day (private)",
+    "group_capacity": "Up to 14 guests",
+    "seasonal_availability": "Spring, Summer, Fall; limited winter availability"
+  },
+  {
+    "name": "Adventure Tours of Yellowstone",
+    "location": "West Yellowstone, MT",
+    "phone": null,
+    "apple_maps": null,
+    "yelp": null,
+    "five_reasons": [
+      "Small-group wildlife safaris led by wildlife biologists",
+      "Family-friendly hidden gem hikes",
+      "High wildlife sighting success",
+      "Educational, scientifically grounded tours",
+      "Door-to-door service"
+    ],
+    "pricing": "$225\u2013$325 per person (shared); $1,100+ private",
+    "group_capacity": "Up to 7 guests",
+    "seasonal_availability": "Late spring to early fall"
+  },
+  {
+    "name": "Big Sky Adventures & Tours",
+    "location": "West Yellowstone, MT",
+    "phone": "406-580-1659",
+    "apple_maps": "https://maps.apple.com/?q=Big+Sky+Adventures+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/big-sky-adventures-west-yellowstone",
+    "five_reasons": [
+      "Great for families and first-time visitors",
+      "Mix of history, wildlife, and thermal features",
+      "Custom private tours available year-round",
+      "Strong reputation for reliability",
+      "Comfortable vehicles with binoculars provided"
+    ],
+    "pricing": "$200\u2013$300 per person",
+    "group_capacity": "Up to 10",
+    "seasonal_availability": "Year-round",
+    "tags": [
+      "Best for Kids",
+      "Wildlife Experts",
+      "Winter Specialists"
+    ]
+  },
+  {
+    "name": "Yellowstone Wonders",
+    "location": "West Yellowstone, MT",
+    "phone": "406-640-0709",
+    "apple_maps": "https://maps.apple.com/?q=Yellowstone+Wonders",
+    "yelp": "https://www.yelp.com/biz/yellowstone-wonders-west-yellowstone",
+    "five_reasons": [
+      "Deep knowledge of geology and ecology",
+      "Private, custom tours with high customer satisfaction",
+      "High wildlife encounter success",
+      "Expert photographers on staff",
+      "Focus on families, seniors, and naturalists"
+    ],
+    "pricing": "$895+ private group per day",
+    "group_capacity": "Up to 6",
+    "seasonal_availability": "Spring through Fall",
+    "tags": [
+      "Wildlife Experts",
+      "Photography",
+      "Family-Friendly"
+    ]
+  },
+  {
+    "name": "BrushBuck Wildlife Tours",
+    "location": "West Yellowstone, MT",
+    "phone": "888-282-5868",
+    "apple_maps": "https://maps.apple.com/?q=BrushBuck+Tours+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/brushbuck-wildlife-tours-west-yellowstone",
+    "five_reasons": [
+      "Military veteran-owned and operated",
+      "Excellent sunrise and sunset tours",
+      "Four-season operations including snowcoach",
+      "Strong TripAdvisor ratings",
+      "Popular with wildlife enthusiasts"
+    ],
+    "pricing": "$249 per person (shared); $995+ private",
+    "group_capacity": "6\u201312 depending on tour",
+    "seasonal_availability": "Year-round",
+    "tags": [
+      "Wildlife Experts",
+      "Winter Specialists"
+    ]
+  },
+  {
+    "name": "Yellowstone Journeys",
+    "location": "West Yellowstone, MT",
+    "phone": "406-640-1674",
+    "apple_maps": "https://maps.apple.com/?q=Yellowstone+Journeys",
+    "yelp": "https://www.yelp.com/biz/yellowstone-journeys-west-yellowstone",
+    "five_reasons": [
+      "Custom, private wildlife and geology-focused tours",
+      "Full and half-day options",
+      "Small, boutique operation with personal touch",
+      "Highly rated by repeat visitors",
+      "Flexible itineraries"
+    ],
+    "pricing": "$250\u2013$350 per person; $950+ private",
+    "group_capacity": "Up to 10",
+    "seasonal_availability": "Spring to Fall",
+    "tags": [
+      "Wildlife Experts",
+      "Best for Kids"
+    ]
+  },
+  {
+    "name": "Tied to Nature Tours",
+    "location": "West Yellowstone, MT",
+    "phone": "801-698-3080",
+    "apple_maps": "https://maps.apple.com/?q=Tied+to+Nature+West+Yellowstone",
+    "yelp": "https://www.yelp.com/biz/tied-to-nature-west-yellowstone",
+    "five_reasons": [
+      "Photography-focused private wildlife tours",
+      "Run by naturalist and photographer Nathan",
+      "Uses high-end scopes and optics",
+      "Great for early birds\u2014sunrise specialists",
+      "All ages welcome"
+    ],
+    "pricing": "$325\u2013$400 per person",
+    "group_capacity": "Up to 7",
+    "seasonal_availability": "Year-round",
+    "tags": [
+      "Photography",
+      "Wildlife Experts",
+      "Family-Friendly"
+    ]
+  }
+]
