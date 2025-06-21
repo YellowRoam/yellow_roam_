@@ -1,0 +1,262 @@
+{
+  "big_rig_friendly": [
+    {
+      "name": "Grizzly RV Park & Cabins",
+      "location": "West Yellowstone, MT",
+      "hookups": "Full hookups (water, sewer, electric)",
+      "bathroom_facilities": true,
+      "ada_accessible": true,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Highly recommended; book 6+ months in advance for summer.",
+      "season": "Mid-April to Mid-October",
+      "amenities": [
+        "Wi-Fi",
+        "laundry",
+        "cable TV",
+        "gift shop"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Grizzly+RV+Park+West+Yellowstone"
+    },
+    {
+      "name": "Buffalo Crossing RV Park",
+      "location": "West Yellowstone, MT",
+      "hookups": "Full hookups",
+      "bathroom_facilities": true,
+      "ada_accessible": true,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Recommended, fills up quickly in peak months.",
+      "season": "May to October",
+      "amenities": [
+        "proximity to IMAX theater",
+        "gift shop",
+        "walking distance to town"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Buffalo+Crossing+RV+Park+West+Yellowstone"
+    },
+    {
+      "name": "Fox Den RV and Campground",
+      "location": "West Yellowstone, MT",
+      "hookups": "Full hookups",
+      "bathroom_facilities": true,
+      "ada_accessible": false,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Strongly encouraged via website or phone.",
+      "season": "May to October",
+      "amenities": [
+        "fire rings",
+        "Wi-Fi",
+        "quiet location"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Fox+Den+RV+Park+West+Yellowstone"
+    },
+    {
+      "name": "Yellowstone Park/West Gate KOA Holiday",
+      "location": "8 miles west of West Yellowstone",
+      "hookups": "Full hookups",
+      "bathroom_facilities": true,
+      "ada_accessible": true,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "KOA.com; book early for summer weekends.",
+      "season": "May to October",
+      "amenities": [
+        "hot tub",
+        "ice cream social",
+        "mini golf",
+        "shuttle to Yellowstone"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Yellowstone+Park+KOA+Holiday"
+    },
+    {
+      "name": "Yellowstone Holiday RV Campground & Marina",
+      "location": "Hebgen Lake (15 miles NW of West Yellowstone)",
+      "hookups": "Full hookups",
+      "bathroom_facilities": true,
+      "ada_accessible": true,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Recommended. Book online or by phone.",
+      "season": "Late May to Mid-September",
+      "amenities": [
+        "lake access",
+        "boat rentals",
+        "fishing dock",
+        "laundry"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Yellowstone+Holiday+RV+Campground"
+    },
+    {
+      "name": "Madison Arm Resort",
+      "location": "North side of Hebgen Lake (20 mins from West Yellowstone)",
+      "hookups": "Full hookups",
+      "bathroom_facilities": true,
+      "ada_accessible": true,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Call or reserve online for summer peak season.",
+      "season": "Late May to September",
+      "amenities": [
+        "cabins",
+        "fishing access",
+        "swimming beach"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Madison+Arm+Resort"
+    },
+    {
+      "name": "Island Park Village RV Park",
+      "location": "Island Park, ID (25 min south of West Yellowstone)",
+      "hookups": "Full hookups",
+      "bathroom_facilities": true,
+      "ada_accessible": true,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Online reservation or call to reserve.",
+      "season": "May to October",
+      "amenities": [
+        "golf nearby",
+        "showers",
+        "clubhouse"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Island+Park+Village+RV+Park"
+    },
+    {
+      "name": "RedRock RV Park",
+      "location": "Island Park, ID (25 minutes SW of West Yellowstone)",
+      "hookups": "Full hookups",
+      "bathroom_facilities": true,
+      "ada_accessible": true,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Online reservations open March each year.",
+      "season": "June to September",
+      "amenities": [
+        "mountain views",
+        "birdwatching",
+        "dog run"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=RedRock+RV+Park+Idaho"
+    },
+    {
+      "name": "Valley View RV Park",
+      "location": "Island Park, ID",
+      "hookups": "Full hookups",
+      "bathroom_facilities": true,
+      "ada_accessible": false,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Phone call recommended for availability.",
+      "season": "May to September",
+      "amenities": [
+        "quiet atmosphere",
+        "shade trees",
+        "close to Big Springs"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Valley+View+RV+Park+Island+Park"
+    },
+    {
+      "name": "Mack\u2019s Inn RV Park",
+      "location": "Island Park, ID",
+      "hookups": "Full hookups",
+      "bathroom_facilities": true,
+      "ada_accessible": true,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Online reservations available.",
+      "season": "May to October",
+      "amenities": [
+        "floating access to river",
+        "lodging nearby",
+        "restaurant access"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Macks+Inn+Island+Park"
+    }
+  ],
+  "quietest_parks": [
+    {
+      "name": "Fox Den RV and Campground",
+      "location": "West Yellowstone, MT",
+      "hookups": "Full hookups",
+      "bathroom_facilities": true,
+      "ada_accessible": false,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Strongly encouraged via website or phone.",
+      "season": "May to October",
+      "amenities": [
+        "fire rings",
+        "Wi-Fi",
+        "quiet location"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Fox+Den+RV+Park+West+Yellowstone"
+    },
+    {
+      "name": "Rainbow Point Campground (Forest Service)",
+      "location": "North Shore of Hebgen Lake",
+      "hookups": "None (dry camping)",
+      "bathroom_facilities": true,
+      "ada_accessible": false,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Recommended via Recreation.gov",
+      "season": "Memorial Day to Labor Day",
+      "amenities": [
+        "lakeshore campsites",
+        "quiet",
+        "picnic tables"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Rainbow+Point+Campground"
+    },
+    {
+      "name": "Valley View RV Park",
+      "location": "Island Park, ID",
+      "hookups": "Full hookups",
+      "bathroom_facilities": true,
+      "ada_accessible": false,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "Phone call recommended for availability.",
+      "season": "May to September",
+      "amenities": [
+        "quiet atmosphere",
+        "shade trees",
+        "close to Big Springs"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Valley+View+RV+Park+Island+Park"
+    },
+    {
+      "name": "Buttermilk Campground",
+      "location": "Targhee National Forest, ID",
+      "hookups": "None (dry camping)",
+      "bathroom_facilities": true,
+      "ada_accessible": false,
+      "pet_friendly": true,
+      "family_friendly": true,
+      "teen_friendly": true,
+      "reservations_required": "First-come, first-served",
+      "season": "June to September",
+      "amenities": [
+        "primitive",
+        "close to river",
+        "very quiet"
+      ],
+      "apple_maps": "https://maps.apple.com/?q=Buttermilk+Campground+Targhee"
+    }
+  ],
+  "scenic_lakeside": []
+}
