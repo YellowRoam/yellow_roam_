@@ -1,0 +1,88 @@
+<!-- yellowroam_prompt.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ask YellowRoam</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f9f9f9;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    #promptContainer {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1.2rem;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    button {
+      padding: 0.75rem 1.5rem;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #ffcc00;
+      color: #2c3e50;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #f1b600;
+    }
+
+    #responseBox {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Ask YellowRoam</h1>
+
+  <div id="promptContainer">
+    <input type="text" id="userPrompt" placeholder="Ask me anything about the Yellowstone ecosystem…" />
+    <button onclick="askYellowRoam()">Send</button>
+
+    <div id="responseBox"></div>
+  </div>
+
+  <script>
+    async function askYellowRoam() {
+      const userPrompt = document.getElementById("userPrompt").value;
+      const resBox = document.getElementById("responseBox");
+      resBox.innerHTML = "Thinking...";
+
+      const res = await fetch("/api/ask", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt: userPrompt })
+      });
+
+      const data = await res.json();
+      resBox.innerHTML = data.response;
+    }
+  </script>
+
+</body>
+</html>
