@@ -2,13 +2,11 @@ services:
   - type: web
     name: yellowroam
     env: python
-    region: oregon
     autoDeploy: true
-
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
-
+    region: oregon
     build:
       cwd: prototype
     start:
       cwd: prototype
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
