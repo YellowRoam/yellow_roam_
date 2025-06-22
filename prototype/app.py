@@ -89,13 +89,14 @@ def chat():
 
     try:
         system_prompt = language_logics.get(language, language_logics.get("en", {}))
-        response = openai.ChatCompletion.create(
-            model="gpt-4",
-            messages=[
-                {"role": "system", "content": json.dumps(system_prompt)},
-                {"role": "user", "content": prompt}
-            ]
-        )
+        client = openai.OpenAI()
+response = client.chat.completions.create(
+    model="gpt-4",
+    messages=[
+        {"role": "system", "content": json.dumps(system_prompt)},
+        {"role": "user", "content": prompt}
+    ]
+)
         logger.info("🔁 OpenAI fallback successful.")
         return jsonify({"response": response.choices[0].message["content"]})
     except Exception as e:
