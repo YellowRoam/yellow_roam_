@@ -1,0 +1,137 @@
+[
+  {
+    "patterns": [
+      "Are the springs drying up?",
+      "Are Mammoth Hot Springs drying out?",
+      "Why do some terraces look dry at Mammoth?",
+      "Has the flow at Mammoth Hot Springs slowed down?"
+    ],
+    "response": "No, the springs are not drying up. Water levels in Mammoth Hot Springs fluctuate naturally as underground plumbing shifts. The system is dynamic, and while some terraces may appear dry at times, others are active. Overall activity remains consistent over time.",
+    "tags": [
+      "mammoth",
+      "yellowstone",
+      "visitor info",
+      "local insights"
+    ]
+  },
+  {
+    "patterns": [
+      "Why are the dry springs so white?",
+      "What causes the white color at Mammoth Hot Springs?",
+      "Why do some terraces look bleached?",
+      "What makes dry springs at Mammoth look white?"
+    ],
+    "response": "The white appearance comes from travertine, a form of limestone deposited by the hot water. When a spring dries up, the minerals remain behind, making the surface look white. Color in active springs is caused by thermophiles\u2014heat-loving microorganisms.",
+    "tags": [
+      "mammoth",
+      "yellowstone",
+      "visitor info",
+      "local insights"
+    ]
+  },
+  {
+    "patterns": [
+      "Where does the water come from?",
+      "What is the source of water in Mammoth Hot Springs?",
+      "Where does the hot water originate from in the Mammoth area?",
+      "How does water reach the surface in Mammoth Hot Springs?"
+    ],
+    "response": "The water at Mammoth Hot Springs originates as rain and snow in the surrounding mountains. It seeps into the ground, gets heated underground, and dissolves limestone. When it re-emerges, it forms the travertine terraces seen throughout the area.",
+    "tags": [
+      "mammoth",
+      "yellowstone",
+      "visitor info",
+      "local insights"
+    ]
+  },
+  {
+    "patterns": [
+      "Does the heat for the hot springs come from the Yellowstone Caldera?",
+      "Is Mammoth Hot Springs heated by the Yellowstone volcano?",
+      "Is the heat source for Mammoth connected to the caldera?",
+      "Does geothermal activity in Mammoth come from the magma chamber?"
+    ],
+    "response": "Mammoth lies outside the Yellowstone Caldera, but may still be heated by underground magma. Scientists think that heat could come from deeper volcanic activity connected to the same system as the Yellowstone Caldera, possibly via basaltic magma bodies.",
+    "tags": [
+      "mammoth",
+      "yellowstone",
+      "visitor info",
+      "local insights"
+    ]
+  },
+  {
+    "patterns": [
+      "Can we soak in the hot springs?",
+      "Is swimming allowed in Mammoth Hot Springs?",
+      "Can I bathe in the hot springs at Mammoth?",
+      "Are visitors allowed to enter the springs?"
+    ],
+    "response": "No, soaking or swimming in the Mammoth Hot Springs is not allowed. The formations are fragile and walking on them is prohibited. Entering these thermal features can damage them and is dangerous due to extremely hot temperatures and unstable ground.",
+    "tags": [
+      "mammoth",
+      "yellowstone",
+      "visitor info",
+      "local insights"
+    ]
+  },
+  {
+    "patterns": [
+      "How was Bunsen Peak formed?",
+      "What is the origin of Bunsen Peak?",
+      "How did Bunsen Peak come to be?",
+      "What geologic process formed Bunsen Peak?"
+    ],
+    "response": "Bunsen Peak is an igneous intrusion, formed from magma around 50 million years ago. It\u2019s named after Robert Wilhelm Bunsen, a physicist known for geyser studies. It\u2019s a visible feature just south of Mammoth and is popular for day hikes.",
+    "tags": [
+      "mammoth",
+      "yellowstone",
+      "visitor info",
+      "local insights"
+    ]
+  },
+  {
+    "patterns": [
+      "What were these old buildings?",
+      "What are the historic buildings at Mammoth?",
+      "Were these buildings used by the Army?",
+      "Is this Fort Yellowstone?"
+    ],
+    "response": "Many of the historic buildings at Mammoth were built by the U.S. Army between 1891 and 1913 during its time managing the park. This area is called Fort Yellowstone, and many buildings are still used by the National Park Service today.",
+    "tags": [
+      "mammoth",
+      "yellowstone",
+      "visitor info",
+      "local insights"
+    ]
+  },
+  {
+    "patterns": [
+      "What forms the big, long mountain north of Mammoth?",
+      "What is the name of the large mountain north of Mammoth?",
+      "Why is Mount Everts important?",
+      "What's the geology behind Mount Everts?"
+    ],
+    "response": "That mountain is Mount Everts, composed of sedimentary rock layers from a shallow sea 70\u2013140 million years ago. It was named after Truman Everts, who got lost during an expedition in 1870. The cliffs host wildlife like bighorn sheep.",
+    "tags": [
+      "mammoth",
+      "yellowstone",
+      "visitor info",
+      "local insights"
+    ]
+  },
+  {
+    "patterns": [
+      "What animals can I see in this area?",
+      "What wildlife is common near Mammoth?",
+      "Can I see elk or bison at Mammoth?",
+      "Are there bears or sheep around Mammoth Hot Springs?"
+    ],
+    "response": "You can often see elk around the Mammoth area, especially near buildings. Bighorn sheep are found in the canyon to the north, and Swan Lake Flat to the south is good for spotting elk, bison, and sometimes grizzlies and wolves.",
+    "tags": [
+      "mammoth",
+      "yellowstone",
+      "visitor info",
+      "local insights"
+    ]
+  }
+]

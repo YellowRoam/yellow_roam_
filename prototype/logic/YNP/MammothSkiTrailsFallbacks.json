@@ -1,0 +1,86 @@
+[
+  {
+    "patterns": [
+      "What is the Upper Terrace Loop Ski Trail like in winter?",
+      "Can I ski the Upper Terrace Loop near Mammoth?",
+      "Is the Upper Terrace ski trail groomed or backcountry?"
+    ],
+    "response": "The Upper Terrace Loop Ski Trail is a groomed 1.5-mile loop that varies from easy to more difficult, especially if you head right from the trailhead due to a steep downhill section. The route circles the Upper Terrace Drive, offering views of thermal features, the Mammoth Historic District, and snow-covered mountain ranges.",
+    "tags": [
+      "skiing",
+      "winter activities",
+      "mammoth hot springs",
+      "trail safety"
+    ]
+  },
+  {
+    "patterns": [
+      "Tell me about the Bunsen Peak Road Ski Trail",
+      "Where does the Bunsen Peak ski trail start?",
+      "Is the Bunsen Peak ski trail difficult?"
+    ],
+    "response": "The Bunsen Peak Road Ski Trail near Mammoth is a one-way skier-tracked trail ranging from easiest to most difficult, depending on the section. It offers great winter views of Swan Lake Flats, Gardner Canyon, and the Gallatin Mountains. There are two trailhead options depending on your desired route and skill level.",
+    "tags": [
+      "skiing",
+      "mammoth hot springs",
+      "winter",
+      "scenic views"
+    ]
+  },
+  {
+    "patterns": [
+      "How long is the Sheepeater Ski Trail?",
+      "Where is the Sheepeater ski trail in Yellowstone?",
+      "Is the Sheepeater trail good for beginners?"
+    ],
+    "response": "The Sheepeater Ski Trail is a 5-mile one-way skier-tracked trail considered easy, with gentle terrain and lovely winter views of Swan Lake Flats. It\u2019s ideal for beginner skiers looking for a longer but manageable adventure near Mammoth.",
+    "tags": [
+      "skiing",
+      "mammoth area",
+      "beginner friendly",
+      "scenic spots"
+    ]
+  },
+  {
+    "patterns": [
+      "Can you describe the Snow Pass Ski Trail?",
+      "Is Snow Pass ski trail steep?",
+      "What kind of views are on the Snow Pass trail?"
+    ],
+    "response": "Snow Pass Ski Trail is a 4.2-mile skier-tracked route near Mammoth. It's rated from easiest to most difficult due to sections of steep, forested terrain. It opens into semi-flat meadows with views of Swan Lake Flats, making it a good intermediate option with scenic payoffs.",
+    "tags": [
+      "skiing",
+      "trail safety",
+      "mammoth hot springs",
+      "forest trails"
+    ]
+  },
+  {
+    "patterns": [
+      "Is the Indian Creek Loop Ski Trail beginner friendly?",
+      "How hard is the Indian Creek ski trail?",
+      "Can I ski Indian Creek Loop if I\u2019m new to skiing?"
+    ],
+    "response": "The Indian Creek Loop Ski Trail is a 2.2-mile skier-tracked trail that's ideal for all skill levels. It\u2019s located near Mammoth and follows flat terrain through meadows, making it a great choice for beginners looking for an easy winter outing.",
+    "tags": [
+      "skiing",
+      "beginner friendly",
+      "mammoth",
+      "flat terrain"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the Bighorn Loop Ski Trail like?",
+      "Is Bighorn Loop ski trail hard?",
+      "Where is Bighorn Loop ski trail located?"
+    ],
+    "response": "The Bighorn Loop Ski Trail is a 5.5-mile loop that varies from easy to more difficult. It travels through rolling lodgepole pine forest near Mammoth and is great for intermediate skiers wanting a longer outing with winter scenery.",
+    "tags": [
+      "skiing",
+      "mammoth hot springs",
+      "intermediate",
+      "forest"
+    ]
+  }
+]
