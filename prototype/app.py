@@ -5,6 +5,7 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
 import openai
+client = openai.OpenAI()  # For openai>=1.0
 from .match_local_logic import match_local_logic
 from .smart_match_logic import smart_match_logic
 
