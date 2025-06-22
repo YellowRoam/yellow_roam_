@@ -87,26 +87,25 @@ def chat():
     log_unmatched_prompt(prompt, language, tier)
     logger.warning("❌ No match found in local or smart logic. Logged for future coverage.")
 
-try:
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": json.dumps(system_prompt)},
-            {"role": "user", "content": prompt}
-        ]
-    )
-    logger.info("🔁 OpenAI fallback successful.")
-    return jsonify({"response": response.choices[0].message["content"]})
-
-except Exception as e:
-    logger.error(f"🔥 OpenAI fallback failed: {e}")
-    fallback_msg = {
-        "en": "Sorry, I don’t know the answer to that yet!",
-        "es": "Lo siento, ¡aún no sé la respuesta a eso!",
-        "fr": "Désolé, je ne connais pas encore la réponse à cela !",
-        "hi": "माफ़ कीजिए, मुझे इसका उत्तर अभी नहीं पता!"
-    }
-    return jsonify({"response": fallback_msg.get(language, fallback_msg["en"])})
+    try:
+        response = client.chat.completions.create(  # ← your GPT-4o call here
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": json.dumps(system_prompt)},
+                {"role": "user", "content": prompt}
+            ]
+        )
+        return jsonify({"response": response.choices[0].message["content"]})
+    
+    except Exception as e:
+        logger.error(f"🔥 OpenAI fallback failed: {e}")
+        fallback_msg = {
+            "en": "Sorry, I don’t know the answer to that yet!",
+            "es": "Lo siento, ¡aún no sé la respuesta a eso!",
+            "fr": "Désolé, je ne connais pas encore la réponse à cela !",
+            "hi": "माफ़ कीजिए, मुझे इसका उत्तर अभी नहीं पता!"
+        }
+        return jsonify({"response": fallback_msg.get(language, fallback_msg["en"])})
 
 @app.route("/api/yellowstone_props", methods=["GET"])
 def yellowstone_props():
