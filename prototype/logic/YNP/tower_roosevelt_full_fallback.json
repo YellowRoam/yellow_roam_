@@ -1,0 +1,298 @@
+[
+  {
+    "patterns": [
+      "Why is this area called Tower?",
+      "How did Tower get its name?",
+      "Is Tower named after a rock formation?",
+      "What's the origin of the name Tower Fall?"
+    ],
+    "response": "The Tower area is named after Tower Fall, a prominent 132-foot waterfall known for the towering rock spires at its brink that resemble towers.",
+    "keywords": [
+      "Tower",
+      "Tower Fall",
+      "name origin",
+      "waterfall"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "geology",
+      "history"
+    ]
+  },
+  {
+    "patterns": [
+      "How tall is Tower Fall?",
+      "What\u2019s the height of Tower Fall?",
+      "How high is Tower Fall?",
+      "What\u2019s the elevation drop of Tower Fall?"
+    ],
+    "response": "Tower Fall stands at 132 feet (40 meters), cascading over dramatic volcanic rock formations into the Yellowstone River below.",
+    "keywords": [
+      "Tower Fall",
+      "height",
+      "waterfall",
+      "Yellowstone"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "geology",
+      "scenic"
+    ]
+  },
+  {
+    "patterns": [
+      "When did the boulder at Tower Fall fall?",
+      "What happened to the boulder in old Tower Fall photos?",
+      "Did the big rock at Tower Fall ever fall?",
+      "When did the boulder disappear from Tower Fall?"
+    ],
+    "response": "The large boulder visible in early photos of Tower Fall finally fell in June 1986, after being perched at the brink for over a century.",
+    "keywords": [
+      "Tower Fall",
+      "boulder",
+      "history",
+      "1986"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "geology",
+      "historic"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I hike to the bottom of Tower Fall?",
+      "Is the lower Tower Fall trail open?",
+      "Can I walk down to the base of Tower Fall?",
+      "Is there a trail to the bottom of Tower Fall?"
+    ],
+    "response": "No, the lower trail to Tower Fall is closed due to severe erosion. Visitors can still enjoy a short 0.75-mile walk past the overlook to a view of Tower Creek.",
+    "keywords": [
+      "Tower Fall",
+      "trail",
+      "erosion",
+      "hike"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "trails",
+      "safety"
+    ]
+  },
+  {
+    "patterns": [
+      "What formed the rock columns near Tower Fall?",
+      "How were the canyon columns near Tower made?",
+      "Why do the rocks near Tower Fall look like columns?",
+      "What caused the basalt formations at Tower?"
+    ],
+    "response": "The rock columns near Tower Fall were formed by cooling basaltic lava that cracked into hexagonal columns\u2014a natural process also seen at Sheepeater Cliff.",
+    "keywords": [
+      "Tower Fall",
+      "basalt",
+      "lava",
+      "columns"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "geology",
+      "volcanic"
+    ]
+  },
+  {
+    "patterns": [
+      "How did the Petrified Tree form?",
+      "What caused the Petrified Tree near Tower Junction?",
+      "How did that redwood turn to stone?",
+      "Why is the Petrified Tree important?"
+    ],
+    "response": "The Petrified Tree near Tower Junction formed when volcanic mudflows rapidly buried ancient redwoods 45\u201350 million years ago. Silica in the water replaced the tree\u2019s cells, turning it to stone.",
+    "keywords": [
+      "Petrified Tree",
+      "Tower",
+      "volcanic",
+      "redwood"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "geology",
+      "petrified"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I see more petrified trees at Yellowstone?",
+      "Where can I view petrified trees near Tower?",
+      "Are there petrified forests near Tower Junction?",
+      "How do I spot fossilized trees in Yellowstone?"
+    ],
+    "response": "Yes, with binoculars you can spot vast areas of petrified trees along the road at the base of Specimen Ridge, east of Tower Junction.",
+    "keywords": [
+      "petrified trees",
+      "Specimen Ridge",
+      "fossils"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "geology",
+      "fossils"
+    ]
+  },
+  {
+    "patterns": [
+      "Did Teddy Roosevelt stay at Roosevelt Lodge?",
+      "Was Roosevelt Lodge built for President Roosevelt?",
+      "Did President Roosevelt visit Roosevelt Lodge?",
+      "Did Teddy Roosevelt camp at Roosevelt?"
+    ],
+    "response": "President Theodore Roosevelt camped nearby in 1903 but never stayed at Roosevelt Lodge. The lodge, opened in 1920, is named in his honor and is a registered historic district.",
+    "keywords": [
+      "Roosevelt Lodge",
+      "Teddy Roosevelt",
+      "history"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "historic",
+      "lodging"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the fenced areas near Blacktail Ponds?",
+      "Why are there fences north of Blacktail Ponds?",
+      "Are the fenced plots part of a research project?",
+      "What do the fenced areas study?"
+    ],
+    "response": "The fenced areas north of Blacktail Ponds are used by researchers to study grazing effects by excluding large herbivores. Long-term data is collected in these plots.",
+    "keywords": [
+      "Blacktail Ponds",
+      "research",
+      "fenced",
+      "grazing"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "research",
+      "wildlife"
+    ]
+  },
+  {
+    "patterns": [
+      "What animals live in the northern range?",
+      "What wildlife can I see in Lamar Valley?",
+      "Where can I watch bison and elk?",
+      "Are there wolves in this area?"
+    ],
+    "response": "The northern range is prime wildlife habitat for elk, bison, deer, pronghorn, and several wolf packs. It\u2019s one of the best places in the U.S. for viewing large mammals.",
+    "keywords": [
+      "wildlife",
+      "northern range",
+      "wolves",
+      "Lamar Valley"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "wildlife",
+      "viewing"
+    ]
+  },
+  {
+    "patterns": [
+      "What birds nest in the canyon near Tower Fall?",
+      "Can I see hawks or falcons near Tower?",
+      "Are there birds of prey in this area?",
+      "Do osprey live near the falls?"
+    ],
+    "response": "Yes, the cliffs near Tower Fall are home to osprey, red-tailed hawks, and peregrine falcons. Bring binoculars and scan the canyon for soaring raptors.",
+    "keywords": [
+      "birds",
+      "osprey",
+      "falcons",
+      "Tower Fall"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "wildlife",
+      "birding"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there bears in the Tower\u2013Roosevelt area?",
+      "Can I see grizzly bears near Lamar Valley?",
+      "Where are black bears commonly seen?",
+      "When are bears active in this area?"
+    ],
+    "response": "Both grizzly and black bears are common in spring. Grizzlies are often seen in Lamar Valley or Washburn slopes. Black bears are frequently spotted near Tower Junction and Tower Fall.",
+    "keywords": [
+      "bears",
+      "grizzlies",
+      "black bears",
+      "Lamar"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "wildlife",
+      "bear"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I see moose in this area?",
+      "Are there moose near the Northeast Entrance?",
+      "Can I spot moose around Pebble Creek?",
+      "What\u2019s the best place to see moose?"
+    ],
+    "response": "Moose are most often seen between Pebble Creek and the Northeast Entrance. Early morning and dusk are the best times to look for them near wetlands.",
+    "keywords": [
+      "moose",
+      "Northeast Entrance",
+      "Pebble Creek"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "wildlife",
+      "moose"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there trails near Tower Fall?",
+      "Can I hike in the Tower\u2013Roosevelt area?",
+      "What are good short hikes around Tower?",
+      "Are there backcountry trails in this region?"
+    ],
+    "response": "Yes, the Tower\u2013Roosevelt area offers scenic trails like the Yellowstone River Picnic Area Trail and short walks from the Tower Fall overlook. Check conditions at ranger stations.",
+    "keywords": [
+      "trails",
+      "Tower",
+      "hiking",
+      "Yellowstone River"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "trails",
+      "hiking"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the elevation at Tower Fall?",
+      "How high is the Tower\u2013Roosevelt area?",
+      "What\u2019s the altitude of the Tower Fall overlook?",
+      "Is Tower at high elevation?"
+    ],
+    "response": "Tower Fall sits at about 6,400 feet (1,950 meters) elevation. Visitors with heart or lung conditions should be cautious with steep climbs.",
+    "keywords": [
+      "Tower Fall",
+      "elevation",
+      "altitude"
+    ],
+    "tags": [
+      "tower_roosevelt",
+      "safety",
+      "visitor_info"
+    ]
+  }
+]

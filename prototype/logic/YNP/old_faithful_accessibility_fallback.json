@@ -1,0 +1,102 @@
+[
+  {
+    "patterns": [
+      "Is the Old Faithful Visitor Center accessible?",
+      "Can people with disabilities access the Old Faithful Visitor Center?",
+      "Does Old Faithful have wheelchair access at the visitor center?",
+      "Are the entrances to Old Faithful Visitor Center accessible?"
+    ],
+    "response": "Yes, the Old Faithful Visitor Education Center is accessible and features amenities like ramps, accessible restrooms, and assistive technology for films and exhibits.",
+    "keywords": [
+      "Old Faithful",
+      "accessibility",
+      "visitor center",
+      "wheelchair"
+    ],
+    "tags": [
+      "accessibility",
+      "old_faithful",
+      "visitor_services"
+    ]
+  },
+  {
+    "patterns": [
+      "Does the Old Faithful Visitor Center have assistive listening devices?",
+      "Are hearing devices available at Old Faithful Visitor Center?",
+      "Can I use hearing assistance during films at Old Faithful?",
+      "Is assistive listening available at visitor centers?"
+    ],
+    "response": "Yes, assistive listening devices are available for films shown at the Old Faithful Visitor Center to enhance the experience for those with hearing impairments.",
+    "keywords": [
+      "assistive listening",
+      "Old Faithful",
+      "visitor center",
+      "hearing"
+    ],
+    "tags": [
+      "accessibility",
+      "old_faithful",
+      "hearing"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there audio description at Old Faithful?",
+      "Are there audio-described films at Old Faithful?",
+      "Can I get audio description for exhibits at Old Faithful?",
+      "Does the NPS app include audio descriptions?"
+    ],
+    "response": "Yes, audio-described films are available at Old Faithful Visitor Center, and the official NPS app includes audio guides for trails and exhibits to enhance accessibility.",
+    "keywords": [
+      "audio description",
+      "Old Faithful",
+      "NPS app",
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "old_faithful",
+      "audio"
+    ]
+  },
+  {
+    "patterns": [
+      "Are the trails at Old Faithful accessible?",
+      "Can I use a wheelchair on the boardwalks at Old Faithful?",
+      "Do the boardwalks at Old Faithful support ADA access?",
+      "Is the Upper Geyser Basin trail wheelchair accessible?"
+    ],
+    "response": "Yes, the boardwalks around Old Faithful and parts of the Upper Geyser Basin are wheelchair accessible. The NPS app offers details about specific trail accessibility.",
+    "keywords": [
+      "trails",
+      "boardwalk",
+      "Old Faithful",
+      "accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "old_faithful",
+      "trails"
+    ]
+  },
+  {
+    "patterns": [
+      "Are service animals allowed at Old Faithful?",
+      "Can I bring my service dog to Old Faithful?",
+      "What are the rules for service animals at Old Faithful?",
+      "Are emotional support animals allowed at Old Faithful?"
+    ],
+    "response": "Trained service animals are allowed throughout Yellowstone, including Old Faithful. They must be leashed. Emotional support or therapy animals are not permitted in buildings or on boardwalks.",
+    "keywords": [
+      "service animals",
+      "Old Faithful",
+      "accessibility",
+      "pets"
+    ],
+    "tags": [
+      "accessibility",
+      "old_faithful",
+      "service_animals"
+    ]
+  }
+]
