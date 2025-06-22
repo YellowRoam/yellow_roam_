@@ -6,7 +6,6 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 import openai
 from match_local_logic import match_local_logic
-from smart_match_logic import smart_match_logic
 
 # === Load environment variables ===
 load_dotenv()
