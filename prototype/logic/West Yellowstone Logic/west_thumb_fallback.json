@@ -1,0 +1,199 @@
+[
+  {
+    "patterns": [
+      "Why is this area called West Thumb?",
+      "How did West Thumb get its name?",
+      "What\u2019s the origin of the name West Thumb?",
+      "Why is it called West Thumb in Yellowstone?"
+    ],
+    "response": "West Thumb is named for the thumb-like shape of this bay on Yellowstone Lake. It's actually a caldera within a caldera, formed by a volcanic eruption about 174,000 years ago.",
+    "keywords": [
+      "West Thumb",
+      "name",
+      "caldera",
+      "Yellowstone Lake"
+    ],
+    "tags": [
+      "west_thumb",
+      "geology",
+      "naming"
+    ]
+  },
+  {
+    "patterns": [
+      "How did Fishing Cone get its name?",
+      "Why is that hot spring called Fishing Cone?",
+      "What\u2019s the story behind Fishing Cone?",
+      "Can you still fish at Fishing Cone?"
+    ],
+    "response": "Fishing Cone was named because people once cooked freshly caught fish directly in the hot spring. It erupted in 1919 and 1939, but fishing here is now prohibited to protect the feature.",
+    "keywords": [
+      "Fishing Cone",
+      "geyser",
+      "hot spring",
+      "prohibited"
+    ],
+    "tags": [
+      "west_thumb",
+      "history",
+      "regulations"
+    ]
+  },
+  {
+    "patterns": [
+      "How hot are the springs at West Thumb?",
+      "What are the temperatures of West Thumb\u2019s springs?",
+      "Are the geysers at West Thumb very hot?",
+      "Do West Thumb hot springs reach boiling?"
+    ],
+    "response": "Spring temperatures at West Thumb range from under 100\u00b0F (38\u00b0C) to just over 200\u00b0F (93\u00b0C), depending on depth and geothermal activity.",
+    "keywords": [
+      "West Thumb",
+      "temperature",
+      "hot springs"
+    ],
+    "tags": [
+      "west_thumb",
+      "geothermal",
+      "science"
+    ]
+  },
+  {
+    "patterns": [
+      "How deep is Abyss Pool?",
+      "What\u2019s the depth of Black Pool?",
+      "Are Abyss and Black pools very deep?",
+      "How far down does Abyss Pool go?"
+    ],
+    "response": "Abyss Pool is approximately 53 feet (16.1 meters) deep, while Black Pool ranges between 35 to 40 feet (10.7\u201312.2 meters). Both are visually striking geothermal features.",
+    "keywords": [
+      "Abyss Pool",
+      "Black Pool",
+      "depth"
+    ],
+    "tags": [
+      "west_thumb",
+      "geothermal",
+      "pools"
+    ]
+  },
+  {
+    "patterns": [
+      "Why did the West Thumb mudpots change?",
+      "Are the West Thumb Paint Pots still active?",
+      "What happened to the mudpots in West Thumb?",
+      "Why don\u2019t the mudpots bubble like before?"
+    ],
+    "response": "The West Thumb mudpots change naturally over time. They were less active in the 1970s and 1980s but became more active again during the 1990s.",
+    "keywords": [
+      "West Thumb",
+      "mudpots",
+      "change",
+      "activity"
+    ],
+    "tags": [
+      "west_thumb",
+      "geothermal",
+      "evolution"
+    ]
+  },
+  {
+    "patterns": [
+      "What happened to the old West Thumb buildings?",
+      "Was there development at West Thumb before?",
+      "Why were facilities removed from West Thumb?",
+      "Is there still a marina or gas station at West Thumb?"
+    ],
+    "response": "Earlier facilities like a gas station, marina, store, and cabins were removed in the 1980s to protect the geothermal area. Grant Village now offers these services.",
+    "keywords": [
+      "West Thumb",
+      "development",
+      "removed",
+      "facilities"
+    ],
+    "tags": [
+      "west_thumb",
+      "history",
+      "preservation"
+    ]
+  },
+  {
+    "patterns": [
+      "What can I do at Grant Village?",
+      "Are there activities at West Thumb and Grant?",
+      "What are the main attractions near Grant Village?",
+      "Can I hike or paddle in the West Thumb area?"
+    ],
+    "response": "You can explore geothermal features, hike trails like Scenic Lake Overlook, or go paddling from the Grant Village Marina. Wildlife viewing and shoreline picnics are also popular.",
+    "keywords": [
+      "Grant Village",
+      "activities",
+      "hiking",
+      "paddling"
+    ],
+    "tags": [
+      "west_thumb",
+      "recreation",
+      "visitor_services"
+    ]
+  },
+  {
+    "patterns": [
+      "Why does Grant Campground open late?",
+      "When does Grant Campground open each year?",
+      "Why is the Grant Campground closed in spring?",
+      "Is Grant Campground delayed because of bears?"
+    ],
+    "response": "Grant Campground opens late because grizzly and black bears frequent the area in spring to feed on spawning trout in nearby streams. This protects both bears and visitors.",
+    "keywords": [
+      "Grant Campground",
+      "bears",
+      "spring",
+      "safety"
+    ],
+    "tags": [
+      "west_thumb",
+      "wildlife",
+      "safety"
+    ]
+  },
+  {
+    "patterns": [
+      "What is Isa Lake?",
+      "Where is the lake that drains to both oceans?",
+      "Does Isa Lake still flow two directions?",
+      "Is Isa Lake still unique?"
+    ],
+    "response": "Isa Lake, near Craig Pass, was once known to drain to both the Pacific and Atlantic Oceans. This unusual flow still occurs, but only during high snowmelt years.",
+    "keywords": [
+      "Isa Lake",
+      "Craig Pass",
+      "drainage",
+      "unique"
+    ],
+    "tags": [
+      "west_thumb",
+      "geology",
+      "hydrology"
+    ]
+  },
+  {
+    "patterns": [
+      "What is Shoshone Lake?",
+      "How big is Shoshone Lake?",
+      "Can you reach Shoshone Lake by road?",
+      "Is Shoshone Geyser Basin accessible?"
+    ],
+    "response": "Shoshone Lake is Yellowstone\u2019s second largest lake and the largest in the lower 48 not reachable by road. It features the Shoshone Geyser Basin, home to over 80 geysers.",
+    "keywords": [
+      "Shoshone Lake",
+      "geyser basin",
+      "backcountry"
+    ],
+    "tags": [
+      "west_thumb",
+      "lakes",
+      "geothermal"
+    ]
+  }
+]
