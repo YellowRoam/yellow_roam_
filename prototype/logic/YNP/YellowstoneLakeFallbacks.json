@@ -1,0 +1,164 @@
+[
+  {
+    "patterns": [
+      "Where does the Yellowstone River start and end?",
+      "Where does Yellowstone River flow to?",
+      "Where does the Yellowstone River begin its journey?"
+    ],
+    "response": "The Yellowstone River begins on the slopes of Younts Peak in the Absaroka Mountains, southeast of the park. It flows for 671 miles until it joins the Missouri River near the Montana\u2013North Dakota border, eventually reaching the Atlantic via the Mississippi River.",
+    "tags": [
+      "rivers",
+      "geology",
+      "general info"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "How big is Yellowstone Lake?",
+      "What is the depth and size of Yellowstone Lake?",
+      "Is Yellowstone Lake natural or man-made?"
+    ],
+    "response": "Yellowstone Lake is natural and spans about 132 square miles. It's roughly 20 miles long, 14 miles wide, and reaches depths up to 410 feet. It's the largest high-elevation lake in North America.",
+    "tags": [
+      "geology",
+      "scenic spots",
+      "natural features"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Why can't you fish from Fishing Bridge?",
+      "Is fishing allowed at Fishing Bridge?",
+      "Why is Fishing Bridge closed to fishing?"
+    ],
+    "response": "Fishing is prohibited from Fishing Bridge to protect spawning Yellowstone cutthroat trout. Overfishing once contributed to their decline. It remains a great place to watch trout during spawning season.",
+    "tags": [
+      "fishing",
+      "wildlife viewing",
+      "park rules"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "How cold is Yellowstone Lake?",
+      "Is Yellowstone Lake safe for swimming?",
+      "What\u2019s the temperature of Yellowstone Lake?"
+    ],
+    "response": "Yellowstone Lake remains extremely cold year-round. Surface temps in late summer rarely exceed 66\u00b0F, and lower layers are colder. Hypothermia can set in within 20\u201330 minutes, so swimming is not recommended.",
+    "tags": [
+      "safety",
+      "lake conditions",
+      "swimming"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I swim in Yellowstone Lake?",
+      "Is it safe to swim in the lake?",
+      "Where can I swim in Yellowstone?"
+    ],
+    "response": "Swimming in Yellowstone Lake is not recommended due to dangerously cold water. Firehole Canyon offers a popular summer swim area, but even there, conditions vary. Swim only where permitted, and be cautious.",
+    "tags": [
+      "safety",
+      "swimming",
+      "recreation"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "What happened to the Fishing Bridge campground?",
+      "Is there still camping at Fishing Bridge?",
+      "Why did the old campground at Fishing Bridge close?"
+    ],
+    "response": "The original campground at Fishing Bridge was closed in 1989 due to bear conflicts. A hard-sided RV park now operates there, offering safer accommodation options while protecting wildlife.",
+    "tags": [
+      "camping",
+      "bear safety",
+      "park history"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "What animals can I see around Yellowstone Lake?",
+      "Wildlife near Yellowstone Lake?",
+      "Where can I view wildlife at the lake?"
+    ],
+    "response": "Yellowstone Lake is great for wildlife viewing. Look for cutthroat trout at Fishing Bridge, and white pelicans, osprey, and bald eagles in the area. Bears frequent nearby streams in spring to eat spawning fish.",
+    "tags": [
+      "wildlife viewing",
+      "birding",
+      "lake area"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "Why does Mud Volcano smell bad?",
+      "What causes the smell at Mud Volcano?",
+      "Is that sulfur at Mud Volcano?"
+    ],
+    "response": "The 'rotten egg' smell at Mud Volcano comes from hydrogen sulfide gas released by geothermal features. Iron sulfide in the mud adds gray color. It's smelly, but fascinating!",
+    "tags": [
+      "geothermal",
+      "natural features",
+      "science"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "How did Yellowstone Lake form?",
+      "What\u2019s the origin of Yellowstone Lake?",
+      "Is Yellowstone Lake in a caldera?"
+    ],
+    "response": "Yellowstone Lake lies within the Yellowstone Caldera, formed by a massive eruption 640,000 years ago. Its shape was further sculpted by uplift, faulting, and glaciers over time.",
+    "tags": [
+      "geology",
+      "volcanic history",
+      "lake formation"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Yellowstone Lake the biggest lake in the US?",
+      "What\u2019s special about Yellowstone Lake?",
+      "Is Yellowstone Lake the largest high elevation lake?"
+    ],
+    "response": "Yellowstone Lake isn\u2019t the largest in the U.S., but it is the largest high-elevation lake (over 7,000 feet) in North America. Its setting and geothermal activity make it unique.",
+    "tags": [
+      "lake info",
+      "elevation",
+      "scenic spots"
+    ],
+    "tiers": [
+      "free"
+    ]
+  }
+]

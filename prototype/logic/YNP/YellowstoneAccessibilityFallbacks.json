@@ -1,0 +1,138 @@
+[
+  {
+    "patterns": [
+      "Is there accessibility info in the Yellowstone app?",
+      "How can I use the NPS app for accessibility in Yellowstone?",
+      "Does the Yellowstone app help with disabilities?"
+    ],
+    "response": "Yes, the official NPS Yellowstone app includes accessibility details for facilities, trails, and outdoor exhibits. It features audio descriptions, alt text for images, and works well with built-in accessibility tools on your device.",
+    "tags": [
+      "accessibility",
+      "visitor planning",
+      "apps"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I get an Access Pass for Yellowstone?",
+      "Can people with disabilities get into Yellowstone for free?",
+      "Where do I get the America the Beautiful Access Pass?"
+    ],
+    "response": "The America the Beautiful Access Pass offers free lifetime entry and discounts to U.S. citizens or residents with permanent disabilities. You can get one at any Yellowstone entrance or visitor center.",
+    "tags": [
+      "accessibility",
+      "entry passes",
+      "discounts"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there sign language interpreters for ranger programs?",
+      "How do I request a sign language interpreter in Yellowstone?",
+      "Can Yellowstone provide ASL for tours?"
+    ],
+    "response": "Yellowstone offers sign language interpretation for ranger programs with at least three weeks\u2019 advance notice. Contact the park at 307-344-2251 or by email to request accommodations.",
+    "tags": [
+      "accessibility",
+      "ranger programs",
+      "language services"
+    ]
+  },
+  {
+    "patterns": [
+      "Are Yellowstone visitor center films captioned?",
+      "Can I get captions on Yellowstone park videos?",
+      "Where can I watch captioned videos in Yellowstone?"
+    ],
+    "response": "Yes, visitor centers at Canyon, Old Faithful, and Grant have captioned films. Albright Visitor Center also offers open captions on display videos.",
+    "tags": [
+      "accessibility",
+      "captioning",
+      "visitor centers"
+    ]
+  },
+  {
+    "patterns": [
+      "Do Yellowstone visitor centers have assistive listening devices?",
+      "Can I get audio help at Yellowstone exhibits?",
+      "Is there induction loop tech in Yellowstone?"
+    ],
+    "response": "Yes, assistive listening devices are available at Canyon and Old Faithful visitor centers. The Albright Visitor Center also features induction loop technology at its information desk.",
+    "tags": [
+      "accessibility",
+      "hearing support",
+      "visitor services"
+    ]
+  },
+  {
+    "patterns": [
+      "What trails in Yellowstone have audio descriptions?",
+      "Where can I find described self-guided tours in Yellowstone?",
+      "Does Yellowstone support blind visitors?"
+    ],
+    "response": "Yes, self-guided trails like Fort Yellowstone and Forces of the Northern Range have audio descriptions in the NPS app. Audio-described films are also available at visitor centers.",
+    "tags": [
+      "accessibility",
+      "self-guided tours",
+      "audio description"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I get large print maps of Yellowstone?",
+      "Are braille guides available in Yellowstone?",
+      "How can I get accessible park maps?"
+    ],
+    "response": "Large print and braille versions of the official Yellowstone Map & Guide are available at visitor centers or by download. You can also get a Braille Ready Format online.",
+    "tags": [
+      "accessibility",
+      "maps",
+      "braille"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I bring my service dog to Yellowstone?",
+      "What are the rules for service animals in Yellowstone?",
+      "Are therapy animals allowed in Yellowstone?"
+    ],
+    "response": "Only trained service dogs assisting with tasks like mobility or medical alerts are allowed. They must be leashed. Emotional support animals aren't allowed in buildings, boardwalks, or backcountry.",
+    "tags": [
+      "accessibility",
+      "service animals",
+      "park regulations"
+    ]
+  },
+  {
+    "patterns": [
+      "Are Segways allowed in Yellowstone?",
+      "Can I use a mobility scooter in Yellowstone?",
+      "What personal mobility devices are allowed in Yellowstone?"
+    ],
+    "response": "People with disabilities may use Segways or similar devices as mobility aids in most areas of the park, but they are not allowed on park roads or boardwalks.",
+    "tags": [
+      "accessibility",
+      "mobility devices",
+      "trail rules"
+    ]
+  },
+  {
+    "patterns": [
+      "Where do I find accessibility support in Yellowstone?",
+      "Is Yellowstone a good park for people with disabilities?",
+      "What accessibility services are available in Yellowstone?"
+    ],
+    "response": "Yellowstone provides a wide range of accessibility services\u2014captioned films, audio description, braille materials, and more. Check the NPS app or stop by a visitor center for help.",
+    "tags": [
+      "accessibility",
+      "park support",
+      "visitor centers"
+    ]
+  }
+]
