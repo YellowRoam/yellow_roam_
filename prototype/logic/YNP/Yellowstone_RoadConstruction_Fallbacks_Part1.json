@@ -1,0 +1,162 @@
+[
+  {
+    "patterns": [
+      "Is there construction on the Yellowstone River Bridge?",
+      "Will I face delays near Tower Junction?",
+      "What's happening at the Yellowstone River Bridge in 2025?"
+    ],
+    "response": "Yes, expect up to 30-minute delays near Tower Junction throughout 2025 due to replacement of the aging Yellowstone River Bridge. A new bridge is being built just upstream to improve year-round access. Some trails may close temporarily during work. Use caution and watch for signage.",
+    "tags": [
+      "road closures",
+      "infrastructure",
+      "trail access"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "What's chip sealing in Yellowstone?",
+      "Are there roadworks happening throughout the park?",
+      "Will chip seal projects slow traffic this year?"
+    ],
+    "response": "Chip sealing is scheduled at various points around the park in 2025. Expect up to 30-minute delays where crews are working. Drive slowly on chip-sealed roads to avoid loose gravel damage and extend the life of your tires and windshield.",
+    "tags": [
+      "maintenance",
+      "driving safety",
+      "road conditions"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Is the Lewis River Bridge being replaced?",
+      "Will the trail to Lewis River Falls be closed?",
+      "Are there construction delays on South Entrance Road?"
+    ],
+    "response": "Yes, the Lewis River Bridge is undergoing full replacement in 2025. Expect up to 20-minute delays about 10 miles north of the South Entrance. The nearby trail to Lewis River Falls is also closed during construction.",
+    "tags": [
+      "construction",
+      "bridge work",
+      "trail closures"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there delays near Madison Junction?",
+      "What's the construction near the west railing system?",
+      "Is the Madison Junction area impacted by repairs?"
+    ],
+    "response": "Crews are repairing and repainting the west-side railing near Madison Junction starting fall 2025. Expect up to 30-minute delays. Please drive cautiously and plan for extra time.",
+    "tags": [
+      "construction",
+      "driving delays",
+      "seasonal updates"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "What's being worked on at Old Faithful?",
+      "Are the interchange approaches closed?",
+      "Should I expect delays at Old Faithful?"
+    ],
+    "response": "Expect 15-minute delays around the Old Faithful interchange approaches beginning fall 2025. Crews will be installing drainage systems and replacing older structures to improve traffic flow.",
+    "tags": [
+      "old faithful",
+      "construction",
+      "seasonal delays"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Where is the Bridge Bay Bridge construction?",
+      "Will there be delays near Bridge Bay?",
+      "Is the Bridge Bay area being improved?"
+    ],
+    "response": "Yes, the Bridge Bay Bridge is part of the 2025 road improvement schedule. Work will preserve the bridge structure, fix erosion issues, and repave the approach. Expect up to 15-minute delays in that area.",
+    "tags": [
+      "bridge work",
+      "construction",
+      "park access"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s happening on the Grand Loop Road?",
+      "Any closures near Lake Village this year?",
+      "Are crews working south of Lake Village?"
+    ],
+    "response": "Bridge preservation work is planned south of Lake Village along the Grand Loop Road. Delays up to 15 minutes are expected in fall 2025. Be alert for changing traffic conditions.",
+    "tags": [
+      "lake village",
+      "driving",
+      "bridge maintenance"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Where will I hit traffic delays in 2025?",
+      "What construction projects should I know about?",
+      "Are there scheduled traffic impacts this year?"
+    ],
+    "response": "Expect traffic delays at Yellowstone River Bridge, Lewis River Bridge, Old Faithful interchange, and several chip sealing locations. Each may cause up to 30-minute wait times. Always check the roads page before entering the park.",
+    "tags": [
+      "road updates",
+      "construction",
+      "trip planning"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Is roadwork affecting the Yellowstone picnic areas?",
+      "Can I still visit the Yellowstone River Picnic Area?",
+      "Will trailheads near Tower Junction be closed?"
+    ],
+    "response": "Yes, access to the Yellowstone River Picnic Area near Tower Junction may be limited during 2025 as the bridge replacement project progresses. New pullouts and expanded parking are being added.",
+    "tags": [
+      "picnic areas",
+      "access updates",
+      "construction impact"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "How long are delays expected during 2025 roadwork?",
+      "Will I need to wait for construction crews?",
+      "Should I plan for longer drive times?"
+    ],
+    "response": "Most construction zones in Yellowstone are causing delays of 15 to 30 minutes, especially around bridges, Old Faithful, and chip seal areas. Leave extra time and check the live road status map before heading out.",
+    "tags": [
+      "travel time",
+      "construction",
+      "visitor advice"
+    ],
+    "tiers": [
+      "free"
+    ]
+  }
+]

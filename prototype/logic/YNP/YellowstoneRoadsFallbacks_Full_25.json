@@ -1,0 +1,447 @@
+[
+  {
+    "patterns": [
+      "Which roads in Yellowstone are open year-round?",
+      "Which roads in Yellowstone stay open all year?",
+      "Are there any Yellowstone roads open during winter?",
+      "Is there year-round access to Yellowstone National Park?"
+    ],
+    "response": "The only road generally open year-round to regular vehicles is from the North Entrance at Gardiner, Montana, to the Northeast Entrance at Cooke City, Montana. This route is maintained throughout the winter and remains open 24/7, weather permitting.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "When do the park roads close to regular vehicles?",
+      "What time of year do Yellowstone roads close to cars?",
+      "Are Yellowstone roads closed in the winter?",
+      "When does vehicle access shut down in Yellowstone?"
+    ],
+    "response": "Most Yellowstone roads close to regular vehicles in early November and remain closed until late April. During winter, only one main route stays open for non-oversnow vehicles.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "When do oversnow travel routes open in Yellowstone?",
+      "When can I take a snowcoach or snowmobile into Yellowstone?",
+      "What dates are snowmobile roads open in Yellowstone?",
+      "Are there dates for snowcoach travel inside Yellowstone?"
+    ],
+    "response": "Yellowstone opens oversnow routes for snowmobiles and snowcoaches starting December 15. The last routes usually close by mid-March. Travel is only permitted with guides or valid permits.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I get road status updates for Yellowstone?",
+      "Where can I check Yellowstone road conditions?",
+      "Is there a number to call for Yellowstone road updates?",
+      "How can I find out if roads are open in Yellowstone?"
+    ],
+    "response": "You can call (307) 344-2117 for recorded road info, check the NPS live map, or text 82190 to 888-777 for mobile road alerts from Yellowstone. This helps avoid delays due to closures or construction.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "Are park roads gated or can I enter anytime?",
+      "Can I drive into Yellowstone at night?",
+      "Are roads in Yellowstone open 24 hours?",
+      "Do the entrances close at a certain time?"
+    ],
+    "response": "When roads are open, they are not gated. Visitors can enter and exit Yellowstone 24 hours a day, seven days a week. Always check current conditions before traveling.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "Where is road construction happening in Yellowstone?",
+      "Are there road construction zones in the park?",
+      "What Yellowstone roads are under construction?",
+      "Will roadwork cause traffic delays in Yellowstone?"
+    ],
+    "response": "Major construction delays in 2025 may occur at Bridge Bay, the Yellowstone River Bridge, Gibbon River Bridge, and Old Faithful interchange. Expect traffic control and possible delays at these sites.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "Is the Beartooth Highway open year-round?",
+      "When does the Beartooth Highway open for the season?",
+      "Can I drive Beartooth Pass in winter?",
+      "Is the road to Cooke City from Red Lodge open in winter?"
+    ],
+    "response": "The Beartooth Highway typically opens Memorial Day weekend and closes mid-October. In winter, parts of the route are closed to wheeled vehicles due to snow.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there delays getting to the Northeast Entrance?",
+      "Is the road to Cooke City clear in winter?",
+      "Can I drive through Chief Joseph Scenic Byway to the park?",
+      "Any issues getting to Yellowstone through the Northeast?"
+    ],
+    "response": "The road from the North Entrance to the Northeast Entrance is open year-round. However, parts of the Chief Joseph Scenic Byway and roads near Cooke City may close after snowstorms. Check WY DOT before heading out.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I drive from West Entrance to Old Faithful in winter?",
+      "Is the West Entrance to Old Faithful accessible by car in winter?",
+      "Can you take a regular vehicle to Old Faithful in January?",
+      "Do roads from West Yellowstone to Old Faithful stay open?"
+    ],
+    "response": "No. From mid-December to mid-March, that road is only open to guided snowmobiles or snowcoaches. Regular vehicles are not allowed during the oversnow season.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "How long does it take to drive between Yellowstone entrances?",
+      "How far is it between Yellowstone\u2019s gates?",
+      "Can I cross the park in a day?",
+      "What's the driving time between entrances in Yellowstone?"
+    ],
+    "response": "It takes several hours to drive between entrances due to Yellowstone's size, speed limits, and wildlife crossings. Plan accordingly and check road conditions in advance.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there a live road map for Yellowstone?",
+      "Where can I see live traffic in Yellowstone?",
+      "Does the park have a road status map?",
+      "How can I check Yellowstone road conditions in real-time?"
+    ],
+    "response": "Yes. The NPS provides a live road status map online. It shows open and closed roads, weather conditions, and closures due to hazards. Always consult it before your trip.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there cell service on Yellowstone roads?",
+      "Can I get reception while driving in Yellowstone?",
+      "Do phones work on the park roads?",
+      "Is there mobile service between entrances?"
+    ],
+    "response": "Cell service is limited in most of Yellowstone, especially on park roads. Do not rely on navigation apps and download maps ahead of time.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I receive text alerts for Yellowstone travel?",
+      "Can I get text updates about Yellowstone roads?",
+      "How do I subscribe to Yellowstone road alerts?",
+      "Are there SMS notifications for closures?"
+    ],
+    "response": "Text 82190 to 888-777 to receive real-time alerts about Yellowstone road conditions and hazards. It's the best way to stay informed during your visit.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the earliest I can enter the park?",
+      "When does Yellowstone open in the morning?",
+      "Can I enter Yellowstone before sunrise?",
+      "Are there entry hours for the gates?"
+    ],
+    "response": "All open roads in Yellowstone are accessible 24/7. Entrances are not gated, so you can arrive as early or as late as you like, but always be cautious of wildlife at dawn.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I drive an RV or trailer during winter?",
+      "Is winter travel allowed for RVs in Yellowstone?",
+      "Can I bring a trailer through the park in February?",
+      "Are motorhomes allowed on snow-covered roads?"
+    ],
+    "response": "During winter, only commercial snowcoaches and guided snowmobiles are allowed beyond the open North\u2013Northeast route. RVs and trailers are not permitted on oversnow routes.",
+    "tags": [
+      "road conditions",
+      "park access",
+      "trip planning",
+      "seasonal access"
+    ],
+    "tiers": [
+      "free",
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "Is the Beartooth Highway open in the fall?",
+      "Can I drive the Beartooth Highway in October?",
+      "What's the status of the Beartooth Highway in autumn?"
+    ],
+    "response": "The Beartooth Highway typically closes in mid-October due to snow and icy conditions. Always check with Montana DOT or Wyoming DOT before planning your trip in the fall. Closures can happen earlier depending on weather.",
+    "tags": [
+      "road status",
+      "fall travel",
+      "scenic drives"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there road work near Old Faithful?",
+      "Will I face delays around Old Faithful this summer?",
+      "Are the roads open around Old Faithful area?"
+    ],
+    "response": "Road improvements at the Old Faithful Interchange Approaches may cause traffic delays. Expect reduced speed zones, flaggers, and possible single-lane traffic. Plan extra time if you\u2019re visiting this area.",
+    "tags": [
+      "construction",
+      "trip planning",
+      "traffic delays"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "When do the park roads open in spring?",
+      "What's the spring road opening schedule for Yellowstone?",
+      "Can I drive through Yellowstone in April?"
+    ],
+    "response": "Most Yellowstone roads open to regular vehicles in late April and May. Exact dates vary based on snowpack and weather. Always check the road status map or call (307) 344-2117 for the latest info.",
+    "tags": [
+      "road openings",
+      "seasonal travel",
+      "weather"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I sign up for Yellowstone road alerts?",
+      "Is there a way to get road condition updates for Yellowstone?",
+      "Can I get text alerts about Yellowstone roads?"
+    ],
+    "response": "Yes! You can receive road alerts by texting 82190 to 888-777. It\u2019s a free service that provides current road status updates, closures, and safety notices straight to your phone.",
+    "tags": [
+      "alerts",
+      "park safety",
+      "planning"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Are roads open at night in Yellowstone?",
+      "Can I drive through Yellowstone after dark?",
+      "Are Yellowstone entrance gates locked at night?"
+    ],
+    "response": "Yellowstone\u2019s roads are open 24/7 when in season, and entrances are not gated at night. Be cautious\u2014wildlife often crosses the roads after dark and visibility can be poor.",
+    "tags": [
+      "road safety",
+      "night travel",
+      "wildlife"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Are snowcoaches allowed on all park roads in winter?",
+      "Which roads can snowcoaches use in Yellowstone?",
+      "Where can guided snowcoaches go in Yellowstone?"
+    ],
+    "response": "From mid-December to mid-March, snowcoaches operate on designated oversnow routes such as Madison to Canyon, Canyon to Fishing Bridge, and West Yellowstone to Old Faithful. Private vehicles are not allowed on these roads during winter.",
+    "tags": [
+      "winter travel",
+      "guided tours",
+      "snowcoach"
+    ],
+    "tiers": [
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best scenic drives in Yellowstone?",
+      "Can you recommend scenic roads in the park?",
+      "What drives have great views in Yellowstone?"
+    ],
+    "response": "Top scenic drives include the Grand Loop Road, Firehole Lake Drive, and Blacktail Plateau Drive. Don\u2019t miss Lamar Valley for wildlife or the road to Artist Point for views of the canyon.",
+    "tags": [
+      "scenic drives",
+      "wildlife viewing",
+      "trip planning"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the condition of the road from Gardiner to Cooke City?",
+      "Is the road through Mammoth to Cooke City open year-round?",
+      "Can I drive to Cooke City in the winter?"
+    ],
+    "response": "The road from Gardiner through Mammoth to Cooke City is the only Yellowstone road open year-round to regular vehicles. However, sections outside the park near Cooke City may be closed due to snow.",
+    "tags": [
+      "year-round access",
+      "road status",
+      "trip planning"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Are park roads plowed in winter?",
+      "Do snowplows operate in Yellowstone during winter?",
+      "Is road clearing done in winter in the park?"
+    ],
+    "response": "Most park roads are closed to regular vehicles in winter and are not plowed. Oversnow vehicles like snowcoaches use groomed snow routes instead. The exception is the North to Northeast Entrance road.",
+    "tags": [
+      "winter travel",
+      "park access",
+      "oversnow"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "What roads are affected by construction in 2025?",
+      "Are there major road projects in Yellowstone this year?",
+      "Will road work affect my trip in 2025?"
+    ],
+    "response": "Yes\u2014expect delays at Bridge Bay, Gibbon River Bridge, and Lewis River Bridge due to major repair projects. Always check the live road map before heading out to avoid extended delays.",
+    "tags": [
+      "construction",
+      "2025 season",
+      "road delays"
+    ],
+    "tiers": [
+      "free"
+    ]
+  }
+]
