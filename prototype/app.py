@@ -1,19 +1,17 @@
-import os
+ import os
 import json
 import logging
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
 import openai
-client = openai.OpenAI()  # For openai>=1.0
 from .match_local_logic import match_local_logic
 from .smart_match_logic import smart_match_logic
 
 # === Load environment variables ===
 load_dotenv()
-# Load Yellowstone-specific system prompt from file
-with open(os.path.join("fallbacks", "yellowstone_system_prompt.json"), "r", encoding="utf-8") as f:
-    system_prompt = json.load(f)["en"]
+openai.api_key = os.getenv("OPENAI_API_KEY")
+client = openai.OpenAI()
 
 # === Flask App Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
@@ -27,8 +25,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger("YellowRoam")
 
+# === Load System Prompt ===
+logic_base = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(logic_base, "fallbacks", "yellowstone_system_prompt.json"), "r", encoding="utf-8") as f:
+    system_prompt = json.load(f)["en"]
+
 # === Load Logic Files ===
-logic_folder = os.path.join(os.path.dirname(__file__), "logic")
+logic_folder = os.path.join(logic_base, "logic")
 language_logics = {}
 logic_filenames = [f for f in os.listdir(logic_folder) if f.endswith(".json")]
 
@@ -91,15 +94,14 @@ def chat():
     logger.warning("❌ No match found in local or smart logic. Logged for future coverage.")
 
     try:
-        response = client.chat.completions.create(  # ← your GPT-4o call here
+        response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
-                {"role": "system", "content": json.dumps(system_prompt)},
+                {"role": "system", "content": system_prompt["description"] + " " + system_prompt["role"]},
                 {"role": "user", "content": prompt}
             ]
         )
         return jsonify({"response": response.choices[0].message["content"]})
-    
     except Exception as e:
         logger.error(f"🔥 OpenAI fallback failed: {e}")
         fallback_msg = {
