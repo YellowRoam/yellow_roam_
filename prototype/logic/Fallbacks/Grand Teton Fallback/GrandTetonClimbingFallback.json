@@ -1,0 +1,402 @@
+[
+  {
+    "patterns": [
+      "Do I need a permit to climb in Grand Teton?",
+      "Is a permit required for climbing the Grand?",
+      "What kind of permit is needed for overnight climbing?",
+      "Do technical climbs require a special permit?"
+    ],
+    "response": "No permit is required for day climbing or mountaineering in Grand Teton. However, climbers on overnight trips must have a valid backcountry camping permit for camping or bivouacking. Permits for technical climbs and all Garnet Canyon trips must be picked up in person at the Jenny Lake Ranger Station between June and September.",
+    "keywords": [
+      "permit",
+      "camping",
+      "technical climbing",
+      "bivouac"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "permits"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I get climbing information in the park?",
+      "Who should I talk to about climbing routes?",
+      "Is there a ranger station for climbers?",
+      "Can I get route info at Jenny Lake?"
+    ],
+    "response": "The Jenny Lake Ranger Station is the primary hub for climbing information in Grand Teton from June through September. Experienced climbing rangers are available to answer questions about routes, conditions, safety, and permits. It\u2019s strongly recommended that all climbers stop by before heading into the high country.",
+    "keywords": [
+      "ranger",
+      "jenny lake",
+      "route",
+      "info"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "information"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the weather like in the Teton Range?",
+      "How fast can the weather change while climbing?",
+      "Is there a forecast for high elevations?",
+      "Where can I check mountain weather?"
+    ],
+    "response": "Weather in the Tetons is highly unpredictable. Afternoon thunderstorms can bring rain, hail, and lightning with little warning. Always check www.mountainweather.com and the NWS Teton forecast before your trip, and plan to turn around if conditions worsen. Pack extra layers and prepare for snow, even in summer.",
+    "keywords": [
+      "weather",
+      "forecast",
+      "conditions",
+      "mountains"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "weather"
+    ]
+  },
+  {
+    "patterns": [
+      "What safety gear do I need for a Teton climb?",
+      "Do I need an ice axe in summer?",
+      "What equipment should I bring to climb the Grand?",
+      "Is rockfall a concern in the Tetons?"
+    ],
+    "response": "The most common injuries result from snow travel without proper equipment. An ice axe and the ability to self-arrest are essential. Climbers should carry a helmet, warm layers, rain gear, and emergency supplies. Rockfall is frequent\u2014helmets are non-negotiable. Make sure your group is trained and equipped for route conditions.",
+    "keywords": [
+      "gear",
+      "equipment",
+      "ice axe",
+      "helmet"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Is altitude sickness common in Grand Teton?",
+      "How do I avoid getting sick at elevation?",
+      "What\u2019s the elevation of the Grand Teton?",
+      "How do I acclimate before climbing?"
+    ],
+    "response": "Jackson Hole sits at 6,500 feet, and the Grand Teton summit reaches over 13,700 feet. Altitude sickness is a real risk. Spend at least a day at elevation before your climb, drink plenty of water, and listen to your body. If symptoms occur, descend immediately. There is no substitute for acclimatization.",
+    "keywords": [
+      "altitude",
+      "sickness",
+      "elevation",
+      "acclimate"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "altitude"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there any climbing regulations I should know?",
+      "What are the rules for mountaineering in Grand Teton?",
+      "Is there a climbing code of ethics?",
+      "What are the park\u2019s expectations for climbers?"
+    ],
+    "response": "Climbers are expected to follow Leave No Trace ethics. Use existing trails and minimize impact on fragile alpine environments. Motorized drills are prohibited and placing permanent gear is discouraged. Human waste must be buried 200 feet from water, or packed out. You are responsible for knowing and following all park regulations.",
+    "keywords": [
+      "regulations",
+      "ethics",
+      "leave no trace",
+      "rules"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "regulations"
+    ]
+  },
+  {
+    "patterns": [
+      "Is it dangerous to climb in the Tetons?",
+      "What are the risks of climbing the Grand?",
+      "Are there a lot of accidents in Grand Teton?",
+      "How can I stay safe while climbing?"
+    ],
+    "response": "Climbing in the Tetons carries inherent risks including lightning, snowfields, rockfall, and sudden weather. Most incidents involve falls, failure to self-arrest, or poor decision-making. Know your route, carry safety equipment, and be willing to turn back. Smart planning saves lives\u2014respect the mountain.",
+    "keywords": [
+      "risk",
+      "danger",
+      "accidents",
+      "safety"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "safety"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I camp overnight while climbing?",
+      "Do I need a permit to bivouac?",
+      "Where can I stay if I\u2019m doing a multi-day climb?",
+      "Are there backcountry sites for climbers?"
+    ],
+    "response": "Overnight climbing trips require a backcountry permit. Popular areas include Garnet Canyon and Upper Saddle zones. You must camp in designated zones and follow all waste disposal regulations. Pick up permits at Jenny Lake Ranger Station during summer.",
+    "keywords": [
+      "camping",
+      "overnight",
+      "bivouac",
+      "backcountry"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "camping"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I report an avalanche or hazard?",
+      "How do I get avalanche conditions for the Tetons?",
+      "Is avalanche danger a concern in summer?",
+      "Can I call someone to check snow conditions?"
+    ],
+    "response": "Call 307-733-2664 for avalanche hazard information, or 307-733-2759 to report activity. Avalanches can occur well into summer, especially on north-facing slopes. Check with Jenny Lake Rangers and review recent condition reports before heading out.",
+    "keywords": [
+      "avalanche",
+      "hazard",
+      "report",
+      "forecast"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "avalanche_info"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I get a climbing guide for Grand Teton?",
+      "Are there guided trips to the summit?",
+      "Where can I book a climbing guide?",
+      "Is there a concessioner for climbing?"
+    ],
+    "response": "Yes, several concessioners offer guided climbs in Grand Teton, including Exum Mountain Guides and Jackson Hole Mountain Guides. These companies provide technical support, equipment, and training for climbers of all experience levels. Booking in advance is essential, especially during peak season.",
+    "keywords": [
+      "guide",
+      "guided climb",
+      "exum",
+      "booking"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "guided_climbs"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the best time of year to climb the Grand?",
+      "Can I climb in early summer?",
+      "When do snow conditions improve in the Tetons?",
+      "What\u2019s the prime climbing season?"
+    ],
+    "response": "Most high-elevation routes are snow-covered until mid-July. Peak climbing season typically runs from mid-July to early September. Always check current conditions before you go, especially during shoulder seasons when weather and snowpack can vary greatly.",
+    "keywords": [
+      "season",
+      "best time",
+      "snow melt",
+      "timing"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "seasonal_access"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s a good first climb in Grand Teton?",
+      "Are there beginner climbs in the park?",
+      "Where should new climbers start?",
+      "What\u2019s the easiest summit route?"
+    ],
+    "response": "The easiest route up the Grand is the Owen-Spalding Route, but it still involves technical climbing and exposure. Beginner-friendly scrambles like Teewinot or Disappointment Peak offer great views without technical gear. Always consult with rangers before attempting any summit.",
+    "keywords": [
+      "beginner",
+      "easy climb",
+      "teewinot",
+      "owen-spalding"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "beginner_routes"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I learn to climb in Grand Teton?",
+      "Are there climbing schools in the park?",
+      "Can I take lessons before a big climb?",
+      "Do guides offer instruction?"
+    ],
+    "response": "Yes, both Exum Mountain Guides and Jackson Hole Mountain Guides offer instructional courses. Options range from one-day climbing classes to multi-day alpine schools, covering everything from belaying to self-arrest techniques.",
+    "keywords": [
+      "lessons",
+      "training",
+      "instruction",
+      "school"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "climbing_instruction"
+    ]
+  },
+  {
+    "patterns": [
+      "What should I do if someone gets injured climbing?",
+      "How do I get help in the backcountry?",
+      "Is there rescue in Grand Teton?",
+      "Can I call for help if there\u2019s an accident?"
+    ],
+    "response": "Climbing rescues in Grand Teton are coordinated by park rangers, often via helicopter. Carry a satellite messenger or PLB; cell service is unreliable. Plan ahead and know how to self-rescue or assist an injured partner. Call 911 or alert a ranger if possible.",
+    "keywords": [
+      "rescue",
+      "injury",
+      "emergency",
+      "help"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "emergency"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I free solo in Grand Teton?",
+      "Are there rules against solo climbing?",
+      "Is solo climbing allowed in the park?",
+      "What are the risks of climbing alone?"
+    ],
+    "response": "Solo climbing is not prohibited but is highly discouraged. Climbing alone in alpine terrain greatly increases your risk. If you choose to solo, notify someone of your route and timeline. There\u2019s little room for error in the Tetons.",
+    "keywords": [
+      "solo",
+      "free solo",
+      "alone",
+      "self-supported"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "solo_climbing"
+    ]
+  },
+  {
+    "patterns": [
+      "Is rockfall common in the Tetons?",
+      "What causes rockfall here?",
+      "How do I stay safe from rockfall?",
+      "Are helmets required for climbing?"
+    ],
+    "response": "Yes, rockfall is a serious hazard. Climbers should wear helmets at all times and avoid climbing below other parties. Freeze-thaw cycles and storms often trigger slides. Be alert for unstable terrain and listen for falling rock.",
+    "keywords": [
+      "rockfall",
+      "helmet",
+      "hazard",
+      "protection"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "rockfall_safety"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I descend by a different route?",
+      "Are there standard descent routes in the Tetons?",
+      "How do I get down after summiting?",
+      "Is it safe to downclimb the same route?"
+    ],
+    "response": "Many climbs in the Tetons require rappels or alternate descent routes. Familiarize yourself with the descent before climbing. If you\u2019re unsure about anchors or conditions, seek advice at the ranger station.",
+    "keywords": [
+      "descent",
+      "rappel",
+      "downclimb",
+      "route"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "descent_info"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there camping zones for climbers?",
+      "Where can I sleep before summiting?",
+      "Is there a zone for the Upper Saddle?",
+      "How do I reserve a climbing camp?"
+    ],
+    "response": "Yes, camping zones like Garnet Canyon, Moraine, and the Lower Saddle are used by climbers. Permits are required for all overnight stays. Space fills fast in peak season\u2014reserve early on Recreation.gov or in person.",
+    "keywords": [
+      "camping",
+      "climbing zone",
+      "permit",
+      "upper saddle"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "camping_zones"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I get a condition report?",
+      "Is there a climbing conditions hotline?",
+      "Can I check trail and snow reports?",
+      "How do I find the latest beta?"
+    ],
+    "response": "You can check current climbing and trail conditions online or by calling the Jenny Lake Ranger Station at 307-739-3343 (summer). Instagram updates and archived blog posts may also provide useful beta. Always verify reports before your trip.",
+    "keywords": [
+      "conditions",
+      "trail report",
+      "beta",
+      "info"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "conditions"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I carry a drone while climbing?",
+      "Are drones allowed in Grand Teton?",
+      "Can I film my climb with a drone?",
+      "Is aerial photography permitted?"
+    ],
+    "response": "Drones are strictly prohibited in Grand Teton National Park, including for climbing or photography. They disturb wildlife and other visitors and may result in a fine or equipment confiscation. Use only handheld or helmet-mounted cameras.",
+    "keywords": [
+      "drone",
+      "filming",
+      "photography",
+      "rules"
+    ],
+    "tags": [
+      "grand_teton",
+      "climbing",
+      "drone_restrictions"
+    ]
+  }
+]

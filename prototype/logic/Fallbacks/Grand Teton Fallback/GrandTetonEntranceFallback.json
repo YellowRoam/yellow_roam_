@@ -1,0 +1,202 @@
+[
+  {
+    "patterns": [
+      "Do I need a reservation to enter Grand Teton National Park?",
+      "Are entrance reservations required for Grand Teton?",
+      "Can I enter Grand Teton without booking ahead?",
+      "Is it possible to show up at Grand Teton without a reservation?"
+    ],
+    "response": "No reservations are needed to enter Grand Teton National Park. An entrance fee is required, but you can simply arrive and pay at the gate. Keep in mind that summer is busy, so plan for delays at popular spots, construction zones, and wildlife jams.",
+    "keywords": [
+      "grand teton",
+      "reservation",
+      "entrance",
+      "booking"
+    ],
+    "tags": [
+      "grand_teton",
+      "entrance",
+      "no_reservation_required"
+    ]
+  },
+  {
+    "patterns": [
+      "How much is the entrance fee for Grand Teton?",
+      "What does it cost to get into Grand Teton?",
+      "How much do I pay to visit Grand Teton?",
+      "What are the entry fees for Grand Teton National Park?"
+    ],
+    "response": "Entrance fees for Grand Teton National Park are:\n- $35 per private vehicle (valid for 7 days)\n- $30 per motorcycle\n- $20 per person if entering on foot or bicycle\nChildren under 16 are free. Annual and federal passes are also accepted.",
+    "keywords": [
+      "fees",
+      "grand teton",
+      "cost",
+      "entry price"
+    ],
+    "tags": [
+      "grand_teton",
+      "fee_info",
+      "entrance_fees"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I get a Grand Teton entrance pass?",
+      "Can I buy a pass for Grand Teton online?",
+      "How do I purchase an entrance pass for Grand Teton?",
+      "Is there a way to get my park pass before arriving?"
+    ],
+    "response": "You can purchase entrance passes at the park gates, Craig Thomas Discovery Center, or Colter Bay Visitor Center. Federal passes like the America the Beautiful Pass can also be ordered online through the USGS Store, but order early\u2014shipping can take up to 3 weeks.",
+    "keywords": [
+      "buy pass",
+      "grand teton",
+      "purchase",
+      "entrance"
+    ],
+    "tags": [
+      "grand_teton",
+      "entrance_pass",
+      "pass_purchase"
+    ]
+  },
+  {
+    "patterns": [
+      "Is the America the Beautiful Pass valid in Grand Teton?",
+      "Can I use my federal lands pass at Grand Teton?",
+      "Will the America the Beautiful pass cover my entry?",
+      "Does Grand Teton accept national parks passes?"
+    ],
+    "response": "Yes, the America the Beautiful Pass is accepted at Grand Teton and covers the entrance fee for one private vehicle or up to four individuals. Passholders must show a valid photo ID. Options include annual, senior, military, access, and 4th Grade passes.",
+    "keywords": [
+      "america the beautiful",
+      "grand teton",
+      "federal pass",
+      "access"
+    ],
+    "tags": [
+      "grand_teton",
+      "federal_pass",
+      "accepted_passes"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s included in the Grand Teton entrance fee?",
+      "What does the entrance fee cover in Grand Teton?",
+      "Is the pass good for multiple people?",
+      "Does one pass cover everyone in the car?"
+    ],
+    "response": "Yes! A single private vehicle entrance pass covers all passengers in that vehicle for 7 consecutive days. If you're entering on foot or by bike, each person 16 and over will need their own pass. Children under 16 are free.",
+    "keywords": [
+      "pass coverage",
+      "fee",
+      "vehicle",
+      "group entry"
+    ],
+    "tags": [
+      "grand_teton",
+      "entrance_coverage",
+      "fee_policy"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I get into Grand Teton on a bike without paying?",
+      "Is there a fee to enter the park on foot?",
+      "Do I need a pass if I walk into Grand Teton?",
+      "Is there an entrance fee for pedestrians?"
+    ],
+    "response": "Yes, individuals 16 and older entering on foot or by bicycle must have an entrance pass, which costs $20 per person. Children under 16 do not need a pass.",
+    "keywords": [
+      "bike",
+      "walk",
+      "grand teton",
+      "individual entry"
+    ],
+    "tags": [
+      "grand_teton",
+      "individual_entry",
+      "non_motorized"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there a senior discount for Grand Teton?",
+      "Can seniors get a cheaper pass to Grand Teton?",
+      "What are the pass options for seniors?",
+      "Do seniors need to pay full price at Grand Teton?"
+    ],
+    "response": "Seniors age 62+ who are U.S. citizens or permanent residents can get a Senior Annual Pass for $20 or a Lifetime Senior Pass for $80. These passes are valid at all national parks, including Grand Teton. Valid photo ID required.",
+    "keywords": [
+      "senior pass",
+      "discount",
+      "grand teton",
+      "elderly"
+    ],
+    "tags": [
+      "grand_teton",
+      "senior_pass",
+      "discount_eligibility"
+    ]
+  },
+  {
+    "patterns": [
+      "Is the 4th grade pass accepted at Grand Teton?",
+      "Can a 4th grader get in for free?",
+      "Does Grand Teton honor the Every Kid Outdoors pass?",
+      "How do I use the 4th Grade Pass at Grand Teton?"
+    ],
+    "response": "Yes, the Every Kid Outdoors 4th Grade Pass grants free entrance to U.S. 4th graders and their families. Bring your printed pass and a photo ID. Digital copies are not accepted at the gate.",
+    "keywords": [
+      "4th grade pass",
+      "kid outdoors",
+      "grand teton",
+      "child pass"
+    ],
+    "tags": [
+      "grand_teton",
+      "child_access",
+      "free_pass"
+    ]
+  },
+  {
+    "patterns": [
+      "Are entrance fees refundable if I cancel my trip?",
+      "Can I get a refund on my Grand Teton entrance pass?",
+      "What happens if I don\u2019t use my park pass?",
+      "Is the park entry fee refundable?"
+    ],
+    "response": "No, entrance passes for Grand Teton and America the Beautiful passes are non-refundable and non-transferable. Be sure of your plans before purchase, especially for mailed passes.",
+    "keywords": [
+      "refund",
+      "grand teton",
+      "pass policy",
+      "non-refundable"
+    ],
+    "tags": [
+      "grand_teton",
+      "refund_policy",
+      "entrance_fees"
+    ]
+  },
+  {
+    "patterns": [
+      "Can tour buses enter Grand Teton?",
+      "What are the entry fees for commercial groups?",
+      "How much does it cost for a motor coach to enter?",
+      "Do buses need a special pass at Grand Teton?"
+    ],
+    "response": "Yes, commercial vehicles are allowed. Fees are based on size:\n- Sedan (1\u20136 seats): $25\n- Van (7\u201315 seats): $125\n- Mini-bus (16\u201325): $200\n- Motor coach (26+): $300\nAcademic groups may qualify for free entry with documentation.",
+    "keywords": [
+      "bus",
+      "commercial",
+      "tour",
+      "grand teton"
+    ],
+    "tags": [
+      "grand_teton",
+      "commercial_entry",
+      "group_access"
+    ]
+  }
+]

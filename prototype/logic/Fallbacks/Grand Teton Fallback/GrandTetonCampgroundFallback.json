@@ -1,0 +1,401 @@
+[
+  {
+    "patterns": [
+      "Where can I camp in Grand Teton?",
+      "What campgrounds are in the park?",
+      "Are there campsites I can reserve?",
+      "Can I camp inside Grand Teton National Park?"
+    ],
+    "response": "Grand Teton National Park has seven reservable campgrounds, including Gros Ventre, Jenny Lake, Signal Mountain, and Colter Bay. Sites range from tent-only areas to RV spots with hookups. All sites must be reserved in advance via Recreation.gov, and no first-come, first-served camping is allowed.",
+    "keywords": [
+      "campgrounds",
+      "camping",
+      "sites",
+      "reservations"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "campground_list"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I reserve a campsite in Grand Teton?",
+      "Can I book a camping spot online?",
+      "Do I need a reservation to camp?",
+      "Where do I go to make a campground reservation?"
+    ],
+    "response": "All campgrounds in Grand Teton require advance reservations through Recreation.gov. You can reserve up to six months in advance. Be sure to book early, especially for peak summer months when sites fill quickly.",
+    "keywords": [
+      "reservation",
+      "recreation.gov",
+      "book",
+      "reserve"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "campground_reservations"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there RV hookups in the park?",
+      "Which campground has full RV hookups?",
+      "Can I bring my RV to Colter Bay?",
+      "What amenities are available for RVs?"
+    ],
+    "response": "Yes, RV camping is available at Colter Bay RV Park and Headwaters Campground. These sites offer full hookups and are designed for larger vehicles. Other campgrounds like Gros Ventre and Signal Mountain offer limited electric hookups.",
+    "keywords": [
+      "rv",
+      "hookups",
+      "electric",
+      "full service"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "rv_camping"
+    ]
+  },
+  {
+    "patterns": [
+      "Is backcountry camping allowed?",
+      "How do I camp in the wilderness?",
+      "Do I need a permit for backcountry camping?",
+      "Where can I pitch a tent in the backcountry?"
+    ],
+    "response": "Yes, backcountry camping is allowed with a permit. You must reserve a permit for all overnight stays in designated zones, whether near lakes or along the Teton Crest Trail. Permits are available on Recreation.gov or at park permit offices. Be bear aware and pack properly.",
+    "keywords": [
+      "backcountry",
+      "permit",
+      "wilderness",
+      "overnight"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "backcountry_permit"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I camp at Jenny Lake?",
+      "What are the rules at Jenny Lake Campground?",
+      "Is Jenny Lake tent-only?",
+      "How long can I stay at Jenny Lake?"
+    ],
+    "response": "Jenny Lake Campground is tent-only and accepts reservations for up to seven nights. No RVs or trailers are permitted. It's located close to hiking trails and offers quiet camping in a pine forest setting. Amenities include food lockers, potable water, and nearby showers.",
+    "keywords": [
+      "jenny lake",
+      "tent",
+      "length of stay",
+      "campground"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "jenny_lake"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there primitive camping near the park?",
+      "Can I camp in the Rockefeller Parkway?",
+      "Where is Grassy Lake Road?",
+      "Are there free campsites nearby?"
+    ],
+    "response": "Primitive camping is available along Grassy Lake Road in the John D. Rockefeller Jr. Memorial Parkway. There are 14 designated free sites on a first-come, first-served basis with shared toilets and bear boxes, but no potable water. Sites usually open mid-June and are a great option when park campgrounds are full.",
+    "keywords": [
+      "primitive",
+      "rockefeller",
+      "grassy lake",
+      "free camping"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "primitive_camping"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I have a campfire in Grand Teton?",
+      "Are fire rings available at campgrounds?",
+      "What are the fire regulations?",
+      "Is firewood available for purchase?"
+    ],
+    "response": "Campfires are allowed only in designated metal fire grates provided at most front-country campgrounds. Firewood is available for sale seasonally at many camp stores. Always check for fire restrictions before lighting a campfire, and never leave it unattended.",
+    "keywords": [
+      "campfire",
+      "firewood",
+      "grate",
+      "fire rules"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "fire_regulations"
+    ]
+  },
+  {
+    "patterns": [
+      "What amenities do campgrounds offer?",
+      "Are there showers and toilets at campsites?",
+      "Do campgrounds have water and dump stations?",
+      "What services are at Signal Mountain Campground?"
+    ],
+    "response": "Amenities vary by campground. Most offer potable water, flush toilets, food storage lockers, picnic tables, and fire grates. Some campgrounds like Signal Mountain and Colter Bay have showers, laundry, and dump stations. Always check campground details before you arrive.",
+    "keywords": [
+      "amenities",
+      "toilets",
+      "showers",
+      "dump station"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "campground_amenities"
+    ]
+  },
+  {
+    "patterns": [
+      "Is camping allowed anywhere in the park?",
+      "Can I camp along the roadside?",
+      "Are overflow sites available?",
+      "Can I sleep in my car in a parking lot?"
+    ],
+    "response": "Camping is only permitted in designated campgrounds. Sleeping in your car at trailheads or pullouts is prohibited. There are no overflow or roadside camping options in the park. Violating these rules may result in citations.",
+    "keywords": [
+      "illegal camping",
+      "parking lot",
+      "overflow",
+      "roadside"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "camping_rules"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there group sites in the park?",
+      "Where can I book group camping?",
+      "How many people fit in a group site?",
+      "Is Colter Bay good for group camping?"
+    ],
+    "response": "Yes, Colter Bay and Gros Ventre campgrounds both have designated group sites. These must be reserved in advance and are ideal for scout groups, educational trips, or large family gatherings. Group sites include picnic tables and access to shared amenities.",
+    "keywords": [
+      "group site",
+      "colter bay",
+      "gros ventre",
+      "large group"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "group_sites"
+    ]
+  },
+  {
+    "patterns": [
+      "How long can I camp in the park?",
+      "Is there a time limit on camping?",
+      "Can I stay more than 2 weeks?",
+      "What's the max stay at Grand Teton campsites?"
+    ],
+    "response": "Campers may stay up to 14 nights at most campgrounds, except for Jenny Lake, where the limit is 7 nights. You may not exceed 30 camping nights per year across all Grand Teton campgrounds. Park rangers strictly enforce these limits.",
+    "keywords": [
+      "length of stay",
+      "time limit",
+      "camping duration"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "stay_limits"
+    ]
+  },
+  {
+    "patterns": [
+      "Are pets allowed at campsites?",
+      "Can I bring my dog camping?",
+      "What are the pet rules for campgrounds?",
+      "Where can my dog stay overnight?"
+    ],
+    "response": "Pets are allowed in front-country campgrounds but must be leashed at all times and never left unattended. Pets are not allowed on trails or in the backcountry. Always clean up after your pet and store food properly to avoid attracting wildlife.",
+    "keywords": [
+      "pets",
+      "dogs",
+      "rules",
+      "campground"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "pet_regulations"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there a camp store in Grand Teton?",
+      "Where can I buy firewood or ice?",
+      "Do campgrounds have general stores?",
+      "Can I buy supplies near Colter Bay?"
+    ],
+    "response": "Yes, camp stores at Colter Bay, Signal Mountain, and Jenny Lake offer ice, firewood, food, and basic supplies. Colter Bay Village has the most extensive services, including restaurants, laundry, showers, and a marina store.",
+    "keywords": [
+      "camp store",
+      "supplies",
+      "ice",
+      "firewood"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "camp_services"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I stay in a cabin at a campground?",
+      "Does Colter Bay have tent cabins?",
+      "Are there camper cabins available?",
+      "What\u2019s the Tent Village like?"
+    ],
+    "response": "Colter Bay Tent Village offers rustic tent cabins with bunk beds and wood stoves. Headwaters Campground also has camper cabins with beds and nearby access to showers. All must be reserved in advance and do not include linens or cooking supplies.",
+    "keywords": [
+      "cabin",
+      "tent village",
+      "camper cabin",
+      "colter bay"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "tent_cabins"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there walk-in or hike-in sites?",
+      "What are the walk-to sites at Jenny Lake?",
+      "Can I boat-in to any campsites?",
+      "Are hike-in campsites available?"
+    ],
+    "response": "Jenny Lake and Colter Bay offer walk-in and hike-in campsites, some with access via trail or lake. Colter Bay has boat-in sites as well. These sites provide a more secluded experience and require advance reservation.",
+    "keywords": [
+      "walk-in",
+      "hike-in",
+      "boat-in",
+      "remote"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "secluded_sites"
+    ]
+  },
+  {
+    "patterns": [
+      "When do campgrounds open and close?",
+      "Are campgrounds open year-round?",
+      "What's the camping season?",
+      "When should I reserve a site?"
+    ],
+    "response": "Campgrounds in Grand Teton generally open between early May and mid-June, and close by late September or early October. Reservations are required and open six months in advance on Recreation.gov. Jenny Lake is one of the earliest to fill.",
+    "keywords": [
+      "season",
+      "open",
+      "close",
+      "dates"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "seasonal_access"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I dump RV waste?",
+      "Are dump stations available?",
+      "Which campgrounds have dump stations?",
+      "Can I empty my tank at Signal Mountain?"
+    ],
+    "response": "Dump stations are available at Signal Mountain, Colter Bay, Gros Ventre, and Headwaters Campgrounds during the operating season. Please use them responsibly and avoid overflowing or improper disposal. They are for registered campers only.",
+    "keywords": [
+      "dump station",
+      "RV",
+      "waste",
+      "empty tank"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "dump_facilities"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s Gros Ventre Campground like?",
+      "Is Gros Ventre good for RVs?",
+      "Can I see wildlife at Gros Ventre?",
+      "How big is Gros Ventre Campground?"
+    ],
+    "response": "Gros Ventre is the park\u2019s largest campground with 279 sites, including 39 with electric hookups. It's located near the Gros Ventre River and offers great wildlife viewing. RVs up to 45 feet are welcome. Potable water and dump facilities are available on-site.",
+    "keywords": [
+      "gros ventre",
+      "wildlife",
+      "large campground",
+      "electric"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "gros_ventre"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I charge my EV at campgrounds?",
+      "Is there EV charging in the park?",
+      "Where can I charge an electric vehicle?",
+      "Do RV sites have EV chargers?"
+    ],
+    "response": "There are no dedicated EV chargers at campsites. However, nearby areas such as Jackson, Colter Bay Village, and Headwaters Lodge may have EV charging stations. Be sure to plan your charging stops before entering the park.",
+    "keywords": [
+      "ev",
+      "electric vehicle",
+      "charging",
+      "charger"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "ev_access"
+    ]
+  },
+  {
+    "patterns": [
+      "Where are the most scenic campgrounds?",
+      "Which campsites have views of the Tetons?",
+      "Can I see the mountains from my tent?",
+      "Best views from a campground?"
+    ],
+    "response": "For scenic views of the Teton Range, consider Jenny Lake, Signal Mountain, or sites near Colter Bay. Jenny Lake offers iconic alpine scenery, while Signal Mountain provides panoramic lake and mountain vistas. Book early to secure a spot with a view!",
+    "keywords": [
+      "scenic",
+      "views",
+      "tetons",
+      "mountains"
+    ],
+    "tags": [
+      "grand_teton",
+      "camping",
+      "scenic_views"
+    ]
+  }
+]
