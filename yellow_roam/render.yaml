@@ -2,17 +2,11 @@ services:
   - type: web
     name: yellowroam
     env: python
-    region: oregon
     autoDeploy: true
-
+    region: oregon
     build:
       cwd: prototype
-      command: pip install -r requirements.txt
-
     start:
       cwd: prototype
-      command: gunicorn app:app
-
-    envVars:
-      - key: OPENAI_API_KEY
-        sync: false
+    buildCommand: pip install -r requirements.txt   # ← just this!
+    startCommand: gunicorn app:app
