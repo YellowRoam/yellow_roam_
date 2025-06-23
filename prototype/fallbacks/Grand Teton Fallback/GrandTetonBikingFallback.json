@@ -1,0 +1,402 @@
+[
+  {
+    "patterns": [
+      "Can I bike on the Grand Teton Pathway?",
+      "Where does the bike path in Grand Teton go?",
+      "Is the pathway open for e-bikes?",
+      "Are pets allowed on the Grand Teton Pathway?"
+    ],
+    "response": "The Grand Teton Pathway runs from Jackson to Jenny Lake, connecting scenic stops like Antelope Flats and Moose Junction. It\u2019s open seasonally after snowmelt and daily from dawn to dusk. E-bikes with operable pedals and motors under 750 watts are permitted. Pets are not allowed, except for service animals aiding those with disabilities.",
+    "keywords": [
+      "bike path",
+      "grand teton pathway",
+      "e-bikes",
+      "pets"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "pathway_rules"
+    ]
+  },
+  {
+    "patterns": [
+      "Is biking allowed on park roads?",
+      "Can I bike on Teton Park Road?",
+      "Where is road biking allowed in Grand Teton?",
+      "Can I ride my bike on paved roads in the park?"
+    ],
+    "response": "Yes, biking is allowed on all paved roads, including Teton Park Road, as well as gravel roads like Two Ocean Lake and Grassy Lake Roads. Riders must follow the same rules as motor vehicles and ride in single file with traffic.",
+    "keywords": [
+      "road biking",
+      "teton park road",
+      "paved roads",
+      "bike"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "road_rules"
+    ]
+  },
+  {
+    "patterns": [
+      "Are bikes allowed on hiking trails?",
+      "Can I mountain bike in Grand Teton?",
+      "Where can I ride off-road?",
+      "Can I bike into the backcountry?"
+    ],
+    "response": "Biking is not allowed on hiking trails or in the backcountry in Grand Teton. For mountain biking, head to nearby Bridger-Teton National Forest where trail access is permitted.",
+    "keywords": [
+      "mountain biking",
+      "trail access",
+      "backcountry",
+      "bridger-teton"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "trail_restrictions"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there a fee to bike into Grand Teton?",
+      "Do cyclists have to pay to enter the park?",
+      "What\u2019s the entrance fee for biking?",
+      "Is biking free in Grand Teton?"
+    ],
+    "response": "Yes, cyclists must pay the park entrance fee. Individual cyclists entering without a vehicle are charged $20. America the Beautiful passes are also accepted for entry.",
+    "keywords": [
+      "entrance fee",
+      "biking fee",
+      "park access",
+      "cycling cost"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "entrance_fee"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there bike racks in Grand Teton?",
+      "Where can I park my bike?",
+      "Are there bike hubs along the path?",
+      "Do scenic areas have bicycle parking?"
+    ],
+    "response": "Bike racks and hubs are located at Gros Ventre Roundabout, Blacktail Butte, Dornans, Moose, Taggart Lake, and Jenny Lake. These areas provide parking and rest stops along the Grand Teton Pathway.",
+    "keywords": [
+      "bike rack",
+      "parking",
+      "pathway hub",
+      "rest stop"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "bike_parking"
+    ]
+  },
+  {
+    "patterns": [
+      "What should I bring for a safe bike ride?",
+      "What are biking essentials for Grand Teton?",
+      "Do I need a helmet or water?",
+      "What gear is recommended for cycling?"
+    ],
+    "response": "Essentials include a helmet, two liters of water, snacks, a first aid kit, bright layers, and a repair kit. Always wear your helmet and stay visible\u2014weather can change rapidly in the park.",
+    "keywords": [
+      "gear",
+      "helmet",
+      "essentials",
+      "safety tips"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "safety_gear"
+    ]
+  },
+  {
+    "patterns": [
+      "Are pets allowed on bike trails?",
+      "Can I bring my dog on the pathway?",
+      "What are the pet rules for bikers?",
+      "Are animals permitted while biking?"
+    ],
+    "response": "Pets are not permitted on the Grand Teton Pathway or park trails. Only service animals assisting people with disabilities are allowed. Ask a ranger for pet-friendly areas nearby.",
+    "keywords": [
+      "pets",
+      "dogs",
+      "animals",
+      "bike trail rules"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "pet_restrictions"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I ride my e-bike in Grand Teton?",
+      "What are the e-bike rules in the park?",
+      "Are electric bikes allowed on roads?",
+      "Where can I use an electric bike?"
+    ],
+    "response": "E-bikes with operable pedals and electric motors under 750 watts are allowed on all roads and the park pathway. They must follow the same regulations as bicycles, including speed and lighting requirements.",
+    "keywords": [
+      "e-bike",
+      "electric bicycle",
+      "motor assist",
+      "bike rules"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "ebike_regulations"
+    ]
+  },
+  {
+    "patterns": [
+      "Is biking allowed during winter?",
+      "When does the bike path open?",
+      "Can I bike Teton Park Road in April?",
+      "Is the pathway plowed in winter?"
+    ],
+    "response": "The park pathway and roads open to biking in spring after snow melts. Teton Park Road is closed to vehicles and open to bikes between Taggart Lake and Signal Mountain from April 1 to May 1, weather permitting. The pathway along the Elk Refuge is closed from Nov 1 to Apr 30.",
+    "keywords": [
+      "winter biking",
+      "seasonal access",
+      "road closure",
+      "spring opening"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "seasonal_access"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there speed limits for biking?",
+      "Do I need lights on my bike?",
+      "What are the biking regulations after dark?",
+      "Is there a biking speed policy?"
+    ],
+    "response": "Bicyclists must use a white front light and red rear light or reflector between sunset and sunrise. Ride defensively, obey posted speed limits, and be especially cautious at intersections or in low visibility conditions.",
+    "keywords": [
+      "speed limit",
+      "bike lights",
+      "night rules",
+      "biking law"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "bike_regulations"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I ride side-by-side with another cyclist?",
+      "Is riding two abreast allowed in Grand Teton?",
+      "Can I bike next to someone on the road?",
+      "What\u2019s the rule on group biking?"
+    ],
+    "response": "Cyclists must ride single file on park roads. Riding side-by-side is not permitted. This helps maintain safety on roads that often lack shoulders and are shared with wildlife and vehicles.",
+    "keywords": [
+      "single file",
+      "bike group",
+      "ride side by side",
+      "group biking"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "riding_rules"
+    ]
+  },
+  {
+    "patterns": [
+      "What do I do if I see wildlife while biking?",
+      "Is it safe to bike near bison or bears?",
+      "How close can I get to animals while riding?",
+      "Are there wildlife precautions for cyclists?"
+    ],
+    "response": "Maintain at least 25 yards from most wildlife and 100 yards from bears or wolves. Do not stop near animals and never attempt to pass through herds. Yield to wildlife and dismount if necessary.",
+    "keywords": [
+      "wildlife",
+      "bison",
+      "bears",
+      "animal safety"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "wildlife_safety"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I rent a bike near Grand Teton?",
+      "Are there bike rentals in Jackson?",
+      "Where can I get a bike for the park?",
+      "Is gear available for rent locally?"
+    ],
+    "response": "Bike rentals are available throughout Jackson Hole at multiple vendors and bike shops. They also offer helmets, locks, and route maps for your ride into the park.",
+    "keywords": [
+      "bike rental",
+      "jackson",
+      "gear rental",
+      "bike shop"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "bike_rental"
+    ]
+  },
+  {
+    "patterns": [
+      "Can kids ride bikes in the park?",
+      "Is biking safe for families in Grand Teton?",
+      "Are there child-friendly biking options?",
+      "Can children use the park pathway?"
+    ],
+    "response": "Yes, the Grand Teton Pathway is ideal for families. Kids must wear helmets, and parents should supervise closely. Avoid high-traffic road sections and stick to pathway hubs for safer experiences.",
+    "keywords": [
+      "kids",
+      "family biking",
+      "child safety",
+      "park pathway"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "family_friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find a map of biking routes?",
+      "Is there a map for the Grand Teton Pathway?",
+      "Do I need a trail map for biking?",
+      "Where can I view biking hubs?"
+    ],
+    "response": "Maps of the Grand Teton Pathway and other bike-friendly roads are available at visitor centers and online via the Teton County website. These maps show hubs, racks, and seasonal closures.",
+    "keywords": [
+      "bike map",
+      "route",
+      "trail info",
+      "pathway"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "navigation"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there biking tours in Grand Teton?",
+      "Can I join a guided bike ride?",
+      "Are guided cycling trips offered in the park?",
+      "Do you offer bike tours?"
+    ],
+    "response": "Some local outfitters offer guided biking tours in and around Grand Teton National Park. Contact vendors in Jackson or check with a park ranger for authorized tour operators.",
+    "keywords": [
+      "bike tour",
+      "guided ride",
+      "outfitter",
+      "jackson"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "guided_rides"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there water available along bike paths?",
+      "Can I refill my bottle on the trail?",
+      "Are there hydration stations on the pathway?",
+      "Where can I get water while biking?"
+    ],
+    "response": "Water is available at select pathway hubs like Jenny Lake and Moose. Still, always carry at least 2 liters, as refill stations are limited and may not be operational early or late in the season.",
+    "keywords": [
+      "water",
+      "hydration",
+      "refill",
+      "bike path"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "water_access"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the top biking spots in Grand Teton?",
+      "Where are the best places to bike?",
+      "Can you recommend scenic bike routes?",
+      "What\u2019s the most popular bike path?"
+    ],
+    "response": "The Grand Teton Pathway from Moose to Jenny Lake is a visitor favorite, offering incredible mountain views and wildlife sightings. Other scenic rides include Antelope Flats Road and the segment from Dornan\u2019s to Blacktail Butte.",
+    "keywords": [
+      "best ride",
+      "scenic biking",
+      "top routes",
+      "favorites"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "scenic_routes"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I bring my bike on a shuttle?",
+      "Is there transit that accommodates bicycles?",
+      "Are there bike racks on local buses?",
+      "Can I use public transportation with my bike?"
+    ],
+    "response": "Some local transit options in Jackson offer bike racks, but there are no shuttles inside Grand Teton. Plan to ride in or use a vehicle for drop-off and pick-up at park hubs with bike parking.",
+    "keywords": [
+      "shuttle",
+      "bus",
+      "bike rack",
+      "transport"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "bike_transit"
+    ]
+  },
+  {
+    "patterns": [
+      "What happens if I break down on the trail?",
+      "Can I get help for a flat tire?",
+      "Is there emergency bike support?",
+      "Where can I repair a broken bike?"
+    ],
+    "response": "There are no on-trail repair stations in the park. Carry a basic repair kit and know how to fix flats or adjust brakes. For major repairs, return to Jackson for bike shop assistance.",
+    "keywords": [
+      "bike repair",
+      "breakdown",
+      "flat tire",
+      "support"
+    ],
+    "tags": [
+      "grand_teton",
+      "biking",
+      "self_repair"
+    ]
+  }
+]

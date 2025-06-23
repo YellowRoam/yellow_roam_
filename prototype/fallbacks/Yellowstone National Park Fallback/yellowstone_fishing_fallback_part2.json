@@ -1,0 +1,182 @@
+[
+  {
+    "patterns": [
+      "What\u2019s the fish possession rule in the Native Trout Conservation Area?",
+      "How many fish can I keep in native trout zones?",
+      "Do I need to release fish in the native trout area?"
+    ],
+    "response": "All native fish must be released unharmed in the Native Trout Conservation Area. There is no possession limit for nonnative fish like brown, brook, rainbow, and lake trout.",
+    "tags": [
+      "fishing",
+      "native trout",
+      "conservation"
+    ],
+    "keywords": [
+      "possession",
+      "release",
+      "native"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the possession limit in the Nonnative Trout Tolerance Area?",
+      "Can I keep brook trout in the Firehole River?",
+      "How many nonnative fish can I keep?"
+    ],
+    "response": "In the Nonnative Trout Tolerance Area, anglers may keep up to five brook trout. Rainbow and brown trout must be released. Always release whitefish.",
+    "tags": [
+      "fishing",
+      "possession",
+      "regulations"
+    ],
+    "keywords": [
+      "brook trout",
+      "Firehole",
+      "limit"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I clean fish in the park?",
+      "What are the rules for fish cleaning?",
+      "Where do I dispose of fish entrails?"
+    ],
+    "response": "You may clean fish in the field, but dispose of entrails within the waters where the fish were caught\u2014at least 100 feet from docks, ramps, or campsites. Trash cans are also acceptable.",
+    "tags": [
+      "fishing",
+      "cleaning",
+      "entrails"
+    ],
+    "keywords": [
+      "disposal",
+      "entrails",
+      "clean"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I fish from bridges or docks?",
+      "Is fishing allowed from boat docks?",
+      "Where is fishing prohibited?"
+    ],
+    "response": "Fishing is prohibited from road bridges, marinas, and most boat docks. Backcountry boat docks may allow fishing. Accessible fishing platforms are available near Madison Junction and Grant Village.",
+    "tags": [
+      "fishing",
+      "access",
+      "locations"
+    ],
+    "keywords": [
+      "bridges",
+      "docks",
+      "marina"
+    ]
+  },
+  {
+    "patterns": [
+      "What do I do if I catch a tagged fish?",
+      "Who do I report tagged fish to?",
+      "Why are some fish tagged?"
+    ],
+    "response": "If you catch a fish with a Floy tag, record the tag number, note your location, and report it by calling or texting 406-404-4877. Tags help biologists track fish movement and populations.",
+    "tags": [
+      "fishing",
+      "research",
+      "tagged fish"
+    ],
+    "keywords": [
+      "tag",
+      "report",
+      "biologists"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I safely release a fish?",
+      "What\u2019s the proper way to handle fish?",
+      "How do I release a trout without harming it?"
+    ],
+    "response": "Use wet hands, remove hooks quickly, and avoid dragging fish across land. Hold fish in calm water until it swims away on its own. Use barbless hooks and cut the line if deeply hooked.",
+    "tags": [
+      "fishing",
+      "release",
+      "safe handling"
+    ],
+    "keywords": [
+      "handle",
+      "release",
+      "trout"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I use fly fishing on all rivers?",
+      "Which rivers are fly fishing only?",
+      "Are artificial lures allowed in Madison River?"
+    ],
+    "response": "The Madison, Firehole, and lower Gibbon Rivers are fly-fishing only. Use artificial flies regardless of your rod or line. No lures or bait permitted.",
+    "tags": [
+      "fishing",
+      "fly fishing",
+      "restrictions"
+    ],
+    "keywords": [
+      "fly fishing",
+      "Firehole",
+      "Madison"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the rule on chumming?",
+      "Can I use substances to attract fish?",
+      "Is it legal to use attractants?"
+    ],
+    "response": "Chumming and using any substances (liquid or solid) to attract fish is illegal in Yellowstone. This includes scented bait, bread, corn, or organic material.",
+    "tags": [
+      "fishing",
+      "illegal",
+      "bait"
+    ],
+    "keywords": [
+      "chumming",
+      "attractant",
+      "illegal"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the rule about transporting fish in the park?",
+      "Can I move fish between lakes?",
+      "Is it legal to transport live fish?"
+    ],
+    "response": "It is illegal to transport live fish or other aquatic species between water bodies in Yellowstone. Never move fish, animals, or plants from one stream or lake to another.",
+    "tags": [
+      "fishing",
+      "transport",
+      "ecology"
+    ],
+    "keywords": [
+      "transport",
+      "illegal",
+      "invasive"
+    ]
+  },
+  {
+    "patterns": [
+      "What precautions should I take for invasive species?",
+      "How do I clean my gear for Yellowstone?",
+      "What\u2019s the clean, drain, dry rule?"
+    ],
+    "response": "To prevent the spread of aquatic invasive species: CLEAN all gear with hot water, DRAIN compartments away from park waters, and DRY everything for 5 days before fishing elsewhere.",
+    "tags": [
+      "fishing",
+      "invasive species",
+      "cleaning"
+    ],
+    "keywords": [
+      "clean",
+      "drain",
+      "dry"
+    ]
+  }
+]

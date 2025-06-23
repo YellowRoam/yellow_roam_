@@ -1,0 +1,141 @@
+[
+  {
+    "patterns": [
+      "Where is the Canyon Visitor Education Center?",
+      "What can I see at the Canyon Visitor Center?",
+      "Is there a visitor center near Yellowstone Canyon?"
+    ],
+    "response": "The Canyon Visitor Education Center is located in Canyon Village and features exhibits about the Yellowstone Supervolcano, a theater with park films, and real-time information displays. Rangers are on site to help visitors with questions about hiking, geology, and current conditions.",
+    "tags": [
+      "visitor centers",
+      "geology",
+      "trip planning"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I learn about the Yellowstone volcano?",
+      "Is there a supervolcano exhibit in Yellowstone?",
+      "Tell me more about Yellowstone\u2019s volcano displays"
+    ],
+    "response": "You\u2019ll find an excellent exhibit on the Yellowstone Supervolcano at the Canyon Visitor Education Center. It explains the caldera system, eruption history, and ongoing geothermal monitoring.",
+    "tags": [
+      "geology",
+      "visitor centers",
+      "education"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Where do I start the Mount Washburn hike?",
+      "Can I hike Mount Washburn from Canyon Village?",
+      "How do I get to the Mount Washburn trailhead?"
+    ],
+    "response": "Mount Washburn is located just north of Canyon Village. The most popular trailheads are at Dunraven Pass and Chittenden Road. Both routes offer scenic views, wildflowers in summer, and a steady climb to the summit at 10,219 feet.",
+    "tags": [
+      "hiking",
+      "trail safety",
+      "scenic spots"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s at the top of Mount Washburn?",
+      "Is there a lookout on Mount Washburn?",
+      "What can I see from the summit of Mount Washburn?"
+    ],
+    "response": "At the top of Mount Washburn, you'll find interpretive exhibits inside a staffed fire lookout. On clear days, hikers enjoy panoramic views reaching 20\u201350 miles. You can also spot wildlife like bighorn sheep along the way.",
+    "tags": [
+      "scenic spots",
+      "wildlife viewing",
+      "hiking"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I see Mount Washburn from a webcam?",
+      "Is there a webcam on Mount Washburn?",
+      "How do I check Mount Washburn views online?"
+    ],
+    "response": "Yes, Yellowstone offers webcam views from Mount Washburn. You can check the current weather and visibility by visiting the park\u2019s official webcam page.",
+    "tags": [
+      "weather",
+      "scenic spots",
+      "trip planning"
+    ]
+  },
+  {
+    "patterns": [
+      "Who was Mount Washburn named after?",
+      "Why is it called Mount Washburn?",
+      "What\u2019s the history of Mount Washburn\u2019s name?"
+    ],
+    "response": "Mount Washburn is named for General Henry Washburn, leader of the 1870 Washburn-Langford-Doane Expedition. His group helped map and explore the Yellowstone region, laying groundwork for it to become a national park.",
+    "tags": [
+      "history",
+      "geology",
+      "scenic spots"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there parking at Mount Washburn trailhead?",
+      "Can I park at the Mount Washburn trail?",
+      "Where do I leave my car for Mount Washburn hike?"
+    ],
+    "response": "Yes, parking is available at both Dunraven Pass and Chittenden Road trailheads. Arrive early during summer months, as these lots fill quickly, especially in the morning.",
+    "tags": [
+      "trip planning",
+      "trail safety",
+      "parking"
+    ]
+  },
+  {
+    "patterns": [
+      "How difficult is the Mount Washburn hike?",
+      "Is the Mount Washburn hike suitable for families?",
+      "What should I know before hiking Mount Washburn?"
+    ],
+    "response": "Mount Washburn is a moderate hike but can be strenuous due to elevation gain. The Chittenden Road route is slightly easier and more family-friendly. Bring water, wear layers, and be prepared for rapidly changing weather.",
+    "tags": [
+      "trail safety",
+      "hiking",
+      "kid-friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I see wildlife on Mount Washburn?",
+      "What animals are on Mount Washburn?",
+      "Is Mount Washburn good for wildlife viewing?"
+    ],
+    "response": "Mount Washburn is a great spot for seeing bighorn sheep, marmots, and raptors. Keep your distance, use binoculars, and be bear-aware\u2014especially near tree line in the early morning or late evening.",
+    "tags": [
+      "wildlife viewing",
+      "trail safety",
+      "hiking"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Mount Washburn a volcano?",
+      "How did Mount Washburn form?",
+      "What\u2019s the geology of Mount Washburn?"
+    ],
+    "response": "Mount Washburn is the remnant of an ancient volcano from the Absaroka Volcanics. It was partially destroyed in the Yellowstone Caldera eruption 631,000 years ago. Today, it's one of the park\u2019s most scenic geological landmarks.",
+    "tags": [
+      "geology",
+      "scenic spots",
+      "history"
+    ]
+  }
+]
