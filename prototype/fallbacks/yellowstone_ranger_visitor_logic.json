@@ -1,0 +1,92 @@
+[
+  {
+    "intent": "yellowstone_ranger_programs_kids",
+    "patterns": [
+      "Are there ranger programs for kids?",
+      "What can kids do with rangers in Yellowstone?",
+      "Is there a Junior Ranger program?"
+    ],
+    "response": "Yes! Yellowstone offers a fantastic Junior Ranger program for kids ages 4+. Kids complete activity booklets and attend a ranger talk to earn a badge. Free booklets are available at all visitor centers. Especially fun at Canyon, Old Faithful, and Mammoth."
+  },
+  {
+    "intent": "yellowstone_family_ranger_programs",
+    "patterns": [
+      "What ranger programs are good for families?",
+      "Any family-friendly educational talks?",
+      "Can families do ranger hikes together?"
+    ],
+    "response": "Yes \u2014 family-oriented ranger talks and short walks are offered daily at major locations like Canyon, Mammoth, Grant, and Old Faithful. Topics include wildlife safety, geyser science, and Yellowstone history. Most are free and under an hour. Check schedules posted at each center."
+  },
+  {
+    "intent": "yellowstone_visitor_centers_snacks",
+    "patterns": [
+      "Can I buy food at visitor centers?",
+      "Are there snacks at Yellowstone visitor centers?",
+      "Do any centers sell sandwiches?"
+    ],
+    "response": "Some Yellowstone visitor centers have adjacent general stores that sell snacks, sandwiches, and drinks. Old Faithful, Canyon, and Grant Village are best for food options. Mammoth also has limited snack sales. Bring water and refillable bottles."
+  },
+  {
+    "intent": "yellowstone_visitor_centers_refill",
+    "patterns": [
+      "Can I refill my water bottle in Yellowstone?",
+      "Do centers have water fountains?",
+      "Where are the refill stations?"
+    ],
+    "response": "Water refill stations and drinking fountains are located at major visitor centers: Old Faithful, Grant, Mammoth, Canyon, and Fishing Bridge. Bring a reusable bottle. Note: some refill stations are closed in shoulder seasons \u2014 check signs or ask a ranger."
+  },
+  {
+    "intent": "yellowstone_souvenirs",
+    "patterns": [
+      "Where can I buy souvenirs in Yellowstone?",
+      "Best gift shops in the park?",
+      "Do visitor centers have souvenirs?"
+    ],
+    "response": "Most visitor centers have souvenir shops with books, stickers, pins, plush wildlife, and apparel. Canyon, Old Faithful, and Fishing Bridge have the widest selection. Some also offer educational materials for kids. All shops are family-friendly."
+  },
+  {
+    "intent": "yellowstone_old_faithful_center",
+    "patterns": [
+      "What\u2019s at Old Faithful Visitor Center?",
+      "Can I see geysers with a ranger?",
+      "Is there a geyser schedule?"
+    ],
+    "response": "The Old Faithful Visitor Education Center features interactive geyser exhibits and a geyser eruption prediction board. Rangers give regular geyser talks. It has refill stations, bathrooms, exhibits, and gift shop. Family- and ADA-friendly. Apple Maps: https://maps.apple.com/?q=Old+Faithful+Visitor+Center"
+  },
+  {
+    "intent": "yellowstone_canyon_center",
+    "patterns": [
+      "What\u2019s at Canyon Visitor Center?",
+      "Can I learn about Yellowstone geology?",
+      "Is there a ranger station at Canyon?"
+    ],
+    "response": "Canyon Visitor Education Center showcases Yellowstone\u2019s supervolcano history. Great family stop with exhibits and restrooms. Water refill station available. Nearby grill and store offer snacks and sandwiches. Apple Maps: https://maps.apple.com/?q=Canyon+Visitor+Center+Yellowstone"
+  },
+  {
+    "intent": "yellowstone_grant_center",
+    "patterns": [
+      "What\u2019s at Grant Village Visitor Center?",
+      "Is Grant Village good for kids?",
+      "Any ranger talks at Grant?"
+    ],
+    "response": "Grant Village Visitor Center focuses on fire ecology and the 1988 fires. Small but engaging for kids. Nearby snack shop, bathrooms, water refill. Evening ranger talks often take place at the nearby amphitheater. Apple Maps: https://maps.apple.com/?q=Grant+Village+Visitor+Center"
+  },
+  {
+    "intent": "yellowstone_mammoth_center",
+    "patterns": [
+      "Is Mammoth Visitor Center worth visiting?",
+      "What can I learn at Mammoth?",
+      "Do they have wildlife exhibits?"
+    ],
+    "response": "Mammoth Hot Springs Visitor Center has a great collection of exhibits on park history, conservation, and wildlife. Family- and pet-friendly outside, but no food sales inside. Water refill station and ranger desk available. Elk often seen in the area. Apple Maps: https://maps.apple.com/?q=Mammoth+Hot+Springs+Visitor+Center"
+  },
+  {
+    "intent": "yellowstone_fishing_bridge_center",
+    "patterns": [
+      "What\u2019s at Fishing Bridge Visitor Center?",
+      "Can I learn about Yellowstone Lake here?",
+      "Is this stop good for families?"
+    ],
+    "response": "Fishing Bridge Visitor Center offers exhibits on lake ecology and aquatic life. Older-style displays but still fun for families. Refill station, souvenir shop, and ranger info desk available. Good stop before heading toward Lake Village. Apple Maps: https://maps.apple.com/?q=Fishing+Bridge+Visitor+Center"
+  }
+]

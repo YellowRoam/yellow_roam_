@@ -1,0 +1,194 @@
+{
+  "overview": {
+    "winter_access": "Yellowstone National Park is primarily accessible via snowmobile and snow coach from mid-December through mid-March. Roads close to cars in late fall and reopen to wheeled traffic in spring. Winter access to interior areas like Old Faithful and Canyon is only possible via guided tours from gateway towns.",
+    "entry_points": [
+      "West Yellowstone, MT",
+      "Gardiner, MT (limited access to Mammoth)",
+      "Cody, WY (via East Entrance with guide)",
+      "Jackson, WY (via South Entrance with guide)"
+    ],
+    "vehicle_types": [
+      "Guided Snowmobiles (must be rented outside park)",
+      "Snow Coaches (heated, high-clearance vehicles with treads)"
+    ],
+    "permits": "Snowmobile tours inside the park must be commercially guided unless part of the very limited non-commercial lottery system (OSV program)."
+  },
+  "top_10_snowmobile_and_snowcoach_outfitters": [
+    {
+      "name": "Yellowstone Vacations",
+      "services": [
+        "Snowcoach tours",
+        "Snowmobile rentals and guided tours"
+      ],
+      "location": "West Yellowstone, MT",
+      "apple_maps": "https://maps.apple.com/?q=Yellowstone+Vacations+West+Yellowstone",
+      "yelp": "https://www.yelp.com/biz/yellowstone-vacations-west-yellowstone",
+      "why_top_choice": [
+        "Offers both snowcoach and snowmobile options with multiple daily departures.",
+        "Operates year-round with deep knowledge of park logistics.",
+        "Consistently rated highly for reliability and customer service."
+      ]
+    },
+    {
+      "name": "Backcountry Adventures",
+      "services": [
+        "Snowmobile rentals",
+        "Guided snowmobile tours"
+      ],
+      "location": "West Yellowstone, MT",
+      "apple_maps": "https://maps.apple.com/?q=Backcountry+Adventures+West+Yellowstone",
+      "yelp": "https://www.yelp.com/biz/backcountry-adventures-west-yellowstone",
+      "why_top_choice": [
+        "Focuses exclusively on snowmobile rentals and guided access into the park.",
+        "Well-maintained gear and local knowledge of trails.",
+        "Flexible tour options and excellent customer support."
+      ]
+    },
+    {
+      "name": "See Yellowstone",
+      "services": [
+        "Snowcoach tours to Old Faithful",
+        "Custom winter trips"
+      ],
+      "location": "West Yellowstone, MT",
+      "apple_maps": "https://maps.apple.com/?q=See+Yellowstone+Tours",
+      "yelp": "https://www.yelp.com/biz/see-yellowstone-tours-west-yellowstone",
+      "why_top_choice": [
+        "Specializes in scenic and wildlife-focused snowcoach tours.",
+        "Comfortable, heated vehicles ideal for families and photographers.",
+        "Operates with NPS-approved permits and licensed guides."
+      ]
+    },
+    {
+      "name": "Two Top Snowmobile Rental",
+      "services": [
+        "Guided snowmobile trips to Old Faithful and Canyon"
+      ],
+      "location": "West Yellowstone, MT",
+      "apple_maps": "https://maps.apple.com/?q=Two+Top+Snowmobile+Rental",
+      "yelp": "https://www.yelp.com/biz/two-top-snowmobile-rental-west-yellowstone",
+      "why_top_choice": [
+        "Oldest and most recognized snowmobile outfitter in West Yellowstone.",
+        "Daily tours to both Canyon and Old Faithful.",
+        "Strong safety record and experienced guides."
+      ]
+    },
+    {
+      "name": "Yellowstone Arctic-Yamaha",
+      "services": [
+        "Snowmobile rentals",
+        "Trail and backcountry access"
+      ],
+      "location": "West Yellowstone, MT",
+      "apple_maps": "https://maps.apple.com/?q=Yellowstone+Arctic-Yamaha",
+      "yelp": "https://www.yelp.com/biz/yellowstone-arctic-yamaha-west-yellowstone",
+      "why_top_choice": [
+        "Top-tier snowmobile models from Yamaha fleet.",
+        "Great for experienced riders and unguided trail riding outside park boundaries.",
+        "Trusted by locals for quality gear."
+      ]
+    },
+    {
+      "name": "Togwotee Adventures",
+      "services": [
+        "Snowmobile tours from Jackson into Yellowstone"
+      ],
+      "location": "Moran Junction / Jackson, WY",
+      "apple_maps": "https://maps.apple.com/?q=Togwotee+Adventures+WY",
+      "yelp": "https://www.yelp.com/biz/togwotee-adventures-moran",
+      "why_top_choice": [
+        "Access to both Yellowstone and the vast Togwotee Pass backcountry.",
+        "Lodging packages with snowmobile tours available.",
+        "Experienced wilderness guides and diverse terrain."
+      ]
+    },
+    {
+      "name": "Scenic Safaris",
+      "services": [
+        "Snowcoach and snowmobile tours from Jackson"
+      ],
+      "location": "Jackson, WY",
+      "apple_maps": "https://maps.apple.com/?q=Scenic+Safaris+Jackson+WY",
+      "yelp": "https://www.yelp.com/biz/scenic-safaris-jackson",
+      "why_top_choice": [
+        "Offers both snowcoach and snowmobile trips from Jackson.",
+        "Highly scenic routes including Teton views and wildlife zones.",
+        "Professional naturalist guides on staff."
+      ]
+    },
+    {
+      "name": "Gary Fales Outfitting",
+      "services": [
+        "Snowmobile tours from Cody via East Entrance"
+      ],
+      "location": "Cody, WY",
+      "apple_maps": "https://maps.apple.com/?q=Gary+Fales+Outfitting+Cody+WY",
+      "yelp": "https://www.yelp.com/biz/gary-fales-outfitting-cody",
+      "why_top_choice": [
+        "One of the only outfitters operating through the East Entrance.",
+        "Scenic snowmobile access to Yellowstone Lake.",
+        "Family-owned business with decades of park guiding experience."
+      ]
+    },
+    {
+      "name": "Yellowstone Expeditions",
+      "services": [
+        "Snowcoach yurt trips to Canyon area"
+      ],
+      "location": "West Yellowstone staging area",
+      "apple_maps": "https://maps.apple.com/?q=Yellowstone+Expeditions+MT",
+      "yelp": "https://www.yelp.com/biz/yellowstone-expeditions-west-yellowstone",
+      "why_top_choice": [
+        "Unique overnight yurt-based snowcoach trips into Canyon area.",
+        "Focus on quiet, immersive wilderness experiences.",
+        "Perfect for photography and multi-day tours."
+      ]
+    },
+    {
+      "name": "Jackson Hole Snowmobile Tours",
+      "services": [
+        "Yellowstone South Entrance tours",
+        "Backcountry trips"
+      ],
+      "location": "Jackson, WY",
+      "apple_maps": "https://maps.apple.com/?q=Jackson+Hole+Snowmobile+Tours",
+      "yelp": "https://www.yelp.com/biz/jackson-hole-snowmobile-tours-jackson",
+      "why_top_choice": [
+        "Well-known outfitter with access to both GTNP and Yellowstone.",
+        "Excellent beginner and family-friendly options.",
+        "Modern sleds and strong safety orientation."
+      ]
+    }
+  ],
+  "best_winter_travel_routes": {
+    "Old Faithful": "Accessible via snowmobile and snowcoach from West Yellowstone and South Entrance.",
+    "Canyon Village": "Reachable via guided tours from West Yellowstone and special overnight snowcoach trips.",
+    "Mammoth": "Accessible by car year-round from Gardiner; only interior village open to vehicles in winter.",
+    "Lamar Valley": "Accessible by car year-round via Gardiner and Cooke City through the Northeast Entrance Road (plowed in winter)."
+  },
+  "osv_permit_lottery": {
+    "program": "Non-commercially Guided Snowmobile Access Program (OSV)",
+    "details": [
+      "Allows a limited number of private parties to enter the park on snowmobiles without a commercial guide.",
+      "Lottery opens in August each year through recreation.gov.",
+      "Winners receive one permit per day per group, valid for up to 5 snowmobiles.",
+      "Participants must complete an online safety certification course.",
+      "Permits are only valid from mid-December to mid-March and require strict adherence to park rules."
+    ],
+    "link": "https://www.recreation.gov/permits/250849"
+  },
+  "winter_packing_checklist": [
+    "DOT-approved snowmobile helmet (usually provided by outfitter)",
+    "Goggles or face shield",
+    "Insulated snowmobile suit or ski jacket/pants",
+    "Thermal base layers (top and bottom)",
+    "Wool socks and waterproof boots",
+    "Neck gaiter or balaclava",
+    "Glove liners + insulated gloves or mittens",
+    "Hand and toe warmers",
+    "Water bottle or insulated thermos",
+    "Sunscreen and lip balm (winter sun is intense)",
+    "Camera with extra batteries (cold drains battery life)",
+    "Park entrance pass or confirmation (provided by outfitter if guided)"
+  ]
+}

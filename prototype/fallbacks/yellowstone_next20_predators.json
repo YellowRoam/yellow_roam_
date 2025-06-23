@@ -1,0 +1,313 @@
+[
+  {
+    "species": "Least Weasel",
+    "scientific_name": "Mustela nivalis",
+    "best_viewing_locations": [
+      "Meadows near Pelican Valley",
+      "Blacktail Plateau"
+    ],
+    "best_viewing_times": "Early morning and dusk in summer and fall",
+    "safety_tips": [
+      "Do not attempt to touch or feed.",
+      "Stay low and quiet\u2014these animals are skittish.",
+      "Watch from 25+ yards with binoculars.",
+      "Never interfere with den sites.",
+      "They may bite when threatened\u2014respect their space."
+    ]
+  },
+  {
+    "species": "Northern Pygmy Owl",
+    "scientific_name": "Glaucidium gnoma",
+    "best_viewing_locations": [
+      "Conifer forests near Canyon and Tower"
+    ],
+    "best_viewing_times": "Morning and early evening",
+    "safety_tips": [
+      "Do not disturb if seen perched or hunting.",
+      "Use long lenses to avoid encroaching.",
+      "Avoid playback of owl calls.",
+      "Pygmy owls are protected\u2014do not harass.",
+      "Never reveal nest locations online or in public groups."
+    ]
+  },
+  {
+    "species": "Merlin",
+    "scientific_name": "Falco columbarius",
+    "best_viewing_locations": [
+      "Lamar Valley",
+      "Yellowstone River canyon rims"
+    ],
+    "best_viewing_times": "Early spring and late summer",
+    "safety_tips": [
+      "Keep distance from hunting or nesting zones.",
+      "Do not shout or approach birds mid-hunt.",
+      "Observe silently with binoculars or scope.",
+      "Never follow birds to their nest site.",
+      "Report nesting pairs if found."
+    ]
+  },
+  {
+    "species": "Short-eared Owl",
+    "scientific_name": "Asio flammeus",
+    "best_viewing_locations": [
+      "Hayden Valley",
+      "Lamar meadows"
+    ],
+    "best_viewing_times": "Evening and dusk flights during spring and fall",
+    "safety_tips": [
+      "Remain in vehicles or roadside pullouts.",
+      "Avoid flash photography.",
+      "Don\u2019t walk through nesting grounds.",
+      "Give owls ample room to fly and hunt.",
+      "Use field guides or scopes rather than getting closer."
+    ]
+  },
+  {
+    "species": "American Mink",
+    "scientific_name": "Neogale vison",
+    "best_viewing_locations": [
+      "Madison River",
+      "Gibbon River",
+      "LeHardy Rapids"
+    ],
+    "best_viewing_times": "Early morning or evening year-round",
+    "safety_tips": [
+      "Mink are quick and elusive\u2014observe quietly.",
+      "Do not follow into brush or dens.",
+      "Never feed or corner a mink.",
+      "Watch near riverbanks where they fish.",
+      "Report frequent sightings to rangers."
+    ]
+  },
+  {
+    "species": "Great Black-backed Gull",
+    "scientific_name": "Larus marinus",
+    "best_viewing_locations": [
+      "Yellowstone Lake (rare but increasing)"
+    ],
+    "best_viewing_times": "Late summer and fall",
+    "safety_tips": [
+      "View with scopes or zoom from shorelines.",
+      "Never feed gulls or toss food scraps.",
+      "Avoid nesting areas if found.",
+      "These large gulls can be aggressive\u2014observe from afar.",
+      "Report banded gulls to researchers."
+    ]
+  },
+  {
+    "species": "Sharp-shinned Hawk",
+    "scientific_name": "Accipiter striatus",
+    "best_viewing_locations": [
+      "Forested canyons",
+      "Gibbon Meadows"
+    ],
+    "best_viewing_times": "During fall migration and early spring",
+    "safety_tips": [
+      "Avoid flushing hawks from perches.",
+      "Do not use owl calls to bait hawks.",
+      "Keep a distance of at least 50 yards.",
+      "Watch for fast dives during hunting.",
+      "Avoid blocking open meadows they use for swoops."
+    ]
+  },
+  {
+    "species": "Loggerhead Shrike",
+    "scientific_name": "Lanius ludovicianus",
+    "best_viewing_locations": [
+      "Open sagebrush areas like Blacktail Plateau"
+    ],
+    "best_viewing_times": "Spring and summer (breeding season)",
+    "safety_tips": [
+      "Never disturb thorny shrubs where they hunt.",
+      "Do not tamper with impaled prey markers.",
+      "Observe from a vehicle or fixed spot.",
+      "Don\u2019t use calls or recordings to attract.",
+      "Respect nesting areas\u2014these birds are declining in some regions."
+    ]
+  },
+  {
+    "species": "Northern Saw-whet Owl",
+    "scientific_name": "Aegolius acadicus",
+    "best_viewing_locations": [
+      "Dense forests near Canyon",
+      "Mount Washburn lower slopes"
+    ],
+    "best_viewing_times": "Nighttime or dusk in spring",
+    "safety_tips": [
+      "Avoid shining lights directly at owls.",
+      "Don\u2019t crowd the bird if found roosting.",
+      "Refrain from loud noise or playback.",
+      "Stay at least 25\u201350 yards away.",
+      "Keep all activity brief to minimize stress."
+    ]
+  },
+  {
+    "species": "Ferruginous Hawk",
+    "scientific_name": "Buteo regalis",
+    "best_viewing_locations": [
+      "Gardiner Basin",
+      "North entrance plains"
+    ],
+    "best_viewing_times": "Late spring and early summer",
+    "safety_tips": [
+      "Use scopes\u2014do not approach nesting cliffs.",
+      "Stay out of meadows used for hunting ground squirrels.",
+      "Avoid blocking their soaring range.",
+      "No drones or air noise allowed near cliffs.",
+      "Report sightings to bird survey projects."
+    ]
+  },
+  {
+    "species": "Western Screech Owl",
+    "scientific_name": "Megascops kennicottii",
+    "best_viewing_locations": [
+      "Riparian cottonwood forests near Mammoth"
+    ],
+    "best_viewing_times": "Nighttime listening walks in spring and summer",
+    "safety_tips": [
+      "Never use flashlight beams directly.",
+      "Avoid nesting tree disturbance.",
+      "Listen rather than seek.",
+      "Do not make loud owl calls or recordings.",
+      "Respect quiet zones near riparian zones."
+    ]
+  },
+  {
+    "species": "Northern Harrier (juvenile)",
+    "scientific_name": "Circus hudsonius",
+    "best_viewing_locations": [
+      "Hayden Valley",
+      "Blacktail Plateau"
+    ],
+    "best_viewing_times": "Fall hunting and post-fledging period",
+    "safety_tips": [
+      "Give space while young birds learn to fly.",
+      "Avoid flushes near nesting zones.",
+      "Watch from the edge of meadows.",
+      "Do not set up blinds too close.",
+      "Report fledgling activity if observed."
+    ]
+  },
+  {
+    "species": "Prairie Falcon",
+    "scientific_name": "Falco mexicanus",
+    "best_viewing_locations": [
+      "Gardiner Canyon cliffs",
+      "Northern plains"
+    ],
+    "best_viewing_times": "Spring and early summer",
+    "safety_tips": [
+      "Do not enter nesting cliffs.",
+      "Watch high-speed chases from distance.",
+      "Avoid loud noises in nesting zones.",
+      "Never attempt to bait or mimic calls.",
+      "Photograph with long zoom only."
+    ]
+  },
+  {
+    "species": "Long-eared Owl",
+    "scientific_name": "Asio otus",
+    "best_viewing_locations": [
+      "Thick groves near Lamar Valley",
+      "Gibbon Meadows"
+    ],
+    "best_viewing_times": "Evening and nighttime during spring",
+    "safety_tips": [
+      "Never crowd or light up roosting owls.",
+      "Use red light filters or night scopes.",
+      "Avoid disturbing dense thickets.",
+      "Keep observation short and respectful.",
+      "Do not make distress calls."
+    ]
+  },
+  {
+    "species": "Red-naped Sapsucker",
+    "scientific_name": "Sphyrapicus nuchalis",
+    "best_viewing_locations": [
+      "Aspen groves near Mammoth and Slough Creek"
+    ],
+    "best_viewing_times": "Late spring and early summer",
+    "safety_tips": [
+      "Do not approach active nesting holes.",
+      "Avoid knocking trees or making tapping noises.",
+      "Respect marked research areas.",
+      "Observe from trails\u2014don\u2019t enter sensitive groves.",
+      "Use quiet observation methods."
+    ]
+  },
+  {
+    "species": "Eastern Kingbird",
+    "scientific_name": "Tyrannus tyrannus",
+    "best_viewing_locations": [
+      "Open meadows along the Firehole River"
+    ],
+    "best_viewing_times": "Late spring and summer (nesting season)",
+    "safety_tips": [
+      "Avoid fence lines and low shrubs where they nest.",
+      "Keep at least 25 yards away from active nests.",
+      "Do not use call playback.",
+      "Avoid hovering or approaching fledglings.",
+      "Give room for hunting flycatching behavior."
+    ]
+  },
+  {
+    "species": "Brown Creeper",
+    "scientific_name": "Certhia americana",
+    "best_viewing_locations": [
+      "Old-growth conifer stands near Canyon and Washburn"
+    ],
+    "best_viewing_times": "Morning hours, year-round",
+    "safety_tips": [
+      "Watch tree bark movement from a distance.",
+      "Avoid peeling or disturbing bark.",
+      "Do not block vertical tree movement routes.",
+      "Refrain from loud conversations.",
+      "Stay on trail and be patient\u2014creepers are tiny."
+    ]
+  },
+  {
+    "species": "Cooper\u2019s Hawk",
+    "scientific_name": "Accipiter cooperii",
+    "best_viewing_locations": [
+      "Riparian zones, wooded canyons"
+    ],
+    "best_viewing_times": "Mid-spring to late summer",
+    "safety_tips": [
+      "Keep clear of nesting groves.",
+      "Watch silently from forest edges.",
+      "Avoid dogs or children too close to active nests.",
+      "Report if harassed or dive-bombed near nests.",
+      "Don\u2019t follow birds through dense forest."
+    ]
+  },
+  {
+    "species": "Black-billed Magpie",
+    "scientific_name": "Pica hudsonia",
+    "best_viewing_locations": [
+      "Every area of Yellowstone below 8,000 feet"
+    ],
+    "best_viewing_times": "All seasons, most active in mornings",
+    "safety_tips": [
+      "Never feed or toss food scraps.",
+      "Respect nesting colonies and keep distance.",
+      "Avoid interrupting vocalization patterns.",
+      "Use binoculars or camera zoom.",
+      "Educate others not to chase or bait magpies."
+    ]
+  },
+  {
+    "species": "Northern Flicker",
+    "scientific_name": "Colaptes auratus",
+    "best_viewing_locations": [
+      "Forest edges near Mammoth, Canyon, and Tower"
+    ],
+    "best_viewing_times": "Early morning in spring and summer",
+    "safety_tips": [
+      "Listen for their drumming to locate.",
+      "Avoid tapping or mimicry near nests.",
+      "Do not disturb tree cavities.",
+      "Observe from trails or roadside pullouts.",
+      "Use long zoom or scopes for detail."
+    ]
+  }
+]
