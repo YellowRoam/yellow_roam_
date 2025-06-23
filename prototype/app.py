@@ -11,7 +11,9 @@ from .smart_match_logic import smart_match_logic
 
 # === Load environment variables ===
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+# Load Yellowstone-specific system prompt from file
+with open(os.path.join("fallbacks", "yellowstone_system_prompt.json"), "r", encoding="utf-8") as f:
+    system_prompt = json.load(f)["en"]
 
 # === Flask App Setup ===
 app = Flask(__name__, static_folder="static", template_folder="templates")
