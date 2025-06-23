@@ -1,0 +1,82 @@
+[
+  {
+    "patterns": [
+      "Do I need a reservation to enter Yellowstone?",
+      "Is a vehicle reservation required to get into Yellowstone?",
+      "Can I enter Yellowstone without booking in advance?"
+    ],
+    "response": "You don\u2019t need a vehicle reservation to enter Yellowstone. Just make sure you have an entrance pass, which you can purchase online or at any park entrance station. It's a good idea to buy ahead of time during peak season.",
+    "tags": [
+      "park entry",
+      "fees",
+      "trip planning"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the entrance fees for Yellowstone?",
+      "How much does it cost to visit Yellowstone?",
+      "Tell me the price for getting into Yellowstone National Park"
+    ],
+    "response": "Entrance fees to Yellowstone vary: it's $35 per vehicle, $30 per motorcycle or snowmobile, and $20 per person entering by foot or bicycle. An annual park pass costs $70 and is good for 12 months.",
+    "tags": [
+      "fees",
+      "trip planning",
+      "general info"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the America the Beautiful pass?",
+      "Can I use the America the Beautiful pass at Yellowstone?",
+      "Does Yellowstone accept the national parks pass?"
+    ],
+    "response": "Yes, Yellowstone accepts the America the Beautiful pass. It grants access to all federal recreation lands including Yellowstone. Discounts are available for seniors, veterans, 4th graders, and people with permanent disabilities.",
+    "tags": [
+      "fees",
+      "accessibility",
+      "trip planning"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I buy an entrance pass for Yellowstone?",
+      "Can I purchase a Yellowstone pass at the gate?",
+      "How do I get an entrance pass for Yellowstone?"
+    ],
+    "response": "You can buy an entrance pass at any Yellowstone entrance station or online in advance. Annual passes are also available and are valid through the month of purchase the following year.",
+    "tags": [
+      "fees",
+      "park entry",
+      "trip planning"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there free entrance days for Yellowstone?",
+      "When can I enter Yellowstone without paying?",
+      "What are the free days to visit Yellowstone?"
+    ],
+    "response": "Yes, Yellowstone has several fee-free days throughout the year, including Martin Luther King Jr. Day, National Park Week's first day, and Veterans Day. Check the NPS calendar for the full list.",
+    "tags": [
+      "fees",
+      "trip planning",
+      "calendar events"
+    ],
+    "tiers": [
+      "free"
+    ]
+  }
+]

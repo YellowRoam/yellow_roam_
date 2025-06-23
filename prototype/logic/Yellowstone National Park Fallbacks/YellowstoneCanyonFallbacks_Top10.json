@@ -1,0 +1,141 @@
+[
+  {
+    "patterns": [
+      "How tall are the Lower and Upper Falls in Yellowstone?",
+      "What's the height of Yellowstone's waterfalls?",
+      "Can you tell me how high the Canyon Falls are?"
+    ],
+    "response": "The Upper Falls of the Yellowstone River are 109 feet tall, and the Lower Falls are 308 feet tall. Both can be viewed from several accessible points on the North and South Rim Drives.",
+    "tags": [
+      "scenic spots",
+      "trail safety",
+      "photography"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I see the best views of the Yellowstone Canyon?",
+      "Best overlooks of Grand Canyon of Yellowstone?",
+      "Where do locals go to see the canyon falls?"
+    ],
+    "response": "For dramatic canyon views, head to Lookout Point or Artist Point. North Rim Drive offers Brink of Lower Falls and Grand View Point, while South Rim Drive ends at Artist Point\u2014locals' favorite for sunrise.",
+    "tags": [
+      "scenic spots",
+      "photography",
+      "trail safety"
+    ],
+    "tiers": [
+      "free"
+    ]
+  },
+  {
+    "patterns": [
+      "How was the Grand Canyon of Yellowstone formed?",
+      "Tell me how Yellowstone's canyon came to be?",
+      "What's the geology behind the Yellowstone Canyon?"
+    ],
+    "response": "The canyon was carved by the Yellowstone River after volcanic activity buried the area. Hydrothermal systems weakened the rock, allowing the river to erode it over thousands of years, forming the massive canyon we see today.",
+    "tags": [
+      "geology",
+      "education",
+      "scenic spots"
+    ]
+  },
+  {
+    "patterns": [
+      "Why is the Yellowstone Canyon so colorful?",
+      "What's causing the different colors in the canyon walls?",
+      "Why does the canyon look yellow and red?"
+    ],
+    "response": "The vivid colors are due to iron compounds in the rock that oxidized\u2014essentially rusting. Hydrothermal activity altered the rhyolite rock, giving it reds, yellows, and oranges that change with moisture levels.",
+    "tags": [
+      "geology",
+      "photography",
+      "education"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there a trail to the bottom of the canyon?",
+      "Can I hike to the base of Yellowstone Canyon?",
+      "How do I get to the bottom of the Grand Canyon of Yellowstone?"
+    ],
+    "response": "Seven Mile Hole Trail is the only official route that leads to the bottom of the canyon. It\u2019s a strenuous 10.2-mile round trip with steep descents, so come prepared and allow plenty of time.",
+    "tags": [
+      "trail safety",
+      "hiking",
+      "backcountry"
+    ],
+    "tiers": [
+      "premium"
+    ]
+  },
+  {
+    "patterns": [
+      "How much water goes over the Yellowstone Falls?",
+      "Water flow at the Lower and Upper Falls?",
+      "How powerful are the falls in the Yellowstone Canyon?"
+    ],
+    "response": "Water flow can range from 63,500 gallons per second at peak runoff to around 5,000 gallons per second in the fall. The sound and spray make for an unforgettable experience.",
+    "tags": [
+      "scenic spots",
+      "photography",
+      "education"
+    ]
+  },
+  {
+    "patterns": [
+      "What's the green stripe on the Lower Falls?",
+      "Why is there a green stripe on Yellowstone's Lower Falls?",
+      "What's the deal with the color on the waterfall?"
+    ],
+    "response": "That green stripe is the natural color of deeper water not mixing with air. A notch in the brink lets it flow smoothly over the edge, creating that striking visual.",
+    "tags": [
+      "scenic spots",
+      "photography",
+      "geology"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Artist Point where Thomas Moran painted?",
+      "Did Moran paint Yellowstone from Artist Point?",
+      "Where did Moran sketch the canyon?"
+    ],
+    "response": "Thomas Moran likely sketched from a few different spots, including what's now Moran Point. Artist Point wasn\u2019t his exact location but was named to honor his role in popularizing the canyon.",
+    "tags": [
+      "history",
+      "scenic spots",
+      "photography"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I drive to Artist Point?",
+      "Directions to Artist Point in Yellowstone?",
+      "How do I get to the South Rim drive?"
+    ],
+    "response": "From Canyon Village, turn left and follow the main road to the South Rim Drive sign. Turn left again and continue 1 mile to the Artist Point parking area. Early morning visits offer great light and fewer crowds.",
+    "tags": [
+      "park navigation",
+      "scenic spots",
+      "photography"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I park for Lookout Point?",
+      "Is Lookout Point accessible by car?",
+      "How to get to Lookout Point in Yellowstone?"
+    ],
+    "response": "Take North Rim Drive from Canyon Junction and follow signs to Lookout Point. There\u2019s a dedicated parking area and a short walk to a stunning canyon view\u2014great for photos and spotting osprey.",
+    "tags": [
+      "scenic spots",
+      "wildlife viewing",
+      "accessibility"
+    ]
+  }
+]

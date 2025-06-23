@@ -1,0 +1,212 @@
+[
+  {
+    "patterns": [
+      "What can I do at the Albright Visitor Center?",
+      "Is the Albright Visitor Center worth a stop?",
+      "Tell me about the Mammoth visitor center"
+    ],
+    "response": "The Albright Visitor Center is a must-stop in Mammoth. It's housed in historic Army officer quarters and features exhibits on Yellowstone\u2019s wildlife and history. Rangers are on hand to help plan your visit, and it's a great spot for kids to get their Junior Ranger badge or for anyone to grab a passport stamp.",
+    "tags": [
+      "visitor centers",
+      "kid-friendly",
+      "history",
+      "planning"
+    ]
+  },
+  {
+    "patterns": [
+      "What's Fort Yellowstone?",
+      "Can I tour Fort Yellowstone?",
+      "Tell me the history of Fort Yellowstone"
+    ],
+    "response": "Fort Yellowstone in Mammoth was once the U.S. Army\u2019s stronghold in the park. They stepped in back in 1886 when the early park faced poaching and vandalism. Today, you can tour its sturdy red-roofed buildings, many still in use. The site tells a unique story about Yellowstone\u2019s early protection.",
+    "tags": [
+      "history",
+      "architecture",
+      "walking tours",
+      "mammoth"
+    ]
+  },
+  {
+    "patterns": [
+      "Are the Mammoth Hot Springs safe to walk around?",
+      "Can I explore the terraces at Mammoth?",
+      "How do I see the Mammoth Hot Springs terraces?"
+    ],
+    "response": "Yes, you can explore Mammoth\u2019s steaming travertine terraces from the boardwalks or Upper Terrace Drive. Just stick to the paths \u2014 the terrain changes quickly, and the features are fragile and hot. In winter, snowshoeing among the terraces is a surreal and peaceful experience.",
+    "tags": [
+      "geothermal",
+      "photography",
+      "trail safety",
+      "local tips"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I hike near Mammoth?",
+      "Are there hiking trails in the Mammoth area?",
+      "Any good hikes starting from Mammoth?"
+    ],
+    "response": "Mammoth is a great launch point for hikes. Try Bunsen Peak for panoramic views or explore along the old Bunsen Peak road if you\u2019re biking or skiing. Always check trail conditions and bear activity with the rangers before heading out.",
+    "tags": [
+      "hiking",
+      "trail safety",
+      "views",
+      "local advice"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the Heritage and Research Center?",
+      "Can I visit the Yellowstone archives?",
+      "Where is Yellowstone\u2019s museum collection?"
+    ],
+    "response": "The Heritage and Research Center in Gardiner houses Yellowstone\u2019s museum artifacts, historical archives, and a research library. It\u2019s open for drop-in viewing in the lobby and offers behind-the-scenes tours in summer \u2014 make a reservation for those!",
+    "tags": [
+      "history",
+      "educational",
+      "off-the-beaten-path",
+      "local"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stay near Mammoth?",
+      "Is there lodging in Mammoth?",
+      "Can I camp near the north entrance?"
+    ],
+    "response": "You\u2019ve got options. The Mammoth Hot Springs Hotel is open in the summer and sometimes into winter. The Mammoth Campground is open year-round, and Indian Creek offers a quieter summer option. Gardiner, Montana also has motels and cabins just outside the gate.",
+    "tags": [
+      "lodging",
+      "campgrounds",
+      "mammoth",
+      "planning"
+    ]
+  },
+  {
+    "patterns": [
+      "What glaciers shaped Mammoth?",
+      "Can I see glacial features in Mammoth?",
+      "What\u2019s the glacial history around Mammoth?"
+    ],
+    "response": "You\u2019ll see lots of evidence of past glaciers in Mammoth. Terrace Mountain\u2019s glacial till helps date some features. Capitol Hill and Dude Hill are thermal kames, and if you hike Gardner Canyon, look for gravel beds overlaid by glacial deposits.",
+    "tags": [
+      "geology",
+      "scenic spots",
+      "history",
+      "educational"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the Roosevelt Arch?",
+      "Can I drive through the Roosevelt Arch?",
+      "Why is the north entrance historic?"
+    ],
+    "response": "The Roosevelt Arch in Gardiner is Yellowstone\u2019s first grand entrance, built in 1903 when the train came to town. Teddy Roosevelt laid its cornerstone, and you can still drive through it today. It\u2019s inscribed with: 'For the benefit and enjoyment of the people.'",
+    "tags": [
+      "history",
+      "scenic drives",
+      "architecture",
+      "mammoth"
+    ]
+  },
+  {
+    "patterns": [
+      "What wildlife is near the north entrance?",
+      "Can I see animals near Mammoth?",
+      "Is the Gardner River good for wildlife watching?"
+    ],
+    "response": "The Gardner River canyon is rich with wildlife. Look for bighorn sheep on the cliffs, elk in Mammoth, and bison along the road to Tower. Eagles, ospreys, and even wolves are spotted depending on the season. Keep a safe distance and bring your binoculars.",
+    "tags": [
+      "wildlife viewing",
+      "photography",
+      "mammoth",
+      "local advice"
+    ]
+  },
+  {
+    "patterns": [
+      "Where are waterfalls near Mammoth?",
+      "Easy waterfalls to visit in Mammoth?",
+      "Any quick hikes to waterfalls in the north?"
+    ],
+    "response": "You can reach several waterfalls quickly near Mammoth. Undine Falls is right off the road, and Wraith Falls is a short walk. Rustic Falls is visible from the road just south of Mammoth, especially scenic in the spring runoff.",
+    "tags": [
+      "scenic spots",
+      "photography",
+      "short hikes",
+      "mammoth"
+    ]
+  },
+  {
+    "patterns": [
+      "What is Upper Terrace Drive?",
+      "Can I drive through Mammoth\u2019s terraces?",
+      "Where\u2019s the Orange Spring Mound?"
+    ],
+    "response": "Upper Terrace Drive is a short summer loop that winds past bubbling hydrothermal features and Orange Spring Mound. It\u2019s a fun way to explore without much walking, but you\u2019ll still want to get out and wander a bit.",
+    "tags": [
+      "geothermal",
+      "scenic drives",
+      "photography",
+      "mammoth"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s Blacktail Plateau Drive?",
+      "Is Blacktail Plateau open year-round?",
+      "Is it worth driving the Blacktail Plateau route?"
+    ],
+    "response": "Blacktail Plateau Drive is a summer-only dirt road that gives you a rustic shortcut to Tower. It winds through forests and meadows where bears, elk, and coyotes are sometimes spotted. It\u2019s one of those hidden gems locals like.",
+    "tags": [
+      "scenic drives",
+      "wildlife viewing",
+      "off-the-beaten-path",
+      "mammoth"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Mammoth good in winter?",
+      "What can I do in Mammoth in winter?",
+      "Are the terraces open in winter?"
+    ],
+    "response": "Mammoth is one of the few areas open year-round. In winter, you can ski or snowshoe the Upper Terraces and enjoy quiet views of steaming springs. Wildlife watching is top-notch, too \u2014 elk often hang out right in town.",
+    "tags": [
+      "winter",
+      "wildlife viewing",
+      "snowshoeing",
+      "mammoth"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I see elk in Mammoth?",
+      "Are elk around the visitor center?",
+      "Where are elk in the park?"
+    ],
+    "response": "Yes, elk are a daily sight in Mammoth, especially in fall during the rut. They often roam through town, graze on the lawns, and bugle during mating season. Be sure to keep at least 25 yards away \u2014 they can be aggressive.",
+    "tags": [
+      "wildlife viewing",
+      "mammoth",
+      "safety",
+      "photography"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I ski or snowshoe near Mammoth?",
+      "Are there winter trails in Mammoth?",
+      "Where can I explore in Mammoth during winter?"
+    ],
+    "response": "The Upper Terraces are a favorite winter loop for skiing or snowshoeing. The route is peaceful, and the steam from hot springs makes it feel like another planet. You can rent gear in nearby Gardiner or check with the visitor center.",
+    "tags": [
+      "winter",
+      "snowshoeing",
+      "local tips",
+      "mammoth"
+    ]
+  }
+]

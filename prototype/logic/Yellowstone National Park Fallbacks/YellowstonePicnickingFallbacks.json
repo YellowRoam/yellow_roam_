@@ -1,0 +1,132 @@
+[
+  {
+    "patterns": [
+      "Where can I picnic in Yellowstone?",
+      "Are there picnic areas in the park?",
+      "Can I bring food and picnic inside Yellowstone?"
+    ],
+    "response": "Yes, Yellowstone offers 52 designated picnic areas throughout the park. These are great spots to enjoy a meal in nature. Always store food properly and follow Leave No Trace principles to avoid attracting wildlife.",
+    "tags": [
+      "picnicking",
+      "family-friendly",
+      "day use"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there picnic tables in Yellowstone?",
+      "Can I find picnic tables in the park?",
+      "Where are tables available for picnics in Yellowstone?"
+    ],
+    "response": "Most picnic areas in Yellowstone include picnic tables and garbage bins. Be sure to clean up after your meal and dispose of trash responsibly to help keep the park clean and safe.",
+    "tags": [
+      "picnicking",
+      "facilities",
+      "park etiquette"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I grill at picnic areas in Yellowstone?",
+      "Are barbecues allowed in Yellowstone picnic spots?",
+      "What are the rules about cooking at picnic areas?"
+    ],
+    "response": "You can grill at designated picnic areas using portable stoves or park-provided fire grates where available. Open fires are not allowed outside of these designated areas, and fire danger conditions may restrict usage.",
+    "tags": [
+      "picnicking",
+      "campfire safety",
+      "regulations"
+    ]
+  },
+  {
+    "patterns": [
+      "Do I need a permit to picnic in Yellowstone?",
+      "Is a reservation needed for picnic areas?",
+      "Can I just show up to a picnic area?"
+    ],
+    "response": "No permit or reservation is needed to use picnic areas in Yellowstone. They operate on a first-come, first-served basis. Arrive early during busy times, especially in summer.",
+    "tags": [
+      "picnicking",
+      "general info",
+      "trip planning"
+    ]
+  },
+  {
+    "patterns": [
+      "Are picnic areas near parking lots?",
+      "Can I drive to Yellowstone picnic areas?",
+      "How accessible are picnic spots in Yellowstone?"
+    ],
+    "response": "Most picnic areas are located near parking lots for easy access. Many are wheelchair accessible and offer shaded tables, trash bins, and sometimes restrooms.",
+    "tags": [
+      "picnicking",
+      "accessibility",
+      "facilities"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I picnic near geysers in Yellowstone?",
+      "Are there picnic areas close to geysers?",
+      "Where to picnic near thermal features?"
+    ],
+    "response": "While you can picnic near geyser areas, always stay in designated areas and never leave food unattended. Boardwalks and geothermal zones are not safe for eating or resting.",
+    "tags": [
+      "picnicking",
+      "geothermal",
+      "park safety"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I bring my dog to picnic areas?",
+      "Are pets allowed at picnic sites?",
+      "What are Yellowstone's pet rules for picnicking?"
+    ],
+    "response": "Pets are allowed at picnic areas as long as they are leashed and within 100 feet of roads or parking areas. Never leave pets unattended and clean up after them.",
+    "tags": [
+      "picnicking",
+      "pets",
+      "park rules"
+    ]
+  },
+  {
+    "patterns": [
+      "Is alcohol allowed at Yellowstone picnic areas?",
+      "Can I drink beer at a picnic site?",
+      "What are the alcohol rules in Yellowstone?"
+    ],
+    "response": "Alcohol is allowed at picnic areas in moderation. However, public intoxication, noise, and disorderly behavior are prohibited. Dispose of containers properly.",
+    "tags": [
+      "picnicking",
+      "rules",
+      "park etiquette"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I picnic during winter in Yellowstone?",
+      "Are picnic areas open in winter?",
+      "Is it possible to eat outside in Yellowstone in the winter?"
+    ],
+    "response": "Some picnic areas remain accessible in winter, but weather and road conditions vary. Dress warmly and be prepared\u2014tables may be snow-covered or icy.",
+    "tags": [
+      "picnicking",
+      "seasonal info",
+      "winter travel"
+    ]
+  },
+  {
+    "patterns": [
+      "Are trash bins available at picnic areas?",
+      "Do I need to pack out trash after a picnic?",
+      "What are the trash rules at Yellowstone picnic sites?"
+    ],
+    "response": "Most picnic areas include bear-proof trash bins. Always dispose of trash properly and do not leave food out\u2014this is essential to protect wildlife and keep the area safe.",
+    "tags": [
+      "picnicking",
+      "wildlife safety",
+      "park rules"
+    ]
+  }
+]
