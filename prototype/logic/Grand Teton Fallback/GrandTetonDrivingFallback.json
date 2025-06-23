@@ -1,0 +1,402 @@
+[
+  {
+    "patterns": [
+      "Can I take a scenic drive in Grand Teton?",
+      "What are the best roads to drive in the park?",
+      "Are there any popular scenic routes in Grand Teton?",
+      "Where should I go for a good mountain drive?"
+    ],
+    "response": "Grand Teton National Park offers several iconic scenic drives that showcase views of the Teton Range and surrounding wildlife habitats. Top routes include the Jenny Lake Scenic Drive, Teton Park Road, Moose-Wilson Road, and the Signal Mountain Summit Road. These drives vary in length from 15 minutes to over an hour and offer turnouts with interpretive exhibits and photography spots. Always pull over safely and never stop in the road to view wildlife.",
+    "keywords": [
+      "scenic drive",
+      "road trip",
+      "teton park road",
+      "signal mountain"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "scenic_routes"
+    ]
+  },
+  {
+    "patterns": [
+      "What should I know about driving near wildlife?",
+      "Are there animals on the road in Grand Teton?",
+      "Is it safe to drive at night in the park?",
+      "How do I avoid hitting wildlife?"
+    ],
+    "response": "Wildlife frequently cross park roads, especially at dawn, dusk, and overnight. Moose, elk, deer, and bison can be hard to see, particularly after dark. The speed limit on US Highway 26/89/191 drops to 45 mph from 30 minutes after sunset to 30 minutes before sunrise to protect animals and drivers. Always drive cautiously and be prepared to stop suddenly.",
+    "keywords": [
+      "wildlife",
+      "animals",
+      "night driving",
+      "moose"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "wildlife_safety"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Jenny Lake Scenic Drive worth it?",
+      "Where does the Jenny Lake Scenic Drive go?",
+      "What will I see on the Jenny Lake drive?",
+      "How long is the Jenny Lake Scenic Drive?"
+    ],
+    "response": "The Jenny Lake Scenic Drive loops around the east shore of Jenny Lake and offers incredible views of the Teton Range reflected in the water. This short 15\u201330 minute drive is ideal for photography and quick access to trailheads and overlooks. It\u2019s especially beautiful in early morning light.",
+    "keywords": [
+      "jenny lake",
+      "scenic drive",
+      "loop",
+      "mountain view"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "jenny_lake"
+    ]
+  },
+  {
+    "patterns": [
+      "What is the Moose-Wilson Road like?",
+      "Can I drive from Moose to Wilson?",
+      "Is Moose-Wilson Road a good wildlife viewing road?",
+      "How long does it take to drive Moose-Wilson?"
+    ],
+    "response": "The Moose-Wilson Road is a narrow and winding road that connects the towns of Moose and Wilson. It is known for frequent wildlife sightings, including moose and black bears, and is especially popular in the fall. Plan 20\u201360 minutes for the full drive, and note that trailers and large vehicles are not advised.",
+    "keywords": [
+      "moose wilson",
+      "wildlife",
+      "drive",
+      "fall colors"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "moose_wilson"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I get to the top of Signal Mountain?",
+      "Is Signal Mountain Summit Road open?",
+      "Can I drive up Signal Mountain?",
+      "What\u2019s the view like from Signal Mountain?"
+    ],
+    "response": "The Signal Mountain Summit Road climbs nearly 800 feet and offers one of the best panoramic viewpoints in Grand Teton. It is a narrow road with several scenic pullouts and ends in a small parking area at the summit. The road is open in spring, summer, and fall, weather permitting.",
+    "keywords": [
+      "signal mountain",
+      "summit",
+      "viewpoint",
+      "summit road"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "signal_mountain"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Teton Park Road open year-round?",
+      "What\u2019s the main scenic drive in the park?",
+      "Can I drive Teton Park Road in winter?",
+      "What connects Moose and Jackson Lake?"
+    ],
+    "response": "Teton Park Road runs along the base of the Teton Range from Moose to Jackson Lake Junction. It\u2019s a must-do scenic drive that passes Jenny Lake and many iconic pullouts. The road is closed to vehicles in winter, typically from November to May, but open to non-motorized use like biking and walking during shoulder seasons.",
+    "keywords": [
+      "teton park road",
+      "main drive",
+      "closure",
+      "moose junction"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "teton_park_road"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there turnouts for photography in the park?",
+      "Can I stop to take pictures of the Tetons?",
+      "What are the best pullouts for views?",
+      "Where should I stop for scenic photos?"
+    ],
+    "response": "Yes, there are many turnouts and overlooks along park roads that are designed for safe photography and wildlife viewing. Popular stops include Schwabacher Landing, Snake River Overlook, and Oxbow Bend. Never stop in the middle of the road\u2014use turnouts and designated areas only.",
+    "keywords": [
+      "turnout",
+      "photography",
+      "viewpoint",
+      "pullout"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "photo_opportunities"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the speed limit in Grand Teton?",
+      "Are there speed restrictions at night?",
+      "How fast can I drive in the park?",
+      "Are park roads patrolled?"
+    ],
+    "response": "Speed limits vary by road and time of day. Major roads like US Highway 26/89/191 reduce to 45 mph from 30 minutes after sunset to 30 minutes before sunrise. This protects both wildlife and visitors. The park is actively patrolled by law enforcement rangers, so obey posted limits at all times.",
+    "keywords": [
+      "speed limit",
+      "law enforcement",
+      "night",
+      "road rules"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "speed_limits"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I drive the park roads in spring?",
+      "What roads open first in Grand Teton?",
+      "Is driving possible in April?",
+      "Which roads open after snowmelt?"
+    ],
+    "response": "Most roads in Grand Teton open in mid-May, but some lower elevation roads like Moose-Wilson may open earlier depending on snow conditions. Teton Park Road typically opens to non-motorized use by early April and to vehicles by mid-May. Always check current conditions before visiting in spring.",
+    "keywords": [
+      "spring driving",
+      "snowmelt",
+      "open roads",
+      "seasonal access"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "seasonal_openings"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I drive through the park in winter?",
+      "Which roads are plowed in winter?",
+      "Is the park accessible by car in December?",
+      "What are the winter driving options?"
+    ],
+    "response": "US Highway 26/89/191 through the eastern side of Grand Teton is plowed and open year-round. Other roads like Teton Park Road and Signal Mountain Summit Road are closed to vehicles from November to May. Winter driving can be hazardous\u2014check road conditions and carry emergency supplies.",
+    "keywords": [
+      "winter access",
+      "plowed roads",
+      "december",
+      "snow"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "winter_conditions"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I bring a pet in the car through Grand Teton?",
+      "Are pets allowed on scenic drives?",
+      "What are the rules for pets in vehicles?",
+      "Can my dog ride with me in the park?"
+    ],
+    "response": "Yes, pets are allowed in vehicles and at roadside pullouts, but they must remain leashed and under control at all times. Pets are not allowed on trails or in undeveloped areas. Keep them in the car or within 30 feet of roadways or parking areas.",
+    "keywords": [
+      "pets",
+      "dogs",
+      "vehicles",
+      "leash"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "pet_rules"
+    ]
+  },
+  {
+    "patterns": [
+      "Are RVs allowed on all scenic roads?",
+      "Can large vehicles drive Moose-Wilson Road?",
+      "What\u2019s the best route for RVs?",
+      "Are there size restrictions on park roads?"
+    ],
+    "response": "Most park roads accommodate RVs, but Moose-Wilson Road is narrow and not recommended for trailers or large vehicles. Use main routes like Teton Park Road or US 26/89/191 for scenic drives. Always follow posted clearance and width signs.",
+    "keywords": [
+      "rvs",
+      "trailers",
+      "moose wilson",
+      "vehicle size"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "rv_access"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I stop to learn about geology?",
+      "Are there educational turnouts in Grand Teton?",
+      "Do scenic drives have interpretive signs?",
+      "What are good stops for geology info?"
+    ],
+    "response": "Many scenic turnouts feature interpretive signs on park geology, wildlife, and plant life. Stops like Glacier View, Antelope Flats, and Snake River Overlook provide educational context and panoramic scenery. These are excellent for learning and photography alike.",
+    "keywords": [
+      "geology",
+      "interpretive",
+      "turnout",
+      "signs"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "educational_stops"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there a route that loops through the park?",
+      "Can I make a scenic driving loop?",
+      "What\u2019s the best driving loop in Grand Teton?",
+      "Is there a full loop for sightseeing?"
+    ],
+    "response": "Yes, a popular driving loop connects Moose, Jenny Lake, Jackson Lake Junction, and Oxbow Bend via Teton Park Road and US 26/89/191. It offers access to many scenic spots and takes 1\u20132 hours without stops. Perfect for a half-day tour.",
+    "keywords": [
+      "loop",
+      "route",
+      "sightseeing",
+      "driving tour"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "loop_routes"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there electric vehicle chargers in Grand Teton?",
+      "Can I charge my EV while visiting?",
+      "Where can I plug in an electric car?",
+      "Do park facilities support EVs?"
+    ],
+    "response": "Yes, EV charging stations are available at locations like Jackson Lake Lodge and Colter Bay Village. Availability may vary by season, so check ahead and plan charging stops accordingly if you're using an electric vehicle.",
+    "keywords": [
+      "ev",
+      "electric vehicle",
+      "charging station",
+      "plug in"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "ev_charging"
+    ]
+  },
+  {
+    "patterns": [
+      "Is it safe to stop in the road for photos?",
+      "Can I stop in the middle of the road for wildlife?",
+      "Are there fines for blocking traffic?",
+      "What\u2019s the rule for pulling over?"
+    ],
+    "response": "No, never stop in the middle of the road. It\u2019s unsafe and illegal. Use designated turnouts and parking areas to view wildlife or take photos. Stopping on the road endangers others and may result in a citation.",
+    "keywords": [
+      "stop",
+      "block",
+      "photo",
+      "road safety"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "safety_rules"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I report a road hazard?",
+      "Who do I call about a car accident in the park?",
+      "What should I do if I hit an animal?",
+      "How do I report a downed tree or spill?"
+    ],
+    "response": "Report accidents, hazards, or injured wildlife to Grand Teton dispatch at 307-739-3301. In emergencies, call 911. Provide your location and details. It helps rangers respond quickly and safely manage road issues.",
+    "keywords": [
+      "report",
+      "hazard",
+      "accident",
+      "animal"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "emergency_reporting"
+    ]
+  },
+  {
+    "patterns": [
+      "Is sunrise or sunset best for scenic drives?",
+      "When should I drive for the best light?",
+      "What\u2019s the most photogenic time to drive?",
+      "When do the Tetons look best from the road?"
+    ],
+    "response": "Both sunrise and sunset offer stunning views of the Teton Range. Morning light highlights peaks with alpenglow, while late afternoon casts warm light across the Snake River valley. Wildlife is also more active during these times.",
+    "keywords": [
+      "sunrise",
+      "sunset",
+      "light",
+      "photography"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "golden_hour"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I bike on any park roads?",
+      "Do scenic drives allow bicycles?",
+      "Is biking safe on Teton Park Road?",
+      "Can I cycle alongside the drive?"
+    ],
+    "response": "Yes, bicycles are allowed on all paved roads including Teton Park Road. Cyclists must ride single file and follow traffic laws. Some roads have narrow shoulders\u2014ride defensively and wear visible clothing.",
+    "keywords": [
+      "bike",
+      "bicycle",
+      "ride",
+      "teton park road"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "biking_rules"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there a printed map of park roads?",
+      "Where can I get a driving map?",
+      "Do visitor centers give road maps?",
+      "Can I find a map of scenic routes?"
+    ],
+    "response": "Printed maps are available at all park entrances and visitor centers. They include road closures, viewpoints, and turnouts. You can also find digital maps on the park website or download them before arrival.",
+    "keywords": [
+      "map",
+      "routes",
+      "printed",
+      "visitor center"
+    ],
+    "tags": [
+      "grand_teton",
+      "driving",
+      "navigation"
+    ]
+  }
+]

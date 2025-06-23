@@ -1,0 +1,306 @@
+[
+  {
+    "patterns": [
+      "Do I need a permit to camp in the backcountry at Grand Teton?",
+      "Is a backcountry permit required in Grand Teton?",
+      "What are the rules for backcountry permits?",
+      "Can I stay overnight in the Tetons without a permit?"
+    ],
+    "response": "Yes, a permit is required for all overnight stays in the Grand Teton backcountry. This includes lake sites on Jackson and Leigh Lakes, the Teton Crest Trail, Garnet Canyon, and Northern Canyons. You can get permits through recreation.gov or at a park permit office.",
+    "keywords": [
+      "backcountry",
+      "permit",
+      "overnight",
+      "camping",
+      "grand teton"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "permit_required"
+    ]
+  },
+  {
+    "patterns": [
+      "How can I plan a backcountry trip in Grand Teton?",
+      "What are the steps to plan a backpacking trip?",
+      "How do I prepare for a backcountry hike?",
+      "Can you guide me through backcountry planning?"
+    ],
+    "response": "Planning a backcountry trip involves: learning the terrain, knowing your limits, choosing your route, securing a permit, and practicing Leave No Trace. Use the point-to-point mileage map and trail descriptions from Grand Teton Association to assist in planning.",
+    "keywords": [
+      "planning",
+      "backpacking",
+      "preparation",
+      "grand teton"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "trip_planning"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I find maps for Grand Teton backcountry?",
+      "Are there topographic maps for hiking in the Tetons?",
+      "What maps do I need for the backcountry?",
+      "How can I get trail maps for Grand Teton?"
+    ],
+    "response": "The Grand Teton backcountry mileage map is a key planning tool, showing trail distances and camp locations. Topographic maps and guidebooks are available through the Grand Teton Association website and at visitor centers.",
+    "keywords": [
+      "maps",
+      "topographic",
+      "trail",
+      "grand teton",
+      "backcountry"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "navigation_tools"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the best way to get a backcountry permit?",
+      "Where do I apply for a permit to backpack in Grand Teton?",
+      "Can I get a walk-up backcountry permit?",
+      "How do I reserve a backcountry permit online?"
+    ],
+    "response": "You can apply for a backcountry permit at recreation.gov or in-person at a park permit office. Online reservations open early in the season, and a portion of permits are held for walk-in use. Have alternate campsites in mind!",
+    "keywords": [
+      "permit",
+      "reservation",
+      "backcountry",
+      "recreation.gov"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "permit_reservation"
+    ]
+  },
+  {
+    "patterns": [
+      "What gear should I bring for backcountry camping?",
+      "Do I need bear spray in Grand Teton?",
+      "What\u2019s the required equipment for backpacking?",
+      "Is a bear canister mandatory in the Tetons?"
+    ],
+    "response": "Backcountry camping in Grand Teton requires proper gear, including a tent, sleeping bag, stove, water treatment, and bear spray. Bear-resistant food storage is mandatory\u2014use provided boxes or approved canisters. Weather can change fast, so pack accordingly.",
+    "keywords": [
+      "gear",
+      "equipment",
+      "bear spray",
+      "grand teton",
+      "camping"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "gear_requirements"
+    ]
+  },
+  {
+    "patterns": [
+      "When does the snow melt on Teton trails?",
+      "What\u2019s the snow level in Grand Teton backcountry?",
+      "Can I hike the Teton Crest Trail in June?",
+      "Is there still snow in July?"
+    ],
+    "response": "Snow persists on high-elevation trails into late June or even July. Always check current trail conditions. If hiking early in the season, be prepared for snow crossings and consider traction devices or alternate routes.",
+    "keywords": [
+      "snow",
+      "trail conditions",
+      "teton crest",
+      "grand teton"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "seasonal_conditions"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the Teton Crest Trail?",
+      "How long is the Teton Crest Trail?",
+      "Is the Teton Crest Trail a good backpacking trip?",
+      "Can I camp along the Teton Crest Trail?"
+    ],
+    "response": "The Teton Crest Trail is a classic multi-day route spanning roughly 40 miles. It passes alpine lakes, wildflower meadows, and dramatic vistas. Permits are required for overnight stays in designated camping zones.",
+    "keywords": [
+      "teton crest",
+      "backpacking",
+      "trail",
+      "grand teton"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "teton_crest"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there bear safety rules for backcountry camping?",
+      "How do I store food while backpacking in Grand Teton?",
+      "Is bear spray required on the trail?",
+      "What precautions should I take for bears?"
+    ],
+    "response": "Yes\u2014carry bear spray and know how to use it. Store all food, trash, and scented items in bear boxes or canisters. Cook away from your sleeping area and follow Leave No Trace to reduce risks of bear encounters.",
+    "keywords": [
+      "bear",
+      "safety",
+      "food storage",
+      "camping",
+      "grand teton"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "bear_safety"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I camp near Jackson Lake?",
+      "Are there lakeside backcountry sites in Grand Teton?",
+      "Can I stay on Leigh Lake overnight?",
+      "Is camping allowed by the lakes?"
+    ],
+    "response": "Backcountry campsites are available at Jackson and Leigh Lakes. These lakeside sites offer scenic camping, but permits are required. Popular locations fill up quickly, so book early or explore nearby zones.",
+    "keywords": [
+      "jackson lake",
+      "leigh lake",
+      "camping",
+      "backcountry"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "lakeside_sites"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the camping zones in Grand Teton?",
+      "Can I pick any spot to camp?",
+      "Is dispersed camping allowed in the backcountry?",
+      "How are camping areas organized?"
+    ],
+    "response": "Backcountry camping is only allowed in designated zones or sites. Zones vary in rules\u2014some allow flexible camping within a boundary, others have marked sites. Always check your permit for specific regulations.",
+    "keywords": [
+      "camp zones",
+      "designated sites",
+      "dispersed camping",
+      "grand teton"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "camping_zones"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I camp in Garnet Canyon?",
+      "Is Garnet Canyon a technical climbing area?",
+      "What are the rules for Garnet Canyon camping?",
+      "Do I need special permits for climbing camps?"
+    ],
+    "response": "Yes, camping is allowed in designated sites in Garnet Canyon, a popular area for technical climbing access. Permits are required, and specific regulations apply due to its climbing use. Make sure to review seasonal closures and conditions.",
+    "keywords": [
+      "garnet canyon",
+      "climbing",
+      "camping",
+      "permit"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "technical_climbing"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the best backcountry trip for beginners?",
+      "Are there easy overnight hikes in Grand Teton?",
+      "Can I do a short backpacking trip in the Tetons?",
+      "Where should first-time backpackers go?"
+    ],
+    "response": "Beginner-friendly trips include lakeside camps at Leigh or Bearpaw Lakes or short hikes from String Lake. These offer relatively flat terrain with great views. Still, all overnight trips require permits and bear safety knowledge.",
+    "keywords": [
+      "beginner",
+      "easy hikes",
+      "first time",
+      "overnight camping"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "beginner_friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there fires allowed in the backcountry?",
+      "Can I have a campfire in Grand Teton?",
+      "What are the fire rules in the backcountry?",
+      "Can I cook over a fire in the Tetons?"
+    ],
+    "response": "Campfires are prohibited in most of the backcountry. Use a portable stove for cooking. Always check current fire restrictions before your trip\u2014conditions can change quickly.",
+    "keywords": [
+      "campfire",
+      "fire rules",
+      "cooking",
+      "grand teton"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "fire_regulations"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I bring my dog on a backcountry trip?",
+      "Are pets allowed on trails in Grand Teton?",
+      "Can I take my dog backpacking in the park?",
+      "What are the pet rules in the backcountry?"
+    ],
+    "response": "Pets are not allowed on trails, in the backcountry, or in any wilderness areas of Grand Teton National Park. This is to protect wildlife, other visitors, and your pet. Consider boarding options in nearby towns.",
+    "keywords": [
+      "pets",
+      "dogs",
+      "backcountry",
+      "rules"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "pet_policy"
+    ]
+  },
+  {
+    "patterns": [
+      "Where do I pick up my backcountry permit?",
+      "Can I get my permit at the visitor center?",
+      "Where are the permit offices in Grand Teton?",
+      "Do I need to check in before my trip?"
+    ],
+    "response": "Backcountry permits can be picked up at park permit offices, including the Craig Thomas Discovery Center and Colter Bay Visitor Center. If you booked online, bring your reservation confirmation. Rangers may review your route and safety preparedness before issuing the permit.",
+    "keywords": [
+      "permit pickup",
+      "visitor center",
+      "check-in",
+      "backcountry"
+    ],
+    "tags": [
+      "grand_teton",
+      "backcountry",
+      "permit_pickup"
+    ]
+  }
+]

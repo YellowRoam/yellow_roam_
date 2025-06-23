@@ -1,0 +1,402 @@
+[
+  {
+    "patterns": [
+      "Do I need a license to fish in Grand Teton?",
+      "Where can I buy a fishing license in the park?",
+      "Is a Wyoming license required to fish?",
+      "How do I get a fishing permit for Grand Teton?"
+    ],
+    "response": "Yes, a valid Wyoming fishing license is required to fish in Grand Teton National Park. Licenses can be purchased at Flagg Ranch, Colter Bay Marina, Signal Mountain Lodge, or online through the Wyoming Game and Fish Department.",
+    "keywords": [
+      "fishing license",
+      "permit",
+      "wyoming",
+      "purchase"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "license_info"
+    ]
+  },
+  {
+    "patterns": [
+      "When is fishing allowed on Jackson Lake?",
+      "Are there any fishing closures on Jackson Lake?",
+      "Is Jackson Lake open year-round for fishing?",
+      "What are the fishing seasons for lakes?"
+    ],
+    "response": "Lakes in Grand Teton are open year-round, except Jackson Lake which is closed to fishing from October 1\u201331 each year. Always confirm seasonal dates before your visit.",
+    "keywords": [
+      "jackson lake",
+      "season dates",
+      "fishing closure",
+      "lakes"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "seasonal_access"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the Snake River fishing regulations?",
+      "Do I need to release fish in the Snake River?",
+      "Is catch and release required in winter?",
+      "Can I keep cutthroat trout from the Snake River?"
+    ],
+    "response": "All cutthroat trout caught in the Snake River must be released immediately from November 1 to March 31. A section of the Snake River is closed from the Buffalo Fork confluence at Moran to Menors Ferry from December 15 to March 31.",
+    "keywords": [
+      "snake river",
+      "cutthroat",
+      "release",
+      "regulations"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "snake_river_rules"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there any fishing closures in winter?",
+      "What areas are closed to fishing seasonally?",
+      "Is Buffalo Fork open to anglers in January?",
+      "Where can't I fish in winter?"
+    ],
+    "response": "From December 1 to July 31, most streams and Blacktail Spring Ponds are closed, excluding Polecat Creek, Buffalo Fork, Pacific Creek, Gros Ventre River, and Snake River in Teton County. Additional closures affect parts of the Snake River and Buffalo Fork in winter.",
+    "keywords": [
+      "seasonal closures",
+      "winter",
+      "buffalo fork",
+      "streams"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "seasonal_closures"
+    ]
+  },
+  {
+    "patterns": [
+      "What kind of tackle is allowed for fishing?",
+      "How many fishing poles can I use?",
+      "Are treble hooks legal in Grand Teton?",
+      "Can I use bait when fishing?"
+    ],
+    "response": "Anglers may use up to two rods, each with a maximum of three single or treble hooks. Artificial flies and lures are required in most rivers and streams. Bait is only allowed in specified lakes with legal dead fish types.",
+    "keywords": [
+      "legal tackle",
+      "bait",
+      "hooks",
+      "gear"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "tackle_rules"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there limits on the number of fish I can keep?",
+      "What is the creel limit in Grand Teton?",
+      "How many trout can I keep from a stream?",
+      "Are there size restrictions for trout?"
+    ],
+    "response": "Yes. Lakes: 6 trout total, no more than 3 cutthroat, 1 cutthroat over 12 inches. Streams: 3 trout, only 1 over 16 inches, and only 1 cutthroat over 12 inches. Brook trout: 16, Lake trout: 6 (1 over 24 inches), Whitefish: 25.",
+    "keywords": [
+      "creel limit",
+      "possession",
+      "trout",
+      "fish size"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "limits"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I use baitfish for fishing?",
+      "Is dead bait allowed in Grand Teton?",
+      "What bait is legal on lakes?",
+      "Are live baitfish permitted?"
+    ],
+    "response": "Live bait is not allowed. Only specified dead, non-game fish are permitted as bait on unrestricted lakes. These include redside shiner, speckled dace, and several others. Check current regulations for updates.",
+    "keywords": [
+      "bait",
+      "dead fish",
+      "lakes",
+      "live bait"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "bait_regulations"
+    ]
+  },
+  {
+    "patterns": [
+      "Should I stop fishing in warm water?",
+      "Does water temperature affect fish?",
+      "What temp is too hot to fish?",
+      "How do high temps impact catch and release?"
+    ],
+    "response": "Anglers should stop fishing when water temperatures reach 68\u00b0F or higher. Warm water increases stress on fish and reduces survival rates after release. Always monitor river temps, especially in summer.",
+    "keywords": [
+      "temperature",
+      "warm water",
+      "fish stress",
+      "stop fishing"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "temperature_guidance"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I eat fish from Jackson Lake?",
+      "Are there mercury warnings for fish?",
+      "Is it safe to eat cutthroat trout?",
+      "What are the fish consumption advisories?"
+    ],
+    "response": "Fish like cutthroat, brown, and lake trout may contain methyl mercury. The Wyoming Game and Fish Department issues advisories, especially for pregnant women, nursing mothers, and children. Limit intake based on species and sensitivity group.",
+    "keywords": [
+      "mercury",
+      "consumption",
+      "advisory",
+      "jackson lake"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "health_advisory"
+    ]
+  },
+  {
+    "patterns": [
+      "How can I prevent spreading aquatic invasive species?",
+      "What\u2019s the Clean Drain Dry rule?",
+      "Do I need to clean gear after fishing?",
+      "Why are AIS rules important?"
+    ],
+    "response": "To prevent spreading aquatic invasive species (AIS), Clean, Drain, and Dry all gear\u2014boats, waders, and tackle\u2014after each use. Never dump bait, plants, or fish into park waters. AIS threaten native ecosystems and are a serious concern in the region.",
+    "keywords": [
+      "ais",
+      "clean drain dry",
+      "gear",
+      "invasive"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "ais_prevention"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I hire a fishing guide in Grand Teton?",
+      "Are there guided fishing trips in the park?",
+      "Who offers fly fishing tours?",
+      "Where can I book a fishing trip?"
+    ],
+    "response": "Yes, several concessioners offer guided fishing trips in the park, including Grand Fishing Adventures, Snake River Angler, Grand Teton Fly Fishing, Triangle X Ranch, Signal Mountain Lodge, and more. Visit their websites for rates and reservations.",
+    "keywords": [
+      "guided trip",
+      "fishing guide",
+      "concessioner",
+      "fly fishing"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "guided_trips"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I fish in Polecat Creek?",
+      "Are any streams open year-round?",
+      "Which creeks are open in winter?",
+      "Is Pacific Creek open to anglers?"
+    ],
+    "response": "Yes. Polecat Creek, Buffalo Fork, Pacific Creek, Gros Ventre River, and the Snake River in Teton County remain open even during the stream closure season (Dec 1\u2013Jul 31). Other streams are off-limits during that time.",
+    "keywords": [
+      "streams",
+      "polecat creek",
+      "open access",
+      "winter fishing"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "open_streams"
+    ]
+  },
+  {
+    "patterns": [
+      "How do I release a fish properly?",
+      "What\u2019s the best way to practice catch and release?",
+      "Should I touch the fish with bare hands?",
+      "Is barbless gear required?"
+    ],
+    "response": "Use barbless hooks when possible. Handle fish gently with wet hands, keep them in water while removing the hook, and release them promptly. Do not squeeze or place fingers in the gills. Always use proper catch and release techniques to ensure fish survival.",
+    "keywords": [
+      "release",
+      "catch and release",
+      "barbless",
+      "fish handling"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "release_techniques"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the fishing like on Leigh Lake?",
+      "Can I fish from a canoe on Leigh Lake?",
+      "Is Leigh Lake good for fishing?",
+      "Do I need special gear for Leigh Lake?"
+    ],
+    "response": "Yes, Leigh Lake is a popular spot for lake fishing and is accessible by hiking or paddling. A Wyoming fishing license is required and standard creel limits apply. Non-motorized watercraft are permitted on the lake.",
+    "keywords": [
+      "leigh lake",
+      "lake fishing",
+      "canoe",
+      "shore access"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "leigh_lake"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I fish on a boat in Jackson Lake?",
+      "Are motorboats allowed while fishing?",
+      "Do I need a permit to fish from a boat?",
+      "Is fishing from a kayak allowed?"
+    ],
+    "response": "Yes, you can fish from a boat on Jackson Lake. All boats must have a Grand Teton Boat Permit and AIS decal. Both motorized and non-motorized craft are allowed for fishing. Follow lake creel limits and gear regulations.",
+    "keywords": [
+      "boat fishing",
+      "jackson lake",
+      "permit",
+      "kayak"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "boat_fishing"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I fish in Jenny Lake?",
+      "Is Jenny Lake open to anglers?",
+      "Are motorboats allowed on Jenny Lake?",
+      "What are the fishing rules for Jenny Lake?"
+    ],
+    "response": "Yes, Jenny Lake allows fishing from shore or boat. Only motorboats with 10 HP or less are permitted. A Wyoming fishing license is required. Follow lake-specific creel and bait rules.",
+    "keywords": [
+      "jenny lake",
+      "shore fishing",
+      "boat",
+      "license"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "jenny_lake"
+    ]
+  },
+  {
+    "patterns": [
+      "Can kids fish in Grand Teton?",
+      "Are there fishing rules for children?",
+      "Do minors need a license?",
+      "Where can families go fishing?"
+    ],
+    "response": "Yes, children under 14 may fish without a license when accompanied by a licensed adult. They must follow all creel and tackle regulations. Family-friendly areas include Jackson Lake and the shoreline near Colter Bay.",
+    "keywords": [
+      "kids",
+      "youth",
+      "child license",
+      "family fishing"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "youth_access"
+    ]
+  },
+  {
+    "patterns": [
+      "Are there fish consumption advisories for Snake River?",
+      "Is Snake River fish safe to eat?",
+      "Can I keep fish from the Snake River?",
+      "Are there mercury concerns on the Snake River?"
+    ],
+    "response": "Yes, the Wyoming Game and Fish Department has issued consumption advisories for cutthroat, brown, and lake trout in the Snake River due to mercury levels. Sensitive groups (children, pregnant women) should limit consumption per advisory guidance.",
+    "keywords": [
+      "snake river",
+      "mercury",
+      "advisory",
+      "consumption"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "mercury_warning"
+    ]
+  },
+  {
+    "patterns": [
+      "Is there a limit on brook trout?",
+      "Can I keep brook trout from streams?",
+      "What\u2019s the brook trout creel limit?",
+      "Are brook trout regulated separately?"
+    ],
+    "response": "Yes. You may keep up to 16 brook trout in addition to your other creel limits. Brook trout are not included in the standard trout daily limits and are encouraged to be harvested in most areas.",
+    "keywords": [
+      "brook trout",
+      "creel",
+      "possession",
+      "limit"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "brook_trout_rules"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I fish year-round in the park?",
+      "What fishing areas are open all year?",
+      "Is lake fishing allowed in winter?",
+      "Where can I ice fish in Grand Teton?"
+    ],
+    "response": "Fishing is permitted year-round on most lakes in Grand Teton, including Jackson and Jenny Lakes, except Jackson Lake is closed October 1\u201331. Ice fishing is not commonly supported but not prohibited.",
+    "keywords": [
+      "year-round",
+      "ice fishing",
+      "lakes",
+      "winter fishing"
+    ],
+    "tags": [
+      "grand_teton",
+      "fishing",
+      "year_round_access"
+    ]
+  }
+]
