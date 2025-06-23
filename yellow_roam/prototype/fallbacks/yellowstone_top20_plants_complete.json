@@ -1,0 +1,293 @@
+[
+  {
+    "species": "Lodgepole Pine",
+    "scientific_name": "Pinus contorta",
+    "common_locations": [
+      "Across 80% of Yellowstone forests",
+      "Norris, Canyon, and Old Faithful areas"
+    ],
+    "facts": [
+      "Makes up nearly 80% of Yellowstone\u2019s forest cover.",
+      "Has serotinous cones that require fire to open and release seeds.",
+      "Thin bark allows quick growth but little fire resistance.",
+      "Can grow in poor, rocky soils.",
+      "Supports bird species like Clark\u2019s Nutcracker and mammals like red squirrels."
+    ],
+    "purpose": "Dominant tree species that regenerates quickly after fire and provides critical wildlife habitat. Its success is due to fire adaptation, low soil nutrient requirements, and prolific seeding."
+  },
+  {
+    "species": "Engelmann Spruce",
+    "scientific_name": "Picea engelmannii",
+    "common_locations": [
+      "Subalpine forests around Canyon and Mount Washburn"
+    ],
+    "facts": [
+      "Tall evergreen with sharp, square needles.",
+      "Found in colder, wetter areas at high elevations.",
+      "Shade-tolerant and slow-growing.",
+      "Bark is scaly and gray-brown.",
+      "Seeds are an important food for squirrels and birds."
+    ],
+    "purpose": "Plays a vital role in subalpine ecosystems, offering shade, moisture retention, and wildlife food. Thrives due to cold tolerance and shade adaptability."
+  },
+  {
+    "species": "Douglas Fir",
+    "scientific_name": "Pseudotsuga menziesii",
+    "common_locations": [
+      "Northern slopes of the park, especially Gardiner Basin and Mammoth"
+    ],
+    "facts": [
+      "Recognizable by its deeply furrowed bark and pointed cones.",
+      "Fire-resistant due to thick bark.",
+      "Grows best on dry, south-facing slopes.",
+      "Essential for elk winter cover.",
+      "Popular with nesting birds like owls and eagles."
+    ],
+    "purpose": "Survives fire and drought, dominates drier forest edges, and provides cover for wildlife, contributing to ecosystem stability."
+  },
+  {
+    "species": "Big Sagebrush",
+    "scientific_name": "Artemisia tridentata",
+    "common_locations": [
+      "Lamar Valley",
+      "Gardiner Basin",
+      "Blacktail Plateau"
+    ],
+    "facts": [
+      "Silvery leaves with a strong scent.",
+      "Important winter forage for elk and pronghorn.",
+      "Has deep roots that access water during drought.",
+      "Releases chemicals that suppress competing plants.",
+      "Supports sagebrush-dependent birds like the Brewer\u2019s sparrow."
+    ],
+    "purpose": "Anchor species of Yellowstone\u2019s steppe. Succeeds in arid zones due to deep roots and allelopathy, and supports unique sage-steppe biodiversity."
+  },
+  {
+    "species": "Bunchgrass (Bluebunch Wheatgrass)",
+    "scientific_name": "Pseudoroegneria spicata",
+    "common_locations": [
+      "Open hillsides, Lamar and Blacktail plateaus"
+    ],
+    "facts": [
+      "Important forage for bison, elk, and pronghorn.",
+      "Grows in clumps instead of forming sod.",
+      "Drought-resistant and cold-hardy.",
+      "Deep-rooted and prevents erosion.",
+      "Can resprout quickly after fire or grazing."
+    ],
+    "purpose": "Key grassland species. Success comes from resilience to grazing and drought, helping stabilize soils and feed large herbivores."
+  },
+  {
+    "species": "Quaking Aspen",
+    "scientific_name": "Populus tremuloides",
+    "common_locations": [
+      "Madison River Valley",
+      "Lamar Valley edges",
+      "Yellowstone Lake area"
+    ],
+    "facts": [
+      "Leaves tremble in wind due to flattened petioles.",
+      "Aspens regenerate via root suckers, forming large clones.",
+      "Provide food and habitat for birds, deer, and elk.",
+      "Fall color is a golden yellow.",
+      "Often found near water or along meadow edges."
+    ],
+    "purpose": "Aspens add diversity and fire resilience to forests. Their rapid regeneration allows quick recovery after disturbances."
+  },
+  {
+    "species": "Subalpine Fir",
+    "scientific_name": "Abies lasiocarpa",
+    "common_locations": [
+      "High-elevation forests near Mount Washburn",
+      "Sylvan Pass"
+    ],
+    "facts": [
+      "Narrow, spire-shaped tree adapted to heavy snow.",
+      "Needles are soft, flat, and bluish-green.",
+      "Prefers cool, moist environments.",
+      "Provides cover for wildlife like snowshoe hares.",
+      "Slow-growing but shade-tolerant."
+    ],
+    "purpose": "Forms part of high-elevation climax communities and provides winter shelter for many animals. Thrives in snow-covered, cold regions."
+  },
+  {
+    "species": "Wild Strawberry",
+    "scientific_name": "Fragaria virginiana",
+    "common_locations": [
+      "Open meadows, roadsides, forest clearings"
+    ],
+    "facts": [
+      "Low-growing with trifoliate leaves and white flowers.",
+      "Produces small but flavorful red berries.",
+      "Spreads via runners and seeds.",
+      "Flowers attract bees and butterflies.",
+      "Fruits are eaten by birds and mammals."
+    ],
+    "purpose": "Supports pollinators and frugivores. Its ground-covering nature helps reduce erosion and thrives in disturbed soils."
+  },
+  {
+    "species": "Yarrow",
+    "scientific_name": "Achillea millefolium",
+    "common_locations": [
+      "Open grasslands and roadsides throughout park"
+    ],
+    "facts": [
+      "Feathery leaves and white umbrella-like flowers.",
+      "Known for medicinal uses by Native peoples.",
+      "Highly drought-tolerant.",
+      "Blooms from late spring into summer.",
+      "Attracts butterflies and beneficial insects."
+    ],
+    "purpose": "Important pollinator plant and erosion controller. Thrives in disturbed and dry areas, promoting ecological balance."
+  },
+  {
+    "species": "Serviceberry",
+    "scientific_name": "Amelanchier alnifolia",
+    "common_locations": [
+      "Dry slopes, forest edges, near Mammoth and Tower"
+    ],
+    "facts": [
+      "Shrub with white spring flowers and edible purple berries.",
+      "Food source for bears, birds, and people.",
+      "Flowers emerge before leaves in spring.",
+      "Part of the rose family.",
+      "Can resprout after fire or browsing."
+    ],
+    "purpose": "Vital browse and berry source for wildlife. Its tough roots and quick regrowth help it flourish in fire-prone landscapes."
+  },
+  {
+    "species": "Fireweed",
+    "scientific_name": "Chamaenerion angustifolium",
+    "common_locations": [
+      "Burned areas, roadsides, and clearings"
+    ],
+    "facts": [
+      "Tall stalk with pink to magenta flowers.",
+      "Colonizes rapidly after fire.",
+      "Named for its growth after wildfires.",
+      "Supports bees, butterflies, and hummingbirds.",
+      "Leaves can be used in teas."
+    ],
+    "purpose": "Pioneer species after disturbance. Builds soil and attracts pollinators, helping kickstart ecological succession."
+  },
+  {
+    "species": "Bearberry",
+    "scientific_name": "Arctostaphylos uva-ursi",
+    "common_locations": [
+      "Dry rocky slopes, forest understories"
+    ],
+    "facts": [
+      "Evergreen groundcover with red berries.",
+      "Flowers are pale pink urns in spring.",
+      "Berries are eaten by bears and birds.",
+      "Drought-tolerant and low-growing.",
+      "Used in herbal medicine traditionally."
+    ],
+    "purpose": "Groundcover stabilizing soils and supporting wildlife. Survives harsh alpine and dry slope environments."
+  },
+  {
+    "species": "Bitterroot",
+    "scientific_name": "Lewisia rediviva",
+    "common_locations": [
+      "Rocky ridges, dry valleys, west of park"
+    ],
+    "facts": [
+      "Montana\u2019s state flower.",
+      "Succulent leaves and striking pink blooms.",
+      "Blooms in spring after snowmelt.",
+      "Used as a food and medicine source by tribes.",
+      "Dormant most of the year, except for bloom."
+    ],
+    "purpose": "An iconic plant adapted to harsh dry climates. Its short blooming cycle conserves water and energy in tough soil."
+  },
+  {
+    "species": "Goldenrod",
+    "scientific_name": "Solidago canadensis",
+    "common_locations": [
+      "Late-summer meadows, Yellowstone River corridor"
+    ],
+    "facts": [
+      "Tall plant with bright yellow flower plumes.",
+      "Often misattributed to causing allergies.",
+      "Supports bees, beetles, and butterflies.",
+      "Blooming peaks in August\u2013September.",
+      "Tolerant of poor, sandy soils."
+    ],
+    "purpose": "Key late-season pollinator support. Thrives in disturbed meadows and supports declining insect populations."
+  },
+  {
+    "species": "Blue Flax",
+    "scientific_name": "Linum lewisii",
+    "common_locations": [
+      "Dry hillsides, open sagebrush steppe"
+    ],
+    "facts": [
+      "Delicate blue flowers bloom each morning.",
+      "Used for textiles and cordage historically.",
+      "Grows in clumps with slender stems.",
+      "Pollinated by native bees.",
+      "Tolerates drought and high sun exposure."
+    ],
+    "purpose": "Pioneering flower that stabilizes dry soils. Attracts pollinators and offers visual diversity to dryland habitats."
+  },
+  {
+    "species": "Heartleaf Arnica",
+    "scientific_name": "Arnica cordifolia",
+    "common_locations": [
+      "Moist montane forests and trailsides"
+    ],
+    "facts": [
+      "Yellow daisy-like flowers bloom in early summer.",
+      "Known for medicinal and anti-inflammatory uses.",
+      "Spreads via underground rhizomes.",
+      "Deer and elk browse it occasionally.",
+      "Leaves are soft and heart-shaped."
+    ],
+    "purpose": "Provides herbal and wildlife value. Rhizomatous growth lets it thrive in forest understories and recover after trampling."
+  },
+  {
+    "species": "False Hellebore",
+    "scientific_name": "Veratrum viride",
+    "common_locations": [
+      "Wet meadows, alongside streams"
+    ],
+    "facts": [
+      "Large broad leaves with tightly packed flowers.",
+      "Highly toxic to humans and animals.",
+      "Often confused with edible plants.",
+      "Grows 3\u20136 feet tall.",
+      "Part of the lily family."
+    ],
+    "purpose": "Important in wetland ecosystems despite toxicity. Avoided by grazers, it competes well in saturated soils."
+  },
+  {
+    "species": "Snowberry",
+    "scientific_name": "Symphoricarpos albus",
+    "common_locations": [
+      "Forest edges, Gibbon River, Norris area"
+    ],
+    "facts": [
+      "Small shrub with white berries and pink flowers.",
+      "Berries persist into winter and feed birds.",
+      "Tolerates cold, drought, and browsing.",
+      "Branches provide nesting cover for birds.",
+      "Waxy berries are mildly toxic to humans."
+    ],
+    "purpose": "Low-maintenance wildlife plant. Its berries and shelter support songbirds, and it thrives under multiple stressors."
+  },
+  {
+    "species": "Thimbleberry",
+    "scientific_name": "Rubus parviflorus",
+    "common_locations": [
+      "Moist woodlands, near streams and roadsides"
+    ],
+    "facts": [
+      "Broad, maple-like leaves and soft red berries.",
+      "Berries are edible and favored by bears.",
+      "Flowers are large and white with five petals.",
+      "Grows in thick, spreading clumps.",
+      "Deciduous and shade-tolerant."
+    ],
+    "purpose": "Important bear forage and understory plant. Spreads via rhizomes and thrives in shady, moist environments."
+  }
+]

@@ -1,0 +1,558 @@
+[
+  {
+    "patterns": [
+      "What is cross-country skiing on teton park road?",
+      "Is cross-country skiing on teton park road kid-friendly?",
+      "Where can I do cross-country skiing on teton park road in Grand Teton?",
+      "Is cross-country skiing on teton park road available in winter?",
+      "Tell me about cross-country skiing on teton park road"
+    ],
+    "response": "\u2744\ufe0f **Cross-Country Skiing on Teton Park Road**\n\n- Groomed trail with unbeatable views of the Tetons\n- No cars\u2014peaceful and safe route\n- Great for all skill levels\n- Wildlife tracks often seen along the trail\n- Free access, no pass needed\n\n**Recommended Gear:** cross-country skis, poles, warm layers, gloves, trail map",
+    "tags": [
+      "winter",
+      "kid-friendly",
+      "scenic",
+      "snow-based",
+      "grand_teton",
+      "adventure"
+    ],
+    "keywords": [
+      "cross-country_skiing_on_teton_park_road"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is wildlife watching at elk refuge (adjacent to park)?",
+      "Is wildlife watching at elk refuge (adjacent to park) kid-friendly?",
+      "Where can I do wildlife watching at elk refuge (adjacent to park) in Grand Teton?",
+      "Is wildlife watching at elk refuge (adjacent to park) available in winter?",
+      "Tell me about wildlife watching at elk refuge (adjacent to park)"
+    ],
+    "response": "\u2744\ufe0f **Wildlife Watching at Elk Refuge (adjacent to park)**\n\n- Thousands of elk winter here\n- Sleigh rides available for close-up views\n- Bison, eagles, and coyotes often visible\n- Photographer\u2019s paradise\n- Accessible from Jackson\n\n**Recommended Gear:** binoculars, camera, layers, hand warmers",
+    "tags": [
+      "winter",
+      "wildlife-heavy",
+      "kid-friendly",
+      "scenic",
+      "guided",
+      "grand_teton"
+    ],
+    "keywords": [
+      "wildlife_watching_at_elk_refuge_(adjacent_to_park)"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is backcountry skiing at shadow mountain?",
+      "Is backcountry skiing at shadow mountain kid-friendly?",
+      "Where can I do backcountry skiing at shadow mountain in Grand Teton?",
+      "Is backcountry skiing at shadow mountain available in winter?",
+      "Tell me about backcountry skiing at shadow mountain"
+    ],
+    "response": "\u2744\ufe0f **Backcountry Skiing at Shadow Mountain**\n\n- Untracked powder and solitude\n- Incredible views of the Teton Range\n- Popular with locals for day tours\n- Varied terrain for intermediate to advanced\n- No lift ticket needed\n\n**Recommended Gear:** AT skis or splitboard, skins, beacon, shovel, probe",
+    "tags": [
+      "winter",
+      "grand_teton",
+      "scenic",
+      "snow-based",
+      "expert",
+      "adventure"
+    ],
+    "keywords": [
+      "backcountry_skiing_at_shadow_mountain"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is snowshoeing taggart lake trail?",
+      "Is snowshoeing taggart lake trail kid-friendly?",
+      "Where can I do snowshoeing taggart lake trail in Grand Teton?",
+      "Is snowshoeing taggart lake trail available in winter?",
+      "Tell me about snowshoeing taggart lake trail"
+    ],
+    "response": "\u2744\ufe0f **Snowshoeing Taggart Lake Trail**\n\n- Flat and beginner-friendly\n- Breathtaking views of the Tetons\n- Possible moose sightings\n- Ideal half-day outing\n- Easily accessible trailhead\n\n**Recommended Gear:** snowshoes, poles, layers, trail map",
+    "tags": [
+      "winter",
+      "wildlife-heavy",
+      "kid-friendly",
+      "scenic",
+      "snow-based",
+      "grand_teton"
+    ],
+    "keywords": [
+      "snowshoeing_taggart_lake_trail"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is photography at snake river overlook?",
+      "Is photography at snake river overlook kid-friendly?",
+      "Where can I do photography at snake river overlook in Grand Teton?",
+      "Is photography at snake river overlook available in winter?",
+      "Tell me about photography at snake river overlook"
+    ],
+    "response": "\u2744\ufe0f **Photography at Snake River Overlook**\n\n- Classic Ansel Adams location\n- Winter sunrise is magical\n- Easy access by car (plowed roads)\n- No crowds in winter\n- Great for telephoto wildlife shots\n\n**Recommended Gear:** camera, tripod, warm boots, telephoto lens, snow grips",
+    "tags": [
+      "winter",
+      "quiet",
+      "wildlife-heavy",
+      "scenic",
+      "photography",
+      "grand_teton"
+    ],
+    "keywords": [
+      "photography_at_snake_river_overlook"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is ranger-led snowshoe walks?",
+      "Is ranger-led snowshoe walks kid-friendly?",
+      "Where can I do ranger-led snowshoe walks in Grand Teton?",
+      "Is ranger-led snowshoe walks available in winter?",
+      "Tell me about ranger-led snowshoe walks"
+    ],
+    "response": "\u2744\ufe0f **Ranger-Led Snowshoe Walks**\n\n- Free with registration\n- Learn about winter ecology\n- Easy pace, great for beginners\n- Snowshoes often provided\n- Meet at Taggart Lake trailhead\n\n**Recommended Gear:** snowshoes, layers, hat, gloves, park pass",
+    "tags": [
+      "winter",
+      "educational",
+      "kid-friendly",
+      "snow-based",
+      "guided",
+      "grand_teton"
+    ],
+    "keywords": [
+      "ranger-led_snowshoe_walks"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is fat biking gros ventre road (closed to cars)?",
+      "Is fat biking gros ventre road (closed to cars) kid-friendly?",
+      "Where can I do fat biking gros ventre road (closed to cars) in Grand Teton?",
+      "Is fat biking gros ventre road (closed to cars) available in winter?",
+      "Tell me about fat biking gros ventre road (closed to cars)"
+    ],
+    "response": "\u2744\ufe0f **Fat Biking Gros Ventre Road (closed to cars)**\n\n- Unique winter biking experience\n- Snow-packed road with great views\n- See bison and elk along the way\n- Less traveled than Teton Park Road\n- Great cardio activity\n\n**Recommended Gear:** fat bike, helmet, cold-weather gear, hydration pack",
+    "tags": [
+      "winter",
+      "wildlife-heavy",
+      "snow-based",
+      "grand_teton",
+      "adventure"
+    ],
+    "keywords": [
+      "fat_biking_gros_ventre_road_(closed_to_cars)"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is scenic drive to oxbow bend (plowed road access)?",
+      "Is scenic drive to oxbow bend (plowed road access) kid-friendly?",
+      "Where can I do scenic drive to oxbow bend (plowed road access) in Grand Teton?",
+      "Is scenic drive to oxbow bend (plowed road access) available in winter?",
+      "Tell me about scenic drive to oxbow bend (plowed road access)"
+    ],
+    "response": "\u2744\ufe0f **Scenic Drive to Oxbow Bend (plowed road access)**\n\n- Beautiful snow-covered bend in the river\n- Great for wildlife spotting\n- Short walks accessible from parking\n- Less traffic than summer\n- Ideal for golden hour photography\n\n**Recommended Gear:** camera, binoculars, snow boots, hot drinks",
+    "tags": [
+      "winter",
+      "wildlife-heavy",
+      "photography",
+      "scenic",
+      "easy",
+      "grand_teton"
+    ],
+    "keywords": [
+      "scenic_drive_to_oxbow_bend_(plowed_road_access)"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is sleigh ride at the national elk refuge?",
+      "Is sleigh ride at the national elk refuge kid-friendly?",
+      "Where can I do sleigh ride at the national elk refuge in Grand Teton?",
+      "Is sleigh ride at the national elk refuge available in winter?",
+      "Tell me about sleigh ride at the national elk refuge"
+    ],
+    "response": "\u2744\ufe0f **Sleigh Ride at the National Elk Refuge**\n\n- Classic Jackson Hole winter experience\n- Horse-drawn sleigh through thousands of elk\n- Blankets provided to stay warm\n- Kid-friendly and magical\n- Tickets available in Jackson\n\n**Recommended Gear:** warm layers, hat, gloves, camera",
+    "tags": [
+      "winter",
+      "wildlife-heavy",
+      "kid-friendly",
+      "scenic",
+      "guided",
+      "grand_teton"
+    ],
+    "keywords": [
+      "sleigh_ride_at_the_national_elk_refuge"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is winter stargazing?",
+      "Is winter stargazing kid-friendly?",
+      "Where can I do winter stargazing in Grand Teton?",
+      "Is winter stargazing available in winter?",
+      "Tell me about winter stargazing"
+    ],
+    "response": "\u2744\ufe0f **Winter Stargazing**\n\n- Clear, crisp skies ideal for stars\n- No summer haze or bugs\n- Park has very low light pollution\n- Constellations like Orion are prominent\n- Bring a thermos and blanket\n\n**Recommended Gear:** star map, binoculars, blanket, thermos, headlamp",
+    "tags": [
+      "winter",
+      "educational",
+      "quiet",
+      "scenic",
+      "night-time",
+      "grand_teton"
+    ],
+    "keywords": [
+      "winter_stargazing"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is skating at the town square rink in jackson?",
+      "Is skating at the town square rink in jackson kid-friendly?",
+      "Where can I do skating at the town square rink in jackson in Grand Teton?",
+      "Is skating at the town square rink in jackson available in winter?",
+      "Tell me about skating at the town square rink in jackson"
+    ],
+    "response": "\u2744\ufe0f **Skating at the Town Square Rink in Jackson**\n\n- Festive, family-friendly environment\n- Skate rentals available\n- Lit by elk antler arches\n- Near shops and hot cocoa\n- Fun stop after park adventures\n\n**Recommended Gear:** skates (or rental), hat, mittens, layers",
+    "tags": [
+      "winter",
+      "kid-friendly",
+      "off-park",
+      "winter-fun",
+      "grand_teton"
+    ],
+    "keywords": [
+      "skating_at_the_town_square_rink_in_jackson"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is wildlife safari with local guides?",
+      "Is wildlife safari with local guides kid-friendly?",
+      "Where can I do wildlife safari with local guides in Grand Teton?",
+      "Is wildlife safari with local guides available in winter?",
+      "Tell me about wildlife safari with local guides"
+    ],
+    "response": "\u2744\ufe0f **Wildlife Safari with Local Guides**\n\n- Warm vehicle with spotting scopes\n- Bison, moose, eagles, wolves possible\n- Interpretive guides share wildlife stories\n- Great option for non-hikers\n- Photographers love it\n\n**Recommended Gear:** layers, camera, binoculars, snacks, booking confirmation",
+    "tags": [
+      "winter",
+      "educational",
+      "wildlife-heavy",
+      "scenic",
+      "guided",
+      "grand_teton"
+    ],
+    "keywords": [
+      "wildlife_safari_with_local_guides"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is visiting the craig thomas discovery center (winter exhibits)?",
+      "Is visiting the craig thomas discovery center (winter exhibits) kid-friendly?",
+      "Where can I do visiting the craig thomas discovery center (winter exhibits) in Grand Teton?",
+      "Is visiting the craig thomas discovery center (winter exhibits) available in winter?",
+      "Tell me about visiting the craig thomas discovery center (winter exhibits)"
+    ],
+    "response": "\u2744\ufe0f **Visiting the Craig Thomas Discovery Center (Winter Exhibits)**\n\n- Open year-round with interpretive displays\n- Warm indoor stop with restrooms\n- Learn about park\u2019s geology and wildlife\n- Kid-friendly displays and maps\n- Good place for snow day backup\n\n**Recommended Gear:** park pass, layers, curiosity",
+    "tags": [
+      "winter",
+      "educational",
+      "kid-friendly",
+      "accessible",
+      "indoor",
+      "grand_teton"
+    ],
+    "keywords": [
+      "visiting_the_craig_thomas_discovery_center_(winter_exhibits)"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is snowmobiling (outside the park in nearby areas)?",
+      "Is snowmobiling (outside the park in nearby areas) kid-friendly?",
+      "Where can I do snowmobiling (outside the park in nearby areas) in Grand Teton?",
+      "Is snowmobiling (outside the park in nearby areas) available in winter?",
+      "Tell me about snowmobiling (outside the park in nearby areas)"
+    ],
+    "response": "\u2744\ufe0f **Snowmobiling (outside the park in nearby areas)**\n\n- Gros Ventre and Togwotee areas nearby\n- Epic powder and forest scenery\n- Rentals available in Jackson\n- Guided or unguided options\n- Thrilling winter adventure\n\n**Recommended Gear:** helmet, snowmobile gear, goggles, warm layers",
+    "tags": [
+      "winter",
+      "grand_teton",
+      "snow-based",
+      "off-park",
+      "motorized",
+      "adventure"
+    ],
+    "keywords": [
+      "snowmobiling_(outside_the_park_in_nearby_areas)"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is ski touring at bradley-taggart trail?",
+      "Is ski touring at bradley-taggart trail kid-friendly?",
+      "Where can I do ski touring at bradley-taggart trail in Grand Teton?",
+      "Is ski touring at bradley-taggart trail available in winter?",
+      "Tell me about ski touring at bradley-taggart trail"
+    ],
+    "response": "\u2744\ufe0f **Ski Touring at Bradley-Taggart Trail**\n\n- Gentle climbing route with great vistas\n- Less crowded than Teton Park Road\n- Good for intermediate skiers\n- Can connect with other routes\n- Close to ranger station\n\n**Recommended Gear:** backcountry skis, poles, map, waterproof gloves",
+    "tags": [
+      "winter",
+      "scenic",
+      "snow-based",
+      "grand_teton",
+      "adventure"
+    ],
+    "keywords": [
+      "ski_touring_at_bradley-taggart_trail"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is hot chocolate & views at dornan\u2019s?",
+      "Is hot chocolate & views at dornan\u2019s kid-friendly?",
+      "Where can I do hot chocolate & views at dornan\u2019s in Grand Teton?",
+      "Is hot chocolate & views at dornan\u2019s available in winter?",
+      "Tell me about hot chocolate & views at dornan\u2019s"
+    ],
+    "response": "\u2744\ufe0f **Hot Chocolate & Views at Dornan\u2019s**\n\n- Indoor seating with Teton views\n- Fireplace to warm up\n- Great stop after skiing or snowshoeing\n- Gift shop and wine store nearby\n- Locals\u2019 winter tradition\n\n**Recommended Gear:** wallet, camera, layers",
+    "tags": [
+      "winter",
+      "scenic",
+      "off-park",
+      "relaxing",
+      "grand_teton"
+    ],
+    "keywords": [
+      "hot_chocolate_&_views_at_dornan\u2019s"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is laurance s. rockefeller preserve (when accessible)?",
+      "Is laurance s. rockefeller preserve (when accessible) kid-friendly?",
+      "Where can I do laurance s. rockefeller preserve (when accessible) in Grand Teton?",
+      "Is laurance s. rockefeller preserve (when accessible) available in winter?",
+      "Tell me about laurance s. rockefeller preserve (when accessible)"
+    ],
+    "response": "\u2744\ufe0f **Laurance S. Rockefeller Preserve (when accessible)**\n\n- Quiet, spiritual setting\n- Beautiful even in snow\n- Great place to snowshoe if open\n- Focus on nature and reflection\n- Less visited in winter\n\n**Recommended Gear:** snowshoes, layers, trail map, quiet mindset",
+    "tags": [
+      "winter",
+      "quiet",
+      "scenic",
+      "snow-based",
+      "reflective",
+      "grand_teton"
+    ],
+    "keywords": [
+      "laurance_s._rockefeller_preserve_(when_accessible)"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is taking winter wildlife photos in moose-wilson corridor?",
+      "Is taking winter wildlife photos in moose-wilson corridor kid-friendly?",
+      "Where can I do taking winter wildlife photos in moose-wilson corridor in Grand Teton?",
+      "Is taking winter wildlife photos in moose-wilson corridor available in winter?",
+      "Tell me about taking winter wildlife photos in moose-wilson corridor"
+    ],
+    "response": "\u2744\ufe0f **Taking Winter Wildlife Photos in Moose-Wilson Corridor**\n\n- Moose sightings highly likely\n- Shaded road often open to pullouts\n- Excellent light conditions\n- Close to Jackson entrance\n- Often uncrowded in winter\n\n**Recommended Gear:** camera, telephoto lens, tripod, layers",
+    "tags": [
+      "winter",
+      "wildlife-heavy",
+      "photography",
+      "scenic",
+      "grand_teton"
+    ],
+    "keywords": [
+      "taking_winter_wildlife_photos_in_moose-wilson_corridor"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is visit granite hot springs (nearby winter-only access)?",
+      "Is visit granite hot springs (nearby winter-only access) kid-friendly?",
+      "Where can I do visit granite hot springs (nearby winter-only access) in Grand Teton?",
+      "Is visit granite hot springs (nearby winter-only access) available in winter?",
+      "Tell me about visit granite hot springs (nearby winter-only access)"
+    ],
+    "response": "\u2744\ufe0f **Visit Granite Hot Springs (nearby winter-only access)**\n\n- Accessible by snowmobile or dog sled\n- Natural hot pool in snowy canyon\n- Remote and peaceful\n- Unforgettable winter memory\n- Combo with winter wildlife tour possible\n\n**Recommended Gear:** swimsuit, towel, snow boots, transport plan",
+    "tags": [
+      "winter",
+      "unique",
+      "snow-based",
+      "off-park",
+      "relaxing",
+      "grand_teton"
+    ],
+    "keywords": [
+      "visit_granite_hot_springs_(nearby_winter-only_access)"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What is dog sledding adventures near jackson?",
+      "Is dog sledding adventures near jackson kid-friendly?",
+      "Where can I do dog sledding adventures near jackson in Grand Teton?",
+      "Is dog sledding adventures near jackson available in winter?",
+      "Tell me about dog sledding adventures near jackson"
+    ],
+    "response": "\u2744\ufe0f **Dog Sledding Adventures near Jackson**\n\n- Alaskan-style sled experience\n- Ride or mush through snowy valleys\n- Meet the dogs before or after\n- Combo tours with hot springs available\n- Kid- and adult-friendly\n\n**Recommended Gear:** cold-weather gear, hat, gloves, booking confirmation",
+    "tags": [
+      "winter",
+      "unique",
+      "snow-based",
+      "guided",
+      "family-friendly",
+      "off-park",
+      "grand_teton"
+    ],
+    "keywords": [
+      "dog_sledding_adventures_near_jackson"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  }
+]

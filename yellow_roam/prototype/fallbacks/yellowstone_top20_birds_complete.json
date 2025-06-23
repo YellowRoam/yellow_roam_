@@ -1,0 +1,322 @@
+[
+  {
+    "common_name": "Bald Eagle",
+    "scientific_name": "Haliaeetus leucocephalus",
+    "facts": [
+      "Large raptor with white head and tail; dark brown body.",
+      "Genus: Haliaeetus, Species: leucocephalus",
+      "Best Seen: Yellowstone Lake, Hayden Valley, near major rivers.",
+      "Diet: Primarily fish, but also carrion and small mammals.",
+      "Nests in large trees near water.",
+      "Year-round resident in Yellowstone.",
+      "Wingspan up to 7.5 feet.",
+      "Symbol of the United States.",
+      "Often seen soaring or perched near water.",
+      "Recovering from previous endangered status due to DDT."
+    ]
+  },
+  {
+    "common_name": "Osprey",
+    "scientific_name": "Pandion haliaetus",
+    "facts": [
+      "Specialized fish-eating raptor with M-shaped flight pattern.",
+      "Genus: Pandion, Species: haliaetus",
+      "Best Seen: Yellowstone River, Yellowstone Lake, Firehole River.",
+      "Builds large stick nests on dead trees or platforms.",
+      "Dives feet-first into water to catch fish.",
+      "Migratory: returns in spring and leaves by fall.",
+      "White head with dark eye stripe.",
+      "Nests often reused year after year.",
+      "Monogamous pair bonds during breeding season.",
+      "Screeching call often heard near water."
+    ]
+  },
+  {
+    "common_name": "Trumpeter Swan",
+    "scientific_name": "Cygnus buccinator",
+    "facts": [
+      "Largest native waterfowl species in North America.",
+      "Genus: Cygnus, Species: buccinator",
+      "Best Seen: Yellowstone Lake, Madison River, Lamar Valley.",
+      "All-white body with black bill and feet.",
+      "Primarily herbivorous, feeding on aquatic vegetation.",
+      "Endangered in early 1900s, now rebounding.",
+      "Pairs mate for life.",
+      "Very territorial during breeding.",
+      "Haunting, deep honking call.",
+      "Nests in marshes and shallow lakes."
+    ]
+  },
+  {
+    "common_name": "Sandhill Crane",
+    "scientific_name": "Antigone canadensis",
+    "facts": [
+      "Tall, gray bird with red crown and long legs.",
+      "Genus: Antigone, Species: canadensis",
+      "Best Seen: Lamar Valley, Hayden Valley, meadows near wetlands.",
+      "Elaborate courtship dances.",
+      "Eats grains, insects, small animals, and roots.",
+      "Monogamous pairs nest on ground in marshes.",
+      "Distinct rolling bugle call.",
+      "Migratory: returns in spring.",
+      "Fossil record dates back over 2 million years.",
+      "Juveniles are cinnamon-colored."
+    ]
+  },
+  {
+    "common_name": "American Dipper",
+    "scientific_name": "Cinclus mexicanus",
+    "facts": [
+      "Small, plump gray songbird that 'dips' up and down.",
+      "Genus: Cinclus, Species: mexicanus",
+      "Best Seen: Fast-moving streams like Gibbon River and Firehole River.",
+      "Only aquatic songbird in North America.",
+      "Walks underwater to feed on insects and larvae.",
+      "Often bobs on rocks midstream.",
+      "Nests on rock ledges and under bridges.",
+      "Sings sweet, warbling song year-round.",
+      "Resident year-round, even in winter.",
+      "Indicator of healthy stream ecosystems."
+    ]
+  },
+  {
+    "common_name": "Great Gray Owl",
+    "scientific_name": "Strix nebulosa",
+    "facts": [
+      "Largest owl by length in North America.",
+      "Genus: Strix, Species: nebulosa",
+      "Best Seen: Forest edges near Hayden Valley and Canyon.",
+      "Facial disc helps amplify sound to detect prey.",
+      "Silent flight and patient hunting.",
+      "Eats mainly voles and small mammals.",
+      "Nests in broken-topped trees or old nests.",
+      "Difficult to spot but worth the search.",
+      "Breeds in Yellowstone's subalpine forests.",
+      "Rare but regularly observed in early morning or dusk."
+    ]
+  },
+  {
+    "common_name": "Mountain Bluebird",
+    "scientific_name": "Sialia currucoides",
+    "facts": [
+      "Bright blue male, pale gray-blue female.",
+      "Genus: Sialia, Species: currucoides",
+      "Best Seen: Lamar Valley, Tower Junction, Blacktail Plateau.",
+      "Nests in cavities or nest boxes.",
+      "Eats insects and berries.",
+      "State bird of Idaho and Nevada.",
+      "Hover-gleaning insect catch technique.",
+      "Favors open meadows and sagebrush flats.",
+      "Short migratory movements depending on winter severity.",
+      "Symbol of happiness in western folklore."
+    ]
+  },
+  {
+    "common_name": "Clark\u2019s Nutcracker",
+    "scientific_name": "Nucifraga columbiana",
+    "facts": [
+      "Gray bird with black wings and long beak.",
+      "Genus: Nucifraga, Species: columbiana",
+      "Best Seen: Subalpine forests near Mount Washburn and Dunraven Pass.",
+      "Caches thousands of pine seeds for winter.",
+      "Major seed disperser for whitebark pine.",
+      "Very intelligent corvid family member.",
+      "Harsh 'kraaa' call echoes through forests.",
+      "Pairs defend territories year-round.",
+      "Nests early in the season (as early as February).",
+      "Dependent on conifer cone crops."
+    ]
+  },
+  {
+    "common_name": "Northern Harrier",
+    "scientific_name": "Circus hudsonius",
+    "facts": [
+      "Medium-sized hawk with owl-like face and long tail.",
+      "Genus: Circus, Species: hudsonius",
+      "Best Seen: Hayden Valley, Lamar Valley meadows.",
+      "Low, gliding flight style while hunting.",
+      "Eats small mammals, birds, and insects.",
+      "Females are larger and brown; males are gray.",
+      "Often perches on low snags or fence posts.",
+      "Nests on the ground in dense vegetation.",
+      "Distinct white rump patch visible in flight.",
+      "Uses hearing and vision to detect prey."
+    ]
+  },
+  {
+    "common_name": "Red-tailed Hawk",
+    "scientific_name": "Buteo jamaicensis",
+    "facts": [
+      "Common large hawk with reddish tail.",
+      "Genus: Buteo, Species: jamaicensis",
+      "Best Seen: Road corridors, open fields, Lamar Valley.",
+      "Soars in circles with broad wings.",
+      "Emits the classic 'screech' used in movies.",
+      "Feeds on rodents, rabbits, reptiles.",
+      "Nests in trees, cliffs, or human structures.",
+      "Highly adaptable and widespread.",
+      "Juveniles lack red tail initially.",
+      "Often seen perched along roadsides."
+    ]
+  },
+  {
+    "common_name": "Peregrine Falcon",
+    "scientific_name": "Falco peregrinus",
+    "facts": [
+      "Fastest bird on Earth, dives at 240 mph.",
+      "Genus: Falco, Species: peregrinus",
+      "Best Seen: Cliffs near Yellowstone River, Tower Fall.",
+      "Feeds primarily on birds mid-flight.",
+      "Recovered from DDT-related decline.",
+      "Slate-gray back, barred white chest.",
+      "Dark helmet-like head markings.",
+      "Highly territorial during nesting.",
+      "Nests on cliffs and rock ledges.",
+      "Known for sharp 'kek-kek-kek' calls."
+    ]
+  },
+  {
+    "common_name": "Western Tanager",
+    "scientific_name": "Piranga ludoviciana",
+    "facts": [
+      "Bright yellow body with red-orange head (male).",
+      "Genus: Piranga, Species: ludoviciana",
+      "Best Seen: Forest edges near Mammoth and Tower.",
+      "Females are olive-yellow with dark wings.",
+      "Eats insects and fruit.",
+      "Migrates from Central America in spring.",
+      "Soft warbling song from canopy.",
+      "Rarely seen but easily heard.",
+      "Prefers mixed conifer and aspen forest.",
+      "Eye-catching flash of color among trees."
+    ]
+  },
+  {
+    "common_name": "American Kestrel",
+    "scientific_name": "Falco sparverius",
+    "facts": [
+      "Small, colorful falcon with fast flight.",
+      "Genus: Falco, Species: sparverius",
+      "Best Seen: Open areas near roadways and meadows.",
+      "Males have blue-gray wings and orange back.",
+      "Feeds on insects, small mammals, and birds.",
+      "Nests in cavities and nest boxes.",
+      "Hover-hunting style distinctive in Yellowstone.",
+      "Rapid 'klee-klee-klee' call when alarmed.",
+      "Widespread across North America.",
+      "Prefers low perches to scan for prey."
+    ]
+  },
+  {
+    "common_name": "Barrow's Goldeneye",
+    "scientific_name": "Bucephala islandica",
+    "facts": [
+      "Diving duck with round head and striking yellow eye.",
+      "Genus: Bucephala, Species: islandica",
+      "Best Seen: Yellowstone Lake and Gibbon River.",
+      "Males have black-and-white plumage with purple sheen.",
+      "Females are brown with orange bill tips.",
+      "Feeds on aquatic insects and crustaceans.",
+      "Nests in tree cavities near water.",
+      "Dives underwater to forage.",
+      "Distinctive whistling wing sound in flight.",
+      "Winter range includes thermal waters of Yellowstone."
+    ]
+  },
+  {
+    "common_name": "Common Raven",
+    "scientific_name": "Corvus corax",
+    "facts": [
+      "Large, intelligent black bird with shaggy throat.",
+      "Genus: Corvus, Species: corax",
+      "Best Seen: Throughout the park in all habitats.",
+      "Known for problem-solving and tool use.",
+      "Loud, varied vocalizations and aerial acrobatics.",
+      "Omnivorous scavenger and hunter.",
+      "Pairs mate for life and nest in cliffs and trees.",
+      "Widespread in North America and Yellowstone.",
+      "Tails wedge-shaped in flight.",
+      "Cultural symbol in many Native traditions."
+    ]
+  },
+  {
+    "common_name": "Gray Jay (Canada Jay)",
+    "scientific_name": "Perisoreus canadensis",
+    "facts": [
+      "Fluffy gray bird known as the 'camp robber.'",
+      "Genus: Perisoreus, Species: canadensis",
+      "Best Seen: Subalpine forests near Canyon and Mount Washburn.",
+      "Caches food for winter in bark and moss.",
+      "Inquisitive and often fearless of humans.",
+      "Feeds on insects, berries, and carrion.",
+      "Soft whistles and chattering calls.",
+      "Nests in late winter while snow is still deep.",
+      "Highly intelligent corvid family member.",
+      "Believed to bring good luck in some traditions."
+    ]
+  },
+  {
+    "common_name": "White-crowned Sparrow",
+    "scientific_name": "Zonotrichia leucophrys",
+    "facts": [
+      "Distinctive black and white striped crown.",
+      "Genus: Zonotrichia, Species: leucophrys",
+      "Best Seen: Meadows and sagebrush flats.",
+      "Sweet, whistled song common at dawn.",
+      "Eats seeds and insects.",
+      "Ground-nester under shrubs or grass.",
+      "Migratory: summers in Yellowstone.",
+      "Young lack the crown stripes.",
+      "Often found in small flocks.",
+      "Known for regional song dialects."
+    ]
+  },
+  {
+    "common_name": "Yellow Warbler",
+    "scientific_name": "Setophaga petechia",
+    "facts": [
+      "Bright yellow with reddish streaks on breast (male).",
+      "Genus: Setophaga, Species: petechia",
+      "Best Seen: Riparian areas along Firehole and Gibbon Rivers.",
+      "Favors willows and shrubs near water.",
+      "Feeds on insects and caterpillars.",
+      "Rapid, musical song of 'sweet-sweet-sweet.'",
+      "Nests low in shrubs and small trees.",
+      "One of the most widespread warblers in North America.",
+      "Arrives in late spring, departs early fall.",
+      "Females are slightly duller than males."
+    ]
+  },
+  {
+    "common_name": "American White Pelican",
+    "scientific_name": "Pelecanus erythrorhynchos",
+    "facts": [
+      "Massive white bird with orange bill and black wingtips.",
+      "Genus: Pelecanus, Species: erythrorhynchos",
+      "Best Seen: Yellowstone Lake, Pelican Creek, and Yellowstone River.",
+      "Soars in flocks or glides low over water.",
+      "Feeds by dipping beak into water\u2014not plunge-diving.",
+      "Breeds colonially on isolated islands.",
+      "Migratory: returns in late spring.",
+      "One of the largest birds in the park.",
+      "Nest colonies are protected and restricted.",
+      "Wing span can exceed 9 feet."
+    ]
+  },
+  {
+    "common_name": "Wilson\u2019s Warbler",
+    "scientific_name": "Cardellina pusilla",
+    "facts": [
+      "Small yellow warbler with black cap (male).",
+      "Genus: Cardellina, Species: pusilla",
+      "Best Seen: Willows near streams and wet meadows.",
+      "Often flits low in dense vegetation.",
+      "Feeds on insects and small invertebrates.",
+      "Sings sharp chattering warble.",
+      "Migrates from Central America.",
+      "Nests low in shrubs or grasses.",
+      "Quick and elusive in movement.",
+      "Female lacks black cap entirely."
+    ]
+  }
+]

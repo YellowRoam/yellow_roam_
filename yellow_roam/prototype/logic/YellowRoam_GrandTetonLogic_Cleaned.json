@@ -1,0 +1,860 @@
+[
+  {
+    "patterns": [
+      "What are the best planning tips options in Grand Teton?",
+      "Can you recommend planning tips near Jenny Lake?",
+      "Are there good planning tips options for families?",
+      "Tell me about planning tips around Colter Bay",
+      "What planning tips spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to planning tips in Grand Teton. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "planning_tips"
+    ],
+    "tags": [
+      "grand_teton",
+      "planning_tips"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best winter activities options in Grand Teton?",
+      "Can you recommend winter activities near Jenny Lake?",
+      "Are there good winter activities options for families?",
+      "Tell me about winter activities around Colter Bay",
+      "What winter activities spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to winter activities in Grand Teton. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "winter_activities"
+    ],
+    "tags": [
+      "grand_teton",
+      "winter_activities"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best wildlife options in Grand Teton?",
+      "Can you recommend wildlife near Jenny Lake?",
+      "Are there good wildlife options for families?",
+      "Tell me about wildlife around Colter Bay",
+      "What wildlife spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to wildlife in Grand Teton. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "wildlife"
+    ],
+    "tags": [
+      "wildlife",
+      "grand_teton"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best photography options in Grand Teton?",
+      "Can you recommend photography near Jenny Lake?",
+      "Are there good photography options for families?",
+      "Tell me about photography around Colter Bay",
+      "What photography spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to photography in Grand Teton. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "photography"
+    ],
+    "tags": [
+      "grand_teton",
+      "photography"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best scenic drives options in Grand Teton?",
+      "Can you recommend scenic drives near Jenny Lake?",
+      "Are there good scenic drives options for families?",
+      "Tell me about scenic drives around Colter Bay",
+      "What scenic drives spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to scenic drives in Grand Teton. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "scenic_drives"
+    ],
+    "tags": [
+      "scenic_drives",
+      "grand_teton"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best camping options in Grand Teton?",
+      "Can you recommend camping near Jenny Lake?",
+      "Are there good camping options for families?",
+      "Tell me about camping around Colter Bay",
+      "What camping spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to camping in Grand Teton. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "camping"
+    ],
+    "tags": [
+      "camping",
+      "grand_teton"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best lodging options in Grand Teton?",
+      "Can you recommend lodging near Jenny Lake?",
+      "Are there good lodging options for families?",
+      "Tell me about lodging around Colter Bay",
+      "What lodging spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to lodging in Grand Teton. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "lodging"
+    ],
+    "tags": [
+      "grand_teton",
+      "lodging"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best weather options in Grand Teton?",
+      "Can you recommend weather near Jenny Lake?",
+      "Are there good weather options for families?",
+      "Tell me about weather around Colter Bay",
+      "What weather spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to weather in Grand Teton. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "weather"
+    ],
+    "tags": [
+      "grand_teton",
+      "weather"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best dining options in Grand Teton?",
+      "Can you recommend dining near Jenny Lake?",
+      "Are there good dining options for families?",
+      "Tell me about dining around Colter Bay",
+      "What dining spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to dining in Grand Teton. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "dining"
+    ],
+    "tags": [
+      "grand_teton",
+      "dining"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best flora options in Grand Teton?",
+      "Can you recommend flora near Jenny Lake?",
+      "Are there good flora options for families?",
+      "Tell me about flora around Colter Bay",
+      "What flora spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to flora in Grand Teton. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "flora"
+    ],
+    "tags": [
+      "grand_teton",
+      "flora"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best cabins options in Grand Teton?",
+      "Can you recommend cabins near Jenny Lake?",
+      "Are there good cabins options for families?",
+      "Tell me about cabins around Colter Bay",
+      "What cabins spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to cabins in Grand Teton. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "cabins"
+    ],
+    "tags": [
+      "cabins",
+      "grand_teton"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities options in Grand Teton?",
+      "Can you recommend summer activities near Jenny Lake?",
+      "Are there good summer activities options for families?",
+      "Tell me about summer activities around Colter Bay",
+      "What summer activities spots are scenic and relaxing?"
+    ],
+    "response": "Here's a helpful guide to summer activities in Grand Teton. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "summer_activities"
+    ],
+    "tags": [
+      "summer_activities",
+      "grand_teton"
+    ],
+    "seasonal_availability": "year-round",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best scenic drives options in Grand Teton? (for winter)",
+      "Can you recommend scenic drives near Jenny Lake? (for winter)",
+      "Are there good scenic drives options for families? (for winter)",
+      "Tell me about scenic drives around Colter Bay (for winter)",
+      "What scenic drives spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to scenic drives in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "winter_lodging",
+      "winter_closures",
+      "skiing",
+      "snowmobiling",
+      "scenic_drives",
+      "snowshoeing"
+    ],
+    "tags": [
+      "scenic_drives",
+      "grand_teton",
+      "winter"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best photography options in Grand Teton? (for winter)",
+      "Can you recommend photography near Jenny Lake? (for winter)",
+      "Are there good photography options for families? (for winter)",
+      "Tell me about photography around Colter Bay (for winter)",
+      "What photography spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to photography in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "winter_lodging",
+      "photography",
+      "winter_closures",
+      "skiing",
+      "snowmobiling",
+      "snowshoeing"
+    ],
+    "tags": [
+      "winter",
+      "grand_teton",
+      "photography"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best winter activities options in Grand Teton? (for winter)",
+      "Can you recommend winter activities near Jenny Lake? (for winter)",
+      "Are there good winter activities options for families? (for winter)",
+      "Tell me about winter activities around Colter Bay (for winter)",
+      "What winter activities spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to winter activities in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "winter_lodging",
+      "winter_activities",
+      "winter_closures",
+      "skiing",
+      "snowmobiling",
+      "snowshoeing"
+    ],
+    "tags": [
+      "winter",
+      "grand_teton",
+      "winter_activities"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best winter activities options in Grand Teton? (for summer)",
+      "Can you recommend winter activities near Jenny Lake? (for summer)",
+      "Are there good winter activities options for families? (for summer)",
+      "Tell me about winter activities around Colter Bay (for summer)",
+      "What winter activities spots are scenic and relaxing? (for summer)"
+    ],
+    "response": "Here's a helpful guide to winter activities in Grand Teton during the summer. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "wildflowers",
+      "camping",
+      "summer_dining",
+      "winter_activities",
+      "kayaking",
+      "hiking"
+    ],
+    "tags": [
+      "grand_teton",
+      "summer",
+      "winter_activities"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best flora options in Grand Teton? (for winter)",
+      "Can you recommend flora near Jenny Lake? (for winter)",
+      "Are there good flora options for families? (for winter)",
+      "Tell me about flora around Colter Bay (for winter)",
+      "What flora spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to flora in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "winter_lodging",
+      "winter_closures",
+      "skiing",
+      "snowmobiling",
+      "snowshoeing",
+      "flora"
+    ],
+    "tags": [
+      "winter",
+      "grand_teton",
+      "flora"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best wildlife options in Grand Teton? (for winter)",
+      "Can you recommend wildlife near Jenny Lake? (for winter)",
+      "Are there good wildlife options for families? (for winter)",
+      "Tell me about wildlife around Colter Bay (for winter)",
+      "What wildlife spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to wildlife in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "wildlife",
+      "winter_lodging",
+      "winter_closures",
+      "skiing",
+      "snowmobiling",
+      "snowshoeing"
+    ],
+    "tags": [
+      "wildlife",
+      "grand_teton",
+      "winter"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best cabins options in Grand Teton? (for winter)",
+      "Can you recommend cabins near Jenny Lake? (for winter)",
+      "Are there good cabins options for families? (for winter)",
+      "Tell me about cabins around Colter Bay (for winter)",
+      "What cabins spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to cabins in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "winter_lodging",
+      "winter_closures",
+      "cabins",
+      "skiing",
+      "snowmobiling",
+      "snowshoeing"
+    ],
+    "tags": [
+      "winter",
+      "cabins",
+      "grand_teton"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best planning tips options in Grand Teton? (for winter)",
+      "Can you recommend planning tips near Jenny Lake? (for winter)",
+      "Are there good planning tips options for families? (for winter)",
+      "Tell me about planning tips around Colter Bay (for winter)",
+      "What planning tips spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to planning tips in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "planning_tips",
+      "winter_lodging",
+      "winter_closures",
+      "skiing",
+      "snowmobiling",
+      "snowshoeing"
+    ],
+    "tags": [
+      "winter",
+      "grand_teton",
+      "planning_tips"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best summer activities options in Grand Teton? (for winter)",
+      "Can you recommend summer activities near Jenny Lake? (for winter)",
+      "Are there good summer activities options for families? (for winter)",
+      "Tell me about summer activities around Colter Bay (for winter)",
+      "What summer activities spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to summer activities in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "winter_lodging",
+      "summer_activities",
+      "winter_closures",
+      "skiing",
+      "snowmobiling",
+      "snowshoeing"
+    ],
+    "tags": [
+      "winter",
+      "summer_activities",
+      "grand_teton"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best camping options in Grand Teton? (for winter)",
+      "Can you recommend camping near Jenny Lake? (for winter)",
+      "Are there good camping options for families? (for winter)",
+      "Tell me about camping around Colter Bay (for winter)",
+      "What camping spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to camping in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "winter_lodging",
+      "camping",
+      "winter_closures",
+      "skiing",
+      "snowmobiling",
+      "snowshoeing"
+    ],
+    "tags": [
+      "winter",
+      "camping",
+      "grand_teton"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best wildlife options in Grand Teton? (for summer)",
+      "Can you recommend wildlife near Jenny Lake? (for summer)",
+      "Are there good wildlife options for families? (for summer)",
+      "Tell me about wildlife around Colter Bay (for summer)",
+      "What wildlife spots are scenic and relaxing? (for summer)"
+    ],
+    "response": "Here's a helpful guide to wildlife in Grand Teton during the summer. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "wildlife",
+      "wildflowers",
+      "camping",
+      "summer_dining",
+      "kayaking",
+      "hiking"
+    ],
+    "tags": [
+      "wildlife",
+      "grand_teton",
+      "summer"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best dining options in Grand Teton? (for winter)",
+      "Can you recommend dining near Jenny Lake? (for winter)",
+      "Are there good dining options for families? (for winter)",
+      "Tell me about dining around Colter Bay (for winter)",
+      "What dining spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to dining in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "dining",
+      "winter_lodging",
+      "winter_closures",
+      "skiing",
+      "snowmobiling",
+      "snowshoeing"
+    ],
+    "tags": [
+      "winter",
+      "grand_teton",
+      "dining"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best planning tips options in Grand Teton? (for summer)",
+      "Can you recommend planning tips near Jenny Lake? (for summer)",
+      "Are there good planning tips options for families? (for summer)",
+      "Tell me about planning tips around Colter Bay (for summer)",
+      "What planning tips spots are scenic and relaxing? (for summer)"
+    ],
+    "response": "Here's a helpful guide to planning tips in Grand Teton during the summer. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "planning_tips",
+      "wildflowers",
+      "camping",
+      "summer_dining",
+      "kayaking",
+      "hiking"
+    ],
+    "tags": [
+      "grand_teton",
+      "summer",
+      "planning_tips"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best weather options in Grand Teton? (for summer)",
+      "Can you recommend weather near Jenny Lake? (for summer)",
+      "Are there good weather options for families? (for summer)",
+      "Tell me about weather around Colter Bay (for summer)",
+      "What weather spots are scenic and relaxing? (for summer)"
+    ],
+    "response": "Here's a helpful guide to weather in Grand Teton during the summer. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "weather",
+      "wildflowers",
+      "camping",
+      "summer_dining",
+      "kayaking",
+      "hiking"
+    ],
+    "tags": [
+      "grand_teton",
+      "summer",
+      "weather"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best photography options in Grand Teton? (for summer)",
+      "Can you recommend photography near Jenny Lake? (for summer)",
+      "Are there good photography options for families? (for summer)",
+      "Tell me about photography around Colter Bay (for summer)",
+      "What photography spots are scenic and relaxing? (for summer)"
+    ],
+    "response": "Here's a helpful guide to photography in Grand Teton during the summer. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "wildflowers",
+      "camping",
+      "photography",
+      "summer_dining",
+      "kayaking",
+      "hiking"
+    ],
+    "tags": [
+      "summer",
+      "grand_teton",
+      "photography"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best flora options in Grand Teton? (for summer)",
+      "Can you recommend flora near Jenny Lake? (for summer)",
+      "Are there good flora options for families? (for summer)",
+      "Tell me about flora around Colter Bay (for summer)",
+      "What flora spots are scenic and relaxing? (for summer)"
+    ],
+    "response": "Here's a helpful guide to flora in Grand Teton during the summer. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "wildflowers",
+      "camping",
+      "summer_dining",
+      "kayaking",
+      "hiking",
+      "flora"
+    ],
+    "tags": [
+      "grand_teton",
+      "summer",
+      "flora"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best weather options in Grand Teton? (for winter)",
+      "Can you recommend weather near Jenny Lake? (for winter)",
+      "Are there good weather options for families? (for winter)",
+      "Tell me about weather around Colter Bay (for winter)",
+      "What weather spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to weather in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.",
+    "keywords": [
+      "weather",
+      "winter_lodging",
+      "winter_closures",
+      "skiing",
+      "snowmobiling",
+      "snowshoeing"
+    ],
+    "tags": [
+      "winter",
+      "grand_teton",
+      "weather"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best dining options in Grand Teton? (for summer)",
+      "Can you recommend dining near Jenny Lake? (for summer)",
+      "Are there good dining options for families? (for summer)",
+      "Tell me about dining around Colter Bay (for summer)",
+      "What dining spots are scenic and relaxing? (for summer)"
+    ],
+    "response": "Here's a helpful guide to dining in Grand Teton during the summer. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "dining",
+      "wildflowers",
+      "camping",
+      "summer_dining",
+      "kayaking",
+      "hiking"
+    ],
+    "tags": [
+      "grand_teton",
+      "summer",
+      "dining"
+    ],
+    "seasonal_availability": "summer",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  },
+  {
+    "patterns": [
+      "What are the best lodging options in Grand Teton? (for winter)",
+      "Can you recommend lodging near Jenny Lake? (for winter)",
+      "Are there good lodging options for families? (for winter)",
+      "Tell me about lodging around Colter Bay (for winter)",
+      "What lodging spots are scenic and relaxing? (for winter)"
+    ],
+    "response": "Here's a helpful guide to lodging in Grand Teton during the winter. Use the map links and seasonal tips provided to get the best experience.\n\n**Location Links:**\n- \ud83d\udccd **Jenny Lake**  \n  [Apple Maps](https://maps.apple.com/?q=Jenny+Lake+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jenny+Lake+Grand+Teton)\n- \ud83d\udccd **Colter Bay**  \n  [Apple Maps](https://maps.apple.com/?q=Colter+Bay+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Colter+Bay+Grand+Teton)\n- \ud83d\udccd **Jackson Lake Lodge**  \n  [Apple Maps](https://maps.apple.com/?q=Jackson+Lake+Lodge+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Jackson+Lake+Lodge+Grand+Teton)\n- \ud83d\udccd **Signal Mountain**  \n  [Apple Maps](https://maps.apple.com/?q=Signal+Mountain+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Signal+Mountain+Grand+Teton)\n- \ud83d\udccd **Moran**  \n  [Apple Maps](https://maps.apple.com/?q=Moran+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moran+Grand+Teton)\n- \ud83d\udccd **Moose**  \n  [Apple Maps](https://maps.apple.com/?q=Moose+Grand+Teton) | [Yelp](https://www.yelp.com/search?find_desc=Moose+Grand+Teton)",
+    "keywords": [
+      "lodging",
+      "winter_lodging",
+      "winter_closures",
+      "skiing",
+      "snowmobiling",
+      "snowshoeing"
+    ],
+    "tags": [
+      "winter",
+      "grand_teton",
+      "lodging"
+    ],
+    "seasonal_availability": "winter",
+    "tiers": [
+      "free",
+      "explorer",
+      "pro",
+      "trailblazer"
+    ]
+  }
+]
