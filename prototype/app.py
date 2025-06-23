@@ -26,9 +26,9 @@ logging.basicConfig(
 logger = logging.getLogger("YellowRoam")
 
 # === Load System Prompt ===
-logic_base = os.path.dirname(os.path.abspath(__file__))
-with open(os.path.join(logic_base, "fallbacks", "yellowstone_system_prompt.json"), "r", encoding="utf-8") as f:
-    system_prompt = json.load(f)["en"]
+system_prompt_path = os.path.join(os.path.dirname(__file__), "fallbacks", "yellowstone_system_prompt.json")
+with open(system_prompt_path, "r", encoding="utf-8") as f:
+    system_prompt = json.load(f)
 
 # === Load Logic Files ===
 logic_folder = os.path.join(logic_base, "logic")
