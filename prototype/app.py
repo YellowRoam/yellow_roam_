@@ -15,6 +15,7 @@ client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # === Flask App Setup ===
 app = Flask(__name__)
+app.config.from_object(ProductionConfig)
 
 if os.environ.get('FLASK_ENV') == 'development':
     app.config.from_object(DevelopmentConfig)
