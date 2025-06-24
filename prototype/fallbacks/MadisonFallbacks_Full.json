@@ -1,0 +1,392 @@
+[
+  {
+    "patterns": [
+      "What rivers meet at Madison Junction?",
+      "Where does the Madison River start in Yellowstone?",
+      "How is the Madison River formed?"
+    ],
+    "response": "The Madison River begins where the Firehole and Gibbon Rivers meet at Madison Junction. The Firehole flows north from the Old Faithful area through hydrothermal basins, while the Gibbon runs south from Grebe Lake. Together, they form one of Yellowstone\u2019s most iconic rivers.",
+    "tags": [
+      "hydrology",
+      "geography",
+      "scenic spots"
+    ]
+  },
+  {
+    "patterns": [
+      "What is Seven Mile Bridge in Yellowstone?",
+      "Why is it called Seven Mile Bridge?",
+      "Where is Seven Mile Bridge located?"
+    ],
+    "response": "Seven Mile Bridge is a key landmark between Madison Junction and the West Entrance. It\u2019s named for being seven miles from each. It marks a shift in landscape\u2014from the lava-walled Madison Canyon to the gentler hills leading out of the park.",
+    "tags": [
+      "history",
+      "geography",
+      "drives"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I swim in Yellowstone?",
+      "Is swimming allowed near Madison Junction?",
+      "What\u2019s the swimming area near Firehole Falls?"
+    ],
+    "response": "Swimming is permitted in a designated area along Firehole Canyon Drive, just south of Madison Junction. Be cautious\u2014temperatures vary and thermal influences are present. Climbing or jumping from cliffs is prohibited due to safety and environmental concerns.",
+    "tags": [
+      "swimming",
+      "trail safety",
+      "family-friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "What animals can I see around Madison?",
+      "Is the Madison area good for wildlife viewing?",
+      "Where can I see bison or elk near Madison?"
+    ],
+    "response": "Bison and elk frequent the meadows near Madison Junction, especially during spring and fall. In summer, they often head toward Hayden Valley. Look for eagles, ospreys, and water birds along the Madison and Gibbon Rivers.",
+    "tags": [
+      "wildlife viewing",
+      "seasonal tips",
+      "scenic spots"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s the story behind National Park Mountain?",
+      "Did Yellowstone get founded at Madison Junction?",
+      "What happened at National Park Mountain?"
+    ],
+    "response": "Though a story says Yellowstone was conceived at Madison Junction, there\u2019s no record it was discussed there. However, 1870 Washburn party members did camp nearby. Today, the story is part of the area's interpretive signage.",
+    "tags": [
+      "history",
+      "cultural sites",
+      "geology"
+    ]
+  },
+  {
+    "patterns": [
+      "Where do I hike to see Fairy Falls?",
+      "Is there a trail to Grand Prismatic Overlook?",
+      "How long is the Fairy Falls trail?"
+    ],
+    "response": "Two routes reach Fairy Falls. From Fountain Flat Drive, it\u2019s a 6.7-mile round trip. From the southern trailhead, it\u2019s 5.4 miles, including a side trail to Grand Prismatic Overlook. Expect meadows, forest, and geyser basin views.",
+    "tags": [
+      "hiking",
+      "photography",
+      "scenic spots"
+    ]
+  },
+  {
+    "patterns": [
+      "What\u2019s special about Firehole Falls?",
+      "Can I drive to Firehole Falls?",
+      "Where is Firehole Canyon Drive?"
+    ],
+    "response": "Firehole Falls is a 40-foot waterfall along Firehole Canyon Drive, a one-way route just south of Madison Junction. The drive features lava cliffs, river views, and access to the swimming area in summer.",
+    "tags": [
+      "waterfalls",
+      "drives",
+      "photography"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I go fishing in Madison?",
+      "Are the Firehole and Madison Rivers good for fishing?",
+      "Can I fish near Fountain Paint Pot?"
+    ],
+    "response": "Both the Madison and Firehole Rivers offer excellent fly fishing. The Madison is renowned for rainbow and brown trout, while the Firehole offers brook and brown trout. Be sure to check park regulations before casting a line.",
+    "tags": [
+      "fishing",
+      "recreation",
+      "river access"
+    ]
+  },
+  {
+    "patterns": [
+      "What geysers are near Madison?",
+      "What\u2019s on Firehole Lake Drive?",
+      "Where is Fountain Paint Pot?"
+    ],
+    "response": "Firehole Lake Drive, just south of Madison, is a scenic loop showcasing geysers like Great Fountain, White Dome, and Firehole Spring. Nearby Fountain Paint Pot offers a walk among geysers, mudpots, hot springs, and fumaroles.",
+    "tags": [
+      "geothermal",
+      "scenic drives",
+      "hydrothermal"
+    ]
+  },
+  {
+    "patterns": [
+      "Where is Grand Prismatic Spring located?",
+      "Can I visit Midway Geyser Basin from Madison?",
+      "How do I get to Excelsior Geyser?"
+    ],
+    "response": "Midway Geyser Basin, home to Grand Prismatic Spring and Excelsior Geyser, is just south of Madison Junction. You can access it via the Grand Loop Road. Consider hiking the overlook trail for sweeping views of the spring.",
+    "tags": [
+      "photography",
+      "geothermal",
+      "hiking"
+    ]
+  },
+  {
+    "patterns": [
+      "When is Madison Campground open?",
+      "Can I stay at Madison Campground in the spring?",
+      "Is Madison Campground open late in the season?"
+    ],
+    "response": "Madison Campground opens earlier and closes later than most others in the park. It\u2019s one of the more accessible campgrounds for spring and fall visits, and it\u2019s close to major geothermal areas.",
+    "tags": [
+      "camping",
+      "trip planning",
+      "seasonal access"
+    ]
+  },
+  {
+    "patterns": [
+      "Where is the Madison Information Station?",
+      "What is the history of the Madison Station?",
+      "Is the Madison Station a museum?"
+    ],
+    "response": "The Madison Information Station, built in the 1920s, is a historic log structure that once served as a museum and now features interpretive exhibits. It\u2019s a quick stop near Madison Junction with touch tables and ranger information.",
+    "tags": [
+      "visitor centers",
+      "history",
+      "education"
+    ]
+  },
+  {
+    "patterns": [
+      "What is Terrace Springs?",
+      "Is Terrace Springs worth visiting?",
+      "How far is Terrace Springs from Madison?"
+    ],
+    "response": "Terrace Springs is a small geothermal area just north of Madison. A short boardwalk leads past steaming springs and colorful thermal features. It\u2019s a quick, peaceful stop, especially in the morning.",
+    "tags": [
+      "geothermal",
+      "short hikes",
+      "scenic spots"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Grand Prismatic safe to visit?",
+      "Can I walk off trail at geysers?",
+      "Are there safety tips for Midway Geyser Basin?"
+    ],
+    "response": "Stay on boardwalks in Midway Geyser Basin. The ground near thermal features is thin and dangerous. Grand Prismatic Spring is beautiful but extremely hot\u2014never step off trail. Obey all signage.",
+    "tags": [
+      "trail safety",
+      "geothermal",
+      "photography"
+    ]
+  },
+  {
+    "patterns": [
+      "Where is West Yellowstone from Madison?",
+      "Can I exit the park from Madison Junction?",
+      "How far is the West Entrance from Madison?"
+    ],
+    "response": "Madison Junction is about 14 miles east of the West Entrance. From there, head west along the Madison River toward West Yellowstone, MT. It\u2019s a scenic drive with regular bison and elk sightings.",
+    "tags": [
+      "navigation",
+      "scenic drives",
+      "trip planning"
+    ]
+  },
+  {
+    "patterns": [
+      "What is the story behind National Park Mountain?",
+      "Tell me about the legend of National Park Mountain",
+      "Is National Park Mountain where Yellowstone was founded?"
+    ],
+    "response": "National Park Mountain is part of the lava flows near Madison Junction. A legend says early explorers camped here in 1870 and decided Yellowstone should be a national park. While they did camp here, the idea of a national park wasn't actually discussed. Still, it's a meaningful site with deep human history, including archeological evidence of use for over 10,000 years.",
+    "tags": [
+      "geology",
+      "history",
+      "scenic spots"
+    ]
+  },
+  {
+    "patterns": [
+      "Where does the Firehole River go?",
+      "What's the path of the Firehole River?",
+      "Where does the Firehole River start and end?"
+    ],
+    "response": "The Firehole River begins near Old Faithful and flows northward, joining the Gibbon River at Madison Junction to form the Madison River. It's a beautiful blue-ribbon stream known for fly fishing and geothermal features.",
+    "tags": [
+      "geothermal",
+      "scenic drives",
+      "fishing"
+    ]
+  },
+  {
+    "patterns": [
+      "Why is it called Seven Mile Bridge?",
+      "What's special about Seven Mile Bridge?",
+      "What does Seven Mile Bridge refer to?"
+    ],
+    "response": "Seven Mile Bridge is exactly seven miles from both Madison Junction and the West Entrance. It's a helpful landmark for orientation and marks the transition from the rugged lava-lined Madison Canyon to gentler hills west of the bridge.",
+    "tags": [
+      "navigation",
+      "history",
+      "drives"
+    ]
+  },
+  {
+    "patterns": [
+      "Can I see wildlife near Madison?",
+      "What animals are common near Madison Junction?",
+      "Where can I spot elk or bison near Madison?"
+    ],
+    "response": "Elk gather near Madison Junction during the fall rut, and bison are often seen along the Madison and Gibbon Rivers, especially in spring and fall. Keep your distance and use pullouts when stopping to view wildlife.",
+    "tags": [
+      "wildlife viewing",
+      "scenic drives",
+      "park safety"
+    ]
+  },
+  {
+    "patterns": [
+      "How tall is Firehole Falls?",
+      "Tell me about Firehole Falls",
+      "Where can I find Firehole Falls?"
+    ],
+    "response": "Firehole Falls is a 40-foot cascade along Firehole Canyon Drive, just south of Madison Junction. It's a stunning spot for photos and a good short detour if you're heading toward Old Faithful.",
+    "tags": [
+      "scenic spots",
+      "photography",
+      "drives"
+    ]
+  },
+  {
+    "patterns": [
+      "Is swimming allowed in Yellowstone?",
+      "Where can I swim in Yellowstone near Madison?",
+      "Tell me about the Firehole swimming area"
+    ],
+    "response": "Swimming is allowed in a designated area along Firehole Canyon Drive. The warm water comes from underground thermal influence. Swimming is at your own risk, and cliff-jumping is strictly prohibited for safety and habitat preservation.",
+    "tags": [
+      "water activities",
+      "trail safety",
+      "family friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "What trails lead to Fairy Falls?",
+      "How long is the hike to Fairy Falls?",
+      "What\u2019s the best way to reach Fairy Falls?"
+    ],
+    "response": "Fairy Falls can be reached via two trailheads. The northern route from Fountain Flat Drive is 6.7 miles roundtrip, and the southern trail from Midway Geyser Basin is 5.4 miles. Both pass scenic hydrothermal features, and the southern route includes an overlook of Grand Prismatic Spring.",
+    "tags": [
+      "hiking",
+      "photography",
+      "geothermal"
+    ]
+  },
+  {
+    "patterns": [
+      "What's Firehole Lake Drive?",
+      "Is Firehole Lake Drive worth it?",
+      "What will I see on Firehole Lake Drive?"
+    ],
+    "response": "Firehole Lake Drive is a short loop near Fountain Paint Pot that takes you past geysers like Great Fountain and White Dome. It's a great detour with frequent geothermal activity and fewer crowds early or late in the day.",
+    "tags": [
+      "scenic drives",
+      "geothermal",
+      "trip planning"
+    ]
+  },
+  {
+    "patterns": [
+      "Where is Fountain Paint Pot?",
+      "What can I see at Fountain Paint Pot?",
+      "Why is Fountain Paint Pot popular?"
+    ],
+    "response": "Fountain Paint Pot is in the Lower Geyser Basin and features all four hydrothermal types: hot springs, geysers, mudpots, and fumaroles. It\u2019s an easy loop walk and one of the best spots for experiencing Yellowstone\u2019s geothermal diversity.",
+    "tags": [
+      "geothermal",
+      "short hikes",
+      "kid-friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "Where is the Madison Campground?",
+      "Can I camp near Madison Junction?",
+      "What\u2019s the closest campground to West Entrance?"
+    ],
+    "response": "Madison Campground is located just south of Madison Junction and is one of the larger campgrounds in the park. It opens early in the spring and stays open late into fall. It\u2019s also close to the West Entrance for quick access in and out.",
+    "tags": [
+      "camping",
+      "trip planning",
+      "family friendly"
+    ]
+  },
+  {
+    "patterns": [
+      "Where can I fish in the Madison area?",
+      "Tell me about fishing in the Firehole River",
+      "Is the Madison River good for fly fishing?"
+    ],
+    "response": "The Madison and Firehole Rivers are both world-renowned fly-fishing streams. The Firehole offers early-season fishing with geothermal-warmed waters, while the Madison holds brown and rainbow trout. Remember to get a Yellowstone fishing permit and follow regulations.",
+    "tags": [
+      "fishing",
+      "wildlife viewing",
+      "park rules"
+    ]
+  },
+  {
+    "patterns": [
+      "What can I see at Midway Geyser Basin?",
+      "Where is Grand Prismatic Spring?",
+      "Tell me about Excelsior Geyser"
+    ],
+    "response": "Midway Geyser Basin is home to Grand Prismatic Spring\u2014famous for its vivid rainbow colors\u2014and Excelsior Geyser, which now steams quietly after once erupting over 300 feet high. It's one of the most photographed areas in Yellowstone.",
+    "tags": [
+      "geothermal",
+      "photography",
+      "short hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "Where are Terrace Springs?",
+      "Are Terrace Springs worth visiting?",
+      "What\u2019s at Terrace Springs?"
+    ],
+    "response": "Terrace Springs is a small, peaceful hydrothermal area just north of Madison Junction. A short boardwalk leads to steaming hot springs surrounded by forest. It\u2019s a quick stop for those wanting to experience the quiet side of Yellowstone\u2019s geothermal magic.",
+    "tags": [
+      "geothermal",
+      "scenic spots",
+      "short hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "How long is the hike to Grand Prismatic Overlook?",
+      "Best way to view Grand Prismatic Spring?",
+      "Where is the overlook trail for Grand Prismatic?"
+    ],
+    "response": "The Grand Prismatic Overlook Trail is a short but uphill hike from the Fairy Falls trailhead. It\u2019s about 1.2 miles roundtrip and gives a stunning view of Grand Prismatic Spring. Go early or late to avoid crowds and harsh sunlight.",
+    "tags": [
+      "photography",
+      "geothermal",
+      "short hikes"
+    ]
+  },
+  {
+    "patterns": [
+      "What makes the Madison River special?",
+      "Why is the Madison River famous?",
+      "What can I do on the Madison River?"
+    ],
+    "response": "The Madison River is a blue-ribbon trout stream with deep cultural significance for anglers. Formed at Madison Junction, it flows through scenic meadows and eventually contributes to the Missouri River. Wildlife sightings are common along its banks.",
+    "tags": [
+      "fishing",
+      "wildlife viewing",
+      "history"
+    ]
+  }
+]

@@ -6,16 +6,22 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
 import openai
-from .match_local_logic import match_local_logic
-from .smart_match_logic import smart_match_logic
+from config import DevelopmentConfig, ProductionConfig
+from match_local_logic import match_local_logic
+from smart_match_logic import smart_match_logic
 
 # === Load environment variables ===
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-client = openai.OpenAI()
+client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # === Flask App Setup ===
-app = Flask(__name__, static_folder="static", template_folder="templates")
+app = Flask(__name__)
+
+if os.environ.get('FLASK_ENV') == 'development':
+    app.config.from_object(DevelopmentConfig)
+else:
+    app.config.from_object(ProductionConfig)
+
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 # === Logger Setup ===
@@ -57,9 +63,6 @@ def log_unmatched_prompt(prompt, language, tier):
     except Exception as e:
         logger.error(f"Logging failed: {e}")
 
-@app.route("/")
-def index():
-    return render_template("index.html")
 
 @app.route("/yellowroamprompts")
 def yellowroam_prompt():
@@ -125,6 +128,10 @@ def yellowstone_props():
 def page_not_found(e):
     return jsonify({"error": "Route not found", "status": 404}), 404
 
+@app.route("/")
+def index():
+    return render_template("index.html")
+
+
 if __name__ == "__main__":
-    print("✅ YellowRoam is running at http://localhost:5000")
     app.run(debug=True)

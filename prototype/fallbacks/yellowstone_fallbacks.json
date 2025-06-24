@@ -1,0 +1,70 @@
+[
+  {
+    "patterns": [
+      "What\u2019s the best hike in Mammoth?",
+      "top hikes near Mammoth Hot Springs",
+      "scenic trails around Mammoth",
+      "What are good hiking options in Mammoth?",
+      "Is the Beaver Ponds Loop worth it?"
+    ],
+    "response": "One of the best hikes in Mammoth is the Beaver Ponds Loop Trail. It starts near the Albright Visitor Center and offers open views of the Gardner River Valley, elk sightings, and a quiet loop away from the boardwalk crowds.",
+    "tags": [
+      "mammoth",
+      "yellowstone",
+      "hiking"
+    ],
+    "keywords": [
+      "mammoth",
+      "trail",
+      "beaver ponds",
+      "loop",
+      "yellowstone",
+      "hiking"
+    ]
+  },
+  {
+    "patterns": [
+      "Is Harlequin Lake Trail worth hiking?",
+      "Tell me about Harlequin Lake Trail",
+      "How long is the Harlequin Lake hike?",
+      "Good family-friendly hikes near Madison?",
+      "Where is Harlequin Lake in Yellowstone?"
+    ],
+    "response": "Harlequin Lake Trail is a short, easy hike west of Madison Junction. It\u2019s only about 1 mile round trip and ends at a peaceful lake with lily pads and mountain views. It's a quiet spot ideal for kids and a quick nature escape.",
+    "tags": [
+      "yellowstone",
+      "hiking",
+      "family",
+      "madison"
+    ],
+    "keywords": [
+      "harlequin lake",
+      "short hike",
+      "family hike",
+      "yellowstone",
+      "madison"
+    ]
+  },
+  {
+    "patterns": [
+      "What can I do at the Albright Visitor Center?",
+      "Is the Albright Visitor Center worth a stop?",
+      "Tell me about the Mammoth visitor center"
+    ],
+    "response": "The Albright Visitor Center is a must-stop in Mammoth. It's housed in historic Army officer quarters and features exhibits on Yellowstone\u2019s wildlife and history. Rangers are on hand to help plan your visit, and it's a great spot for kids to get their Junior Ranger badge or for anyone to grab a passport stamp.",
+    "tags": [
+      "visitor centers",
+      "kid-friendly",
+      "mammoth",
+      "yellowstone"
+    ],
+    "keywords": [
+      "albright",
+      "visitor center",
+      "mammoth",
+      "junior ranger",
+      "passport",
+      "wildlife"
+    ]
+  }
+]
