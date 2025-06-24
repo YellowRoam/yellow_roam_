@@ -1,3 +1,4 @@
+
 import os
 import json
 import logging
@@ -9,8 +10,11 @@ from prototype.config import DevelopmentConfig, ProductionConfig
 from prototype.match_local_logic import match_local_logic
 from prototype.smart_match_logic import smart_match_logic
 from prototype.fallback_router import route_fallback
+from yellowroam_fallback_wrapper import handle_user_prompt
+from system_prompt_loader import get_prompt_for_app  # includes user profile internally
 
 load_dotenv()
+
 client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # === Flask App Setup ===
@@ -19,8 +23,6 @@ app.config.from_object(ProductionConfig)
 
 if os.environ.get('FLASK_ENV') == 'development':
     app.config.from_object(DevelopmentConfig)
-else:
-    app.config.from_object(ProductionConfig)
 
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 
@@ -32,12 +34,14 @@ logging.basicConfig(
 )
 logger = logging.getLogger("YellowRoam")
 
-# === Load System Prompt ===
+# === Load System Prompt (dynamically generated based on user session) ===
 logic_base = os.path.dirname(os.path.abspath(__file__))
 with open(os.path.join(logic_base, "fallbacks", "yellowstone_system_prompt.json"), "r", encoding="utf-8") as f:
-    system_prompt = json.load(f)["en"]
+system_prompt = get_prompt_for_app()
+print(system_prompt["description"])
 
 # === Load Logic Files ===
+logic_base = os.path.dirname(os.path.abspath(__file__))
 logic_folder = os.path.join(logic_base, "logic")
 language_logics = {}
 logic_filenames = [f for f in os.listdir(logic_folder) if f.endswith(".json")]
@@ -62,7 +66,6 @@ def log_unmatched_prompt(prompt, language, tier):
             f.write(json.dumps(log_entry) + "\n")
     except Exception as e:
         logger.error(f"Logging failed: {e}")
-
 
 @app.route("/yellowroamprompts")
 def yellowroam_prompt():
@@ -132,9 +135,8 @@ def page_not_found(e):
 def index():
     return render_template("index.html")
 
-
 if __name__ == "__main__":
     app.run(debug=True)
-
-
+        
    
+ 
