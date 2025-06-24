@@ -2,6 +2,8 @@
 import re
 import logging
 from prototype.filename import thing
+from prototype.validate_logic_files import validate_logic
+from prototype.response_handler import respond
 
 logger = logging.getLogger("YellowRoam")
 
