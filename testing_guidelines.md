@@ -1,4 +1,3 @@
-
 # 🧪 YellowRoam Testing Guidelines
 
 Welcome to the YellowRoam testing guide. This document provides a clear overview of how to test core app functionality across multilingual support, fallback logic, and PWA installability. Use these steps during development, QA, or release validation.
