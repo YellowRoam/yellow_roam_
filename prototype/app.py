@@ -1,4 +1,3 @@
-
 import os
 import json
 import logging
@@ -12,6 +11,7 @@ from prototype.smart_match_logic import smart_match_logic
 from prototype.fallback_router import route_fallback
 from yellowroam_fallback_wrapper import handle_user_prompt
 from system_prompt_loader import get_prompt_for_app  # includes user profile internally
+import importlib.util
 
 load_dotenv()
 
@@ -40,27 +40,32 @@ with open(os.path.join(logic_base, "fallbacks", "yellowstone_system_prompt.json"
 system_prompt = get_prompt_for_app()
 print(system_prompt["description"])
 
-# === Load Logic Files ===
-logic_base = os.path.dirname(os.path.abspath(__file__))
-logic_folder = os.path.join(logic_base, "logic")
-language_logics = {}
-logic_filenames = [f for f in os.listdir(logic_folder) if f.endswith(".json")]
 
-def load_json_file(path):
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception as e:
-        logger.warning(f"⚠️ Failed to load {path}: {e}")
-        return {}
+def load_py_logic_modules(root_dir):
+    logic_map = {}
+    for root, _, files in os.walk(root_dir):
+        for filename in files:
+            if filename.endswith(".py"):
+                module_path = os.path.join(root, filename)
+                module_name = os.path.splitext(filename)[0]
 
-for filename in logic_filenames:
-    filepath = os.path.join(logic_folder, filename)
-    lang_code = filename.split(".")[0]
-    language_logics[lang_code] = load_json_file(filepath)
+                spec = importlib.util.spec_from_file_location(module_name, module_path)
+                module = importlib.util.module_from_spec(spec)
+                try:
+                    spec.loader.exec_module(module)
+                    logic_map[module_name] = getattr(module, "logic_data", [])
+                    logger.info(f"📁 Loaded logic from {module_name} ({len(logic_map[module_name])} entries)")
+                except Exception as e:
+                    logger.warning(f"⚠️ Failed to load {module_path}: {e}")
+    return logic_map
+
+logic_folder = os.path.join(logic_base, "prototype", "logic")
+language_logics = load_py_logic_modules(logic_folder)
+
 
 def log_unmatched_prompt(prompt, language, tier):
-    try:
+    
+     try:
         log_entry = {"prompt": prompt, "language": language, "tier": tier}
         with open("unmatched_prompts.log", "a", encoding="utf-8") as f:
             f.write(json.dumps(log_entry) + "\n")
@@ -137,6 +142,3 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
-        
-   
- 
