@@ -8,8 +8,8 @@ import openai
 from prototype.config import DevelopmentConfig, ProductionConfig
 from prototype.match_local_logic import match_local_logic
 from prototype.smart_match_logic import smart_match_logic
+from prototype.fallback_router import route_fallback
 
-# === Load environment variables ===
 load_dotenv()
 client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
