@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YellowRoam Diagnostics</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 2rem; }
+        h1 { color: #2c3e50; }
+        pre { background: #ecf0f1; padding: 1rem; border-radius: 5px; overflow-x: auto; }
+        .pass { color: green; }
+        .fail { color: red; }
+    </style>
+</head>
+<body>
+    <h1>YellowRoam Diagnostics</h1>
+    <div id="diagnostics"></div>
+
+    <script>
+        async function runDiagnostics() {
+            const results = [];
+
+            function log(name, passed, details = '') {
+                results.push(`<p><strong>${name}:</strong> <span class="${passed ? 'pass' : 'fail'}">${passed ? 'PASS' : 'FAIL'}</span> ${details}</p>`);
+            }
+
+            // JS Test
+            log("JavaScript Enabled", true);
+
+            // PWA Installability
+            log("Service Worker", 'serviceWorker' in navigator);
+            log("Standalone Display Mode", window.matchMedia('(display-mode: standalone)').matches);
+
+            // API Connectivity
+            try {
+                const res = await fetch("/api/chat", {
+                    method: "POST",
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ prompt: "Hello, are you online?" })
+                });
+                log("API /api/chat POST", res.ok, `Status: ${res.status}`);
+            } catch (e) {
+                log("API /api/chat POST", false, `Error: ${e.message}`);
+            }
+
+            // HTTPS Check
+            log("Secure Connection (HTTPS)", location.protocol === 'https:');
+
+            // Final render
+            document.getElementById("diagnostics").innerHTML = results.join("");
+        }
+
+        runDiagnostics();
+    </script>
+</body>
+</html>
