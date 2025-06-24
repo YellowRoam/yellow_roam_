@@ -2,6 +2,7 @@ import json
 import logging
 from pathlib import Path
 from rapidfuzz import fuzz
+from prototype.match_local_logic import match_local_logic
 
 # === Logging ===
 logging.basicConfig(level=logging.INFO)
