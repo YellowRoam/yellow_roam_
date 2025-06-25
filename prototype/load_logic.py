@@ -1,5 +1,9 @@
-from prototype.YellowstoneNationalPark import (
-    campground_logic,
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from Yellowstone_Fallbacks import (
+    camping_logic,
     directions_logic,
     directions_logic_v2,
     directions_logic_v3,
@@ -18,7 +22,7 @@ def load_language_logic_map():
     return {
         "en": {
             "yellowstone": {
-                "campground": campground_logic,
+                "campground": camping_logic,
                 "directions": directions_logic,
                 "directions_v2": directions_logic_v2,
                 "directions_v3": directions_logic_v3,

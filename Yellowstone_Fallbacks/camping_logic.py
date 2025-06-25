@@ -1,4 +1,4 @@
-logic = [
+entries = [
     {
         "patterns": [
             "Tell me about Madison Campground in Yellowstone",

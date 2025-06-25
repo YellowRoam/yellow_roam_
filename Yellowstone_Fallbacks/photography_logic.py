@@ -1,4 +1,4 @@
-logic = [
+entries = [
     {
         "patterns": [
             "Where can I take the best photos of Grand Prismatic Spring?"

@@ -1,5 +1,4 @@
-
-logic = [
+entries = [
     {
         "patterns": [
             "Do I need a fishing permit in Yellowstone?",

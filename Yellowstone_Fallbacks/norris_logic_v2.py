@@ -1,4 +1,4 @@
-logic = [
+entries = [
     {
         "patterns": [
             "What makes Norris Geyser Basin so dynamic?",

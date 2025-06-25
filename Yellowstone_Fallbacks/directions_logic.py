@@ -1,6 +1,4 @@
-# prototype/YellowstoneNationalPark/directions_logic.py
-
-logic = [
+entries = [
     {
         "patterns": [
             "How do I get to Old Faithful from Madison?",

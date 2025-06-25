@@ -1,4 +1,4 @@
-logic = [
+entries = [
     {
         "patterns": [
             "What is the Blacktail Plateau Ski Trail like?",
@@ -17,7 +17,7 @@ logic = [
             "What are views like on Chittenden Loop?",
             "Where is the Chittenden Loop Ski Trail?"
         ],
-        "response": "The Chittenden Loop Ski Trail is a 5.3-mile (8.3 km) loop rated easiest to more difficult. It features forested terrain and great views of Mount Washburn on clear days. Allow 4\u20135 hours to complete.",
+        "response": "The Chittenden Loop Ski Trail is a 5.3-mile (8.3 km) loop rated easiest to more difficult. It features forested terrain and great views of Mount Washburn on clear days. Allow 4–5 hours to complete.",
         "tier": "free",
         "language": "en"
     },
@@ -28,7 +28,7 @@ logic = [
             "How difficult is the Lost Lake Ski Trail?",
             "Does the Lost Lake Ski Trail go by Petrified Tree?"
         ],
-        "response": "The Lost Lake Ski Trail is a 4-mile (6.4 km) one-way route rated easiest to more difficult. It passes Petrified Tree, Lost Lake, and Calcite Springs Overlook. It\u2019s scenic, rolling, and best for intermediate skiers.",
+        "response": "The Lost Lake Ski Trail is a 4-mile (6.4 km) one-way route rated easiest to more difficult. It passes Petrified Tree, Lost Lake, and Calcite Springs Overlook. It’s scenic, rolling, and best for intermediate skiers.",
         "tier": "free",
         "language": "en"
     },
@@ -37,20 +37,20 @@ logic = [
             "Tell me about the Tower Fall Ski Trail.",
             "Is the Tower Fall Ski Trail steep?",
             "Can I ski to Tower Fall in winter?",
-            "What\u2019s the distance of the Tower Fall Trail?"
+            "What’s the distance of the Tower Fall Trail?"
         ],
-        "response": "The Tower Fall Ski Trail is a 5-mile (8 km) round-trip trail rated easiest. It offers views of the Yellowstone River canyon and frozen Tower Fall\u2014ideal for casual and family-friendly skiing.",
+        "response": "The Tower Fall Ski Trail is a 5-mile (8 km) round-trip trail rated easiest. It offers views of the Yellowstone River canyon and frozen Tower Fall—ideal for casual and family-friendly skiing.",
         "tier": "free",
         "language": "en"
     },
     {
         "patterns": [
-            "Is Yancey\u2019s Hole Ski Trail beginner friendly?",
-            "Where is Yancey\u2019s Hole Trail located?",
-            "Can I ski Yancey\u2019s Hole Trail in a short trip?",
-            "What are the views like on Yancey\u2019s Hole Trail?"
+            "Is Yancey’s Hole Ski Trail beginner friendly?",
+            "Where is Yancey’s Hole Trail located?",
+            "Can I ski Yancey’s Hole Trail in a short trip?",
+            "What are the views like on Yancey’s Hole Trail?"
         ],
-        "response": "Yancey\u2019s Hole Ski Trail is a 2-mile (3.2 km) route through gentle, rolling terrain with open lodgepole forest and expansive views. Rated easiest, it's ideal for short and accessible winter outings.",
+        "response": "Yancey’s Hole Ski Trail is a 2-mile (3.2 km) route through gentle, rolling terrain with open lodgepole forest and expansive views. Rated easiest, it's ideal for short and accessible winter outings.",
         "tier": "free",
         "language": "en"
     },

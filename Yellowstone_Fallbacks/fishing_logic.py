@@ -1,4 +1,4 @@
-logic = [
+entries = [
     {
         "patterns": ['Do I need a fishing permit in Yellowstone?', 'How do I get a Yellowstone fishing permit?', 'Are fishing permits required in the park?'],
         "response": "Yes, anglers 16 and older must have a valid Yellowstone National Park fishing permit, available via Recreation.gov or at local ranger stations. Download or print it before entering the park due to limited cell service.",
@@ -58,5 +58,5 @@ logic = [
         "response": "Try the Gibbon River near Virginia Meadows, Solfatara Creek, or picnic areas on the Firehole River for safe, scenic youth fishing.",
         "language": "en",
         "tier": "free"
-    },
+    }
 ]

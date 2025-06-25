@@ -1,7 +1,7 @@
+# validate_logic_files.py
+
 import sys
 import os
-
-# Add the project root to sys.path to ensure imports work
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 def validate_logic(logic_entries):
@@ -47,44 +47,39 @@ def validate_logic(logic_entries):
 
 
 if __name__ == "__main__":
-    # Import logic modules to validate
+    # Import validated Yellowstone logic modules
     from Yellowstone_Fallbacks import (
+        flower_logic,
+        hiking_logic,
         camping_logic,
-        directions_logic,
-        directions_logic_v2,
-        directions_logic_v3,
         fishing_logic,
         fishing_logic_v2,
         fishing_logic_v3,
-        flower_logic,
-        hiking_logic,
-        mammoth_logic,
-        norris_logic_v2,
         photography_logic,
+        mammoth_logic,
         weather_logic,
-        winter_recreation_logic
-        # These are utility modules or not yet implemented:
-        # wildlife_logic
-        # road_logic
-        # geothermal_logic
-        # accessibility_logic
+        directions_logic,
+        directions_logic_v2,
+        directions_logic_v3,
+        winter_recreation_logic,
+        norris_logic_v2
     )
 
     logic_sets = {
+        "flower_logic": flower_logic.entries,
+        "hiking_logic": hiking_logic.entries,
         "camping_logic": camping_logic.entries,
-        "directions_logic": directions_logic.entries,
-        "directions_logic_v2": directions_logic_v2.entries,
-        "directions_logic_v3": directions_logic_v3.entries,
         "fishing_logic": fishing_logic.entries,
         "fishing_logic_v2": fishing_logic_v2.entries,
         "fishing_logic_v3": fishing_logic_v3.entries,
-        "flower_logic": flower_logic.entries,
-        "hiking_logic": hiking_logic.entries,
-        "mammoth_logic": mammoth_logic.entries,
-        "norris_logic_v2": norris_logic_v2.entries,
         "photography_logic": photography_logic.entries,
+        "mammoth_logic": mammoth_logic.entries,
         "weather_logic": weather_logic.entries,
-        "winter_recreation_logic": winter_recreation_logic.entries
+        "directions_logic": directions_logic.entries,
+        "directions_logic_v2": directions_logic_v2.entries,
+        "directions_logic_v3": directions_logic_v3.entries,
+        "winter_recreation_logic": winter_recreation_logic.entries,
+        "norris_logic_v2": norris_logic_v2.entries
     }
 
     failures = 0

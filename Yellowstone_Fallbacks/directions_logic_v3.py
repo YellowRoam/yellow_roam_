@@ -1,6 +1,4 @@
-# prototype/YellowstoneNationalPark/directions_logic_v3.py
-
-logic = [
+entries = [
     {
         "patterns": [
             "How do I get from West Yellowstone to Norris?",

@@ -1,4 +1,4 @@
-logic = [
+entries = [
     {
         "patterns": [
             "Do I need a fishing permit in Yellowstone?",
@@ -7,19 +7,17 @@ logic = [
         ],
         "response": "Yes, anglers 16 and older must have a valid Yellowstone National Park fishing permit, available via Recreation.gov or at local ranger stations. Download or print it before entering the park due to limited cell service.",
         "tier": "free",
-        "language": "en",
-        ]
+        "language": "en"
     },
     {
         "patterns": [
             "Can kids fish in Yellowstone without a permit?",
-            "What\u2019s the fishing rule for children?",
+            "What’s the fishing rule for children?",
             "Do kids need a permit to fish?"
         ],
         "response": "Children 15 or younger may fish without a permit if supervised by an adult who has one. They can also get a free permit signed by an adult and fish independently under those rules.",
         "tier": "free",
-        "language": "en",
-        ]
+        "language": "en"
     },
     {
         "patterns": [
@@ -29,8 +27,7 @@ logic = [
         ],
         "response": "All hooks must be barbless or have barbs pinched down with pliers. This protects fish and supports healthy catch-and-release practices.",
         "tier": "free",
-        "language": "en",
-        ]
+        "language": "en"
     },
     {
         "patterns": [
@@ -40,8 +37,7 @@ logic = [
         ],
         "response": "No, lead tackle is prohibited. Use only non-toxic alternatives like bismuth-tin or tungsten. This protects wildlife from toxic exposure.",
         "tier": "free",
-        "language": "en",
-        ]
+        "language": "en"
     },
     {
         "patterns": [
@@ -51,8 +47,7 @@ logic = [
         ],
         "response": "Each angler may use only one rod, and it must be attended at all times. Only artificial lures or flies may be used. Snagging is prohibited.",
         "tier": "free",
-        "language": "en",
-        ]
+        "language": "en"
     },
     {
         "patterns": [
@@ -62,19 +57,17 @@ logic = [
         ],
         "response": "No. In the Lamar and Yellowstone River drainages, all rainbow trout and hybrids must be killed. It is illegal to release them alive.",
         "tier": "free",
-        "language": "en",
-        ]
+        "language": "en"
     },
     {
         "patterns": [
             "What should I do with lake trout in Yellowstone Lake?",
             "Can I release lake trout?",
-            "What\u2019s the rule for lake trout?"
+            "What’s the rule for lake trout?"
         ],
-        "response": "All lake trout caught in Yellowstone Lake must be killed. It\u2019s illegal to release them alive due to their threat to native species.",
+        "response": "All lake trout caught in Yellowstone Lake must be killed. It’s illegal to release them alive due to their threat to native species.",
         "tier": "free",
-        "language": "en",
-        ]
+        "language": "en"
     },
     {
         "patterns": [
@@ -84,8 +77,7 @@ logic = [
         ],
         "response": "Felt-soled boots are prohibited to prevent the spread of aquatic invasive species. Use rubber-soled or non-absorbent alternatives.",
         "tier": "free",
-        "language": "en",
-        ]
+        "language": "en"
     },
     {
         "patterns": [
@@ -93,10 +85,9 @@ logic = [
             "Is bait fishing allowed in Yellowstone?",
             "What kind of bait is permitted?"
         ],
-        "response": "No bait of any kind\u2014live, dead, organic, or synthetic\u2014is allowed. Only artificial flies or lures may be used to fish in Yellowstone.",
+        "response": "No bait of any kind—live, dead, organic, or synthetic—is allowed. Only artificial flies or lures may be used to fish in Yellowstone.",
         "tier": "free",
-        "language": "en",
-        ]
+        "language": "en"
     },
     {
         "patterns": [
@@ -106,7 +97,6 @@ logic = [
         ],
         "response": "Try the Gibbon River near Virginia Meadows, Solfatara Creek, or picnic areas on the Firehole River for safe, scenic youth fishing.",
         "tier": "free",
-        "language": "en",
-        ]
+        "language": "en"
     }
 ]
