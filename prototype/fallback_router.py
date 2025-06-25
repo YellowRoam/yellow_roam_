@@ -1,58 +1,25 @@
-import json
-import logging
-from pathlib import Path
-from rapidfuzz import fuzz
+def route_fallback(user_input: str):
+    entries = load_all_fallback_entries("Yellowstone_Fallbacks")
+    return match_fallback(user_input, entries)
 
-# === Logging ===
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+    for file_path in fallback_dir.glob("*.py"):
+        if file_path.name == "__init__.py":
+            continue
 
-# === Load all fallback entries ===
-def load_all_fallback_entries(directory: str):
-    entries = []
-    fallback_files = Path(directory).glob("*.json")
-    for file in fallback_files:
+        module_name = f"Yellowstone_Fallbacks.{file_path.stem}"
         try:
-            with open(file, "r") as f:
-                data = json.load(f)
-                if isinstance(data, list):
-                    entries.extend(data)
-                    logger.info(f"✅ Loaded {len(data)} entries from {file.name}")
-                else:
-                    logger.warning(f"⚠️ Skipping {file.name}: not a list")
-        except json.JSONDecodeError:
-            logger.error(f"❌ Invalid JSON in file: {file.name}")
+            spec = importlib.util.spec_from_file_location(module_name, file_path)
+            module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(module)
+            module_entries = getattr(module, "entries", [])
+
+            if isinstance(module_entries, list):
+                entries.extend(module_entries)
+                logger.info(f"✅ Loaded {len(module_entries)} entries from {file_path.name}")
+            else:
+                logger.warning(f"⚠️ {file_path.name} has no valid `entries` list")
+        except Exception as e:
+            logger.error(f"❌ Failed to import {file_path.name}: {e}")
+
     logger.info(f"🧠 Total fallback entries loaded: {len(entries)}")
     return entries
-
-# === Match logic ===
-def match_fallback(user_input: str, entries: list, threshold: int = 75):
-    best_match = None
-    highest_score = 0
-    for entry in entries:
-        for pattern in entry.get("patterns", []):
-            score = fuzz.token_sort_ratio(user_input.lower(), pattern.lower())
-            if score > highest_score and score >= threshold:
-                highest_score = score
-                best_match = entry
-    logger.info(f"🔍 Best match score: {highest_score}")
-    return best_match
-
-# === MAIN FUNCTION — PASTE THIS BLOCK ===
-def main():
-    # You call it HERE
-    entries = load_all_fallback_entries("./fallbacks")
-
-    # Now the entries list is ready for matching
-    user_input = input("🔎 Ask something about Yellowstone: ")
-    match = match_fallback(user_input, entries)
-
-    if match:
-        print("🟢 Matched response:\n", match["response"])
-    else:
-        print("❌ No match found.")
-
-# === RUN SCRIPT ===
-if __name__ == "__main__":
-    main()
-

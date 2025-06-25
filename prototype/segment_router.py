@@ -5,7 +5,7 @@ import json
 
 def load_loops(file_path="logic/family_loops_west_yellowstone_jackson_with_segments.json"):
     with open(file_path, "r") as f:
-        return json.load(f)
+        return py.load(f)
 
 def find_segment(from_location, to_location, loop_id=None):
     loops = load_loops()

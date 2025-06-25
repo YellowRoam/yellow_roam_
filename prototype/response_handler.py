@@ -22,19 +22,7 @@ def expand_synonyms(phrase):
             expanded.extend([phrase.replace(word, s) for s in syns])
     return list(set(expanded))
 
-# Load all fallback entries from .json files in FALLBACK_DIR
-def load_fallback_logic():
-    fallback_data = []
-    for filename in os.listdir(FALLBACK_DIR):
-        if filename.endswith(".json"):
-            with open(os.path.join(FALLBACK_DIR, filename), 'r') as f:
-                try:
-                    data = json.load(f)
-                    if isinstance(data, list):
-                        fallback_data.extend(data)
-                except json.JSONDecodeError:
-                    print(f"Warning: Failed to parse {filename}")
-    return fallback_data
+
 
 # Core function to find best match using fuzzy matching and synonym expansion
 def find_best_fallback(query, fallback_data, threshold=80):
@@ -70,6 +58,15 @@ def handle_query(user_query):
             "tags": [],
             "match_from": "none"
         }
+
+def respond(entry):
+    """
+    Return the response string from a matched logic entry.
+    """
+    if isinstance(entry, dict) and "response" in entry:
+        return entry["response"]
+    return entry
+
 
 # Example usage (test locally)
 if __name__ == "__main__":

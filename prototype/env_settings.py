@@ -129,7 +129,7 @@ class BaseSettings(BaseModel):
 
         @classmethod
         def parse_env_var(cls, field_name: str, raw_val: str) -> Any:
-            return cls.json_loads(raw_val)
+            return cls.py_loads(raw_val)
 
     # populated by the metaclass using the Config class defined above, annotated here to help IDEs only
     __config__: ClassVar[Type[Config]]

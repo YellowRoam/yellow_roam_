@@ -1,4 +1,3 @@
-
 import os
 import json
 import logging
@@ -6,21 +5,32 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
 import openai
-from config import DevelopmentConfig, ProductionConfig
-from match_local_logic import match_local_logic
-from smart_match_logic import smart_match_logic
 
-# === Load environment variables ===
+# === YellowRoam Imports ===
+from prototype.config import DevelopmentConfig, ProductionConfig
+from prototype.match_local_logic import match_local_logic
+from prototype.smart_match_logic import smart_match_logic
+from prototype.fallback_router import route_fallback
+from prototype.fallback_wrapper import handle_user_prompt
+from prototype.load_logic import load_language_logic_map
+from prototype.fallback_router import route_fallback
+from prototype.response_handler import respond
+
+result = route_fallback("Where can I fish in Yellowstone?")
+if result:
+    print(result["response"])
+else:
+    print("No match found.")
+
+# === Environment and API Setup ===
 load_dotenv()
 client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # === Flask App Setup ===
 app = Flask(__name__)
-
+app.config.from_object(ProductionConfig)
 if os.environ.get('FLASK_ENV') == 'development':
     app.config.from_object(DevelopmentConfig)
-else:
-    app.config.from_object(ProductionConfig)
 
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 
@@ -32,29 +42,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger("YellowRoam")
 
-# === Load System Prompt ===
+# === Base Logic Folder
 logic_base = os.path.dirname(os.path.abspath(__file__))
-with open(os.path.join(logic_base, "fallbacks", "yellowstone_system_prompt.json"), "r", encoding="utf-8") as f:
-    system_prompt = json.load(f)["en"]
 
-# === Load Logic Files ===
-logic_folder = os.path.join(logic_base, "logic")
-language_logics = {}
-logic_filenames = [f for f in os.listdir(logic_folder) if f.endswith(".json")]
+# === Load Logic Modules
+language_logics = load_language_logic_map()
 
-def load_json_file(path):
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception as e:
-        logger.warning(f"⚠️ Failed to load {path}: {e}")
-        return {}
-
-for filename in logic_filenames:
-    filepath = os.path.join(logic_folder, filename)
-    lang_code = filename.split(".")[0]
-    language_logics[lang_code] = load_json_file(filepath)
-
+# === Prompt Logging ===
 def log_unmatched_prompt(prompt, language, tier):
     try:
         log_entry = {"prompt": prompt, "language": language, "tier": tier}
@@ -63,7 +57,7 @@ def log_unmatched_prompt(prompt, language, tier):
     except Exception as e:
         logger.error(f"Logging failed: {e}")
 
-
+# === Routes ===
 @app.route("/yellowroamprompts")
 def yellowroam_prompt():
     return render_template("yellowroamprompts.html")
@@ -101,7 +95,7 @@ def chat():
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
-                {"role": "system", "content": system_prompt["description"] + " " + system_prompt["role"]},
+                {"role": "system", "content": system_prompt["description"] + " " + system_prompt.get("role", "")},
                 {"role": "user", "content": prompt}
             ]
         )
@@ -115,6 +109,30 @@ def chat():
             "hi": "माफ़ कीजिए, मुझे इसका उत्तर अभी नहीं पता!"
         }
         return jsonify({"response": fallback_msg.get(language, fallback_msg["en"])})
+
+@app.route("/fallback", methods=["POST"])
+def fallback():
+    data = request.get_json()
+    prompt = data.get("prompt", "")
+    user_id = data.get("user_id", "anonymous")
+    location = data.get("location", "Yellowstone")
+
+    match = route_fallback(prompt)
+
+    if match:
+        return jsonify({
+            "response": match["response"],
+            "source": "logic_match"
+        })
+
+    handled = handle_user_prompt(prompt, user_id=user_id, location=location)
+    return jsonify({
+        "response": handled["response"],
+        "source": "tone_wrapper",
+        "log": handled["log"],
+        "timestamp": handled["timestamp"]
+    })
+
 
 @app.route("/api/yellowstone_props", methods=["GET"])
 def yellowstone_props():
@@ -131,7 +149,6 @@ def page_not_found(e):
 @app.route("/")
 def index():
     return render_template("index.html")
-
 
 if __name__ == "__main__":
     app.run(debug=True)
