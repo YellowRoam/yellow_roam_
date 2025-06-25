@@ -22,19 +22,19 @@ def load_language_logic_map():
     return {
         "en": {
             "yellowstone": {
-                "campground": camping_logic,
-                "directions": directions_logic,
-                "directions_v2": directions_logic_v2,
-                "directions_v3": directions_logic_v3,
-                "fishing": fishing_logic,
-                "fishing_v2": fishing_logic_v2,
-                "flower": flower_logic,
-                "hiking": hiking_logic,
-                "mammoth": mammoth_logic,
-                "norris_v2": norris_logic_v2,
-                "photography": photography_logic,
-                "weather": weather_logic,
-                "winter_recreation": winter_recreation_logic
+                "campground": camping_logic.entries,
+                "directions": directions_logic.entries,
+                "directions_v2": directions_logic_v2.entries,
+                "directions_v3": directions_logic_v3.entries,
+                "fishing": fishing_logic.entries,
+                "fishing_v2": fishing_logic_v2.entries,
+                "flower": flower_logic.entries,
+                "hiking": hiking_logic.entries,
+                "mammoth": mammoth_logic.entries,
+                "norris_v2": norris_logic_v2.entries,
+                "photography": photography_logic.entries,
+                "weather": weather_logic.entries,
+                "winter_recreation": winter_recreation_logic.entries
             }
         }
     }
