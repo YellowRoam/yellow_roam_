@@ -4,33 +4,28 @@ import logging
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
-import openai
+import openai 
 
-# === YellowRoam Imports ===
 from prototype.config import DevelopmentConfig, ProductionConfig
 from prototype.match_local_logic import match_local_logic
 from prototype.smart_match_logic import smart_match_logic
 from prototype.fallback_router import route_fallback
 from prototype.fallback_wrapper import handle_user_prompt
 from prototype.load_logic import load_language_logic_map
-from prototype.fallback_router import route_fallback
 from prototype.response_handler import respond
-
-result = route_fallback("Where can I fish in Yellowstone?")
-if result:
-    print(result["response"])
-else:
-    print("No match found.")
 
 # === Environment and API Setup ===
 load_dotenv()
-client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+openai.api_key = os.getenv("OPENAI_API_KEY")
+client = openai
+
 
 # === Flask App Setup ===
 app = Flask(__name__)
-app.config.from_object(ProductionConfig)
 if os.environ.get('FLASK_ENV') == 'development':
     app.config.from_object(DevelopmentConfig)
+else:
+    app.config.from_object(ProductionConfig)
 
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 
@@ -57,39 +52,37 @@ def log_unmatched_prompt(prompt, language, tier):
     except Exception as e:
         logger.error(f"Logging failed: {e}")
 
-# === Routes ===
 @app.route("/yellowroamprompts")
 def yellowroam_prompt():
     return render_template("yellowroamprompts.html")
 
-@app.route("/api/chat", methods=["POST"])
+@app.route("/chat", methods=["POST"])
 def chat():
-    data = request.get_json()
-    prompt = data.get("prompt") or data.get("message")
-    language = data.get("language") or data.get("lang", "en")
-    tier = data.get("tier", "free")
+    prompt = request.json.get("message", "")
+    language = request.json.get("language", "en")
+    tier = request.json.get("tier", "free")
 
-    logger.info("💬 /api/chat route hit")
-    logger.info(f"📨 Prompt: {prompt}")
-    logger.info(f"🌍 Language: {language} | 🎟️ Tier: {tier}")
+    logger.info("\ud83d\udcac /api/chat route hit")
+    logger.info(f"\ud83d\udce8 Prompt: {prompt}")
+    logger.info(f"\ud83c\udf0d Language: {language} | \ud83c\udf9f\ufe0f Tier: {tier}")
 
     if not prompt:
-        logger.warning("⚠️ No prompt received.")
+        logger.warning("\u26a0\ufe0f No prompt received.")
         return jsonify({"error": "No prompt received."}), 400
 
     local_logic = language_logics.get(language, language_logics.get("en", []))
     local_response = match_local_logic(prompt, language, tier, local_logic)
     if local_response:
-        logger.info("✅ Local logic match returned.")
+        logger.info("\u2705 Local logic match returned.")
         return jsonify({"response": local_response})
 
     smart_response = smart_match_logic(prompt, language, tier, language_logics)
     if smart_response:
-        logger.info("🧠 Smart logic match returned from expanded intent/tags.")
+        logger.info("\ud83e\udde0 Smart logic match returned from expanded intent/tags.")
         return jsonify({"response": smart_response})
 
     log_unmatched_prompt(prompt, language, tier)
-    logger.warning("❌ No match found in local or smart logic. Logged for future coverage.")
+    logger.warning("\u274c No match found in local or smart logic. Logged for future coverage.")
 
     try:
         response = client.chat.completions.create(
@@ -101,12 +94,12 @@ def chat():
         )
         return jsonify({"response": response.choices[0].message["content"]})
     except Exception as e:
-        logger.error(f"🔥 OpenAI fallback failed: {e}")
+        logger.error(f"\ud83d\udd25 OpenAI fallback failed: {e}")
         fallback_msg = {
-            "en": "Sorry, I don’t know the answer to that yet!",
-            "es": "Lo siento, ¡aún no sé la respuesta a eso!",
-            "fr": "Désolé, je ne connais pas encore la réponse à cela !",
-            "hi": "माफ़ कीजिए, मुझे इसका उत्तर अभी नहीं पता!"
+            "en": "Sorry, I don\u2019t know the answer to that yet!",
+            "es": "Lo siento, \u00a1a\u00fan no s\u00e9 la respuesta a eso!",
+            "fr": "D\u00e9sol\u00e9, je ne connais pas encore la r\u00e9ponse \u00e0 cela !",
+            "hi": "\u092e\u093e\u092b\u093c \u0915\u0940\u091c\u093f\u090f, \u092e\u0941\u091d\u0947 \u0907\u0938\u0915\u093e \u0909\u0924\u094d\u0924\u0930 \u0905\u092d\u0940 \u0928\u0939\u0940\u0902 \u092a\u0924\u093e!"
         }
         return jsonify({"response": fallback_msg.get(language, fallback_msg["en"])})
 
@@ -118,12 +111,8 @@ def fallback():
     location = data.get("location", "Yellowstone")
 
     match = route_fallback(prompt)
-
     if match:
-        return jsonify({
-            "response": match["response"],
-            "source": "logic_match"
-        })
+        return jsonify({"response": match["response"], "source": "logic_match"})
 
     handled = handle_user_prompt(prompt, user_id=user_id, location=location)
     return jsonify({
@@ -132,7 +121,6 @@ def fallback():
         "log": handled["log"],
         "timestamp": handled["timestamp"]
     })
-
 
 @app.route("/api/yellowstone_props", methods=["GET"])
 def yellowstone_props():
@@ -151,4 +139,9 @@ def index():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    result = route_fallback("Where can I fish in Yellowstone?")
+    if result:
+        print(result["response"])
+
+
+    
