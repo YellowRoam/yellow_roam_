@@ -2,12 +2,9 @@
 # match_local_logic.py
 
 import re
-
-import re
 import logging
 from prototype.validate_logic_files import validate_logic
 from prototype.response_handler import respond
-8ff5b618021ad6232e52060f8bca3fa754ab8ed7
 
 from Yellowstone_Fallbacks.flower_logic import entries as flower_entries
 from Yellowstone_Fallbacks.hiking_logic import entries as hiking_entries
@@ -43,17 +40,6 @@ all_entries = (
     norris_entries
 )
 
-def match_local_logic(user_input):
-    """
-    Match user input against all logic patterns. Returns the first matching entry's response,
-    or None if no match is found.
-    """
-    user_input_lower = user_input.lower().strip()
-
-    for entry in all_entries:
-        for pattern in entry.get("patterns", []):
-            if re.search(pattern.lower(), user_input_lower):
-                return entry["response"]
 
 def match_fallback(user_input: str, entries: list):
     # simple matching fallback function
@@ -87,4 +73,4 @@ def match_local_logic(prompt, language, tier, logic_data):
 
     logger.info(" No matching logic entry found.")
     return None
-8ff5b618021ad6232e52060f8bca3fa754ab8ed7
+
