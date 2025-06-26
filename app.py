@@ -60,6 +60,7 @@ def yellowroam_prompt():
     return render_template("yellowroamprompts.html")
 
 @app.route("/chat", methods=["POST"])
+@app.route("/api/chat", methods=["POST"])
 def chat():
     prompt = request.json.get("message", "")
     language = request.json.get("language", "en")
