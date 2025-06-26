@@ -20,7 +20,7 @@ from prototype.yellowstone_system_prompt import system_prompt
 app = Flask(__name__)
 
 
-# === Environment and API Setup ===
+#Environment and API Setup
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 client = openai
@@ -32,7 +32,7 @@ else:
 
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 
-# === Logger Setup ===
+#Logger Setup 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -40,13 +40,14 @@ logging.basicConfig(
 )
 logger = logging.getLogger("YellowRoam")
 
-# === Base Logic Folder
+# Base Logic Folder
 logic_base = os.path.dirname(os.path.abspath(__file__))
 
-# === Load Logic Modules
+# Load Logic Modules
 language_logics = load_language_logic_map()
 
-# === Prompt Logging ===
+#Prompt Logging 
+
 def log_unmatched_prompt(prompt, language, tier):
     try:
         log_entry = {"prompt": prompt, "language": language, "tier": tier}
@@ -55,11 +56,13 @@ def log_unmatched_prompt(prompt, language, tier):
     except Exception as e:
         logger.error(f"Logging failed: {e}")
 
+
 @app.route("/yellowroamprompts")
 def yellowroam_prompt():
     return render_template("yellowroamprompts.html")
 
 @app.route("/chat", methods=["POST"])
+
 @app.route("/api/chat", methods=["POST"])
 def chat():
     prompt = request.json.get("message", "")
@@ -98,12 +101,11 @@ def chat():
         )
         return jsonify({"response": response.choices[0].message["content"]})
     except Exception as e:
-        logger.error(f"\ud83d\udd25 OpenAI fallback failed: {e}")
-        fallback_msg = {
-            "en": "Sorry, I don\u2019t know the answer to that yet!",
-            "es": "Lo siento, \u00a1a\u00fan no s\u00e9 la respuesta a eso!",
-            "fr": "D\u00e9sol\u00e9, je ne connais pas encore la r\u00e9ponse \u00e0 cela !",
-            "hi": "\u092e\u093e\u092b\u093c \u0915\u0940\u091c\u093f\u090f, \u092e\u0941\u091d\u0947 \u0907\u0938\u0915\u093e \u0909\u0924\u094d\u0924\u0930 \u0905\u092d\u0940 \u0928\u0939\u0940\u0902 \u092a\u0924\u093e!"
+    logger.error(f"🔥 OpenAI fallback failed: {e}")
+    fallback_msg = "Sorry, I don’t know the answer to that yet!"
+    return jsonify({"response": fallback_msg})
+
+            , \u092e\u0941\u091d\u0947 \u0907\u0938\u0915\u093e \u0909\u0924\u094d\u0924\u0930 \u0905\u092d\u0940 \u0928\u0939\u0940\u0902 \u092a\u0924\u093e!"
         }
         return jsonify({"response": fallback_msg.get(language, fallback_msg["en"])})
 
