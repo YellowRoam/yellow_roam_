@@ -38,6 +38,12 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[logging.StreamHandler()]
 )
+        
+        except Exception as e:
+        logger.error(f" OpenAI fallback failed: {e}")
+        fallback_msg = "Sorry, I don’t know the answer to that yet!"
+        return jsonify({"response": fallback_msg})
+
 logger = logging.getLogger("YellowRoam")
 
 # Base Logic Folder
@@ -53,9 +59,7 @@ def log_unmatched_prompt(prompt, language, tier):
         log_entry = {"prompt": prompt, "language": language, "tier": tier}
         with open("unmatched_prompts.log", "a", encoding="utf-8") as f:
             f.write(json.dumps(log_entry) + "\n")
-    except Exception as e:
-        logger.error(f"Logging failed: {e}")
-
+    
 
 @app.route("/yellowroamprompts")
 def yellowroam_prompt():
@@ -63,33 +67,35 @@ def yellowroam_prompt():
 
 @app.route("/chat", methods=["POST"])
 
+
+
 @app.route("/api/chat", methods=["POST"])
 def chat():
     prompt = request.json.get("message", "")
     language = request.json.get("language", "en")
     tier = request.json.get("tier", "free")
 
-    logger.info("\ud83d\udcac /api/chat route hit")
-    logger.info(f"\ud83d\udce8 Prompt: {prompt}")
-    logger.info(f"\ud83c\udf0d Language: {language} | \ud83c\udf9f\ufe0f Tier: {tier}")
+    logger.info("/api/chat route hit")
+    logger.info(f"Prompt: {prompt}")
+    logger.info(f"Language: {language} | Tier: {tier}")
 
     if not prompt:
-        logger.warning("\u26a0\ufe0f No prompt received.")
+        logger.warning("No prompt received.")
         return jsonify({"error": "No prompt received."}), 400
 
     local_logic = language_logics.get(language, language_logics.get("en", []))
     local_response = match_local_logic(prompt, language, tier, local_logic)
     if local_response:
-        logger.info("\u2705 Local logic match returned.")
+        logger.info("Local logic match returned.")
         return jsonify({"response": local_response})
 
     smart_response = smart_match_logic(prompt, language, tier, language_logics)
     if smart_response:
-        logger.info("\ud83e\udde0 Smart logic match returned from expanded intent/tags.")
+        logger.info("Smart logic match returned from expanded intent/tags.")
         return jsonify({"response": smart_response})
 
     log_unmatched_prompt(prompt, language, tier)
-    logger.warning("\u274c No match found in local or smart logic. Logged for future coverage.")
+    logger.warning("No match found in local or smart logic. Logged for future coverage.")
 
     try:
         response = client.chat.completions.create(
@@ -101,9 +107,9 @@ def chat():
         )
         return jsonify({"response": response.choices[0].message["content"]})
     except Exception as e:
-    logger.error(f"🔥 OpenAI fallback failed: {e}")
-    fallback_msg = "Sorry, I don’t know the answer to that yet!"
-    return jsonify({"response": fallback_msg})
+        logger.error(f" OpenAI fallback failed: {e}")
+        fallback_msg = "Sorry, I don’t know the answer to that yet!"
+        return jsonify({"response": fallback_msg})
 
             , \u092e\u0941\u091d\u0947 \u0907\u0938\u0915\u093e \u0909\u0924\u094d\u0924\u0930 \u0905\u092d\u0940 \u0928\u0939\u0940\u0902 \u092a\u0924\u093e!"
         }
