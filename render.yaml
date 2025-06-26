@@ -1,5 +1,6 @@
 services:
   - type: web
+ 
     name: yellowroam-backend
     env: python
     region: oregon
@@ -9,3 +10,23 @@ services:
     envVars:
       - key: FLASK_ENV
         value: production
+
+
+
+
+ad0971e ( Updated app.py, OpenAI client, gunicorn config)
+    name: yellowroam
+    env: python
+    autoDeploy: true
+    region: oregon
+    build:
+      cwd: prototype
+    start:
+      cwd: prototype
+    buildCommand: pip install -r requirements.txt   # ← just this!
+    startCommand: gunicorn app:app
+
+    fb568a5 (Initial commit with Flask app and config setup)
+
+fb568a5 (Initial commit with Flask app and config setup)
+ad0971e (pdated app.py, OpenAI client, gunicorn config)
