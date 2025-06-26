@@ -21,8 +21,8 @@ from prototype.chat_logic import (
     analyze_sentiment,
     adjust_response_tone
 )
+def handle_user_prompt(prompt: str, user_id: str = "anonymous", location: str = "Yellowstone") -> dict:
 
-def handle_user_prompt(prompt: str, user_id: str = "anonymous", location: str = "Yellowstone") - dict:
     log = []
 
     if is_high_priority_emergency(prompt):
@@ -45,4 +45,4 @@ def handle_user_prompt(prompt: str, user_id: str = "anonymous", location: str = 
         "log": log,
         "timestamp": datetime.now().isoformat()
     }
-8ff5b618021ad6232e52060f8bca3fa754ab8ed7
+
