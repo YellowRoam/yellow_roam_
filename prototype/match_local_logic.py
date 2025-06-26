@@ -21,8 +21,8 @@ from Yellowstone_Fallbacks.directions_logic_v3 import entries as directions_v3_e
 from Yellowstone_Fallbacks.winter_recreation_logic import entries as winter_entries
 from Yellowstone_Fallbacks.norris_logic_v2 import entries as norris_entries
 
+logger = logging.getLogger(__name__)
 
-# Combine all entries into one flat list
 all_entries = (
     flower_entries +
     hiking_entries +
