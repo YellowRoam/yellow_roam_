@@ -101,3 +101,4 @@ logic = [
         "language": "en"
     }
 ]
+entries = logic
