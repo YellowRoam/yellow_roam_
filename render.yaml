@@ -3,12 +3,8 @@ services:
     name: yellowroam-backend
     env: python
     region: oregon
-    build:
-      cwd: .
-    start:
-      cwd: .
     buildCommand: pip install -r requirements.txt
-    startCommand: PYTHONPATH=. gunicorn prototype.app:app
+    startCommand: gunicorn app:app
     autoDeploy: true
     envVars:
       - key: FLASK_ENV
