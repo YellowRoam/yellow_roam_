@@ -1,3 +1,7 @@
+
+# Initializes Yellowstone fallback logic package
+
+
 from .camping_logic import entries as camping_logic
 from .directions_logic import entries as directions_logic
 from .directions_logic_v2 import entries as directions_logic_v2
