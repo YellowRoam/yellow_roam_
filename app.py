@@ -13,15 +13,18 @@ from prototype.fallback_router import route_fallback
 from prototype.fallback_wrapper import handle_user_prompt
 from prototype.load_logic import load_language_logic_map
 from prototype.response_handler import respond
+from prototype.yellowstone_system_prompt import system_prompt
+
+
+
+app = Flask(__name__)
+
 
 # === Environment and API Setup ===
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 client = openai
 
-
-# === Flask App Setup ===
-app = Flask(__name__)
 if os.environ.get('FLASK_ENV') == 'development':
     app.config.from_object(DevelopmentConfig)
 else:
@@ -132,7 +135,7 @@ def yellowstone_props():
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return jsonify({"error": "Route not found", "status": 404}), 404
+    return render_template("404.html"), 404
 
 @app.route("/")
 def index():
