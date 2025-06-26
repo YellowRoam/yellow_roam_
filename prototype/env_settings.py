@@ -129,11 +129,14 @@ class BaseSettings(BaseModel):
 
         @classmethod
         def parse_env_var(cls, field_name: str, raw_val: str) -> Any:
-<<<<<<< HEAD
+
+
             return cls.py_loads(raw_val)
-=======
+
             return cls.json_loads(raw_val)
->>>>>>> fb568a5 (Initial commit with Flask app and config setup)
+ (Initial commit with Flask app and config setup)
+
+            return cls.py_loads(raw_val)
 
     # populated by the metaclass using the Config class defined above, annotated here to help IDEs only
     __config__: ClassVar[Type[Config]]

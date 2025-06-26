@@ -14,6 +14,7 @@ def load_all_fallback_entries(package_name: str):
             continue
 
         module_name = f"{package_name}.{file_path.stem}"
+
         try:
             spec = importlib.util.spec_from_file_location(module_name, file_path)
             module = importlib.util.module_from_spec(spec)
@@ -23,15 +24,14 @@ def load_all_fallback_entries(package_name: str):
 
             if isinstance(module_entries, list):
                 entries.extend(module_entries)
-                logger.info(f"✅ Loaded {len(module_entries)} entries from {file_path.name}")
+                logger.info(f"Loaded {len(module_entries)} entries from {file_path.name}")
             else:
-                logger.warning(f"⚠️ {file_path.name} has no valid `entries` list")
+                logger.warning(f"{file_path.name} has no valid `entries` list")
         except Exception as e:
-            logger.error(f"❌ Failed to import {file_path.name}: {e}")
+            logger.error(f"Failed to import {file_path.name}: {e}")
 
-    logger.info(f"🧠 Total fallback entries loaded: {len(entries)}")
+    logger.info(f"Total fallback entries loaded: {len(entries)}")
     return entries
-
 
 def route_fallback(user_input: str):
     entries = load_all_fallback_entries("Yellowstone_Fallbacks")

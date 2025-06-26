@@ -4,7 +4,7 @@ import logging
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
-import openai 
+import openai
 
 from prototype.config import DevelopmentConfig, ProductionConfig
 from prototype.match_local_logic import match_local_logic
@@ -13,15 +13,15 @@ from prototype.fallback_router import route_fallback
 from prototype.fallback_wrapper import handle_user_prompt
 from prototype.load_logic import load_language_logic_map
 from prototype.response_handler import respond
+from prototype.yellowstone_system_prompt import system_prompt
 
+app = Flask(__name__)
 
+# Environment and API Setup
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 client = openai
 
-
-Flask App Setup 
-app = Flask(__name__)
 if os.environ.get('FLASK_ENV') == 'development':
     app.config.from_object(DevelopmentConfig)
 else:
@@ -29,7 +29,7 @@ else:
 
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 
-
+# Logger Setup
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -37,13 +37,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger("YellowRoam")
 
- Base Logic Folder
+# Base Logic Folder
 logic_base = os.path.dirname(os.path.abspath(__file__))
 
-Load Logic Modules
+# Load Logic Modules
 language_logics = load_language_logic_map()
 
-Prompt Logging
+# Prompt Logging
 def log_unmatched_prompt(prompt, language, tier):
     try:
         log_entry = {"prompt": prompt, "language": language, "tier": tier}
@@ -56,50 +56,40 @@ def log_unmatched_prompt(prompt, language, tier):
 def yellowroam_prompt():
     return render_template("yellowroamprompts.html")
 
-@app.route("/chat", methods=["POST"])
+@app.route("/api/chat", methods=["POST"])
 def chat():
     prompt = request.json.get("message", "")
     language = request.json.get("language", "en")
     tier = request.json.get("tier", "free")
 
-    logger.info("\ud83d\udcac /api/chat route hit")
-    logger.info(f"\ud83d\udce8 Prompt: {prompt}")
-    logger.info(f"\ud83c\udf0d Language: {language} | \ud83c\udf9f\ufe0f Tier: {tier}")
-
     if not prompt:
-        logger.warning("\u26a0\ufe0f No prompt received.")
+        logger.warning("No prompt received.")
         return jsonify({"error": "No prompt received."}), 400
 
     local_logic = language_logics.get(language, language_logics.get("en", []))
     local_response = match_local_logic(prompt, language, tier, local_logic)
     if local_response:
-        logger.info("\u2705 Local logic match returned.")
         return jsonify({"response": local_response})
 
     smart_response = smart_match_logic(prompt, language, tier, language_logics)
     if smart_response:
-        logger.info("\ud83e\udde0 Smart logic match returned from expanded intent/tags.")
         return jsonify({"response": smart_response})
 
     log_unmatched_prompt(prompt, language, tier)
-    logger.warning("\u274c No match found in local or smart logic. Logged for future coverage.")
 
     try:
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
-                {"role": "system", "content": system_prompt["description"] system_prompt.get("role", "")},
+                {"role": "system", "content": system_prompt["description"] + " " + system_prompt.get("role", "")},
                 {"role": "user", "content": prompt}
             ]
         )
         return jsonify({"response": response.choices[0].message["content"]})
     except Exception as e:
-        logger.error(f"\ud83d\udd25 OpenAI fallback failed: {e}")
-        fallback_msg = {
-            "en": "Sorry, I don\u2019t know the answer to that yet!",
-            
-        }
-    })
+        logger.error(f"OpenAI fallback failed: {e}")
+        fallback_msg = "Sorry, I don’t know the answer to that yet!"
+        return jsonify({"response": fallback_msg})
 
 @app.route("/fallback", methods=["POST"])
 def fallback():
@@ -130,7 +120,7 @@ def yellowstone_props():
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return jsonify({"error": "Route not found", "status": 404}), 404
+    return render_template("404.html"), 404
 
 @app.route("/")
 def index():
