@@ -11,13 +11,8 @@ from prototype.YellowstoneNationalPark import (
     norris_logic_v2,
     photography_logic,
     weather_logic,
-    winter_recreation_logic
+    winter_recreation_logic,
 )
-
-def load_language_logic_map():
-    return {
-        "en": load_yellowstone_logic()
-    }
 
 def load_yellowstone_logic():
     return {
@@ -34,4 +29,9 @@ def load_yellowstone_logic():
         "photography": photography_logic,
         "weather": weather_logic,
         "winter_recreation": winter_recreation_logic
+    }
+
+def load_language_logic_map():
+    return {
+        "en": load_yellowstone_logic()
     }
