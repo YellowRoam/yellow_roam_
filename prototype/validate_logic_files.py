@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import sys
 import os
 
@@ -93,17 +93,17 @@ if __name__ == "__main__":
     for name, logic in logic_sets.items():
         try:
             validate_logic(logic)
-            print(f"✅ {name} passed validation.")
+            print(f"{name} passed validation.")
         except Exception as e:
-            print(f"❌ {name} failed validation: {e}")
+            print(f" {name} failed validation: {e}")
             failures += 1
 
     if failures:
-        print(f"\n⚠️ {failures} logic set(s) failed validation.")
+        print(f"\n {failures} logic set(s) failed validation.")
         exit(1)
     else:
-        print("\n🎉 All logic sets passed validation.")
-=======
+        print("\n All logic sets passed validation.")
+
 # prototype/validate_logic_files.py
 
 def validate_logic(logic_entries):
@@ -147,4 +147,4 @@ def validate_logic(logic_entries):
             raise ValueError(f"Entry {i}: 'tier' must be 'free' or 'pro'.")
 
     return True
->>>>>>> 8ff5b618021ad6232e52060f8bca3fa754ab8ed7
+
