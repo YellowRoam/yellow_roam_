@@ -1,6 +1,7 @@
 services:
   - type: web
     name: yellowroam-backend
+
     env: python
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -11,9 +12,11 @@ services:
         value: production
 
     name: yellowroam
+
+7ce53c4 (Keep local script, restore config.py, and update render.yaml)
     env: python
-    autoDeploy: true
     region: oregon
+
     build:
       cwd: prototype
     start:
@@ -21,3 +24,11 @@ services:
     buildCommand: pip install -r requirements.txt   # ← just this!
     startCommand: gunicorn app:app
     fb568a5 (Initial commit with Flask app and config setup)
+
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn prototype.app:app
+    autoDeploy: true
+    envVars:
+      - key: FLASK_ENV
+        value: production
+>>>>>>> 7ce53c4 (Keep local script, restore config.py, and update render.yaml)
