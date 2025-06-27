@@ -52,52 +52,24 @@ def log_unmatched_prompt(prompt, language, tier):
     except Exception as e:
         logger.error(f"Logging failed: {e}")
 
+
 @app.route("/yellowroamprompts")
 def yellowroam_prompt():
     return render_template("yellowroamprompts.html")
 
-@app.route("/chat", methods=["POST"])
+@app.route("/api/chat", methods=["POST"])
 def chat():
-    prompt = request.json.get("message", "")
-    language = request.json.get("language", "en")
-    tier = request.json.get("tier", "free")
-
-    logger.info("\ud83d\udcac /api/chat route hit")
-    logger.info(f"\ud83d\udce8 Prompt: {prompt}")
-    logger.info(f"\ud83c\udf0d Language: {language} | \ud83c\udf9f\ufe0f Tier: {tier}")
-
-    if not prompt:
-        logger.warning("\u26a0\ufe0f No prompt received.")
-        return jsonify({"error": "No prompt received."}), 400
-
-    local_logic = language_logics.get(language, language_logics.get("en", []))
-    local_response = match_local_logic(prompt, language, tier, local_logic)
-    if local_response:
-        logger.info("\u2705 Local logic match returned.")
-        return jsonify({"response": local_response})
-
-    smart_response = smart_match_logic(prompt, language, tier, language_logics)
-    if smart_response:
-        logger.info("\ud83e\udde0 Smart logic match returned from expanded intent/tags.")
-        return jsonify({"response": smart_response})
-
-    log_unmatched_prompt(prompt, language, tier)
-    logger.warning("\u274c No match found in local or smart logic. Logged for future coverage.")
-
+    print("/api/chat route was hit")
     try:
-        response = client.chat.completions.create(
-            model="gpt-4o",
-            messages=[
-                {"role": "system", "content": system_prompt["description"] system_prompt.get("role", "")},
-                {"role": "user", "content": prompt}
-            ]
-        )
-        return jsonify({"response": response.choices[0].message["content"]})
+        data = request.get_json()
+        print("Payload received:", data)
+
+        return jsonify({"response": "Test response from /api/chat"})
     except Exception as e:
-        logger.error(f"\ud83d\udd25 OpenAI fallback failed: {e}")
-        fallback_msg = {
-            "en": "Sorry, I don\u2019t know the answer to that yet!",
-            
+        print(f"Error in /api/chat: {e}")
+        return jsonify({"error": "Internal error"}), 500
+
+
         }
     })
 

@@ -87,13 +87,13 @@ if __name__ == "__main__":
     for name, logic in logic_sets.items():
         try:
             validate_logic(logic)
-            print(f"✅ {name} passed validation.")
+            print(f"{name} passed validation.")
         except Exception as e:
-            print(f"❌ {name} failed validation: {e}")
+            print(f" {name} failed validation: {e}")
             failures += 1
 
     if failures:
-        print(f"\n⚠️ {failures} logic set(s) failed validation.")
+        print(f"\n{failures} logic set(s) failed validation.")
         exit(1)
     else:
-        print("\n🎉 All logic sets passed validation.")
+        print("\n All logic sets passed validation.")

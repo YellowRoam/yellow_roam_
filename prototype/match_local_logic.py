@@ -57,6 +57,8 @@ def match_local_logic(prompt, language, tier, logic_data):
     if not isinstance(logic_data, list):
         logger.warning(f" Logic data for language '{language}' is not a list.")
         return None
+        
+    print(f"[DEBUG] Logic entries loaded: {len(logic_data)}")
 
     for entry in logic_data:
         patterns = entry.get("patterns", [])
@@ -66,11 +68,13 @@ def match_local_logic(prompt, language, tier, logic_data):
         if language != lang or tier not in tiers:
             continue
 
-        for pattern in patterns:
-            if re.search(pattern, prompt):
-                logger.info(f" Matched pattern: {pattern}")
-                return respond(entry)
+    for pattern in patterns:
+        if re.search(pattern, prompt):
+            print(f"[DEBUG] Matched pattern: {pattern}")
+            logger.info(f"Matched pattern: {pattern}")
+            return respond(entry)
 
-    logger.info(" No matching logic entry found.")
+
+    print("[DEBUG] No local match found.")
+    logger.info("No matching logic entry found.")
     return None
-

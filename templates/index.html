@@ -111,13 +111,11 @@
             responseBox.innerText = "⏳ Thinking about your question: " + question;
 
             try {
-                const res = await fetch('/api/chat', {
+                const res = await fetch('http://localhost:5001/api/chat', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ prompt: question, language, tier })
-                });
-
-                const data = await res.json();
+                })                const data = await res.json();
                 responseBox.innerText = data.response || "No response.";
             } catch (err) {
                 responseBox.innerText = "⚠️ An error occurred. Please try again.";
