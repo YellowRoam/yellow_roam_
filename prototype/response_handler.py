@@ -1,4 +1,3 @@
-
 import logging
 import os
 import openai
@@ -60,6 +59,7 @@ from prototype.yellowstone_system_prompt import system_prompt
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 logger = logging.getLogger("YellowRoam")
+logger.setLevel(logging.INFO)
 
 profanity_block = re.compile(r"\b(hell|damn|shit|fuck|bitch)\b", re.IGNORECASE)
 
@@ -179,7 +179,11 @@ def respond(prompt, user_id, location, tier, language, region):
     if _looks_like_yellowstone_prompt(lowered_prompt):
         gpt_response = _run_gpt_with_local_flavor(prompt)
         if local_tip:
-            return f"{gpt_response.strip()}\n\n★ Local Tip ({matched_category.title()}): {local_tip}"
-        return gpt_response.strip()
+            return f"{gpt_response}\n\n★ Local Tip ({matched_category.title()}): {local_tip}"
+        return gpt_response
 
     return "That’s outside of our service area. We only answer questions about the Yellowstone ecosystem and the area."
+
+        
+        
+        
