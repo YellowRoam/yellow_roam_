@@ -119,7 +119,8 @@ weather_keywords = ["weather", "storm", "wind", "snow", "hail", "lightning", "su
 
 def _run_gpt_with_local_flavor(prompt):
     try:
-        response = openai.chat.completions.create(
+        logger.info(f"Calling GPT-4 fallback for prompt: {prompt}")
+        response = openai.ChatCompletion.create(
             model="gpt-4",
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -127,10 +128,15 @@ def _run_gpt_with_local_flavor(prompt):
             ],
             temperature=0.7
         )
-        return response.choices[0].message.content.strip()
+        content = response.choices[0].message.content.strip()
+        if content:
+            return content
+        else:
+            logger.warning("GPT-4 fallback returned empty content.")
+            return "We couldn’t generate a full response just now, but we’re live and taking questions about Yellowstone. Try rephrasing or ask something else — we’re here to help."
     except Exception as e:
-        logger.exception("GPT fallback failed — returning empty string.")
-        return ""
+        logger.exception("GPT fallback failed — exception occurred.")
+        return "We couldn’t generate a full response due to a system error. Please try again shortly."
 
 def _looks_like_yellowstone_prompt(prompt):
     ecosystem_keywords = [
