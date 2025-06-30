@@ -1,3 +1,4 @@
+openai==0.28.1
 annotated-types==0.7.0
 anyio==4.9.0
 blinker==1.9.0
@@ -17,7 +18,6 @@ importlib_metadata==8.7.0
 itsdangerous==2.2.0
 jinja2==3.1.6
 markupsafe==3.0.2
-openai==0.28.1
 packaging==25.0
 pydantic==2.11.7
 pydantic_core==2.33.2
