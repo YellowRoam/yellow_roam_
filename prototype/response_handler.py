@@ -183,7 +183,3 @@ def respond(prompt, user_id, location, tier, language, region):
         return gpt_response
 
     return "That’s outside of our service area. We only answer questions about the Yellowstone ecosystem and the area."
-
-        
-        
-        
